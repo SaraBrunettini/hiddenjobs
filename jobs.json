@@ -1,8 +1,21 @@
 {
- "updated": "2026-10-03T11:28:51.946Z",
+ "updated": "2026-10-04T12:10:05.251Z",
  "companies": 453,
- "count": 146,
+ "count": 137,
  "jobs": [
+  {
+   "title": "Founding Product Designer",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/51aacf69-80ec-496b-86a1-9a6a04568e89",
+   "posted": "2026-10-03"
+  },
   {
    "title": "Art Director (Brand Creative)",
    "company": "DEPT",
@@ -433,19 +446,6 @@
    "posted": "2026-09-28"
   },
   {
-   "title": "Product Designer",
-   "company": "Clera",
-   "location": "remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/bea2c64a-69d0-4f8a-ae61-d0bc82e9f2ca",
-   "posted": "2026-09-28"
-  },
-  {
    "title": "Lead Product Designer",
    "company": "Clera",
    "location": "Vienna",
@@ -459,19 +459,6 @@
    "posted": "2026-09-28"
   },
   {
-   "title": "Fractional Founding Designer",
-   "company": "Clera",
-   "location": "remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/8a354a7f-6fae-4a18-a682-993f59e6bd32",
-   "posted": "2026-09-27"
-  },
-  {
    "title": "Senior Creative Producer (Fixed-term Employment)",
    "company": "Wolt",
    "location": "Helsinki, Finland",
@@ -482,19 +469,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/wolt/jobs/8232982",
-   "posted": "2026-09-26"
-  },
-  {
-   "title": "Visual Designer",
-   "company": "Clera",
-   "location": "Vienna",
-   "country": "Austria",
-   "city": "Vienna",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/325e1c17-c8ae-4f71-9f30-5017558762ff",
    "posted": "2026-09-26"
   },
   {
@@ -1809,97 +1783,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/gismart/ae4f8433-0069-4bbb-b38d-a9fd44bba3e4",
    "posted": "2026-09-07"
-  },
-  {
-   "title": "Senior Manager, Tutor Brand",
-   "company": "Preply",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/preply/1eb77040-a99d-4e16-8603-defc917eece8",
-   "posted": "2026-09-04"
-  },
-  {
-   "title": "Senior Manager, Tutor Brand",
-   "company": "Preply",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/preply/5c1f915d-f2f1-4add-a345-4ee39762a3ff",
-   "posted": "2026-09-04"
-  },
-  {
-   "title": "Content Producer",
-   "company": "Eucalyptus",
-   "location": "UK - HQ - London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/eucalyptus/jobs/4643404005",
-   "posted": "2026-09-04"
-  },
-  {
-   "title": "Digital Art Director_Fixed Term Contract",
-   "company": "VML",
-   "location": "Milan, Lombardy, Italy",
-   "country": "Italy",
-   "city": "Milan",
-   "discipline": "Other",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": "€26K – €33K",
-   "url": "https://www.vml.com/careers/job/8783576002?gh_jid=8783576002",
-   "posted": "2026-09-04"
-  },
-  {
-   "title": "Head of Creative Content",
-   "company": "Fever",
-   "location": "Madrid",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4968191101",
-   "posted": "2026-09-03"
-  },
-  {
-   "title": "Video Editor (Long-form/Youtube)",
-   "company": "Preply",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/preply/674a78f4-75c9-4731-8c1e-fa4c06bfb2c1",
-   "posted": "2026-09-03"
-  },
-  {
-   "title": "Graphic Designer_FREELANCE",
-   "company": "VML",
-   "location": "Luxembourg, Luxembourg",
-   "country": "Luxembourg",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.vml.com/careers/job/8781394002?gh_jid=8781394002",
-   "posted": "2026-09-03"
   }
  ]
 }
