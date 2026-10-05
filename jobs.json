@@ -1,8 +1,73 @@
 {
- "updated": "2026-10-04T12:10:05.251Z",
+ "updated": "2026-10-05T14:17:32.427Z",
  "companies": 453,
- "count": 137,
+ "count": 140,
  "jobs": [
+  {
+   "title": "Senior User Researcher",
+   "company": "Alan",
+   "location": "Paris, France; Bordeaux, France; Marseille, France; Lyon, France; Nantes, France; Brussels, Belgium; Barcelona, Spain; Madrid, Spain; Amsterdam, Netherlands;",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/alan/1390b5c3-077c-4d91-8e9a-2c45f39fba33",
+   "posted": "2026-10-05"
+  },
+  {
+   "title": "Senior Graphic Designer",
+   "company": "Tylko",
+   "location": "Warszawa, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://tylko.recruitee.com/o/senior-graphic-designer",
+   "posted": "2026-10-05"
+  },
+  {
+   "title": "Design Copywriter",
+   "company": "Recraft",
+   "location": "Remote",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/recraft/cb167c40-2cf6-4ba5-bced-1eaa2c2b7645",
+   "posted": "2026-10-04"
+  },
+  {
+   "title": "Design Engineer",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/0cbdf74b-6976-4b82-b6c8-2601227b0fc3",
+   "posted": "2026-10-04"
+  },
+  {
+   "title": "Fractional Founding Designer",
+   "company": "Clera",
+   "location": "remote",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/b3f5b31f-2a81-48d8-9fe6-b2881abf2142",
+   "posted": "2026-10-04"
+  },
   {
    "title": "Founding Product Designer",
    "company": "Clera",
@@ -446,19 +511,6 @@
    "posted": "2026-09-28"
   },
   {
-   "title": "Lead Product Designer",
-   "company": "Clera",
-   "location": "Vienna",
-   "country": "Austria",
-   "city": "Vienna",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/d14c20cd-02d8-441d-988a-8d1996e79c75",
-   "posted": "2026-09-28"
-  },
-  {
    "title": "Senior Creative Producer (Fixed-term Employment)",
    "company": "Wolt",
    "location": "Helsinki, Finland",
@@ -807,19 +859,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/motorway/26a9a866-4c21-44ce-b5ac-75a8d4325e3a",
-   "posted": "2026-09-22"
-  },
-  {
-   "title": "Video Editor (Growth/Paid Media)",
-   "company": "Preply",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/preply/e5345e2d-c93e-40c7-a42d-584908a536cf",
    "posted": "2026-09-22"
   },
   {
