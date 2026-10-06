@@ -1,8 +1,138 @@
 {
- "updated": "2026-10-05T14:17:32.427Z",
+ "updated": "2026-10-06T13:11:41.428Z",
  "companies": 453,
- "count": 140,
+ "count": 149,
  "jobs": [
+  {
+   "title": "Staff Product Designer (Motion)",
+   "company": "Deliveroo",
+   "location": "London, United Kingdom - Deliveroo",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8258301",
+   "posted": "2026-10-06"
+  },
+  {
+   "title": "Director of Product Design",
+   "company": "Carwow",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/carwow/19504c63-effb-4df7-8c0b-8440e2c0ec69",
+   "posted": "2026-10-06"
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "Carwow",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/carwow/2fc7be85-a43b-4fe2-99ac-cef17c2612ce",
+   "posted": "2026-10-06"
+  },
+  {
+   "title": "Junior Designer",
+   "company": "Goodlord",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/goodlord/87d53b00-0b3b-4497-93af-3e10dcfa242f",
+   "posted": "2026-10-06"
+  },
+  {
+   "title": "Senior Game Designer (Multiplayer Gameplay Modes) - Paper.io 2",
+   "company": "Voodoo",
+   "location": "Paris",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/d633533c-ac08-440e-a6b6-33351b3ad005",
+   "posted": "2026-10-06"
+  },
+  {
+   "title": "Motion Designer (DanceBit)",
+   "company": "Gismart",
+   "location": "Remote (Ukraine)",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/gismart/059d1905-ddd2-46af-8364-c6e8cc2399c1",
+   "posted": "2026-10-06"
+  },
+  {
+   "title": "Creative Producer (DanceBit)",
+   "company": "Gismart",
+   "location": "Remote (Ukraine)",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/gismart/e875cf5c-9692-44ce-9a7b-6399254aec22",
+   "posted": "2026-10-06"
+  },
+  {
+   "title": "Associate Design Director",
+   "company": "DEPT",
+   "location": "Amsterdam, Rotterdam; Netherlands",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8256302",
+   "posted": "2026-10-05"
+  },
+  {
+   "title": "Associate Design Director",
+   "company": "DEPT",
+   "location": "Copenhagen; Denmark",
+   "country": "Denmark",
+   "city": "Copenhagen",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8256315",
+   "posted": "2026-10-05"
+  },
+  {
+   "title": "Head of Creative Production - 12m FTC",
+   "company": "Gymshark",
+   "location": "Solihull, England, United Kingdom",
+   "country": "United Kingdom",
+   "city": "Solihull",
+   "discipline": "Leadership",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4997182101",
+   "posted": "2026-10-05"
+  },
   {
    "title": "Senior User Researcher",
    "company": "Alan",
@@ -14,6 +144,71 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/alan/1390b5c3-077c-4d91-8e9a-2c45f39fba33",
+   "posted": "2026-10-05"
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "Preply",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/preply/c856fb02-c557-4537-a689-5b4c40f9882c",
+   "posted": "2026-10-05"
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "Preply",
+   "location": "Barcelona",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/preply/ecef6699-977a-46c8-898a-147740811f05",
+   "posted": "2026-10-05"
+  },
+  {
+   "title": "Freelance Product Designer (Fractional)",
+   "company": "Clera",
+   "location": "remote",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/45baab7a-8359-42d1-9a6e-a4271f8fd41e",
+   "posted": "2026-10-05"
+  },
+  {
+   "title": "Lead Product Designer (m/w/d)",
+   "company": "Clera",
+   "location": "Vienna",
+   "country": "Austria",
+   "city": "Vienna",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/eec1802a-6818-4030-8728-3cc51c2a89e8",
+   "posted": "2026-10-05"
+  },
+  {
+   "title": "Senior Content Strategist",
+   "company": "VML",
+   "location": "Luxembourg, Luxembourg",
+   "country": "Luxembourg",
+   "city": null,
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8858064002?gh_jid=8858064002",
    "posted": "2026-10-05"
   },
   {
@@ -183,19 +378,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://jobs.lever.co/blablacar/b73a9b73-8f4c-4bf5-b76d-6975b2280775",
-   "posted": "2026-10-02"
-  },
-  {
-   "title": "Web Designer | Based in Europe",
-   "company": "Hostinger",
-   "location": "Spain",
-   "country": "Spain",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/hostinger/251c7336-502c-405f-b927-d0ff45c08427",
    "posted": "2026-10-02"
   },
   {
@@ -459,32 +641,6 @@
    "posted": "2026-09-29"
   },
   {
-   "title": "Director of Product Design",
-   "company": "Carwow",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/carwow/19504c63-effb-4df7-8c0b-8440e2c0ec69",
-   "posted": "2026-09-29"
-  },
-  {
-   "title": "Werkstudent Content & Brand (m/w/d)",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/f86380d1-6f6a-4997-a60a-8ee09d9edcbd",
-   "posted": "2026-09-29"
-  },
-  {
    "title": "Senior Copywriter",
    "company": "VML",
    "location": "London, United Kingdom",
@@ -703,19 +859,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/fundingcircle/6f9ae625-18a0-40a4-8566-5e1d5aed2065",
-   "posted": "2026-09-24"
-  },
-  {
-   "title": "Head of Brand Marketing",
-   "company": "Goodlord",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/goodlord/6e55b8fd-5bc5-4b24-9fbf-ce75f00f530b",
    "posted": "2026-09-24"
   },
   {
@@ -1239,19 +1382,6 @@
    "posted": "2026-09-15"
   },
   {
-   "title": "Senior Game Designer (Multiplayer Gameplay Modes) - Paper.io 2",
-   "company": "Voodoo",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Other",
-   "type": "Contract",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/d633533c-ac08-440e-a6b6-33351b3ad005",
-   "posted": "2026-09-15"
-  },
-  {
    "title": "Junior Art Director Intern",
    "company": "VML",
    "location": "Milan, Lombardy, Italy",
@@ -1345,6 +1475,19 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
    "location": "Edinburgh",
    "country": "United Kingdom",
    "city": "Edinburgh",
@@ -1366,19 +1509,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
    "posted": "2026-09-14"
   },
   {
@@ -1548,19 +1678,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://content.red-badger.com/all-jobs?gh_jid=7990881003",
-   "posted": "2026-09-10"
-  },
-  {
-   "title": "Brand Marketing Designer - (Fixed Contract 12 months)",
-   "company": "SumUp",
-   "location": "London, England, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://sumup.com/careers/positions/8794667002?gh_jid=8794667002",
    "posted": "2026-09-10"
   },
   {
