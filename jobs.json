@@ -1,8 +1,73 @@
 {
- "updated": "2026-10-07T13:08:30.257Z",
+ "updated": "2026-10-08T13:14:37.366Z",
  "companies": 453,
- "count": 146,
+ "count": 148,
  "jobs": [
+  {
+   "title": "Creative Duo",
+   "company": "DEPT",
+   "location": "Amsterdam, hybrid",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8264339",
+   "posted": "2026-10-08"
+  },
+  {
+   "title": "Senior Visual Designer",
+   "company": "DEPT",
+   "location": "Amsterdam, Rotterdam",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8264143",
+   "posted": "2026-10-08"
+  },
+  {
+   "title": "Next Gen Design Intern",
+   "company": "Landor",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/landor/jobs/8259097",
+   "posted": "2026-10-08"
+  },
+  {
+   "title": "Creative Copywriter | Advertising Campaigns | Mid-Senior | Saily",
+   "company": "Nord Security",
+   "location": "Vilnius",
+   "country": "Lithuania",
+   "city": "Vilnius",
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "€2.2K – €3.6K a month",
+   "url": "https://jobs.ashbyhq.com/nord-security/35f9cd1a-0cad-4326-8067-4ef9f7ccb442",
+   "posted": "2026-10-08"
+  },
+  {
+   "title": "Creative Copywriter | Advertising Campaigns | Mid-Senior | Saily",
+   "company": "Nord Security",
+   "location": "Poland",
+   "country": "Poland",
+   "city": null,
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "PLN 9.7K – PLN 17K a month",
+   "url": "https://jobs.ashbyhq.com/nord-security/dc46719e-2910-4255-8ffb-a3505441251f",
+   "posted": "2026-10-08"
+  },
   {
    "title": "Senior Digital Designer",
    "company": "Adyen",
@@ -17,6 +82,32 @@
    "posted": "2026-10-07"
   },
   {
+   "title": "Product Design Director - Patient (x/f/m)",
+   "company": "Doctolib",
+   "location": "Berlin, Berlin, Germany; Paris, Paris, France",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/doctolib/jobs/8015787003",
+   "posted": "2026-10-07"
+  },
+  {
+   "title": "Senior Motion Designer (m/f/d)",
+   "company": "Raisin",
+   "location": "Berlin, Berlin, Germany; Hamburg",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4999592101",
+   "posted": "2026-10-07"
+  },
+  {
    "title": "Head of Product Design",
    "company": "N8n",
    "location": "Berlin Office",
@@ -27,6 +118,45 @@
    "workplace": "Remote",
    "salary": "€125K – €271.9K",
    "url": "https://jobs.ashbyhq.com/n8n/eee6e2dc-c565-4cef-adee-a054b59b1c28",
+   "posted": "2026-10-07"
+  },
+  {
+   "title": "Design engineer (UK)",
+   "company": "Writer",
+   "location": "London, UK",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/writer/fe2940b1-d097-472c-a310-4d60a76cecbf",
+   "posted": "2026-10-07"
+  },
+  {
+   "title": "UX Strateeg",
+   "company": "iO Digital",
+   "location": "Eindhoven, Netherlands",
+   "country": "Netherlands",
+   "city": "Eindhoven",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://iodigital.recruitee.com/o/ux-strateeg-9",
+   "posted": "2026-10-07"
+  },
+  {
+   "title": "UX Strateeg",
+   "company": "iO Digital",
+   "location": "Den Bosch, Netherlands",
+   "country": "Netherlands",
+   "city": "Den Bosch",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://iodigital.recruitee.com/o/ux-strateeg-8",
    "posted": "2026-10-07"
   },
   {
@@ -173,17 +303,17 @@
    "posted": "2026-10-06"
   },
   {
-   "title": "Creative Director, Concept & Copy – Campaigns (m/f/x)",
-   "company": "Virtual Identity",
-   "location": "Wien, Austria",
-   "country": "Austria",
-   "city": "Vienna",
+   "title": "Associate Design Director",
+   "company": "DEPT",
+   "location": "Amsterdam, Rotterdam; Netherlands",
+   "country": "Netherlands",
+   "city": "Amsterdam",
    "discipline": "Leadership",
    "type": "Full-time",
-   "workplace": "Remote",
+   "workplace": "On-site",
    "salary": null,
-   "url": "https://jobs.virtual-identity.com/o/creative-director-concept-copy-campaigns-mfx",
-   "posted": "2026-10-06"
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8256302",
+   "posted": "2026-10-05"
   },
   {
    "title": "Associate Design Director",
@@ -196,19 +326,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8256315",
-   "posted": "2026-10-05"
-  },
-  {
-   "title": "Associate Design Director",
-   "company": "DEPT",
-   "location": "Amsterdam, Rotterdam; Netherlands",
-   "country": "Netherlands",
-   "city": "Amsterdam",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8256302",
    "posted": "2026-10-05"
   },
   {
@@ -563,19 +680,6 @@
    "posted": "2026-10-01"
   },
   {
-   "title": "Product Designer",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/c495c73a-e9a1-49be-a747-50f92fc484ac",
-   "posted": "2026-10-01"
-  },
-  {
    "title": "Animation Intern",
    "company": "Socialpoint",
    "location": "Barcelona, Spain",
@@ -747,9 +851,9 @@
   {
    "title": "Senior Creative Producer (Fixed-term Employment)",
    "company": "Wolt",
-   "location": "Helsinki, Finland",
-   "country": "Finland",
-   "city": "Helsinki",
+   "location": "Athens, Greece; Berlin, Germany; Helsinki, Finland",
+   "country": "Germany",
+   "city": "Athens",
    "discipline": "Other",
    "type": "Contract",
    "workplace": "On-site",
@@ -1213,19 +1317,6 @@
    "posted": "2026-09-18"
   },
   {
-   "title": "Staff Product Designer (12-Month FTC)",
-   "company": "Deliveroo",
-   "location": "London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202607",
-   "posted": "2026-09-18"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "Katana",
    "location": "Estonia",
@@ -1301,6 +1392,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/5fde7220-fd3d-4df6-ab8c-cca21a313b39",
+   "posted": "2026-09-17"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Deliverect",
+   "location": "Paris",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Product & UX",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.lever.co/deliverect/964659ab-95fd-4ed0-bb7e-2377593b9063",
    "posted": "2026-09-17"
   },
   {
@@ -1527,19 +1631,6 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "Copenhagen",
-   "country": "Denmark",
-   "city": "Copenhagen",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
    "location": "London",
    "country": "United Kingdom",
    "city": "London",
@@ -1548,6 +1639,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "Copenhagen",
+   "country": "Denmark",
+   "city": "Copenhagen",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
    "posted": "2026-09-14"
   },
   {
@@ -1587,19 +1691,6 @@
    "workplace": "On-site",
    "salary": "€65K – €100K",
    "url": "https://jobs.ashbyhq.com/Fonio/d95edc12-ff26-45d6-b4a7-c4a5bf8f8f45",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Motion Designer (GenFlex.ai)",
-   "company": "Gismart",
-   "location": "Kyiv",
-   "country": "Ukraine",
-   "city": "Kyiv",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/gismart/55fe7ee1-2838-4274-9e52-79aa0ddddeab",
    "posted": "2026-09-14"
   },
   {
@@ -1824,45 +1915,6 @@
    "posted": "2026-09-08"
   },
   {
-   "title": "Senior UX Designer",
-   "company": "Red Badger",
-   "location": "Leeds",
-   "country": "United Kingdom",
-   "city": "Leeds",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://content.red-badger.com/all-jobs?gh_jid=7988749003",
-   "posted": "2026-09-08"
-  },
-  {
-   "title": "Design Engineer | Mid-Senior",
-   "company": "Nord Security",
-   "location": "Vilnius",
-   "country": "Lithuania",
-   "city": "Vilnius",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/nord-security/f9ef0692-bd3e-4c4a-b13f-f1f3d5bcb731",
-   "posted": "2026-09-08"
-  },
-  {
-   "title": "Design Engineer | Mid-Senior",
-   "company": "Nord Security",
-   "location": "Poland",
-   "country": "Poland",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "PLN 17.6K – PLN 29.5K a month",
-   "url": "https://jobs.ashbyhq.com/nord-security/d9da600d-43b4-43f3-af47-d854c5eb508c",
-   "posted": "2026-09-08"
-  },
-  {
    "title": "Gameplay & UI Developer - Paper.io2",
    "company": "Voodoo",
    "location": "Barcelona",
@@ -1874,32 +1926,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/1c428341-5d1f-4903-aacd-1ce05b04dc17",
    "posted": "2026-09-08"
-  },
-  {
-   "title": "Senior UX Product Designer",
-   "company": "HelloFresh",
-   "location": "Warszawa, Masovian Voivodeship, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8147119?gh_jid=8147119",
-   "posted": "2026-09-07"
-  },
-  {
-   "title": "Web Designer | Mid-Senior | Marketing Design Team",
-   "company": "Nord Security",
-   "location": "Vilnius",
-   "country": "Lithuania",
-   "city": "Vilnius",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€3.1K – €6K a month",
-   "url": "https://jobs.ashbyhq.com/nord-security/0ac04922-cc35-46a1-9388-09eb0650a1b7",
-   "posted": "2026-09-07"
   }
  ]
 }
