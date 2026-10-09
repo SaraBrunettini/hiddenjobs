@@ -1,8 +1,99 @@
 {
- "updated": "2026-10-08T13:14:37.366Z",
+ "updated": "2026-10-09T13:00:47.932Z",
  "companies": 453,
- "count": 148,
+ "count": 152,
  "jobs": [
+  {
+   "title": "Design Director - 12M FTC Experience Design",
+   "company": "Landor",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Leadership",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/landor/jobs/8243434",
+   "posted": "2026-10-09"
+  },
+  {
+   "title": "Design Director - Consumer CPG",
+   "company": "Landor",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/landor/jobs/8243333",
+   "posted": "2026-10-09"
+  },
+  {
+   "title": "Midweight Designer (CPG / Packaging) - 12 Month FTC",
+   "company": "Landor",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/landor/jobs/8261220",
+   "posted": "2026-10-09"
+  },
+  {
+   "title": "Game Designer - Midcore Games",
+   "company": "Voodoo",
+   "location": "Warsaw",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/bf3ee384-5793-4724-b232-c498dfd49331",
+   "posted": "2026-10-09"
+  },
+  {
+   "title": "Junior Creative Generalist - social media content production (f/m/d)",
+   "company": "Ten Square Games",
+   "location": "Wrocław, Poland",
+   "country": "Poland",
+   "city": "Wrocław",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://career.tensquaregames.com/o/junior-creative-generalist-social-media-content-production-fmd",
+   "posted": "2026-10-09"
+  },
+  {
+   "title": "Product Designer | Based in Europe",
+   "company": "Hostinger",
+   "location": "Poland",
+   "country": "Poland",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/hostinger/ea9d04c9-c20c-4c20-9a94-19df2e600006",
+   "posted": "2026-10-09"
+  },
+  {
+   "title": "Senior Designer - Design Studio",
+   "company": "Cognite",
+   "location": "Norway (Oslo)",
+   "country": "Norway",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/4986781101",
+   "posted": "2026-10-08"
+  },
   {
    "title": "Creative Duo",
    "company": "DEPT",
@@ -27,6 +118,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8264143",
+   "posted": "2026-10-08"
+  },
+  {
+   "title": "Senior Product Designer, Growth & Consumer UX (f/m/x)",
+   "company": "HelloFresh",
+   "location": "Berlin, Berlin, Germany; Toronto, Ontario, Canada; Warszawa, Masovian Voivodeship, Poland",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "CAD 98K – CAD 108K",
+   "url": "https://careers.hellofresh.com/global/en/job/8259030?gh_jid=8259030",
    "posted": "2026-10-08"
   },
   {
@@ -66,6 +170,32 @@
    "workplace": "Remote",
    "salary": "PLN 9.7K – PLN 17K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/dc46719e-2910-4255-8ffb-a3505441251f",
+   "posted": "2026-10-08"
+  },
+  {
+   "title": "Senior Gameplay Designer, Clash Royale",
+   "company": "Supercell",
+   "location": "Helsinki",
+   "country": "Finland",
+   "city": "Helsinki",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/supercell/ef3ddd1b-bf20-4ff2-b6ef-4340662aa20a",
+   "posted": "2026-10-08"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/2f166c26-efad-489d-83e6-67051042a38f",
    "posted": "2026-10-08"
   },
   {
@@ -305,19 +435,6 @@
   {
    "title": "Associate Design Director",
    "company": "DEPT",
-   "location": "Amsterdam, Rotterdam; Netherlands",
-   "country": "Netherlands",
-   "city": "Amsterdam",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8256302",
-   "posted": "2026-10-05"
-  },
-  {
-   "title": "Associate Design Director",
-   "company": "DEPT",
    "location": "Copenhagen; Denmark",
    "country": "Denmark",
    "city": "Copenhagen",
@@ -326,6 +443,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8256315",
+   "posted": "2026-10-05"
+  },
+  {
+   "title": "Associate Design Director",
+   "company": "DEPT",
+   "location": "Amsterdam, Rotterdam; Netherlands",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8256302",
    "posted": "2026-10-05"
   },
   {
@@ -378,6 +508,19 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/preply/ecef6699-977a-46c8-898a-147740811f05",
+   "posted": "2026-10-05"
+  },
+  {
+   "title": "Level Designer (Unannounced Project)",
+   "company": "11 bit studios",
+   "location": "Warszawa, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://11bitstudios.recruitee.com/o/level-designer-p13",
    "posted": "2026-10-05"
   },
   {
@@ -470,19 +613,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/clera/b3f5b31f-2a81-48d8-9fe6-b2881abf2142",
    "posted": "2026-10-04"
-  },
-  {
-   "title": "Founding Product Designer",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/51aacf69-80ec-496b-86a1-9a6a04568e89",
-   "posted": "2026-10-03"
   },
   {
    "title": "Art Director (Brand Creative)",
@@ -1590,19 +1720,6 @@
    "posted": "2026-09-14"
   },
   {
-   "title": "Senior UX Product Designer, Engagement",
-   "company": "HelloFresh",
-   "location": "Warszawa, Masovian Voivodeship, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8167272?gh_jid=8167272",
-   "posted": "2026-09-14"
-  },
-  {
    "title": "Head of Design",
    "company": "Housemarque",
    "location": "Finland, Helsinki",
@@ -1613,6 +1730,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/housemarque/jobs/6191620004",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "Copenhagen",
+   "country": "Denmark",
+   "city": "Copenhagen",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
    "posted": "2026-09-14"
   },
   {
@@ -1639,19 +1769,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
-   "location": "Copenhagen",
-   "country": "Denmark",
-   "city": "Copenhagen",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
    "posted": "2026-09-14"
   },
   {
@@ -1730,19 +1847,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8195418",
-   "posted": "2026-09-11"
-  },
-  {
-   "title": "FR - Generative AI Creative",
-   "company": "Valtech",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/valtech/jobs/4972639101",
    "posted": "2026-09-11"
   },
   {
@@ -1850,19 +1954,6 @@
    "posted": "2026-09-09"
   },
   {
-   "title": "Lead Product Designer, Growth",
-   "company": "Monzo",
-   "location": "Cardiff, London or Remote (UK)",
-   "country": "United Kingdom",
-   "city": "Cardiff",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/monzo/jobs/8185694",
-   "posted": "2026-09-09"
-  },
-  {
    "title": "Frontend Leaning Engineer - Creative & Studio",
    "company": "ElevenLabs",
    "location": "United Kingdom",
@@ -1873,19 +1964,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/elevenlabs/5494be31-7899-4f7a-b10f-4c49378b44ef",
-   "posted": "2026-09-09"
-  },
-  {
-   "title": "Senior Match-3 Designer, New Game",
-   "company": "Supercell",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/supercell/d0b5451c-4d57-4d4b-81da-7330c83f90e7",
    "posted": "2026-09-09"
   },
   {
@@ -1900,32 +1978,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/supercell/76e56d65-9884-4c86-b616-f9c70c4a7a34",
    "posted": "2026-09-09"
-  },
-  {
-   "title": "Motion Designer / Video Editor — Apprenticeship (1 or 2 years)",
-   "company": "Dataiku",
-   "location": "France, Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Motion",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dataiku/jobs/6181952004",
-   "posted": "2026-09-08"
-  },
-  {
-   "title": "Gameplay & UI Developer - Paper.io2",
-   "company": "Voodoo",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/1c428341-5d1f-4903-aacd-1ce05b04dc17",
-   "posted": "2026-09-08"
   }
  ]
 }
