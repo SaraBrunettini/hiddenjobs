@@ -1,8 +1,86 @@
 {
- "updated": "2026-10-12T15:06:22.752Z",
+ "updated": "2026-10-13T14:01:54.415Z",
  "companies": 453,
- "count": 141,
+ "count": 145,
  "jobs": [
+  {
+   "title": "Senior Creative Project Manager",
+   "company": "Deliveroo",
+   "location": "London, United Kingdom - Deliveroo",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8261830",
+   "posted": "2026-10-13"
+  },
+  {
+   "title": "Senior Product Graphic Designer",
+   "company": "Helsing",
+   "location": "Munich",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://helsing.ai/jobs/5004097101?gh_jid=5004097101",
+   "posted": "2026-10-13"
+  },
+  {
+   "title": "Graphic Designer",
+   "company": "Relex",
+   "location": "Lisbon, Portugal",
+   "country": "Portugal",
+   "city": "Lisbon",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.relexsolutions.com/careers/jobs/?gh_jid=8029825003",
+   "posted": "2026-10-13"
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "Carwow",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/carwow/2b0f3536-e584-4111-9d70-5c290881434d",
+   "posted": "2026-10-13"
+  },
+  {
+   "title": "Senior Product Designer (B2C)",
+   "company": "GetYourGuide",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/7860461",
+   "posted": "2026-10-12"
+  },
+  {
+   "title": "UX Manager, Growth",
+   "company": "GetYourGuide",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8275034",
+   "posted": "2026-10-12"
+  },
   {
    "title": "Senior Service Designer, Food Systems & Fulfillment",
    "company": "HelloFresh",
@@ -69,16 +147,16 @@
    "posted": "2026-10-12"
   },
   {
-   "title": "Product Designer | Based in Lithuania",
-   "company": "Hostinger",
-   "location": "Poland",
-   "country": "Poland",
+   "title": "Senior Freelance Product Designer (Fractional)",
+   "company": "Clera",
+   "location": "remote",
+   "country": "Europe-wide",
    "city": null,
    "discipline": "Product & UX",
-   "type": "Full-time",
+   "type": "Contract",
    "workplace": "Remote",
    "salary": null,
-   "url": "https://jobs.ashbyhq.com/hostinger/625d76ae-0f91-4181-9e1f-ce5bc9054cea",
+   "url": "https://jobs.ashbyhq.com/clera/9be03deb-7474-442b-9ac4-7dec95400f60",
    "posted": "2026-10-12"
   },
   {
@@ -173,13 +251,13 @@
    "posted": "2026-10-09"
   },
   {
-   "title": "Midweight Designer (CPG / Packaging) - 12 Month FTC",
+   "title": "Midweight Designer (CPG / Packaging)",
    "company": "Landor",
    "location": "London",
    "country": "United Kingdom",
    "city": "London",
    "discipline": "Brand",
-   "type": "Contract",
+   "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/landor/jobs/8261220",
@@ -459,6 +537,19 @@
    "posted": "2026-10-06"
   },
   {
+   "title": "Senior Product Designer - Knowledge Graph",
+   "company": "Cognite",
+   "location": "Norway (Oslo)",
+   "country": "Norway",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/4997859101",
+   "posted": "2026-10-06"
+  },
+  {
    "title": "Staff Product Designer (Motion)",
    "company": "Deliveroo",
    "location": "London, United Kingdom - Deliveroo",
@@ -511,19 +602,6 @@
    "posted": "2026-10-06"
   },
   {
-   "title": "Staff Product Designer",
-   "company": "Carwow",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/carwow/2fc7be85-a43b-4fe2-99ac-cef17c2612ce",
-   "posted": "2026-10-06"
-  },
-  {
    "title": "Senior Game Designer (Multiplayer Gameplay Modes) - Paper.io 2",
    "company": "Voodoo",
    "location": "Paris",
@@ -537,17 +615,17 @@
    "posted": "2026-10-06"
   },
   {
-   "title": "Werkstudent Content & Brand (m/w/d)",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Internship",
+   "title": "Associate Design Director",
+   "company": "DEPT",
+   "location": "Amsterdam, Rotterdam; Netherlands",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Leadership",
+   "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/45506782-1194-4b83-81d4-b1deed17df48",
-   "posted": "2026-10-06"
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8256302",
+   "posted": "2026-10-05"
   },
   {
    "title": "Associate Design Director",
@@ -560,19 +638,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8256315",
-   "posted": "2026-10-05"
-  },
-  {
-   "title": "Associate Design Director",
-   "company": "DEPT",
-   "location": "Amsterdam, Rotterdam; Netherlands",
-   "country": "Netherlands",
-   "city": "Amsterdam",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8256302",
    "posted": "2026-10-05"
   },
   {
@@ -1018,6 +1083,19 @@
    "posted": "2026-09-29"
   },
   {
+   "title": "Product Designer, Growth Acquisition",
+   "company": "Mentimeter",
+   "location": "Stockholm",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/mentimeter/jobs/4976852101",
+   "posted": "2026-09-28"
+  },
+  {
    "title": "Marketing Video Artist - Growth",
    "company": "Voodoo",
    "location": "Paris",
@@ -1120,19 +1198,6 @@
    "salary": null,
    "url": "https://www.vml.com/careers/job/8844336002?gh_jid=8844336002",
    "posted": "2026-09-25"
-  },
-  {
-   "title": "Senior Motion Designer (x/f/m)",
-   "company": "HelloFresh",
-   "location": "Berlin, Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8121150?gh_jid=8121150",
-   "posted": "2026-09-24"
   },
   {
    "title": "Agentic UX / Conversation Designer",
@@ -1522,19 +1587,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/pennylane/ec92cb34-4490-499d-8b79-3adcf58dbf9a",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "Game Designer - Castle Busters",
-   "company": "Voodoo",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/5fde7220-fd3d-4df6-ab8c-cca21a313b39",
    "posted": "2026-09-17"
   },
   {
