@@ -1,8 +1,21 @@
 {
- "updated": "2026-10-15T11:14:48.220Z",
+ "updated": "2026-10-16T11:11:22.977Z",
  "companies": 453,
- "count": 148,
+ "count": 152,
  "jobs": [
+  {
+   "title": "Design Ops",
+   "company": "Alan",
+   "location": "Brussels, Belgium; Ghent, Belgium; Antwerp, Belgium; Paris, France; Lyon, France; Bordeaux, France; Marseille, France; Madrid, Spain; Barcelona, Spain",
+   "country": "France",
+   "city": "Brussels",
+   "discipline": "Design ops",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/alan/7f983d03-16e0-473e-8737-6f2d8625b6d6",
+   "posted": "2026-10-16"
+  },
   {
    "title": "Senior Art Director",
    "company": "AKQA",
@@ -56,16 +69,68 @@
    "posted": "2026-10-15"
   },
   {
-   "title": "Senior Creative Project Manager - Brand",
-   "company": "Pleo",
+   "title": "Lead Brand Designer",
+   "company": "Monzo",
    "location": "London",
    "country": "United Kingdom",
    "city": "London",
    "discipline": "Brand",
    "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/monzo/jobs/8267489",
+   "posted": "2026-10-15"
+  },
+  {
+   "title": "Product Manager (Prototyping/Design Specialization)",
+   "company": "N-iX",
+   "location": "Ukraine",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://careers.n-ix.com/jobs/5003814101?gh_jid=5003814101",
+   "posted": "2026-10-15"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Lendable",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
    "workplace": "Remote",
    "salary": null,
-   "url": "https://jobs.ashbyhq.com/pleo/a1819f9e-f691-4873-9150-0aa831502fd1",
+   "url": "https://jobs.ashbyhq.com/lendable/207bb4cf-b1ae-4298-bb17-19dbcdcfa20a",
+   "posted": "2026-10-15"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/decfbf04-b598-407c-9701-9f67202a4483",
+   "posted": "2026-10-15"
+  },
+  {
+   "title": "Creative Social Media Manager",
+   "company": "VML",
+   "location": "Lisbon, Portugal",
+   "country": "Portugal",
+   "city": "Lisbon",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8892606002?gh_jid=8892606002",
    "posted": "2026-10-15"
   },
   {
@@ -134,26 +199,26 @@
    "posted": "2026-10-14"
   },
   {
-   "title": "CDD - Brand Campaign Manager - (M/F/X)",
+   "title": "CDD/Freelance - Brand Campaign Manager - (M/F/X)",
    "company": "HelloFresh",
    "location": "Paris, Paris, France",
    "country": "France",
    "city": "Paris",
    "discipline": "Brand",
-   "type": "Full-time",
+   "type": "Contract",
    "workplace": "On-site",
    "salary": null,
    "url": "https://careers.hellofresh.com/global/en/job/8281103?gh_jid=8281103",
    "posted": "2026-10-14"
   },
   {
-   "title": "CDD - Brand & Communication Senior Manager - (M/F/X)",
+   "title": "CDD/Freelance - Brand & Communication Senior Manager - (M/F/X)",
    "company": "HelloFresh",
    "location": "Paris, Paris, France",
    "country": "France",
    "city": "Paris",
    "discipline": "Brand",
-   "type": "Full-time",
+   "type": "Contract",
    "workplace": "On-site",
    "salary": null,
    "url": "https://careers.hellofresh.com/global/en/job/8281292?gh_jid=8281292",
@@ -170,6 +235,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://careers.n-ix.com/jobs/5003400101?gh_jid=5003400101",
+   "posted": "2026-10-14"
+  },
+  {
+   "title": "Lead Design Engineer",
+   "company": "R/GA",
+   "location": "London; United States",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.rga.com/careers/8281972?gh_jid=8281972",
    "posted": "2026-10-14"
   },
   {
@@ -303,6 +381,19 @@
    "posted": "2026-10-14"
   },
   {
+   "title": "Creative Developer",
+   "company": "Signifly",
+   "location": "Copenhagen V, Denmark",
+   "country": "Denmark",
+   "city": "Copenhagen V",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.signifly.com/o/creative-developer-1",
+   "posted": "2026-10-14"
+  },
+  {
    "title": "Senior Creative Project Manager -Fixed Term Contract",
    "company": "Deliveroo",
    "location": "London, United Kingdom - Deliveroo",
@@ -331,19 +422,6 @@
   {
    "title": "Senior Design Systems Manager",
    "company": "GetYourGuide",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278320",
-   "posted": "2026-10-13"
-  },
-  {
-   "title": "Senior Design Systems Manager",
-   "company": "GetYourGuide",
    "location": "Zurich",
    "country": "Switzerland",
    "city": "Zurich",
@@ -352,6 +430,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278560",
+   "posted": "2026-10-13"
+  },
+  {
+   "title": "Senior Design Systems Manager",
+   "company": "GetYourGuide",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278320",
    "posted": "2026-10-13"
   },
   {
@@ -563,12 +654,12 @@
    "posted": "2026-10-10"
   },
   {
-   "title": "AI Designer & Creative Technologist",
+   "title": "AI Motion Designer & Creative Technologist",
    "company": "DEPT",
    "location": "Budapest",
    "country": "Hungary",
    "city": "Budapest",
-   "discipline": "Other",
+   "discipline": "Motion",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
@@ -849,12 +940,12 @@
    "posted": "2026-10-06"
   },
   {
-   "title": "Senior Product Designer - Knowledge Graph",
+   "title": "Senior Designer - Knowledge Graph",
    "company": "Cognite",
    "location": "Norway (Oslo)",
    "country": "Norway",
    "city": null,
-   "discipline": "Product & UX",
+   "discipline": "Other",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
@@ -1018,6 +1109,19 @@
    "posted": "2026-10-05"
   },
   {
+   "title": "Senior Graphic Designer",
+   "company": "Tylko",
+   "location": "Warszawa, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://tylko.recruitee.com/o/senior-graphic-designer",
+   "posted": "2026-10-05"
+  },
+  {
    "title": "Design Copywriter",
    "company": "Recraft",
    "location": "Remote",
@@ -1145,32 +1249,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.ogilvy.com/careers/4739562005?gh_jid=4739562005",
-   "posted": "2026-10-01"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Lendable",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/lendable/207bb4cf-b1ae-4298-bb17-19dbcdcfa20a",
-   "posted": "2026-10-01"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Lendable",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/lendable/8363d371-b914-405b-b6dc-0e209f0ca12c",
    "posted": "2026-10-01"
   },
   {
@@ -1408,6 +1486,19 @@
    "posted": "2026-09-25"
   },
   {
+   "title": "Manager, Visual Merchandising, EMEA",
+   "company": "Oura",
+   "location": "Hybrid - London, England",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/oura/jobs/4419213009",
+   "posted": "2026-09-25"
+  },
+  {
    "title": "Freelance Principal UX Researcher",
    "company": "Red Badger",
    "location": "London",
@@ -1483,6 +1574,32 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/synthesia/ba6d0833-902b-4f80-95e4-3b08b9e86cbb",
+   "posted": "2026-09-24"
+  },
+  {
+   "title": "Visual Designer",
+   "company": "Twisto",
+   "location": "Prague, Czechia",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://twisto.recruitee.com/o/visual-designer-1",
+   "posted": "2026-09-24"
+  },
+  {
+   "title": "Kreativní copywriter*ka",
+   "company": "Twisto",
+   "location": "Prague, Czechia",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Content",
+   "type": "Part-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://twisto.recruitee.com/o/kreativni-copywriterka-1",
    "posted": "2026-09-24"
   },
   {
@@ -1850,32 +1967,6 @@
    "posted": "2026-09-17"
   },
   {
-   "title": "Senior Product Designer",
-   "company": "AKQA",
-   "location": "Gothenburg, Sweden, Stockholm, Sweden",
-   "country": "Sweden",
-   "city": "Gothenburg",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.akqa.com/jobs/8207295/?gh_jid=8207295",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "UX Content Designer Intern (UX copywriter - English speaker)",
-   "company": "Back Market",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Content",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": "€1.2K – €1.4K a month",
-   "url": "https://jobs.ashbyhq.com/backmarket/9cbdc249-81a5-476d-a365-4f457efc4a8c",
-   "posted": "2026-09-16"
-  },
-  {
    "title": "Brand & Marketing CRM Engagement Intern",
    "company": "Back Market",
    "location": "Paris",
@@ -1887,45 +1978,6 @@
    "salary": "€1.2K – €1.4K a month",
    "url": "https://jobs.ashbyhq.com/backmarket/d26936dd-15ad-4932-94eb-9d07995aa0d6",
    "posted": "2026-09-16"
-  },
-  {
-   "title": "Brand Proposition Lead",
-   "company": "Trainline",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "£65K – £72K",
-   "url": "https://jobs.ashbyhq.com/trainline/6543dbd5-062c-44f7-88cf-3275c2867c6a",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior User Researcher",
-   "company": "Alan",
-   "location": "Paris, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/alan/dd132107-879f-44c5-844f-4abb6125934a",
-   "posted": "2026-09-15"
-  },
-  {
-   "title": "Design Engineer (Web & Brand)",
-   "company": "Linear",
-   "location": "Europe",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/linear/ea0b5868-6d7a-46fa-99d8-207cd19357a6",
-   "posted": "2026-09-15"
   }
  ]
 }
