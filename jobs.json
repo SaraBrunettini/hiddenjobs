@@ -1,8 +1,21 @@
 {
- "updated": "2026-10-16T11:11:22.977Z",
+ "updated": "2026-10-17T10:29:31.949Z",
  "companies": 453,
- "count": 152,
+ "count": 153,
  "jobs": [
+  {
+   "title": "Senior Marketing Manager, Brand Integrated Marketing",
+   "company": "Deliveroo",
+   "location": "London, United Kingdom - Deliveroo",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8258657",
+   "posted": "2026-10-16"
+  },
   {
    "title": "Design Ops",
    "company": "Alan",
@@ -14,6 +27,45 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/alan/7f983d03-16e0-473e-8737-6f2d8625b6d6",
+   "posted": "2026-10-16"
+  },
+  {
+   "title": "Video Editor (Growth/Paid Media)",
+   "company": "Preply",
+   "location": "Barcelona",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/preply/e5345e2d-c93e-40c7-a42d-584908a536cf",
+   "posted": "2026-10-16"
+  },
+  {
+   "title": "Sustainability Brand & Impact Manager (Maternity Cover)",
+   "company": "Vestiaire Collective",
+   "location": "Paris",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.lever.co/vestiairecollective/4adcc4e6-b335-410d-8cd5-18cbca8f2d13",
+   "posted": "2026-10-16"
+  },
+  {
+   "title": "Senior Motion Designer",
+   "company": "Zopa",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.lever.co/zopa/fc4c701a-2420-41fa-bd29-a10f2a3e6090",
    "posted": "2026-10-16"
   },
   {
@@ -422,19 +474,6 @@
   {
    "title": "Senior Design Systems Manager",
    "company": "GetYourGuide",
-   "location": "Zurich",
-   "country": "Switzerland",
-   "city": "Zurich",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278560",
-   "posted": "2026-10-13"
-  },
-  {
-   "title": "Senior Design Systems Manager",
-   "company": "GetYourGuide",
    "location": "Berlin",
    "country": "Germany",
    "city": "Berlin",
@@ -443,6 +482,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278320",
+   "posted": "2026-10-13"
+  },
+  {
+   "title": "Senior Design Systems Manager",
+   "company": "GetYourGuide",
+   "location": "Zurich",
+   "country": "Switzerland",
+   "city": "Zurich",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278560",
    "posted": "2026-10-13"
   },
   {
@@ -626,19 +678,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/clera/8c4cd7d5-a0f1-40c2-954e-69148da22f91",
    "posted": "2026-10-11"
-  },
-  {
-   "title": "Founding Product Designer",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/0b510944-6173-4daa-93e6-2ec16cb85a86",
-   "posted": "2026-10-10"
   },
   {
    "title": "Fractional Founding Designer",
@@ -1249,19 +1288,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.ogilvy.com/careers/4739562005?gh_jid=4739562005",
-   "posted": "2026-10-01"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Nabla",
-   "location": "Paris office",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/nabla/97679de0-52bd-49e8-8c92-25bd21c10e21",
    "posted": "2026-10-01"
   },
   {
@@ -1965,19 +1991,6 @@
    "salary": null,
    "url": "https://www.vml.com/careers/job/8816862002?gh_jid=8816862002",
    "posted": "2026-09-17"
-  },
-  {
-   "title": "Brand & Marketing CRM Engagement Intern",
-   "company": "Back Market",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": "€1.2K – €1.4K a month",
-   "url": "https://jobs.ashbyhq.com/backmarket/d26936dd-15ad-4932-94eb-9d07995aa0d6",
-   "posted": "2026-09-16"
   }
  ]
 }
