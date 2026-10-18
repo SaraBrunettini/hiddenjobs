@@ -1,8 +1,34 @@
 {
- "updated": "2026-10-17T10:29:31.949Z",
+ "updated": "2026-10-18T10:48:05.885Z",
  "companies": 453,
- "count": 153,
+ "count": 142,
  "jobs": [
+  {
+   "title": "Founding Product Designer",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/03c65268-81d6-4601-b0f1-c358417a1611",
+   "posted": "2026-10-17"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Clera",
+   "location": "remote",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/e668bb34-8435-4a77-a3b2-e489e4f8e9bc",
+   "posted": "2026-10-17"
+  },
   {
    "title": "Senior Marketing Manager, Brand Integrated Marketing",
    "company": "Deliveroo",
@@ -433,19 +459,6 @@
    "posted": "2026-10-14"
   },
   {
-   "title": "Creative Developer",
-   "company": "Signifly",
-   "location": "Copenhagen V, Denmark",
-   "country": "Denmark",
-   "city": "Copenhagen V",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.signifly.com/o/creative-developer-1",
-   "posted": "2026-10-14"
-  },
-  {
    "title": "Senior Creative Project Manager -Fixed Term Contract",
    "company": "Deliveroo",
    "location": "London, United Kingdom - Deliveroo",
@@ -678,19 +691,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/clera/8c4cd7d5-a0f1-40c2-954e-69148da22f91",
    "posted": "2026-10-11"
-  },
-  {
-   "title": "Fractional Founding Designer",
-   "company": "Clera",
-   "location": "remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/d72f487b-a420-4bbb-8d1f-f5ccfb2c1727",
-   "posted": "2026-10-10"
   },
   {
    "title": "AI Motion Designer & Creative Technologist",
@@ -1148,19 +1148,6 @@
    "posted": "2026-10-05"
   },
   {
-   "title": "Senior Graphic Designer",
-   "company": "Tylko",
-   "location": "Warszawa, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://tylko.recruitee.com/o/senior-graphic-designer",
-   "posted": "2026-10-05"
-  },
-  {
    "title": "Design Copywriter",
    "company": "Recraft",
    "location": "Remote",
@@ -1603,32 +1590,6 @@
    "posted": "2026-09-24"
   },
   {
-   "title": "Visual Designer",
-   "company": "Twisto",
-   "location": "Prague, Czechia",
-   "country": "Czechia",
-   "city": "Prague",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://twisto.recruitee.com/o/visual-designer-1",
-   "posted": "2026-09-24"
-  },
-  {
-   "title": "Kreativní copywriter*ka",
-   "company": "Twisto",
-   "location": "Prague, Czechia",
-   "country": "Czechia",
-   "city": "Prague",
-   "discipline": "Content",
-   "type": "Part-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://twisto.recruitee.com/o/kreativni-copywriterka-1",
-   "posted": "2026-09-24"
-  },
-  {
    "title": "Design Engineer | Mid-Senior| Saily",
    "company": "Nord Security",
    "location": "Warsaw",
@@ -1876,19 +1837,6 @@
    "posted": "2026-09-18"
   },
   {
-   "title": "Senior Product Designer",
-   "company": "Katana",
-   "location": "Estonia",
-   "country": "Estonia",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/katana/98d97b55-151e-4d9d-923b-6fe3d86eb023",
-   "posted": "2026-09-18"
-  },
-  {
    "title": "Senior Product Designer - CRO, London, UK",
    "company": "Eucalyptus",
    "location": "UK - HQ - London",
@@ -1900,97 +1848,6 @@
    "salary": null,
    "url": "https://job-boards.greenhouse.io/eucalyptus/jobs/4735384005",
    "posted": "2026-09-18"
-  },
-  {
-   "title": "Graphic Designer (Pharma Industry)",
-   "company": "Ogilvy",
-   "location": "Barcelona, Spain",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.ogilvy.com/careers/4735011005?gh_jid=4735011005",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "User Research UX Intern",
-   "company": "Back Market",
-   "location": "Bordeaux",
-   "country": "France",
-   "city": "Bordeaux",
-   "discipline": "Research",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/backmarket/54b5b0a5-a6ba-42a9-b12c-522faaf10dd7",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "Senior Design Manager",
-   "company": "Pennylane",
-   "location": "All France (remote)",
-   "country": "France",
-   "city": null,
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/pennylane/ec92cb34-4490-499d-8b79-3adcf58dbf9a",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Deliverect",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Product & UX",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.lever.co/deliverect/964659ab-95fd-4ed0-bb7e-2377593b9063",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "Senior Digital Learning Experience Designer, Learning & Inclusion",
-   "company": "Spotify",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.lever.co/spotify/7cf725bb-99c8-4717-b7e5-4f4708fa4169",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Legora",
-   "location": "Stockholm HQ",
-   "country": "Sweden",
-   "city": "Stockholm",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/legora/89073502-e8e3-49d9-ba4b-5642ef1a933d",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "Creative Marketing Consultant",
-   "company": "VML",
-   "location": "Lisbon, Portugal",
-   "country": "Portugal",
-   "city": "Lisbon",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.vml.com/careers/job/8816862002?gh_jid=8816862002",
-   "posted": "2026-09-17"
   }
  ]
 }
