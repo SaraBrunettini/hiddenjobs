@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-19T12:49:03.992Z",
+ "updated": "2026-10-20T11:19:10.563Z",
  "companies": 453,
- "count": 143,
+ "count": 144,
  "jobs": [
   {
    "title": "Senior User Researcher",
@@ -14,6 +14,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/mentimeter/jobs/5004449101",
+   "posted": "2026-10-19"
+  },
+  {
+   "title": "Middle Graphic Designer (6 months)",
+   "company": "N-iX",
+   "location": "Ukraine",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://careers.n-ix.com/jobs/5007894101?gh_jid=5007894101",
    "posted": "2026-10-19"
   },
   {
@@ -79,6 +92,32 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/supercell/54dd1d43-0075-496a-8948-a5f9375f5960",
+   "posted": "2026-10-19"
+  },
+  {
+   "title": "Freelance Senior Product Designer (Fractional)",
+   "company": "Clera",
+   "location": "remote",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/416379f5-9788-4f6d-9477-dd76766eeac6",
+   "posted": "2026-10-19"
+  },
+  {
+   "title": "Lead Product Designer (m/w/d)",
+   "company": "Clera",
+   "location": "Vienna",
+   "country": "Austria",
+   "city": "Vienna",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/6abd3a58-ae96-4436-b87c-a4fb078a86a7",
    "posted": "2026-10-19"
   },
   {
@@ -459,7 +498,7 @@
    "posted": "2026-10-14"
   },
   {
-   "title": "Founding UI/UX Designer, Unannounced Game",
+   "title": "Founding UI/UX Artist, Unannounced Game",
    "company": "Supercell",
    "location": "London",
    "country": "United Kingdom",
@@ -550,6 +589,19 @@
    "posted": "2026-10-14"
   },
   {
+   "title": "Creative Developer",
+   "company": "Signifly",
+   "location": "Copenhagen V, Denmark",
+   "country": "Denmark",
+   "city": "Copenhagen V",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.signifly.com/o/creative-developer-1",
+   "posted": "2026-10-14"
+  },
+  {
    "title": "Senior Creative Project Manager -Fixed Term Contract",
    "company": "Deliveroo",
    "location": "London, United Kingdom - Deliveroo",
@@ -628,19 +680,6 @@
    "posted": "2026-10-13"
   },
   {
-   "title": "Werkstudent Content & Brand (m/w/d)",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/f2dc1962-25c7-4636-b0ce-1cbdca8ba3e4",
-   "posted": "2026-10-13"
-  },
-  {
    "title": "Senior Product Designer (B2C)",
    "company": "GetYourGuide",
    "location": "Berlin",
@@ -664,32 +703,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8275034",
-   "posted": "2026-10-12"
-  },
-  {
-   "title": "Senior Service Designer, Food Systems & Fulfillment",
-   "company": "HelloFresh",
-   "location": "Warszawa, Masovian Voivodeship, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8242900?gh_jid=8242900",
-   "posted": "2026-10-12"
-  },
-  {
-   "title": "Senior Service Designer, Food Systems & Fulfillment (f/m/x)",
-   "company": "HelloFresh",
-   "location": "Berlin, Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8242893?gh_jid=8242893",
    "posted": "2026-10-12"
   },
   {
@@ -862,7 +875,7 @@
    "posted": "2026-10-08"
   },
   {
-   "title": "Senior Visual Designer/Senior UI Designer",
+   "title": "Senior UI/Visual Designer",
    "company": "DEPT",
    "location": "Amsterdam, Rotterdam",
    "country": "Netherlands",
@@ -1096,7 +1109,7 @@
    "posted": "2026-10-06"
   },
   {
-   "title": "Associate Design Director",
+   "title": "Associate Design Director - Danish speaking",
    "company": "DEPT",
    "location": "Copenhagen; Denmark",
    "country": "Denmark",
@@ -1109,7 +1122,7 @@
    "posted": "2026-10-05"
   },
   {
-   "title": "Associate Design Director",
+   "title": "Associate Design Director - Dutch speaking",
    "company": "DEPT",
    "location": "Amsterdam, Rotterdam; Netherlands",
    "country": "Netherlands",
