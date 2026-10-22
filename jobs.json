@@ -1,8 +1,73 @@
 {
- "updated": "2026-10-21T11:35:51.948Z",
+ "updated": "2026-10-22T11:36:09.301Z",
  "companies": 453,
- "count": 147,
+ "count": 145,
  "jobs": [
+  {
+   "title": "Senior Product Designer, Web3",
+   "company": "Bitpanda",
+   "location": "Barcelona, Spain",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5013167101",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Senior Product Designer, Web3",
+   "company": "Bitpanda",
+   "location": "Vienna, Vienna, Austria",
+   "country": "Austria",
+   "city": "Vienna",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5009825101",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Midweight Motion Designer",
+   "company": "Landor",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/landor/jobs/8264320",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Brand Paid Media Manager - 9 Month FTC",
+   "company": "Trainline",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": "£40K – £50K",
+   "url": "https://jobs.ashbyhq.com/trainline/aac35e37-9430-4034-882f-6593e146df1d",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Content Designer UK",
+   "company": "VML",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8893970002?gh_jid=8893970002",
+   "posted": "2026-10-22"
+  },
   {
    "title": "Stage AI Digital Designer",
    "company": "Bol.com",
@@ -14,6 +79,45 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://banen.bol.com/vacature/8905237002/?gh_jid=8905237002",
+   "posted": "2026-10-21"
+  },
+  {
+   "title": "Creative Producer",
+   "company": "Linear",
+   "location": "Europe",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/linear/c97e034e-19a8-4ec7-89a5-c81987451da8",
+   "posted": "2026-10-21"
+  },
+  {
+   "title": "Staff Product Designer - Platform Design",
+   "company": "Spotify",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.lever.co/spotify/f02fb195-ba10-40bd-a926-0318a34a7fae",
+   "posted": "2026-10-21"
+  },
+  {
+   "title": "Brand Support - German Speaker (F/M/X) - Permanent",
+   "company": "Veepee",
+   "location": "Barcelona",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.lever.co/veepee/4be6d951-2149-4dc0-bc0f-1a28680bb598",
    "posted": "2026-10-21"
   },
   {
@@ -173,6 +277,19 @@
    "posted": "2026-10-20"
   },
   {
+   "title": "Native English Copywriter",
+   "company": "iO Digital",
+   "location": "Gothenburg, Sweden",
+   "country": "Sweden",
+   "city": "Gothenburg",
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://iodigital.recruitee.com/o/native-english-copywriter",
+   "posted": "2026-10-20"
+  },
+  {
    "title": "Working Student, Content & Brand",
    "company": "Clera",
    "location": "Berlin",
@@ -248,19 +365,6 @@
    "workplace": "Remote",
    "salary": "€2.7K – €4.2K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/2ef2d6a4-8b82-4f69-b6b4-b627a6345d72",
-   "posted": "2026-10-19"
-  },
-  {
-   "title": "Senior Visual Designer",
-   "company": "Preply",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/preply/f912eacc-7506-4f7f-b5ff-518213f9ae22",
    "posted": "2026-10-19"
   },
   {
@@ -511,19 +615,6 @@
    "posted": "2026-10-15"
   },
   {
-   "title": "Senior Product Designer",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/decfbf04-b598-407c-9701-9f67202a4483",
-   "posted": "2026-10-15"
-  },
-  {
    "title": "Creative Social Media Manager",
    "company": "VML",
    "location": "Lisbon, Portugal",
@@ -638,19 +729,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://careers.n-ix.com/jobs/5003400101?gh_jid=5003400101",
-   "posted": "2026-10-14"
-  },
-  {
-   "title": "Lead Design Engineer",
-   "company": "R/GA",
-   "location": "London; United States",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.rga.com/careers/8281972?gh_jid=8281972",
    "posted": "2026-10-14"
   },
   {
@@ -849,7 +927,7 @@
    "posted": "2026-10-12"
   },
   {
-   "title": "Brand Marketing Associate",
+   "title": "Junior Brand Marketing",
    "company": "Alan",
    "location": "Paris, France",
    "country": "France",
@@ -966,7 +1044,7 @@
    "posted": "2026-10-09"
   },
   {
-   "title": "Senior Designer - Design Studio",
+   "title": "Senior Designer, AI Native",
    "company": "Cognite",
    "location": "Norway (Oslo)",
    "country": "Norway",
@@ -1145,19 +1223,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/adyen/jobs/8258725",
-   "posted": "2026-10-06"
-  },
-  {
-   "title": "Senior Designer - Knowledge Graph",
-   "company": "Cognite",
-   "location": "Norway (Oslo)",
-   "country": "Norway",
-   "city": null,
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/4997859101",
    "posted": "2026-10-06"
   },
   {
@@ -1340,19 +1405,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8249168",
-   "posted": "2026-10-02"
-  },
-  {
-   "title": "Brand and Media Manager - all genders",
-   "company": "HelloFresh",
-   "location": "København, Capital RegionDenmark, Denmark",
-   "country": "Denmark",
-   "city": "København",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8239188?gh_jid=8239188",
    "posted": "2026-10-02"
   },
   {
@@ -1720,19 +1772,6 @@
    "posted": "2026-09-24"
   },
   {
-   "title": "Product Designer, Generative Media (Staff-Level / L6)",
-   "company": "Synthesia",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/synthesia/ba6d0833-902b-4f80-95e4-3b08b9e86cbb",
-   "posted": "2026-09-24"
-  },
-  {
    "title": "Visual Designer",
    "company": "Twisto",
    "location": "Prague, Czechia",
@@ -1811,19 +1850,6 @@
    "posted": "2026-09-23"
   },
   {
-   "title": "Head of Product Design",
-   "company": "Butternut Box",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/butternutbox/jobs/8826916002",
-   "posted": "2026-09-22"
-  },
-  {
    "title": "Senior Manager, Product Design (f/m/d)",
    "company": "Contentful",
    "location": "London, England, United Kingdom",
@@ -1834,19 +1860,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/contentful/jobs/8223747",
-   "posted": "2026-09-22"
-  },
-  {
-   "title": "Lead Product Designer",
-   "company": "Motorway",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/motorway/26a9a866-4c21-44ce-b5ac-75a8d4325e3a",
    "posted": "2026-09-22"
   },
   {
@@ -1874,45 +1887,6 @@
    "salary": null,
    "url": "https://job-boards.greenhouse.io/xometryeurope/jobs/5246450007",
    "posted": "2026-09-22"
-  },
-  {
-   "title": "Motion Designer",
-   "company": "VML",
-   "location": "Prague, Czechia",
-   "country": "Czechia",
-   "city": "Prague",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.vml.com/careers/job/8782100002?gh_jid=8782100002",
-   "posted": "2026-09-22"
-  },
-  {
-   "title": "UX/UI Designer | Mid-Senior | Apps | Saily",
-   "company": "Nord Security",
-   "location": "Vilnius",
-   "country": "Lithuania",
-   "city": "Vilnius",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€3.1K – €6K a month",
-   "url": "https://jobs.ashbyhq.com/nord-security/e971355c-5e41-4567-94d7-18a9f3e9a5b6",
-   "posted": "2026-09-21"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Affirm",
-   "location": "Remote UK",
-   "country": "United Kingdom",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/7990774003",
-   "posted": "2026-09-21"
   }
  ]
 }
