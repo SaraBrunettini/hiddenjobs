@@ -1,8 +1,47 @@
 {
- "updated": "2026-10-22T11:36:09.301Z",
+ "updated": "2026-10-23T11:24:29.983Z",
  "companies": 453,
- "count": 145,
+ "count": 148,
  "jobs": [
+  {
+   "title": "Freelance Motion Designer (PL/UA)",
+   "company": "Flo Health",
+   "location": "Poland",
+   "country": "Poland",
+   "city": null,
+   "discipline": "Motion",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/flohealth/jobs/8041543003",
+   "posted": "2026-10-23"
+  },
+  {
+   "title": "Brand Marketing Lead",
+   "company": "Pleo",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/pleo/667345dd-55ee-4df5-ab38-aae2655bae1f",
+   "posted": "2026-10-23"
+  },
+  {
+   "title": "Senior Content Designer UK",
+   "company": "VML",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8893983002?gh_jid=8893983002",
+   "posted": "2026-10-23"
+  },
   {
    "title": "Senior Product Designer, Web3",
    "company": "Bitpanda",
@@ -43,6 +82,32 @@
    "posted": "2026-10-22"
   },
   {
+   "title": "Product Designer, AI-Native Products (Staff-Level / L6)",
+   "company": "Synthesia",
+   "location": "Europe",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/synthesia/4721d2c3-3d94-45d3-b9f7-ea5e1f549ce2",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Product Designer, Enterprise (Staff-level / L6)",
+   "company": "Synthesia",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/synthesia/72144066-ff3f-4cdd-b648-743592e414ca",
+   "posted": "2026-10-22"
+  },
+  {
    "title": "Brand Paid Media Manager - 9 Month FTC",
    "company": "Trainline",
    "location": "London",
@@ -53,6 +118,58 @@
    "workplace": "Remote",
    "salary": "£40K – £50K",
    "url": "https://jobs.ashbyhq.com/trainline/aac35e37-9430-4034-882f-6593e146df1d",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Brand Manager - 9 Month FTC",
+   "company": "Trainline",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": "£45K – £50K",
+   "url": "https://jobs.ashbyhq.com/trainline/8554ede1-fc4c-4608-9294-c7b35891bc15",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Game Designer (Multiplayer Gameplay Modes) - Paper.io 2",
+   "company": "Voodoo",
+   "location": "Paris",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/d633533c-ac08-440e-a6b6-33351b3ad005",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Senior System Designer - Mob Control",
+   "company": "Voodoo",
+   "location": "Barcelona",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/cda1574a-83ec-4acd-ab19-8d3c2f22a4b4",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/bbd25abe-138a-414f-83dc-69882668b73b",
    "posted": "2026-10-22"
   },
   {
@@ -261,19 +378,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/1c428341-5d1f-4903-aacd-1ce05b04dc17",
-   "posted": "2026-10-20"
-  },
-  {
-   "title": "Senior Game Designer (Multiplayer Gameplay Modes) - Paper.io 2",
-   "company": "Voodoo",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Other",
-   "type": "Contract",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/d633533c-ac08-440e-a6b6-33351b3ad005",
    "posted": "2026-10-20"
   },
   {
@@ -628,19 +732,6 @@
    "posted": "2026-10-15"
   },
   {
-   "title": "Creative Automation Motion Designer (12 months FTC)",
-   "company": "DEPT",
-   "location": "London, England, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Motion",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8282168",
-   "posted": "2026-10-14"
-  },
-  {
    "title": "Mid/Senior Designer",
    "company": "DEPT",
    "location": "Budapest",
@@ -838,19 +929,6 @@
   {
    "title": "Senior Design Systems Manager",
    "company": "GetYourGuide",
-   "location": "Zurich",
-   "country": "Switzerland",
-   "city": "Zurich",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278560",
-   "posted": "2026-10-13"
-  },
-  {
-   "title": "Senior Design Systems Manager",
-   "company": "GetYourGuide",
    "location": "Berlin",
    "country": "Germany",
    "city": "Berlin",
@@ -859,6 +937,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278320",
+   "posted": "2026-10-13"
+  },
+  {
+   "title": "Senior Design Systems Manager",
+   "company": "GetYourGuide",
+   "location": "Zurich",
+   "country": "Switzerland",
+   "city": "Zurich",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278560",
    "posted": "2026-10-13"
   },
   {
@@ -924,19 +1015,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.solita.fi/positions/?gh_jid=8026198003",
-   "posted": "2026-10-12"
-  },
-  {
-   "title": "Junior Brand Marketing",
-   "company": "Alan",
-   "location": "Paris, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/alan/91af2544-fd3d-49f6-92f1-095cea1580df",
    "posted": "2026-10-12"
   },
   {
@@ -1848,45 +1926,6 @@
    "salary": null,
    "url": "https://jobs.lever.co/omnisend/dd8e1ff6-0303-463e-bc23-28ba770982da",
    "posted": "2026-09-23"
-  },
-  {
-   "title": "Senior Manager, Product Design (f/m/d)",
-   "company": "Contentful",
-   "location": "London, England, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/contentful/jobs/8223747",
-   "posted": "2026-09-22"
-  },
-  {
-   "title": "Mid/ Senior UI/UX Designer (f/m/d)",
-   "company": "Ten Square Games",
-   "location": "Wrocław, Poland",
-   "country": "Poland",
-   "city": "Wrocław",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://career.tensquaregames.com/o/mid-senior-uiux-designer-fmd",
-   "posted": "2026-09-22"
-  },
-  {
-   "title": "Creative Operations Associate",
-   "company": "Xometry Europe",
-   "location": "Bulgaria",
-   "country": "Bulgaria",
-   "city": null,
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/xometryeurope/jobs/5246450007",
-   "posted": "2026-09-22"
   }
  ]
 }
