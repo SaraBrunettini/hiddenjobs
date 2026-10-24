@@ -1,8 +1,34 @@
 {
- "updated": "2026-10-23T11:24:29.983Z",
+ "updated": "2026-10-24T10:43:30.821Z",
  "companies": 453,
- "count": 148,
+ "count": 149,
  "jobs": [
+  {
+   "title": "Senior Brand Designer (Maternity Cover)",
+   "company": "Blockchain.com",
+   "location": "Paris",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/blockchain/jobs/8318060",
+   "posted": "2026-10-23"
+  },
+  {
+   "title": "Staff Conversation Designer (Support)",
+   "company": "Deliveroo",
+   "location": "London, United Kingdom - Deliveroo",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8317865",
+   "posted": "2026-10-23"
+  },
   {
    "title": "Freelance Motion Designer (PL/UA)",
    "company": "Flo Health",
@@ -14,6 +40,45 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/flohealth/jobs/8041543003",
+   "posted": "2026-10-23"
+  },
+  {
+   "title": "Graphic Designer",
+   "company": "Flo Health",
+   "location": "Vilnius",
+   "country": "Lithuania",
+   "city": "Vilnius",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/flohealth/jobs/8041526003",
+   "posted": "2026-10-23"
+  },
+  {
+   "title": "Senior Studio Design Engineer",
+   "company": "Helsing",
+   "location": "Munich",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://helsing.ai/jobs/5015016101?gh_jid=5015016101",
+   "posted": "2026-10-23"
+  },
+  {
+   "title": "Midweight Designer - Corporate / Enterprise Clients",
+   "company": "Landor",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/landor/jobs/8300759",
    "posted": "2026-10-23"
   },
   {
@@ -30,6 +95,45 @@
    "posted": "2026-10-23"
   },
   {
+   "title": "Game Designer - Midcore Games",
+   "company": "Voodoo",
+   "location": "Warsaw",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/20056ea1-d6ab-4fb5-a9ef-2bc0edabd407",
+   "posted": "2026-10-23"
+  },
+  {
+   "title": "Interim Brand Specialist (E-Concessions) - MAT COVER",
+   "company": "Farfetch",
+   "location": "UK London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.lever.co/farfetch/4443eda5-853a-40d1-9f57-e6d16f62ce29",
+   "posted": "2026-10-23"
+  },
+  {
+   "title": "Stage Design '27",
+   "company": "iO Digital",
+   "location": "Utrecht, Netherlands",
+   "country": "Netherlands",
+   "city": "Utrecht",
+   "discipline": "Other",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://iodigital.recruitee.com/o/stage-design-27",
+   "posted": "2026-10-23"
+  },
+  {
    "title": "Senior Content Designer UK",
    "company": "VML",
    "location": "London, United Kingdom",
@@ -43,17 +147,17 @@
    "posted": "2026-10-23"
   },
   {
-   "title": "Senior Product Designer, Web3",
-   "company": "Bitpanda",
-   "location": "Barcelona, Spain",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Product & UX",
+   "title": "Art Director (hands on)",
+   "company": "Tylko",
+   "location": "Warszawa, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Leadership",
    "type": "Full-time",
-   "workplace": "On-site",
+   "workplace": "Hybrid",
    "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5013167101",
-   "posted": "2026-10-22"
+   "url": "https://tylko.recruitee.com/o/art-director-hands-on",
+   "posted": "2026-10-23"
   },
   {
    "title": "Senior Product Designer, Web3",
@@ -66,6 +170,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5009825101",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Senior Product Designer, Web3",
+   "company": "Bitpanda",
+   "location": "Barcelona, Spain",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5013167101",
    "posted": "2026-10-22"
   },
   {
@@ -537,19 +654,6 @@
    "posted": "2026-10-18"
   },
   {
-   "title": "Founding Product Designer",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/03c65268-81d6-4601-b0f1-c358417a1611",
-   "posted": "2026-10-17"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "Clera",
    "location": "remote",
@@ -677,19 +781,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8284768",
-   "posted": "2026-10-15"
-  },
-  {
-   "title": "Lead Brand Designer",
-   "company": "Monzo",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/monzo/jobs/8267489",
    "posted": "2026-10-15"
   },
   {
@@ -929,19 +1020,6 @@
   {
    "title": "Senior Design Systems Manager",
    "company": "GetYourGuide",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278320",
-   "posted": "2026-10-13"
-  },
-  {
-   "title": "Senior Design Systems Manager",
-   "company": "GetYourGuide",
    "location": "Zurich",
    "country": "Switzerland",
    "city": "Zurich",
@@ -950,6 +1028,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278560",
+   "posted": "2026-10-13"
+  },
+  {
+   "title": "Senior Design Systems Manager",
+   "company": "GetYourGuide",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278320",
    "posted": "2026-10-13"
   },
   {
@@ -1837,32 +1928,6 @@
    "posted": "2026-09-24"
   },
   {
-   "title": "Director, Product Design",
-   "company": "Funding Circle",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/fundingcircle/6f9ae625-18a0-40a4-8566-5e1d5aed2065",
-   "posted": "2026-09-24"
-  },
-  {
-   "title": "Visual Designer",
-   "company": "Twisto",
-   "location": "Prague, Czechia",
-   "country": "Czechia",
-   "city": "Prague",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://twisto.recruitee.com/o/visual-designer-1",
-   "posted": "2026-09-24"
-  },
-  {
    "title": "Kreativní copywriter*ka",
    "company": "Twisto",
    "location": "Prague, Czechia",
@@ -1874,58 +1939,6 @@
    "salary": null,
    "url": "https://twisto.recruitee.com/o/kreativni-copywriterka-1",
    "posted": "2026-09-24"
-  },
-  {
-   "title": "Design Engineer | Mid-Senior| Saily",
-   "company": "Nord Security",
-   "location": "Warsaw",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "PLN 17.6K – PLN 29.5K a month",
-   "url": "https://jobs.ashbyhq.com/nord-security/0d9ac726-81db-48fb-a9b8-f64ecad8e37c",
-   "posted": "2026-09-23"
-  },
-  {
-   "title": "Design Engineer | Mid-Senior| Saily",
-   "company": "Nord Security",
-   "location": "Vilnius",
-   "country": "Lithuania",
-   "city": "Vilnius",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/nord-security/6d95f80d-bdba-4496-8eca-f2b7c4dd57f2",
-   "posted": "2026-09-23"
-  },
-  {
-   "title": "UI/UX Artist - Castle Busters",
-   "company": "Voodoo",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/71108a9f-ab96-4190-8d9d-e4e055ddd8c8",
-   "posted": "2026-09-23"
-  },
-  {
-   "title": "Mid-Senior Graphic Designer / Illustrator (Freelance)",
-   "company": "Omnisend",
-   "location": "Vilnius, Lithuania",
-   "country": "Lithuania",
-   "city": "Vilnius",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.lever.co/omnisend/dd8e1ff6-0303-463e-bc23-28ba770982da",
-   "posted": "2026-09-23"
   }
  ]
 }
