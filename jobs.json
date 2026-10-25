@@ -1,8 +1,21 @@
 {
- "updated": "2026-10-24T10:43:30.821Z",
+ "updated": "2026-10-25T11:08:25.776Z",
  "companies": 453,
- "count": 149,
+ "count": 141,
  "jobs": [
+  {
+   "title": "Founding Product Designer",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/859cf49e-e7d4-4035-ab35-f2522a60ec79",
+   "posted": "2026-10-24"
+  },
   {
    "title": "Senior Brand Designer (Maternity Cover)",
    "company": "Blockchain.com",
@@ -144,19 +157,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.vml.com/careers/job/8893983002?gh_jid=8893983002",
-   "posted": "2026-10-23"
-  },
-  {
-   "title": "Art Director (hands on)",
-   "company": "Tylko",
-   "location": "Warszawa, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://tylko.recruitee.com/o/art-director-hands-on",
    "posted": "2026-10-23"
   },
   {
@@ -602,19 +602,6 @@
    "posted": "2026-10-19"
   },
   {
-   "title": "Freelance Senior Product Designer (Fractional)",
-   "company": "Clera",
-   "location": "remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Contract",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/416379f5-9788-4f6d-9477-dd76766eeac6",
-   "posted": "2026-10-19"
-  },
-  {
    "title": "Lead Product Designer (m/w/d)",
    "company": "Clera",
    "location": "Vienna",
@@ -652,19 +639,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/clera/9d3d93dc-7efa-42b9-ae3c-bc34513c32df",
    "posted": "2026-10-18"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Clera",
-   "location": "remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/e668bb34-8435-4a77-a3b2-e489e4f8e9bc",
-   "posted": "2026-10-17"
   },
   {
    "title": "Senior Marketing Manager, Brand Integrated Marketing",
@@ -1538,19 +1512,6 @@
    "posted": "2026-10-05"
   },
   {
-   "title": "Senior Graphic Designer",
-   "company": "Tylko",
-   "location": "Warszawa, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://tylko.recruitee.com/o/senior-graphic-designer",
-   "posted": "2026-10-05"
-  },
-  {
    "title": "Design Copywriter",
    "company": "Recraft",
    "location": "Remote",
@@ -1863,19 +1824,6 @@
    "posted": "2026-09-25"
   },
   {
-   "title": "Manager, Visual Merchandising, EMEA",
-   "company": "Oura",
-   "location": "Hybrid - London, England",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/oura/jobs/4419213009",
-   "posted": "2026-09-25"
-  },
-  {
    "title": "Freelance Principal UX Researcher",
    "company": "Red Badger",
    "location": "London",
@@ -1887,58 +1835,6 @@
    "salary": null,
    "url": "https://content.red-badger.com/all-jobs?gh_jid=8005302003",
    "posted": "2026-09-25"
-  },
-  {
-   "title": "Member of Product Staff, Product Designer",
-   "company": "Metaview",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/metaview/196fa91b-b547-45e8-ab3f-d42a4aa02337",
-   "posted": "2026-09-25"
-  },
-  {
-   "title": "Senior Content Strategist - Freelancer",
-   "company": "VML",
-   "location": "Luxembourg, Luxembourg",
-   "country": "Luxembourg",
-   "city": null,
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.vml.com/careers/job/8844336002?gh_jid=8844336002",
-   "posted": "2026-09-25"
-  },
-  {
-   "title": "Narrative Designer (Game Writer)",
-   "company": "N-iX",
-   "location": "Ukraine",
-   "country": "Ukraine",
-   "city": null,
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.n-ix.com/jobs/4983683101?gh_jid=4983683101",
-   "posted": "2026-09-24"
-  },
-  {
-   "title": "Kreativní copywriter*ka",
-   "company": "Twisto",
-   "location": "Prague, Czechia",
-   "country": "Czechia",
-   "city": "Prague",
-   "discipline": "Content",
-   "type": "Part-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://twisto.recruitee.com/o/kreativni-copywriterka-1",
-   "posted": "2026-09-24"
   }
  ]
 }
