@@ -1,8 +1,99 @@
 {
- "updated": "2026-10-25T11:08:25.776Z",
+ "updated": "2026-10-26T12:44:01.866Z",
  "companies": 453,
  "count": 141,
  "jobs": [
+  {
+   "title": "Senior UX Strategist & Researcher",
+   "company": "HelloFresh",
+   "location": "Warszawa, Masovian Voivodeship, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://careers.hellofresh.com/global/en/job/8303716?gh_jid=8303716",
+   "posted": "2026-10-26"
+  },
+  {
+   "title": "Senior UX Strategist & Researcher (f/m/x)",
+   "company": "HelloFresh",
+   "location": "Berlin, Berlin, Germany",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://careers.hellofresh.com/global/en/job/8303709?gh_jid=8303709",
+   "posted": "2026-10-26"
+  },
+  {
+   "title": "Senior Service Designer",
+   "company": "Faculty",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/faculty/c8dc0e9b-09fa-4bb7-b96e-6c3f2844aaee",
+   "posted": "2026-10-26"
+  },
+  {
+   "title": "Lead Product Designer - 6 Month FTC",
+   "company": "Trainline",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": "£80K – £90K",
+   "url": "https://jobs.ashbyhq.com/trainline/bb1f8b61-523b-4e78-81cf-779060de786a",
+   "posted": "2026-10-26"
+  },
+  {
+   "title": "Meewerkstage Marketing Foto & Video Editor",
+   "company": "BAS Group",
+   "location": "Veghel, Netherlands",
+   "country": "Netherlands",
+   "city": "Veghel",
+   "discipline": "Motion",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://basgroup.recruitee.com/o/meewerkstage-marketing-foto-video-editor",
+   "posted": "2026-10-26"
+  },
+  {
+   "title": "Copywriter Mid F/H - CDD",
+   "company": "VML",
+   "location": "Paris, Île-de-France, France",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8910955002?gh_jid=8910955002",
+   "posted": "2026-10-26"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Clera",
+   "location": "remote",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/6900c5c8-a710-4d7b-a181-5d204afff7c8",
+   "posted": "2026-10-25"
+  },
   {
    "title": "Founding Product Designer",
    "company": "Clera",
@@ -157,6 +248,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.vml.com/careers/job/8893983002?gh_jid=8893983002",
+   "posted": "2026-10-23"
+  },
+  {
+   "title": "Art Director (hands on)",
+   "company": "Tylko",
+   "location": "Warszawa, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://tylko.recruitee.com/o/art-director-hands-on",
    "posted": "2026-10-23"
   },
   {
@@ -498,19 +602,6 @@
    "posted": "2026-10-20"
   },
   {
-   "title": "Native English Copywriter",
-   "company": "iO Digital",
-   "location": "Gothenburg, Sweden",
-   "country": "Sweden",
-   "city": "Gothenburg",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://iodigital.recruitee.com/o/native-english-copywriter",
-   "posted": "2026-10-20"
-  },
-  {
    "title": "Working Student, Content & Brand",
    "company": "Clera",
    "location": "Berlin",
@@ -625,19 +716,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/lovable/82b7f137-3648-4996-b6ff-2b1e5d1a27d2",
-   "posted": "2026-10-18"
-  },
-  {
-   "title": "Fractional Founding Designer",
-   "company": "Clera",
-   "location": "remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/9d3d93dc-7efa-42b9-ae3c-bc34513c32df",
    "posted": "2026-10-18"
   },
   {
@@ -950,19 +1028,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/gismart/1dd7b9ec-9308-4dfd-a593-509ffb80c745",
-   "posted": "2026-10-14"
-  },
-  {
-   "title": "Creative Developer",
-   "company": "Signifly",
-   "location": "Copenhagen V, Denmark",
-   "country": "Denmark",
-   "city": "Copenhagen V",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.signifly.com/o/creative-developer-1",
    "posted": "2026-10-14"
   },
   {
@@ -1512,6 +1577,19 @@
    "posted": "2026-10-05"
   },
   {
+   "title": "Senior Graphic Designer",
+   "company": "Tylko",
+   "location": "Warszawa, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://tylko.recruitee.com/o/senior-graphic-designer",
+   "posted": "2026-10-05"
+  },
+  {
    "title": "Design Copywriter",
    "company": "Recraft",
    "location": "Remote",
@@ -1746,19 +1824,6 @@
    "posted": "2026-09-29"
   },
   {
-   "title": "Product Designer, Growth Acquisition",
-   "company": "Mentimeter",
-   "location": "Stockholm",
-   "country": "Sweden",
-   "city": "Stockholm",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/mentimeter/jobs/4976852101",
-   "posted": "2026-09-28"
-  },
-  {
    "title": "Marketing Video Artist - Growth",
    "company": "Voodoo",
    "location": "Paris",
@@ -1770,71 +1835,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/0a2e0221-fc2b-4239-b973-ed4ab11f9c3a",
    "posted": "2026-09-28"
-  },
-  {
-   "title": "Senior Creative Producer (Fixed-term Employment)",
-   "company": "Wolt",
-   "location": "Athens, Greece; Berlin, Germany; Helsinki, Finland",
-   "country": "Germany",
-   "city": "Athens",
-   "discipline": "Other",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/wolt/jobs/8232982",
-   "posted": "2026-09-26"
-  },
-  {
-   "title": "Freelancer - Video Editor (Part-Time, Remote)",
-   "company": "Flo Health",
-   "location": "Poland | Ukraine",
-   "country": "Poland",
-   "city": "Poland Ukraine",
-   "discipline": "Motion",
-   "type": "Part-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/flohealth/jobs/8004575003",
-   "posted": "2026-09-25"
-  },
-  {
-   "title": "Midweight Designer",
-   "company": "Landor",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/landor/jobs/8232883",
-   "posted": "2026-09-25"
-  },
-  {
-   "title": "Senior Designer",
-   "company": "Landor",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/landor/jobs/8222858",
-   "posted": "2026-09-25"
-  },
-  {
-   "title": "Freelance Principal UX Researcher",
-   "company": "Red Badger",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Research",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://content.red-badger.com/all-jobs?gh_jid=8005302003",
-   "posted": "2026-09-25"
   }
  ]
 }
