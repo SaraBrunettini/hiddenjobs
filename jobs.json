@@ -1,8 +1,138 @@
 {
- "updated": "2026-10-27T11:58:38.190Z",
+ "updated": "2026-10-28T12:37:50.492Z",
  "companies": 453,
- "count": 139,
+ "count": 143,
  "jobs": [
+  {
+   "title": "Senior Brand Designer",
+   "company": "Carwow",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/carwow/10f914cd-60d2-4dc6-b813-ac59aaadff1d",
+   "posted": "2026-10-28"
+  },
+  {
+   "title": "Senior/Staff Product Designer (Virtual Clinics)",
+   "company": "Flo Health",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "£85K – £115K",
+   "url": "https://job-boards.greenhouse.io/flohealth/jobs/8044336003",
+   "posted": "2026-10-27"
+  },
+  {
+   "title": "Head of Product Design",
+   "company": "ThoughtWorks",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.thoughtworks.com/careers/jobs/8318094?gh_jid=8318094",
+   "posted": "2026-10-27"
+  },
+  {
+   "title": "3D Creative Engineer – Rigging, Animation & Tools",
+   "company": "Epidemic Sound",
+   "location": "Stockholm HQ",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/epidemic-sound/ed988e07-e5e8-455a-9c43-a7d9c12be18f",
+   "posted": "2026-10-27"
+  },
+  {
+   "title": "Product Designer | Mid-Senior",
+   "company": "Nord Security",
+   "location": "Vilnius",
+   "country": "Lithuania",
+   "city": "Vilnius",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "€3.1K – €6K a month",
+   "url": "https://jobs.ashbyhq.com/nord-security/32669d32-3901-49be-81d5-9c8ca880568a",
+   "posted": "2026-10-27"
+  },
+  {
+   "title": "Lead Brand Designer",
+   "company": "Preply",
+   "location": "Barcelona",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/preply/f912eacc-7506-4f7f-b5ff-518213f9ae22",
+   "posted": "2026-10-27"
+  },
+  {
+   "title": "Director, Product Design",
+   "company": "Sitecore",
+   "location": "Dublin",
+   "country": "Ireland",
+   "city": "Dublin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/sitecore/180c51bb-d4c0-4562-a6d1-758d0672a492",
+   "posted": "2026-10-27"
+  },
+  {
+   "title": "Brand Support (F/M/X) - Permanent",
+   "company": "Veepee",
+   "location": "Dusseldorf",
+   "country": "Germany",
+   "city": "Dusseldorf",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.lever.co/veepee/c1680444-e69f-488e-bc8a-d37b1f3fa92a",
+   "posted": "2026-10-27"
+  },
+  {
+   "title": "Fractional Product Designer",
+   "company": "Clera",
+   "location": "remote",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/1a5a4d95-0d1b-47ad-b926-617d1441a899",
+   "posted": "2026-10-27"
+  },
+  {
+   "title": "Lead Product Designer",
+   "company": "Clera",
+   "location": "Vienna",
+   "country": "Austria",
+   "city": "Vienna",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/bf086645-44a7-4a7d-bc0b-55b83048cd81",
+   "posted": "2026-10-27"
+  },
   {
    "title": "Creative Social Media Manager",
    "company": "VML",
@@ -524,19 +654,6 @@
    "posted": "2026-10-20"
   },
   {
-   "title": "Senior Brand Designer",
-   "company": "Carwow",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/carwow/10f914cd-60d2-4dc6-b813-ac59aaadff1d",
-   "posted": "2026-10-20"
-  },
-  {
    "title": "Group Product Design Manager",
    "company": "Flagstone",
    "location": "London Office",
@@ -599,19 +716,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/1c428341-5d1f-4903-aacd-1ce05b04dc17",
-   "posted": "2026-10-20"
-  },
-  {
-   "title": "Working Student, Content & Brand",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/fb6c2b82-7a2f-424c-91b3-e1459689353b",
    "posted": "2026-10-20"
   },
   {
@@ -716,19 +820,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8258657",
-   "posted": "2026-10-16"
-  },
-  {
-   "title": "Design Ops",
-   "company": "Alan",
-   "location": "Brussels, Belgium; Ghent, Belgium; Antwerp, Belgium; Paris, France; Lyon, France; Bordeaux, France; Marseille, France; Madrid, Spain; Barcelona, Spain",
-   "country": "France",
-   "city": "Brussels",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/alan/7f983d03-16e0-473e-8737-6f2d8625b6d6",
    "posted": "2026-10-16"
   },
   {
@@ -849,29 +940,16 @@
    "posted": "2026-10-15"
   },
   {
-   "title": "Mid/Senior Designer",
-   "company": "DEPT",
-   "location": "Budapest",
-   "country": "Hungary",
-   "city": "Budapest",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8280795",
-   "posted": "2026-10-14"
-  },
-  {
-   "title": "Visual Designer",
+   "title": "UI Designer",
    "company": "DEPT",
    "location": "Zagreb, Split",
    "country": "Croatia",
    "city": "Zagreb",
-   "discipline": "Brand",
+   "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8266668",
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8264174",
    "posted": "2026-10-14"
   },
   {
@@ -1002,6 +1080,19 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/gismart/1dd7b9ec-9308-4dfd-a593-509ffb80c745",
+   "posted": "2026-10-14"
+  },
+  {
+   "title": "Creative Developer",
+   "company": "Signifly",
+   "location": "Copenhagen V, Denmark",
+   "country": "Denmark",
+   "city": "Copenhagen V",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.signifly.com/o/creative-developer-1",
    "posted": "2026-10-14"
   },
   {
@@ -1616,19 +1707,6 @@
    "posted": "2026-10-02"
   },
   {
-   "title": "Product Designer | NordVPN Web | Mid-Senior",
-   "company": "Nord Security",
-   "location": "Vilnius",
-   "country": "Lithuania",
-   "city": "Vilnius",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€3.1K – €6K a month",
-   "url": "https://jobs.ashbyhq.com/nord-security/2fdc1df5-fa4e-4214-a144-a866c906e6e7",
-   "posted": "2026-10-02"
-  },
-  {
    "title": "Project Manager, Creative",
    "company": "DEPT",
    "location": "Amsterdam, Rotterdam",
@@ -1733,19 +1811,6 @@
    "posted": "2026-09-30"
   },
   {
-   "title": "Creative Producer (BlessedApps)",
-   "company": "Gismart",
-   "location": "Kyiv",
-   "country": "Ukraine",
-   "city": "Kyiv",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/gismart/ecb0421b-f02a-4a47-a541-43f74ccc99d3",
-   "posted": "2026-09-30"
-  },
-  {
    "title": "Creative Director (Copywriter)",
    "company": "AKQA",
    "location": "London",
@@ -1796,19 +1861,6 @@
    "salary": null,
    "url": "https://www.vml.com/careers/job/8842214002?gh_jid=8842214002",
    "posted": "2026-09-29"
-  },
-  {
-   "title": "Marketing Video Artist - Growth",
-   "company": "Voodoo",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/0a2e0221-fc2b-4239-b973-ed4ab11f9c3a",
-   "posted": "2026-09-28"
   }
  ]
 }
