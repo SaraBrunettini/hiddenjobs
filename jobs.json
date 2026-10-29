@@ -1,8 +1,47 @@
 {
- "updated": "2026-10-28T12:37:50.492Z",
+ "updated": "2026-10-29T12:47:10.254Z",
  "companies": 453,
- "count": 143,
+ "count": 145,
  "jobs": [
+  {
+   "title": "B2B Designer",
+   "company": "Fever",
+   "location": "Madrid",
+   "country": "Spain",
+   "city": "Madrid",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/5019513101",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "Creative Technologist",
+   "company": "Lovable",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/lovable/a4e39bdc-b143-43ea-8077-a113445edbd2",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "Middle strong/Senior UI/UX Designer (BI & Analytics)",
+   "company": "N-iX",
+   "location": "Ukraine",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://careers.n-ix.com/jobs/5016079101?gh_jid=5016079101",
+   "posted": "2026-10-29"
+  },
   {
    "title": "Senior Brand Designer",
    "company": "Carwow",
@@ -11,9 +50,87 @@
    "city": "London",
    "discipline": "Brand",
    "type": "Full-time",
-   "workplace": "Remote",
+   "workplace": "On-site",
    "salary": null,
-   "url": "https://jobs.ashbyhq.com/carwow/10f914cd-60d2-4dc6-b813-ac59aaadff1d",
+   "url": "https://jobs.ashbyhq.com/carwow/cf8074ca-b09e-4b31-8587-4b1545ab1f51",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "UX Writer | Mid-Senior | Web Product and Apps",
+   "company": "Nord Security",
+   "location": "Vilnius",
+   "country": "Lithuania",
+   "city": "Vilnius",
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "€2.9K – €4.4K a month",
+   "url": "https://jobs.ashbyhq.com/nord-security/5c5ad630-61b7-420b-b159-fe1d3bceaa97",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "UX Writer | Mid-Senior | Web Product and Apps",
+   "company": "Nord Security",
+   "location": "Poland",
+   "country": "Poland",
+   "city": null,
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "PLN 15K – PLN 24K a month",
+   "url": "https://jobs.ashbyhq.com/nord-security/bb4c7768-9122-442f-a5a1-f080306e335b",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "Motion Designer (BlessedApps)",
+   "company": "Gismart",
+   "location": "Kyiv",
+   "country": "Ukraine",
+   "city": "Kyiv",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/gismart/a8f90253-d8d2-444e-afd8-078fce56d3a0",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "Copywriter B2B",
+   "company": "Fever",
+   "location": "Madrid",
+   "country": "Spain",
+   "city": "Madrid",
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/5019448101",
+   "posted": "2026-10-28"
+  },
+  {
+   "title": "Brand Designer",
+   "company": "Black Forest Labs",
+   "location": "Freiburg (Germany)",
+   "country": "Germany",
+   "city": "Freiburg",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/black-forest-labs/bd274896-7fea-458a-8bed-24d61a906c4e",
+   "posted": "2026-10-28"
+  },
+  {
+   "title": "Werkstudent Content & Brand (m/w/d)",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Brand",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/796263f1-3501-4987-9167-be24f959f849",
    "posted": "2026-10-28"
   },
   {
@@ -27,19 +144,6 @@
    "workplace": "On-site",
    "salary": "£85K – £115K",
    "url": "https://job-boards.greenhouse.io/flohealth/jobs/8044336003",
-   "posted": "2026-10-27"
-  },
-  {
-   "title": "Head of Product Design",
-   "company": "ThoughtWorks",
-   "location": "London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.thoughtworks.com/careers/jobs/8318094?gh_jid=8318094",
    "posted": "2026-10-27"
   },
   {
@@ -145,32 +249,6 @@
    "salary": null,
    "url": "https://www.vml.com/careers/job/8918998002?gh_jid=8918998002",
    "posted": "2026-10-27"
-  },
-  {
-   "title": "Senior UX Strategist & Researcher",
-   "company": "HelloFresh",
-   "location": "Warszawa, Masovian Voivodeship, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8303716?gh_jid=8303716",
-   "posted": "2026-10-26"
-  },
-  {
-   "title": "Senior UX Strategist & Researcher (f/m/x)",
-   "company": "HelloFresh",
-   "location": "Berlin, Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8303709?gh_jid=8303709",
-   "posted": "2026-10-26"
   },
   {
    "title": "Senior Service Designer",
@@ -1124,19 +1202,6 @@
   {
    "title": "Senior Design Systems Manager",
    "company": "GetYourGuide",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278320",
-   "posted": "2026-10-13"
-  },
-  {
-   "title": "Senior Design Systems Manager",
-   "company": "GetYourGuide",
    "location": "Zurich",
    "country": "Switzerland",
    "city": "Zurich",
@@ -1145,6 +1210,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278560",
+   "posted": "2026-10-13"
+  },
+  {
+   "title": "Senior Design Systems Manager",
+   "company": "GetYourGuide",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278320",
    "posted": "2026-10-13"
   },
   {
@@ -1301,19 +1379,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/landor/jobs/8261220",
-   "posted": "2026-10-09"
-  },
-  {
-   "title": "Junior Creative Generalist - social media content production (f/m/d)",
-   "company": "Ten Square Games",
-   "location": "Wrocław, Poland",
-   "country": "Poland",
-   "city": "Wrocław",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://career.tensquaregames.com/o/junior-creative-generalist-social-media-content-production-fmd",
    "posted": "2026-10-09"
   },
   {
@@ -1603,32 +1668,6 @@
    "posted": "2026-10-05"
   },
   {
-   "title": "Staff Product Designer",
-   "company": "Preply",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/preply/c856fb02-c557-4537-a689-5b4c40f9882c",
-   "posted": "2026-10-05"
-  },
-  {
-   "title": "Staff Product Designer",
-   "company": "Preply",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/preply/ecef6699-977a-46c8-898a-147740811f05",
-   "posted": "2026-10-05"
-  },
-  {
    "title": "Level Designer (Unannounced Project)",
    "company": "11 bit studios",
    "location": "Warszawa, Poland",
@@ -1834,19 +1873,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8239309",
-   "posted": "2026-09-29"
-  },
-  {
-   "title": "Werkstudent:in (m/w/d) – UX Copywriting",
-   "company": "Tide",
-   "location": "Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Content",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/tide/jobs/8006663003",
    "posted": "2026-09-29"
   },
   {
