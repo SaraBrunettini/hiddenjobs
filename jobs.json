@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-29T12:47:10.254Z",
+ "updated": "2026-10-30T12:38:34.944Z",
  "companies": 453,
- "count": 145,
+ "count": 146,
  "jobs": [
   {
    "title": "B2B Designer",
@@ -14,6 +14,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/5019513101",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "Staff Product Design Engineer — Data",
+   "company": "Fever",
+   "location": "Remote Spain",
+   "country": "Spain",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/5021133101",
    "posted": "2026-10-29"
   },
   {
@@ -43,6 +56,45 @@
    "posted": "2026-10-29"
   },
   {
+   "title": "Senior Network Design Engineer",
+   "company": "N-iX",
+   "location": "Poland; Ukraine",
+   "country": "Poland",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://careers.n-ix.com/jobs/5020216101?gh_jid=5020216101",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "Creative Lead",
+   "company": "Ogilvy",
+   "location": "Barcelona, Spain",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.ogilvy.com/careers/4748884005?gh_jid=4748884005",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "Brand Manager - Marketing Effectiveness",
+   "company": "SumUp",
+   "location": "London, England, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://sumup.com/careers/positions/8922386002?gh_jid=8922386002",
+   "posted": "2026-10-29"
+  },
+  {
    "title": "Senior Brand Designer",
    "company": "Carwow",
    "location": "London",
@@ -53,6 +105,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/carwow/cf8074ca-b09e-4b31-8587-4b1545ab1f51",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Clerk",
+   "location": "Remote",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clerk/7635ac5c-bb36-48aa-a572-e467eb9ab429",
    "posted": "2026-10-29"
   },
   {
@@ -79,6 +144,45 @@
    "workplace": "Remote",
    "salary": "PLN 15K – PLN 24K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/bb4c7768-9122-442f-a5a1-f080306e335b",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "Learning Designer",
+   "company": "Quantexa",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/quantexa/ee9aedfb-69b3-4ca9-b394-188b32c2b617",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "Instructional Designer",
+   "company": "Quantexa",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/quantexa/79a8560f-67ab-495e-99d9-577b0c2c54e6",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "Director of Brand & Creative",
+   "company": "Contentsquare",
+   "location": "London area",
+   "country": "United Kingdom",
+   "city": null,
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.lever.co/contentsquare/3e58d215-9395-4968-814d-da8168571f7a",
    "posted": "2026-10-29"
   },
   {
@@ -329,19 +433,6 @@
    "posted": "2026-10-25"
   },
   {
-   "title": "Founding Product Designer",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/859cf49e-e7d4-4035-ab35-f2522a60ec79",
-   "posted": "2026-10-24"
-  },
-  {
    "title": "Senior Brand Designer (Maternity Cover)",
    "company": "Blockchain.com",
    "location": "Paris",
@@ -586,19 +677,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/d633533c-ac08-440e-a6b6-33351b3ad005",
-   "posted": "2026-10-22"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/bbd25abe-138a-414f-83dc-69882668b73b",
    "posted": "2026-10-22"
   },
   {
@@ -888,19 +966,6 @@
    "posted": "2026-10-18"
   },
   {
-   "title": "Senior Marketing Manager, Brand Integrated Marketing",
-   "company": "Deliveroo",
-   "location": "London, United Kingdom - Deliveroo",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8258657",
-   "posted": "2026-10-16"
-  },
-  {
    "title": "Video Editor (Growth/Paid Media)",
    "company": "Preply",
    "location": "Barcelona",
@@ -1161,19 +1226,6 @@
    "posted": "2026-10-14"
   },
   {
-   "title": "Creative Developer",
-   "company": "Signifly",
-   "location": "Copenhagen V, Denmark",
-   "country": "Denmark",
-   "city": "Copenhagen V",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.signifly.com/o/creative-developer-1",
-   "posted": "2026-10-14"
-  },
-  {
    "title": "Senior Creative Project Manager -Fixed Term Contract",
    "company": "Deliveroo",
    "location": "London, United Kingdom - Deliveroo",
@@ -1314,6 +1366,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.solita.fi/positions/?gh_jid=8026198003",
+   "posted": "2026-10-12"
+  },
+  {
+   "title": "Game Designer (f/m/d)",
+   "company": "Ten Square Games",
+   "location": "Remote/Verona, Italy",
+   "country": "Italy",
+   "city": "Verona",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://career.tensquaregames.com/o/game-designer-fmd",
    "posted": "2026-10-12"
   },
   {
@@ -1835,58 +1900,6 @@
    "salary": "£65K – £80K",
    "url": "https://jobs.ashbyhq.com/trainline/7f8ddb5e-cb8a-4ca3-9dc6-3cc65b7468d9",
    "posted": "2026-09-30"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Zilch",
-   "location": "Zilch UK",
-   "country": "United Kingdom",
-   "city": "Zilch UK",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/zilch/57a156a7-bd35-4962-aa0e-417513741bae",
-   "posted": "2026-09-30"
-  },
-  {
-   "title": "Creative Director (Copywriter)",
-   "company": "AKQA",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.akqa.com/jobs/8204374/?gh_jid=8204374",
-   "posted": "2026-09-29"
-  },
-  {
-   "title": "Mid/Senior Social Creative (Art & Copy)",
-   "company": "DEPT",
-   "location": "Budapest",
-   "country": "Hungary",
-   "city": "Budapest",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8239309",
-   "posted": "2026-09-29"
-  },
-  {
-   "title": "Senior Copywriter",
-   "company": "VML",
-   "location": "London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.vml.com/careers/job/8842214002?gh_jid=8842214002",
-   "posted": "2026-09-29"
   }
  ]
 }
