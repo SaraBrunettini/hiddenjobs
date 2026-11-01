@@ -1,20 +1,20 @@
 {
- "updated": "2026-10-31T12:04:48.910Z",
+ "updated": "2026-11-01T13:05:32.964Z",
  "companies": 453,
- "count": 147,
+ "count": 143,
  "jobs": [
   {
-   "title": "Senior Product and Brand Designer",
-   "company": "Clera",
-   "location": "remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Brand",
+   "title": "Senior UX Designer (Focus on Research)",
+   "company": "DEPT",
+   "location": "Skopje",
+   "country": "North Macedonia",
+   "city": "Skopje",
+   "discipline": "Product & UX",
    "type": "Full-time",
-   "workplace": "Remote",
+   "workplace": "On-site",
    "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/d071bfb6-e55a-4688-a386-2e08856ca729",
-   "posted": "2026-10-31"
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8336632",
+   "posted": "2026-10-30"
   },
   {
    "title": "Senior UX Designer (Focus on Research)",
@@ -27,19 +27,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8336607",
-   "posted": "2026-10-30"
-  },
-  {
-   "title": "Senior UX Designer (Focus on Research)",
-   "company": "DEPT",
-   "location": "Skopje",
-   "country": "North Macedonia",
-   "city": "Skopje",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8336632",
    "posted": "2026-10-30"
   },
   {
@@ -669,19 +656,6 @@
   {
    "title": "Senior Product Designer, Web3",
    "company": "Bitpanda",
-   "location": "Vienna, Vienna, Austria",
-   "country": "Austria",
-   "city": "Vienna",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5009825101",
-   "posted": "2026-10-22"
-  },
-  {
-   "title": "Senior Product Designer, Web3",
-   "company": "Bitpanda",
    "location": "Barcelona, Spain",
    "country": "Spain",
    "city": "Barcelona",
@@ -690,6 +664,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5013167101",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Senior Product Designer, Web3",
+   "company": "Bitpanda",
+   "location": "Vienna, Vienna, Austria",
+   "country": "Austria",
+   "city": "Vienna",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5009825101",
    "posted": "2026-10-22"
   },
   {
@@ -1109,19 +1096,6 @@
    "posted": "2026-10-15"
   },
   {
-   "title": "Creative Project Manager",
-   "company": "Deliveroo",
-   "location": "London, United Kingdom - Deliveroo",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8284751",
-   "posted": "2026-10-15"
-  },
-  {
    "title": "Principal Product Designer (Ventures)",
    "company": "Deliveroo",
    "location": "London, United Kingdom - Deliveroo",
@@ -1317,17 +1291,17 @@
    "posted": "2026-10-14"
   },
   {
-   "title": "Senior Creative Project Manager -Fixed Term Contract",
-   "company": "Deliveroo",
-   "location": "London, United Kingdom - Deliveroo",
-   "country": "United Kingdom",
-   "city": "London",
+   "title": "Creative Developer",
+   "company": "Signifly",
+   "location": "Copenhagen V, Denmark",
+   "country": "Denmark",
+   "city": "Copenhagen V",
    "discipline": "Other",
-   "type": "Contract",
+   "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8261830",
-   "posted": "2026-10-13"
+   "url": "https://jobs.signifly.com/o/creative-developer-1",
+   "posted": "2026-10-14"
   },
   {
    "title": "Instructional Designer",
@@ -1345,19 +1319,6 @@
   {
    "title": "Senior Design Systems Manager",
    "company": "GetYourGuide",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278320",
-   "posted": "2026-10-13"
-  },
-  {
-   "title": "Senior Design Systems Manager",
-   "company": "GetYourGuide",
    "location": "Zurich",
    "country": "Switzerland",
    "city": "Zurich",
@@ -1366,6 +1327,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278560",
+   "posted": "2026-10-13"
+  },
+  {
+   "title": "Senior Design Systems Manager",
+   "company": "GetYourGuide",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278320",
    "posted": "2026-10-13"
   },
   {
@@ -1886,32 +1860,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8249168",
-   "posted": "2026-10-02"
-  },
-  {
-   "title": "PR & Brand Manager (f/m/x) - remote",
-   "company": "Refurbed",
-   "location": "Remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://www.refurbed.de/jobs/?gh_jid=4990723101",
-   "posted": "2026-10-02"
-  },
-  {
-   "title": "Head of Design, AI Builder (all genders)",
-   "company": "Babbel",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/babbel/dd99c522-b820-4bca-a779-648138bba47d",
    "posted": "2026-10-02"
   }
  ]
