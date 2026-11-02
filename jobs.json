@@ -1,8 +1,112 @@
 {
- "updated": "2026-11-01T13:05:32.964Z",
+ "updated": "2026-11-02T15:29:35.893Z",
  "companies": 453,
- "count": 143,
+ "count": 145,
  "jobs": [
+  {
+   "title": "Senior Designer, Brand and AI Systems",
+   "company": "PolyAI",
+   "location": "United Kingdom",
+   "country": "United Kingdom",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/polyai/jobs/5024865101",
+   "posted": "2026-11-02"
+  },
+  {
+   "title": "Lead (Senior) Product Designer | Production",
+   "company": "Relex",
+   "location": "Helsinki, Finland; Lisbon, Portugal; Stockholm, Sweden",
+   "country": "Portugal",
+   "city": "Helsinki",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.relexsolutions.com/careers/jobs/?gh_jid=8105403003",
+   "posted": "2026-11-02"
+  },
+  {
+   "title": "Senior/Staff Product Designer",
+   "company": "N8n",
+   "location": "Germany",
+   "country": "Germany",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/n8n/fe05c209-8069-4a88-aeba-8da23488cd30",
+   "posted": "2026-11-02"
+  },
+  {
+   "title": "Senior Game Developer (Game Feel, UI, Animations, VFX) - Paper.io2",
+   "company": "Voodoo",
+   "location": "Barcelona",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Motion",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/8f86c74e-7d06-447d-bd1b-ad268e46bb3e",
+   "posted": "2026-11-02"
+  },
+  {
+   "title": "Gameplay & UI Developer - Paper.io2",
+   "company": "Voodoo",
+   "location": "Barcelona",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Product & UX",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/1c428341-5d1f-4903-aacd-1ce05b04dc17",
+   "posted": "2026-11-02"
+  },
+  {
+   "title": "Game Designer (Multiplayer Gameplay Modes) - Paper.io 2",
+   "company": "Voodoo",
+   "location": "Paris",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Other",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/d633533c-ac08-440e-a6b6-33351b3ad005",
+   "posted": "2026-11-02"
+  },
+  {
+   "title": "Art Director",
+   "company": "VML",
+   "location": "Prague, Czechia",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8899868002?gh_jid=8899868002",
+   "posted": "2026-11-02"
+  },
+  {
+   "title": "Founding Product Designer",
+   "company": "Clera",
+   "location": "remote",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/fd445928-013c-43a4-9957-753e0b76d909",
+   "posted": "2026-11-01"
+  },
   {
    "title": "Senior UX Designer (Focus on Research)",
    "company": "DEPT",
@@ -485,19 +589,6 @@
    "posted": "2026-10-26"
   },
   {
-   "title": "Senior Product Designer",
-   "company": "Clera",
-   "location": "remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/6900c5c8-a710-4d7b-a181-5d204afff7c8",
-   "posted": "2026-10-25"
-  },
-  {
    "title": "Senior Brand Designer (Maternity Cover)",
    "company": "Blockchain.com",
    "location": "Paris",
@@ -521,19 +612,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8317865",
-   "posted": "2026-10-23"
-  },
-  {
-   "title": "Freelance Motion Designer (PL/UA)",
-   "company": "Flo Health",
-   "location": "Poland",
-   "country": "Poland",
-   "city": null,
-   "discipline": "Motion",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/flohealth/jobs/8041543003",
    "posted": "2026-10-23"
   },
   {
@@ -615,6 +693,19 @@
    "posted": "2026-10-23"
   },
   {
+   "title": "Stage Video Editor '27",
+   "company": "iO Digital",
+   "location": "Utrecht, Netherlands",
+   "country": "Netherlands",
+   "city": "Utrecht",
+   "discipline": "Motion",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://iodigital.recruitee.com/o/stage-video-editor-27",
+   "posted": "2026-10-23"
+  },
+  {
    "title": "Stage Design '27",
    "company": "iO Digital",
    "location": "Utrecht, Netherlands",
@@ -656,19 +747,6 @@
   {
    "title": "Senior Product Designer, Web3",
    "company": "Bitpanda",
-   "location": "Barcelona, Spain",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5013167101",
-   "posted": "2026-10-22"
-  },
-  {
-   "title": "Senior Product Designer, Web3",
-   "company": "Bitpanda",
    "location": "Vienna, Vienna, Austria",
    "country": "Austria",
    "city": "Vienna",
@@ -677,6 +755,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5009825101",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Senior Product Designer, Web3",
+   "company": "Bitpanda",
+   "location": "Barcelona, Spain",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5013167101",
    "posted": "2026-10-22"
   },
   {
@@ -742,19 +833,6 @@
    "workplace": "On-site",
    "salary": "£45K – £50K",
    "url": "https://jobs.ashbyhq.com/trainline/8554ede1-fc4c-4608-9294-c7b35891bc15",
-   "posted": "2026-10-22"
-  },
-  {
-   "title": "Game Designer (Multiplayer Gameplay Modes) - Paper.io 2",
-   "company": "Voodoo",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/d633533c-ac08-440e-a6b6-33351b3ad005",
    "posted": "2026-10-22"
   },
   {
@@ -927,45 +1005,6 @@
    "posted": "2026-10-20"
   },
   {
-   "title": "Senior Game Developer (Game Feel, UI, Animations, VFX) - Paper.io2",
-   "company": "Voodoo",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/8f86c74e-7d06-447d-bd1b-ad268e46bb3e",
-   "posted": "2026-10-20"
-  },
-  {
-   "title": "Gameplay & UI Developer - Paper.io2",
-   "company": "Voodoo",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/1c428341-5d1f-4903-aacd-1ce05b04dc17",
-   "posted": "2026-10-20"
-  },
-  {
-   "title": "Senior User Researcher",
-   "company": "Mentimeter",
-   "location": "Stockholm",
-   "country": "Sweden",
-   "city": "Stockholm",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/mentimeter/jobs/5004449101",
-   "posted": "2026-10-19"
-  },
-  {
    "title": "Middle Graphic Designer (6 months)",
    "company": "N-iX",
    "location": "Ukraine",
@@ -1042,6 +1081,19 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/lovable/82b7f137-3648-4996-b6ff-2b1e5d1a27d2",
    "posted": "2026-10-18"
+  },
+  {
+   "title": "Senior Marketing Manager, Brand Integrated Marketing",
+   "company": "Deliveroo",
+   "location": "London, United Kingdom - Deliveroo",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8258657",
+   "posted": "2026-10-16"
   },
   {
    "title": "Video Editor (Growth/Paid Media)",
@@ -1319,19 +1371,6 @@
   {
    "title": "Senior Design Systems Manager",
    "company": "GetYourGuide",
-   "location": "Zurich",
-   "country": "Switzerland",
-   "city": "Zurich",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278560",
-   "posted": "2026-10-13"
-  },
-  {
-   "title": "Senior Design Systems Manager",
-   "company": "GetYourGuide",
    "location": "Berlin",
    "country": "Germany",
    "city": "Berlin",
@@ -1340,6 +1379,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278320",
+   "posted": "2026-10-13"
+  },
+  {
+   "title": "Senior Design Systems Manager",
+   "company": "GetYourGuide",
+   "location": "Zurich",
+   "country": "Switzerland",
+   "city": "Zurich",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8278560",
    "posted": "2026-10-13"
   },
   {
@@ -1603,19 +1655,6 @@
    "posted": "2026-10-07"
   },
   {
-   "title": "Product Design Director - Patient (x/f/m)",
-   "company": "Doctolib",
-   "location": "Berlin, Berlin, Germany; Paris, Paris, France",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/doctolib/jobs/8015787003",
-   "posted": "2026-10-07"
-  },
-  {
    "title": "Senior Motion Designer (m/f/d)",
    "company": "Raisin",
    "location": "Berlin, Berlin, Germany; Hamburg",
@@ -1848,19 +1887,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/recraft/cb167c40-2cf6-4ba5-bced-1eaa2c2b7645",
    "posted": "2026-10-04"
-  },
-  {
-   "title": "Art Director (Brand Creative)",
-   "company": "DEPT",
-   "location": "Budapest",
-   "country": "Hungary",
-   "city": "Budapest",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8249168",
-   "posted": "2026-10-02"
   }
  ]
 }
