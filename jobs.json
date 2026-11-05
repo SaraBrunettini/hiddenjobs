@@ -1,8 +1,242 @@
 {
- "updated": "2026-11-04T14:17:49.296Z",
+ "updated": "2026-11-05T14:31:25.283Z",
  "companies": 453,
- "count": 154,
+ "count": 158,
  "jobs": [
+  {
+   "title": "UX Designer",
+   "company": "Catawiki",
+   "location": "Lisbon, Portugal",
+   "country": "Portugal",
+   "city": "Lisbon",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/catawiki/jobs/8354353",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "MW Designer (Experience and Spatial)",
+   "company": "Landor",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/landor/jobs/8303272",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Mentimeter",
+   "location": "Stockholm",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/mentimeter/jobs/5027644101",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Video/Motion Internship",
+   "company": "Bynder",
+   "location": "Amsterdam",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Motion",
+   "type": "Internship",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/bynder/6c6bca73-0d9a-4963-b1ff-69674c711c72",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "Carwow",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/carwow/438e6ecd-aa2c-42a9-8c6a-724ffd7e3ad4",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Principal Designer",
+   "company": "Faculty",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/faculty/beff9752-81df-444b-bd60-3c99199fe7cd",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Technical Instructional Designer (AI Programmes)",
+   "company": "Multiverse",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/multiverse/4f13b216-6fbf-4353-b6f3-fc18e6f406c2",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Technical Instructional Designer (AI Programmes)",
+   "company": "Multiverse",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/multiverse/5e2c6d02-a513-451b-a486-3405841a0e40",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Product Designer | Mid-Senior",
+   "company": "Nord Security",
+   "location": "Vilnius",
+   "country": "Lithuania",
+   "city": "Vilnius",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "€3.1K – €6K a month",
+   "url": "https://jobs.ashbyhq.com/nord-security/32669d32-3901-49be-81d5-9c8ca880568a",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Art Director",
+   "company": "VML",
+   "location": "Prague, Czechia",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8928264002?gh_jid=8928264002",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Senior Product Designer, Knowledge Graph | Germany | Remote",
+   "company": "Grafana",
+   "location": "Germany (Remote)",
+   "country": "Germany",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6250123004",
+   "posted": "2026-11-04"
+  },
+  {
+   "title": "Senior Product Designer, Knowledge Graph | Spain | Remote",
+   "company": "Grafana",
+   "location": "Spain (Remote)",
+   "country": "Spain",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6250126004",
+   "posted": "2026-11-04"
+  },
+  {
+   "title": "Senior Product Designer, Knowledge Graph | Sweden | Remote",
+   "company": "Grafana",
+   "location": "Sweden (Remote)",
+   "country": "Sweden",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6250115004",
+   "posted": "2026-11-04"
+  },
+  {
+   "title": "Senior Creative Producer/Account Lead",
+   "company": "Monks",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.monks.com/careers/6238466004/job?gh_jid=6238466004",
+   "posted": "2026-11-04"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Sword Health",
+   "location": "Remote - Portugal",
+   "country": "Portugal",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "€40K – €60K",
+   "url": "https://job-boards.greenhouse.io/swordhealth/jobs/4471067009",
+   "posted": "2026-11-04"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Marshmallow",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/marshmallow/0aef1ce7-b6f1-409e-8656-5fd177eded62",
+   "posted": "2026-11-04"
+  },
+  {
+   "title": "Senior Developer Relations, Twitter Brand Rep",
+   "company": "Supabase",
+   "location": "Remote, Global",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/supabase/985abb8d-cb2b-4f32-97d7-497e9f89e3ce",
+   "posted": "2026-11-04"
+  },
+  {
+   "title": "Lead Product Designer",
+   "company": "Clera",
+   "location": "Vienna",
+   "country": "Austria",
+   "city": "Vienna",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/1fa12242-bace-487d-9ea6-1c453aa0ebd4",
+   "posted": "2026-11-04"
+  },
   {
    "title": "Marketing Designer (Famio)",
    "company": "Gismart",
@@ -40,6 +274,32 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://banen.bol.com/vacature/8928127002/?gh_jid=8928127002",
+   "posted": "2026-11-03"
+  },
+  {
+   "title": "Senior Product Designer, Knowledge Graph | Ireland | Remote",
+   "company": "Grafana",
+   "location": "Republic of Ireland (Remote)",
+   "country": "Ireland",
+   "city": "Republic of Ireland",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6146095004",
+   "posted": "2026-11-03"
+  },
+  {
+   "title": "Senior Product Designer, Knowledge Graph | United Kingdom | Remote",
+   "company": "Grafana",
+   "location": "United Kingdom (Remote)",
+   "country": "United Kingdom",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6146093004",
    "posted": "2026-11-03"
   },
   {
@@ -121,32 +381,6 @@
    "posted": "2026-11-03"
   },
   {
-   "title": "Product Designer, Freelance / Fractional",
-   "company": "Clera",
-   "location": "remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Contract",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/6d6132a0-686d-4cd0-87e2-068e6d35def0",
-   "posted": "2026-11-03"
-  },
-  {
-   "title": "Copywriter Lead",
-   "company": "Hostinger",
-   "location": "Vilnius",
-   "country": "Lithuania",
-   "city": "Vilnius",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/hostinger/6b3dedb0-e1f6-466f-a7c3-cd0115212b44",
-   "posted": "2026-11-03"
-  },
-  {
    "title": "Design Operations Manager",
    "company": "Legora",
    "location": "Stockholm HQ",
@@ -186,19 +420,6 @@
    "posted": "2026-11-02"
   },
   {
-   "title": "Senior Designer, Brand and AI Systems",
-   "company": "PolyAI",
-   "location": "United Kingdom",
-   "country": "United Kingdom",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/polyai/jobs/5024865101",
-   "posted": "2026-11-02"
-  },
-  {
    "title": "Lead (Senior) Product Designer | Production",
    "company": "Relex",
    "location": "Helsinki, Finland; Lisbon, Portugal; Stockholm, Sweden",
@@ -222,19 +443,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/docplanner/4eff3016-4665-477e-80d1-c06f24057f69",
-   "posted": "2026-11-02"
-  },
-  {
-   "title": "Senior/Staff Product Designer",
-   "company": "N8n",
-   "location": "Germany",
-   "country": "Germany",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/n8n/fe05c209-8069-4a88-aeba-8da23488cd30",
    "posted": "2026-11-02"
   },
   {
@@ -300,19 +508,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/clera/00e3f650-ba42-48c0-8f31-e4590284ce2c",
-   "posted": "2026-11-02"
-  },
-  {
-   "title": "Founding Product & Brand Designer",
-   "company": "Clera",
-   "location": "remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/9cea136b-e1a2-44a4-9c7c-7c7936607fa3",
    "posted": "2026-11-02"
   },
   {
@@ -589,19 +784,6 @@
    "posted": "2026-10-28"
   },
   {
-   "title": "Werkstudent Content & Brand (m/w/d)",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/796263f1-3501-4987-9167-be24f959f849",
-   "posted": "2026-10-28"
-  },
-  {
    "title": "Copywriter",
    "company": "Tylko",
    "location": "Warszawa, Poland",
@@ -638,19 +820,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/epidemic-sound/ed988e07-e5e8-455a-9c43-a7d9c12be18f",
-   "posted": "2026-10-27"
-  },
-  {
-   "title": "Product Designer | Mid-Senior",
-   "company": "Nord Security",
-   "location": "Vilnius",
-   "country": "Lithuania",
-   "city": "Vilnius",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€3.1K – €6K a month",
-   "url": "https://jobs.ashbyhq.com/nord-security/32669d32-3901-49be-81d5-9c8ca880568a",
    "posted": "2026-10-27"
   },
   {
@@ -810,19 +979,6 @@
    "posted": "2026-10-23"
   },
   {
-   "title": "Graphic Designer",
-   "company": "Flo Health",
-   "location": "Vilnius",
-   "country": "Lithuania",
-   "city": "Vilnius",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/flohealth/jobs/8041526003",
-   "posted": "2026-10-23"
-  },
-  {
    "title": "Senior Studio Design Engineer",
    "company": "Helsing",
    "location": "Munich",
@@ -872,19 +1028,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/20056ea1-d6ab-4fb5-a9ef-2bc0edabd407",
-   "posted": "2026-10-23"
-  },
-  {
-   "title": "Interim Brand Specialist (E-Concessions) - MAT COVER",
-   "company": "Farfetch",
-   "location": "UK London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.lever.co/farfetch/4443eda5-853a-40d1-9f57-e6d16f62ce29",
    "posted": "2026-10-23"
   },
   {
@@ -1080,19 +1223,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://jobs.lever.co/veepee/4be6d951-2149-4dc0-bc0f-1a28680bb598",
-   "posted": "2026-10-21"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Fonio",
-   "location": "Vienna",
-   "country": "Austria",
-   "city": "Vienna",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "€65K – €90K",
-   "url": "https://jobs.ashbyhq.com/Fonio/80d37e49-17d9-4857-a91d-d45c0d88cefa",
    "posted": "2026-10-21"
   },
   {
@@ -1499,19 +1629,6 @@
    "posted": "2026-10-14"
   },
   {
-   "title": "Interim Junior Brand Manager (E-Concessions) - MAT COVER",
-   "company": "Farfetch",
-   "location": "UK London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.lever.co/farfetch/b3086370-8942-4f8c-9919-a6f3a5a9e850",
-   "posted": "2026-10-14"
-  },
-  {
    "title": "Creative Producer (Dumka)",
    "company": "Gismart",
    "location": "Remote (Ukraine)",
@@ -1915,32 +2032,6 @@
    "posted": "2026-10-06"
   },
   {
-   "title": "Staff Product Designer (Motion)",
-   "company": "Deliveroo",
-   "location": "London, United Kingdom - Deliveroo",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8258301",
-   "posted": "2026-10-06"
-  },
-  {
-   "title": "Staff Product Designer (Retail)",
-   "company": "Deliveroo",
-   "location": "London, United Kingdom - Deliveroo",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8258559",
-   "posted": "2026-10-06"
-  },
-  {
    "title": "Brand Marketing Associate",
    "company": "HelloFresh",
    "location": "Sydney, New South Wales, Australia",
@@ -1965,45 +2056,6 @@
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/proton/jobs/4999112101",
    "posted": "2026-10-06"
-  },
-  {
-   "title": "Associate Design Director - Danish speaking",
-   "company": "DEPT",
-   "location": "Copenhagen; Denmark",
-   "country": "Denmark",
-   "city": "Copenhagen",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8256315",
-   "posted": "2026-10-05"
-  },
-  {
-   "title": "Associate Design Director - Dutch speaking",
-   "company": "DEPT",
-   "location": "Amsterdam, Rotterdam; Netherlands",
-   "country": "Netherlands",
-   "city": "Amsterdam",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8256302",
-   "posted": "2026-10-05"
-  },
-  {
-   "title": "Senior Brand Strategist",
-   "company": "VML",
-   "location": "Luxembourg, Luxembourg",
-   "country": "Luxembourg",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.vml.com/careers/job/8858064002?gh_jid=8858064002",
-   "posted": "2026-10-05"
   }
  ]
 }
