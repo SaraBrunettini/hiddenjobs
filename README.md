@@ -36,6 +36,17 @@ Philips | philips.wd3/jobs-and-careers | workday
 
 Workday sites are searched for creative roles rather than read whole.
 
+Brands with their own careers site - Nike, adidas, PUMA - are read from the
+sitemap the site keeps for search engines. Give the site (its `robots.txt`
+names the sitemap) or the sitemap itself:
+
+```
+Nike | https://careers.nike.com/ | sitemap
+```
+
+Only roles whose address reads as creative are opened, so a sitemap of
+thousands of roles costs a few dozen page reads.
+
 A company with no feed can be listed by its careers page instead:
 
 ```

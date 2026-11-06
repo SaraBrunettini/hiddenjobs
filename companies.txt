@@ -463,7 +463,7 @@ Ackee
 Acne Studios
 Adesso
 Adevinta
-Adidas
+Adidas | https://jobs.adidas-group.com/sitemap.xml | sitemap
 AFAS
 Ageras
 Airplane
@@ -831,7 +831,7 @@ Productboard
 Prototyp
 Publicis Sapient
 Pulumi
-Puma
+Puma | https://about.puma.com/ | sitemap
 Q42
 Qdrant
 Quantum Systems
@@ -1025,3 +1025,6 @@ Diageo | diageo.wd3/Diageo_Careers | workday
 PVH (Tommy Hilfiger, Calvin Klein) | pvh.wd1/PVH_Careers | workday
 Unilever | unilever.wd3/Unilever_Experienced_Professionals | workday
 Warner Bros. Discovery | warnerbros.wd5/global | workday
+
+# Careers sites read from their sitemap: company | site or sitemap | sitemap
+Nike | https://careers.nike.com/ | sitemap
