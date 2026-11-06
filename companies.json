@@ -2304,6 +2304,11 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
  },
+ "Enrise": {
+  "slug": "enrise",
+  "ats": "homerun",
+  "seen": "2026-11-06"
+ },
  "Espeo": {
   "slug": "espeo",
   "ats": "recruitee",
@@ -2447,6 +2452,11 @@
  "Monese": {
   "slug": "monese",
   "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Monterail": {
+  "slug": "monterail",
+  "ats": "workable",
   "seen": "2026-11-06"
  },
  "Multiplier": {
@@ -2704,18 +2714,38 @@
   "ats": "teamtailor",
   "seen": "2026-11-06"
  },
- "Enrise": {
-  "slug": "enrise",
-  "ats": "homerun",
-  "seen": "2026-11-06"
- },
- "Monterail": {
-  "slug": "monterail",
-  "ats": "workable",
-  "seen": "2026-11-06"
- },
  "Philips": {
   "slug": "philips.wd3/jobs-and-careers",
+  "ats": "workday",
+  "seen": "2026-11-06"
+ },
+ "Accenture Song": {
+  "slug": "accenture.wd103/AccentureCareers",
+  "ats": "workday",
+  "seen": "2026-11-06"
+ },
+ "Chanel": {
+  "slug": "cc.wd3/ChanelCareers",
+  "ats": "workday",
+  "seen": "2026-11-06"
+ },
+ "Diageo": {
+  "slug": "diageo.wd3/Diageo_Careers",
+  "ats": "workday",
+  "seen": "2026-11-06"
+ },
+ "PVH (Tommy Hilfiger, Calvin Klein)": {
+  "slug": "pvh.wd1/PVH_Careers",
+  "ats": "workday",
+  "seen": "2026-11-06"
+ },
+ "Unilever": {
+  "slug": "unilever.wd3/Unilever_Experienced_Professionals",
+  "ats": "workday",
+  "seen": "2026-11-06"
+ },
+ "Warner Bros. Discovery": {
+  "slug": "warnerbros.wd5/global",
   "ats": "workday",
   "seen": "2026-11-06"
  }
