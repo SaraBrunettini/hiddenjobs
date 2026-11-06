@@ -1,8 +1,21 @@
 {
- "updated": "2026-11-05T14:31:25.283Z",
- "companies": 453,
- "count": 158,
+ "updated": "2026-11-06T08:32:04.251Z",
+ "companies": 491,
+ "count": 172,
  "jobs": [
+  {
+   "title": "German Copywriter & Content Editor",
+   "company": "Bitpanda",
+   "location": "Vienna, Vienna, Austria",
+   "country": "Austria",
+   "city": "Vienna",
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5029055101",
+   "posted": "2026-11-05"
+  },
   {
    "title": "UX Designer",
    "company": "Catawiki",
@@ -30,7 +43,7 @@
    "posted": "2026-11-05"
   },
   {
-   "title": "Product Designer",
+   "title": "Senior Product Designer",
    "company": "Mentimeter",
    "location": "Stockholm",
    "country": "Sweden",
@@ -121,6 +134,58 @@
    "posted": "2026-11-05"
   },
   {
+   "title": "AI Creative Technologist",
+   "company": "Superside",
+   "location": "EMEA",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.lever.co/superside/2e3f7ff5-8b1e-45e3-bbdc-65ab16c291e1",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Product Designer",
+   "company": "360Learning",
+   "location": "Paris, Remote",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.lever.co/360learning/61f6ea5c-5ef1-4890-b1b9-1eee825680f3",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Werkstudent Content & Brand",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Brand",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/6950a3c0-956a-46cc-9e31-99c81b7c8a32",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Senior Graphic Designer",
+   "company": "Fonio",
+   "location": "Vienna",
+   "country": "Austria",
+   "city": "Vienna",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "€70K – €95K",
+   "url": "https://jobs.ashbyhq.com/Fonio/4d69ed37-6958-414c-81b6-f504836ba55f",
+   "posted": "2026-11-05"
+  },
+  {
    "title": "Art Director",
    "company": "VML",
    "location": "Prague, Czechia",
@@ -131,6 +196,58 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.vml.com/careers/job/8928264002?gh_jid=8928264002",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Senior Designer - MW (12 month FTC)",
+   "company": "Asos",
+   "location": "London, England, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/ASOS/744000159904459",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Assistant Designer - MW ASOS Design",
+   "company": "Asos",
+   "location": "London, England, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/ASOS/744000159904039",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Design Lead",
+   "company": "Delivery Hero",
+   "location": "Praha, Czechia",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000159823629",
+   "posted": "2026-11-05"
+  },
+  {
+   "title": "Senior User Researcher",
+   "company": "Version 1",
+   "location": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/Version1/744000159881879",
    "posted": "2026-11-05"
   },
   {
@@ -264,6 +381,32 @@
    "posted": "2026-11-04"
   },
   {
+   "title": "Copywriter",
+   "company": "Charlotte Tilbury",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://apply.workable.com/j/6DB9FAA729",
+   "posted": "2026-11-04"
+  },
+  {
+   "title": "Senior AI Designer",
+   "company": "People Can Fly",
+   "location": "Warszawa, Województwo mazowieckie, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/PeopleCanFly/744000159623829",
+   "posted": "2026-11-04"
+  },
+  {
    "title": "Stage Design",
    "company": "Bol.com",
    "location": "Utrecht",
@@ -274,6 +417,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://banen.bol.com/vacature/8928127002/?gh_jid=8928127002",
+   "posted": "2026-11-03"
+  },
+  {
+   "title": "Graduate Product Designer 2027 (London)",
+   "company": "Deliveroo",
+   "location": "London, United Kingdom - Deliveroo",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8331619",
    "posted": "2026-11-03"
   },
   {
@@ -498,19 +654,6 @@
    "posted": "2026-11-02"
   },
   {
-   "title": "Senior Product Designer",
-   "company": "Clera",
-   "location": "remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/00e3f650-ba42-48c0-8f31-e4590284ce2c",
-   "posted": "2026-11-02"
-  },
-  {
    "title": "Art Director",
    "company": "VML",
    "location": "Prague, Czechia",
@@ -539,19 +682,6 @@
   {
    "title": "Senior UX Designer (Focus on Research)",
    "company": "DEPT",
-   "location": "Skopje",
-   "country": "North Macedonia",
-   "city": "Skopje",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8336632",
-   "posted": "2026-10-30"
-  },
-  {
-   "title": "Senior UX Designer (Focus on Research)",
-   "company": "DEPT",
    "location": "Budapest",
    "country": "Hungary",
    "city": "Budapest",
@@ -560,6 +690,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8336607",
+   "posted": "2026-10-30"
+  },
+  {
+   "title": "Senior UX Designer (Focus on Research)",
+   "company": "DEPT",
+   "location": "Skopje",
+   "country": "North Macedonia",
+   "city": "Skopje",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8336632",
    "posted": "2026-10-30"
   },
   {
@@ -784,6 +927,19 @@
    "posted": "2026-10-28"
   },
   {
+   "title": "Junior Art Director 1 Year FTC",
+   "company": "Charlotte Tilbury",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Leadership",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://apply.workable.com/j/B964013EED",
+   "posted": "2026-10-28"
+  },
+  {
    "title": "Copywriter",
    "company": "Tylko",
    "location": "Warszawa, Poland",
@@ -872,6 +1028,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.vml.com/careers/job/8918998002?gh_jid=8918998002",
+   "posted": "2026-10-27"
+  },
+  {
+   "title": "Brand Marketing Manager (m/f/d)",
+   "company": "Westwing",
+   "location": "Munich Office",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://westwing.jobs.personio.de/job/2863372",
    "posted": "2026-10-27"
   },
   {
@@ -1070,6 +1239,19 @@
    "posted": "2026-10-23"
   },
   {
+   "title": "Global Head of Design",
+   "company": "Endava",
+   "location": "Bucharest, Bucharest, Romania",
+   "country": "Romania",
+   "city": "Bucharest",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/Endava/744000157446709",
+   "posted": "2026-10-23"
+  },
+  {
    "title": "Art Director (hands on)",
    "company": "Tylko",
    "location": "Warszawa, Poland",
@@ -1174,6 +1356,32 @@
    "posted": "2026-10-22"
   },
   {
+   "title": "Senior Gameplay Animator",
+   "company": "People Can Fly",
+   "location": "Warszawa, Województwo mazowieckie, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/PeopleCanFly/744000157141440",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Intern UX Design (m/f/d)",
+   "company": "Westwing",
+   "location": "Munich Office",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Product & UX",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://westwing.jobs.personio.de/job/2855793",
+   "posted": "2026-10-22"
+  },
+  {
    "title": "Stage AI Digital Designer",
    "company": "Bol.com",
    "location": "Utrecht",
@@ -1236,6 +1444,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.vml.com/careers/job/8725978002?gh_jid=8725978002",
+   "posted": "2026-10-21"
+  },
+  {
+   "title": "Brand Expert",
+   "company": "Charlotte Tilbury",
+   "location": "Nantes, France",
+   "country": "France",
+   "city": "Nantes",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://apply.workable.com/j/731B605A92",
    "posted": "2026-10-21"
   },
   {
@@ -1382,19 +1603,6 @@
    "posted": "2026-10-19"
   },
   {
-   "title": "People Partner - Engineering, Product, Design (EPD)",
-   "company": "Lovable",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/lovable/82b7f137-3648-4996-b6ff-2b1e5d1a27d2",
-   "posted": "2026-10-18"
-  },
-  {
    "title": "Video Editor (Growth/Paid Media)",
    "company": "Preply",
    "location": "Barcelona",
@@ -1473,19 +1681,6 @@
    "posted": "2026-10-15"
   },
   {
-   "title": "Product Manager (Prototyping/Design Specialization)",
-   "company": "N-iX",
-   "location": "Ukraine",
-   "country": "Ukraine",
-   "city": null,
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.n-ix.com/jobs/5003814101?gh_jid=5003814101",
-   "posted": "2026-10-15"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "Lendable",
    "location": "London",
@@ -1496,6 +1691,19 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/lendable/207bb4cf-b1ae-4298-bb17-19dbcdcfa20a",
+   "posted": "2026-10-15"
+  },
+  {
+   "title": "Entry Assistant Designer - Topshop",
+   "company": "Asos",
+   "location": "London, England, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/ASOS/744000155699529",
    "posted": "2026-10-15"
   },
   {
@@ -1652,6 +1860,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.signifly.com/o/creative-developer-1",
+   "posted": "2026-10-14"
+  },
+  {
+   "title": "Senior Service Designer - Inside IR35 Contract",
+   "company": "Version 1",
+   "location": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/Version1/744000155439839",
    "posted": "2026-10-14"
   },
   {
@@ -2017,45 +2238,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/gismart/e875cf5c-9692-44ce-9a7b-6399254aec22",
    "posted": "2026-10-07"
-  },
-  {
-   "title": "Senior Compliance Officer - Brand Integrity",
-   "company": "Adyen",
-   "location": "Amsterdam",
-   "country": "Netherlands",
-   "city": "Amsterdam",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8258725",
-   "posted": "2026-10-06"
-  },
-  {
-   "title": "Brand Marketing Associate",
-   "company": "HelloFresh",
-   "location": "Sydney, New South Wales, Australia",
-   "country": "United Kingdom",
-   "city": "Sydney",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8248560?gh_jid=8248560",
-   "posted": "2026-10-06"
-  },
-  {
-   "title": "Senior Product Designer - (VPN)",
-   "company": "Proton",
-   "location": "Geneva, Barcelona",
-   "country": "Spain",
-   "city": "Geneva",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/proton/jobs/4999112101",
-   "posted": "2026-10-06"
   }
  ]
 }
