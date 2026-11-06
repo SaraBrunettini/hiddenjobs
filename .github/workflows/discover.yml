@@ -2,7 +2,7 @@ name: Discover companies
 
 on:
   schedule:
-    - cron: "17 3 * * 1"
+    - cron: "17 5 * * *"
   workflow_dispatch:
 
 permissions:

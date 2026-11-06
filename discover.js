@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * Finds companies the board does not know yet and adds the ones hiring
- * creatives in Europe to companies.txt. Runs once a week in GitHub Actions.
+ * creatives in Europe to companies.txt. Runs every morning in GitHub Actions,
+ * before the jobs are fetched.
  *
  * Every company on a hiring tool has a public jobs page at a predictable
  * address - jobs.ashbyhq.com/<company>, <company>.jobs.personio.de. Common
@@ -38,8 +39,11 @@ const CRAWLS = 2;
    pause between them, and a cap on how much is read per tool. */
 const MAX_PAGES = 40;
 const PAUSE_MS = 1500;
-/* A company checked and passed over is looked at again after this long. */
-const RECHECK_DAYS = 90;
+/* A company checked and passed over is looked at again after this long -
+   it may have started hiring designers since - a slice at a time, so a
+   daily run stays short. */
+const RECHECK_DAYS = 14;
+const MAX_RECHECKS = 3000;
 
 const INDEX = 'https://index.commoncrawl.org';
 const wait = ms => new Promise(r => setTimeout(r, ms));
@@ -138,28 +142,44 @@ function creativeInEurope(rows) {
     if (name && !slug && !line.startsWith('#') && !known[name]) unmatched.set(name.toLowerCase(), i);
   });
 
-  /* Boards looked at before and passed over, so a weekly run only reads
-     what is new to it. */
+  /* Boards looked at before and passed over, and the crawls already read:
+     a crawl comes out about once a month, so most mornings there is no
+     crawl to read and the run only re-checks boards that have gone stale. */
   const seenPath = `${__dirname}/discovered.json`;
-  let seen = {};
-  try { seen = JSON.parse(fs.readFileSync(seenPath, 'utf8')); } catch {}
+  let state = {};
+  try { state = JSON.parse(fs.readFileSync(seenPath, 'utf8')); } catch {}
+  const seen = state.boards || {};
   const fresh = d => Date.now() - Date.parse(d) < RECHECK_DAYS * 864e5;
 
   const list = await getIndex(`${INDEX}/collinfo.json`);
   let crawls = [];
   try { crawls = JSON.parse(list).slice(0, CRAWLS).map(c => c.id); } catch {}
-  if (!crawls.length) { console.error('Common Crawl index unavailable; try again later.'); process.exit(1); }
+  const unread = crawls.filter(c => !(state.crawls || []).includes(c));
+  if (!crawls.length) console.log('Common Crawl index unavailable; re-checking known boards only.');
 
-  console.log(`Reading ${crawls.join(', ')}`);
   const candidates = new Map();
-  for (const source of SOURCES)
-    for (const crawl of crawls)
-      for (const slug of await slugsFromCrawl(crawl, source)) {
-        const key = `${source.ats}:${slug}`;
-        if (!haveBoard.has(key) && !(seen[key] && fresh(seen[key])))
-          candidates.set(key, { ats: source.ats, slug });
-      }
-  console.log(`\n${candidates.size} boards not yet checked`);
+  if (unread.length) {
+    console.log(`Reading ${unread.join(', ')}`);
+    for (const source of SOURCES)
+      for (const crawl of unread)
+        for (const slug of await slugsFromCrawl(crawl, source)) {
+          const key = `${source.ats}:${slug}`;
+          if (!haveBoard.has(key) && !(seen[key] && fresh(seen[key])))
+            candidates.set(key, { ats: source.ats, slug });
+        }
+  } else if (crawls.length) console.log(`No new crawl since ${crawls[0]}.`);
+  const newBoards = candidates.size;
+
+  /* Then the oldest boards passed over, oldest first. */
+  Object.entries(seen)
+    .filter(([key, d]) => !fresh(d) && !haveBoard.has(key) && !candidates.has(key))
+    .sort((a, b) => a[1].localeCompare(b[1]))
+    .slice(0, MAX_RECHECKS)
+    .forEach(([key]) => {
+      const i = key.indexOf(':');
+      candidates.set(key, { ats: key.slice(0, i), slug: key.slice(i + 1) });
+    });
+  console.log(`\n${newBoards} new boards, ${candidates.size - newBoards} re-checked`);
 
   /* Workable turns callers away when asked too fast, so it is read slowly
      and the rest at a normal pace. */
@@ -197,7 +217,9 @@ function creativeInEurope(rows) {
       ...added.map(f => `${f.name} | ${f.slug} | ${f.ats}`));
     fs.writeFileSync(txtPath, lines.join('\n') + '\n');
   }
-  fs.writeFileSync(seenPath, JSON.stringify(seen, null, 1));
+  /* A crawl counts as read only if the index answered for it. */
+  const read = [...new Set([...(state.crawls || []), ...unread])].filter(c => crawls.includes(c));
+  fs.writeFileSync(seenPath, JSON.stringify({ crawls: read, boards: seen }, null, 1));
 
   console.log(`${found.length} hiring creatives in Europe: ${added.length} added to companies.txt, ` +
               `${matched.length} already listed and now matched to their board\n`);
