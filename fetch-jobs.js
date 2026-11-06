@@ -476,6 +476,8 @@ const NOT_CREATIVE = new RegExp([
   'design (quality|transfer|assurance|verification|control|validation)',
   '(board|electronics?|firmware|asic|fpga|analog|power|process|validation|verification) design',
   'software designer|brand licensing|licensing manager',
+  /* big brands: shop floor, tours and finance that name the brand or outlet */
+  'designer outlet|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
 ].join('|'), 'i');
 
 /* Which bucket a role belongs in. First match wins, so order matters:
