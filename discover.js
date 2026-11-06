@@ -27,10 +27,12 @@ const SOURCES = [
   { ats: 'recruitee',       url: '*.recruitee.com',             slug: /^https?:\/\/([a-z0-9-]+)\.recruitee\.com/i },
   { ats: 'workable',        url: 'apply.workable.com/*',        slug: /^https?:\/\/apply\.workable\.com\/([^/?#]+)/i },
   { ats: 'smartrecruiters', url: 'jobs.smartrecruiters.com/*',  slug: /^https?:\/\/jobs\.smartrecruiters\.com\/([^/?#]+)/i },
+  { ats: 'teamtailor',      url: '*.teamtailor.com',            slug: /^https?:\/\/([a-z0-9-]+)\.teamtailor\.com/i },
+  { ats: 'homerun',         url: '*.homerun.co',                slug: /^https?:\/\/([a-z0-9-]+)\.homerun\.co/i },
 ];
 
 /* Path segments that are the tool's own pages, not a company. */
-const NOT_A_BOARD = /^(embed|api|j|jobs|v\d|www|app|help|support|static|assets|careers|login|oauth|sitemap.*|robots\.txt|favicon\.ico|_next|cdn-cgi|search|privacy|terms)$/i;
+const NOT_A_BOARD = /^(embed|api|j|jobs|v\d|www|app|help|support|static|assets|careers|login|oauth|sitemap.*|robots\.txt|favicon\.ico|_next|cdn-cgi|search|privacy|terms|cdn|feed|developers|status|blog|partners|integrations|scripts|images)$/i;
 
 /* Two crawls are about two months of the web - plenty, and a company that
    only shows up further back has probably moved on. */
@@ -97,10 +99,12 @@ async function companyName(slug, ats) {
       const res = await fetch(ATS.workable.url(slug), { signal: AbortSignal.timeout(20000) });
       if (res.ok) { const d = await res.json(); if (d.name) return d.name.trim(); }
     }
-    if (ats === 'smartrecruiters') {
-      const res = await fetch(ATS.smartrecruiters.url(slug), { signal: AbortSignal.timeout(20000) });
-      const d = res.ok && await res.json();
-      const name = d && ATS.smartrecruiters.owner(d);
+    /* Boards whose feed says whose it is. */
+    const board = ATS[ats];
+    if (board.owner && ats !== 'workable') {
+      const res = await fetch(board.url(slug), { signal: AbortSignal.timeout(20000) });
+      const d = res.ok && (board.format === 'xml' ? await res.text() : await res.json());
+      const name = d && board.owner(d);
       if (name) return name.trim();
     }
   } catch {}

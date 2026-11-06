@@ -5,8 +5,8 @@ No scraping middlemen, no reposts, no expired listings. Free to run, free to use
 
 ## How it works
 
-Greenhouse, Lever, Ashby, Recruitee, Personio, Workable and SmartRecruiters
-each publish an open, keyless feed for every company that uses them — the same
+Greenhouse, Lever, Ashby, Recruitee, Personio, Workable, SmartRecruiters,
+Teamtailor and Homerun each publish an open, keyless feed for every company that uses them — the same
 feed the company’s own careers page reads.
 `fetch-jobs.js` reads those feeds, keeps the creative roles in Europe, and writes
 `jobs.json`. `index.html` renders it. A GitHub Action re-runs it every morning

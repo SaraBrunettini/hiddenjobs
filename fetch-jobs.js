@@ -178,6 +178,43 @@ const ATS = {
       work: j.location && (j.location.remote ? 'remote' : j.location.hybrid ? 'hybrid' : ''),
     })),
   },
+  /* Teamtailor - much used in the Nordics, the UK and the Netherlands, by
+     agencies and consumer brands - publishes an RSS feed. An unknown name
+     answers 404, but common names are often someone else's board, so a
+     guess must carry the company's own name. */
+  teamtailor: {
+    url: s => `https://${s}.teamtailor.com/jobs.rss`,
+    format: 'xml',
+    isFeed: d => /<rss[\s>]/.test(d) && /<channel>/.test(d),
+    owner: d => xmlTag(d, 'title'),
+    rows: d => xmlBlocks(d, 'item').map(j => ({
+      title: xmlTag(j, 'title'),
+      location: xmlBlocks(j, 'tt:location')
+        .map(l => [xmlTag(l, 'tt:city') || xmlTag(l, 'tt:name'), xmlTag(l, 'tt:country')]
+          .filter(Boolean).join(', '))
+        .filter(Boolean).join('; '),
+      url: xmlTag(j, 'link'),
+      posted: xmlTag(j, 'pubDate') && new Date(xmlTag(j, 'pubDate')).toISOString(),
+      work: xmlTag(j, 'remoteStatus') === 'fully' ? 'remote' : xmlTag(j, 'remoteStatus'),
+    })),
+  },
+  /* Homerun - the hiring tool of many design studios - keeps an Atom feed
+     per company on one host. An unknown name is redirected away. The date
+     it gives is the role's last edit, the nearest thing to a posting date. */
+  homerun: {
+    url: s => `https://feed.homerun.co/${s}`,
+    format: 'xml',
+    isFeed: d => /<feed[\s>]/.test(d) && /w3\.org\/2005\/Atom/.test(d),
+    owner: d => xmlTag(d, 'title'),
+    rows: d => xmlBlocks(d, 'entry').map(j => ({
+      title: xmlTag(j, 'title'),
+      location: xmlTag(xmlBlocks(j, 'location')[0] || '', 'name'),
+      url: (j.match(/<link\b[^>]*href="([^"]+)"/) || [])[1],
+      posted: xmlTag(j, 'updated') && xmlTag(j, 'updated').replace(' ', 'T') + 'Z',
+      type: xmlTag(xmlBlocks(j, 'type')[0] || '', 'name'),
+      pay: homerunPay(xmlTag(j, 'salary_indication')),
+    })),
+  },
   /* A company's own careers page, for those with no feed. Most careers sites
      describe each role in schema.org JobPosting markup so Google can list it;
      this reads that. Never guessed: the line in companies.txt gives the URL. */
@@ -203,6 +240,29 @@ function xmlItems(xml, tag) {
     items.push(item);
   }
   return items;
+}
+
+/* Teamtailor and Homerun nest their fields and put attributes on them, so
+   they are read a block and a tag at a time. */
+const xmlEsc = t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const xmlBlocks = (xml, tag) =>
+  [...xml.matchAll(new RegExp(`<${xmlEsc(tag)}\\b[^>]*>([\\s\\S]*?)</${xmlEsc(tag)}>`, 'g'))].map(m => m[1]);
+const xmlTag = (xml, tag) => {
+  const m = xml.match(new RegExp(`<${xmlEsc(tag)}\\b[^>]*>([\\s\\S]*?)</${xmlEsc(tag)}>`));
+  return m ? unXml(m[1]) : '';
+};
+
+/* Homerun states pay as a sentence: "€35000.00 to €40000.00 per year". */
+const SYMBOL = { '€': 'EUR', '£': 'GBP', '$': 'USD' };
+function homerunPay(text) {
+  const t = String(text || '');
+  const n = [...t.matchAll(/(\d[\d,]*(?:\.\d+)?)/g)].map(m => Number(m[1].replace(/,/g, '')));
+  if (!n.length) return null;
+  const code = (t.match(/\b(EUR|GBP|USD|CHF|SEK|NOK|DKK|PLN|CZK)\b/) || [])[1];
+  const sym = Object.keys(SYMBOL).find(s => t.includes(s));
+  return { min: n[0], max: n[1], currency: code || SYMBOL[sym],
+    interval: /hour/i.test(t) ? 'HOUR' : /month/i.test(t) ? 'MONTH' : /week/i.test(t) ? 'WEEK'
+            : /day/i.test(t) ? 'DAY' : 'YEAR' };
 }
 
 /* JobPosting markup, wherever it sits in a page's JSON-LD: alone, in a list,
@@ -274,6 +334,8 @@ const BOARD_LINKS = [
   ['personio', /\/\/([\w-]+)\.jobs\.personio\.(?:de|com)/i],
   ['workable', /apply\.workable\.com\/(?:api\/v\d\/widget\/accounts\/)?([\w-]+)/i],
   ['smartrecruiters', /(?:jobs|careers)\.smartrecruiters\.com\/([\w-]+)/i],
+  ['teamtailor', /\/\/(?!app\.|www\.|support\.)([\w-]+)\.teamtailor\.com/i],
+  ['homerun', /\/\/(?!www\.|app\.|help\.|static\.|cdn\.|feed\.|api\.|developers\.)([\w-]+)\.homerun\.co/i],
 ];
 
 function boardOn(html) {
