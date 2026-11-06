@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T08:32:04.251Z",
+ "updated": "2026-11-06T09:09:01.924Z",
  "companies": 491,
  "count": 172,
  "jobs": [
@@ -682,19 +682,6 @@
   {
    "title": "Senior UX Designer (Focus on Research)",
    "company": "DEPT",
-   "location": "Budapest",
-   "country": "Hungary",
-   "city": "Budapest",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8336607",
-   "posted": "2026-10-30"
-  },
-  {
-   "title": "Senior UX Designer (Focus on Research)",
-   "company": "DEPT",
    "location": "Skopje",
    "country": "North Macedonia",
    "city": "Skopje",
@@ -703,6 +690,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8336632",
+   "posted": "2026-10-30"
+  },
+  {
+   "title": "Senior UX Designer (Focus on Research)",
+   "company": "DEPT",
+   "location": "Budapest",
+   "country": "Hungary",
+   "city": "Budapest",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8336607",
    "posted": "2026-10-30"
   },
   {

@@ -2124,149 +2124,14 @@
   "ats": "ashby",
   "seen": "2026-11-06"
  },
- "Adesso": {
-  "slug": "adesso",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Bibliu": {
-  "slug": "bibliu",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Bird": {
-  "slug": "bird",
-  "ats": "greenhouse",
-  "seen": "2026-11-06"
- },
- "Bloober Team": {
-  "slug": "blooberteam",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Channable": {
-  "slug": "channable",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Craftzing": {
-  "slug": "craftzing",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Dashmote": {
-  "slug": "dashmote",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Droptica": {
-  "slug": "droptica",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Espeo": {
-  "slug": "espeo",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Famly": {
-  "slug": "famly",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Holded": {
-  "slug": "holded",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "IQM": {
-  "slug": "iqm",
-  "ats": "lever",
-  "seen": "2026-11-06"
- },
- "Landbot": {
-  "slug": "landbot",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Multiplier": {
-  "slug": "multiplier",
-  "ats": "recruitee",
-  "seen": "2026-10-20"
- },
- "Oyster": {
-  "slug": "oyster",
-  "ats": "ashby",
-  "seen": "2026-11-06"
- },
- "Papaya": {
-  "slug": "papaya",
-  "ats": "greenhouse",
-  "seen": "2026-09-29"
- },
- "Personio": {
-  "slug": "personio",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Phase": {
-  "slug": "phase",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Pragmatic Coders": {
-  "slug": "pragmaticcoders",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Quantum Systems": {
-  "slug": "quantumsystems",
-  "ats": "recruitee",
-  "seen": "2026-09-25"
- },
- "Signifly": {
-  "slug": "signifly",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Snyk": {
-  "slug": "snyk",
-  "ats": "ashby",
-  "seen": "2026-11-06"
- },
- "Spyke Games": {
-  "slug": "spyke-games",
-  "ats": "lever",
-  "seen": "2026-11-06"
- },
- "STRV": {
-  "slug": "strv",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Twisto": {
-  "slug": "twisto",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Tylko": {
-  "slug": "tylko",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Virtual Identity": {
-  "slug": "virtualidentity",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Xebia": {
-  "slug": "xebia",
-  "ats": "recruitee",
-  "seen": "2026-10-16"
- },
  "10x Banking": {
   "slug": "10xbanking",
   "ats": "workable",
+  "seen": "2026-11-06"
+ },
+ "Adesso": {
+  "slug": "adesso",
+  "ats": "recruitee",
   "seen": "2026-11-06"
  },
  "Alten": {
@@ -2284,14 +2149,34 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
  },
+ "Bibliu": {
+  "slug": "bibliu",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
  "Big Spaceship": {
   "slug": "bigspaceship",
   "ats": "workable",
   "seen": "2026-11-06"
  },
+ "Bird": {
+  "slug": "bird",
+  "ats": "greenhouse",
+  "seen": "2026-11-06"
+ },
+ "Bloober Team": {
+  "slug": "blooberteam",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
  "Canva": {
   "slug": "canva",
   "ats": "smartrecruiters",
+  "seen": "2026-11-06"
+ },
+ "Channable": {
+  "slug": "channable",
+  "ats": "recruitee",
   "seen": "2026-11-06"
  },
  "Charlotte Tilbury": {
@@ -2309,9 +2194,19 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
  },
+ "Craftzing": {
+  "slug": "craftzing",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
  "Dailymotion": {
   "slug": "dailymotion",
   "ats": "smartrecruiters",
+  "seen": "2026-11-06"
+ },
+ "Dashmote": {
+  "slug": "dashmote",
+  "ats": "recruitee",
   "seen": "2026-11-06"
  },
  "Delivery Hero": {
@@ -2329,9 +2224,24 @@
   "ats": "personio",
   "seen": "2026-11-06"
  },
+ "Droptica": {
+  "slug": "droptica",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
  "Endava": {
   "slug": "endava",
   "ats": "smartrecruiters",
+  "seen": "2026-11-06"
+ },
+ "Espeo": {
+  "slug": "espeo",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
+ "Famly": {
+  "slug": "famly",
+  "ats": "recruitee",
   "seen": "2026-11-06"
  },
  "Gousto": {
@@ -2349,6 +2259,11 @@
   "ats": "personio",
   "seen": "2026-11-06"
  },
+ "Holded": {
+  "slug": "holded",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
  "Home24": {
   "slug": "home24",
   "ats": "smartrecruiters",
@@ -2357,6 +2272,11 @@
  "Incentro": {
   "slug": "incentro",
   "ats": "personio",
+  "seen": "2026-11-06"
+ },
+ "IQM": {
+  "slug": "iqm",
+  "ats": "lever",
   "seen": "2026-11-06"
  },
  "Jobteaser": {
@@ -2379,6 +2299,11 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
  },
+ "Landbot": {
+  "slug": "landbot",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
  "LetsGetChecked": {
   "slug": "letsgetchecked",
   "ats": "smartrecruiters",
@@ -2394,20 +2319,55 @@
   "ats": "personio",
   "seen": "2026-11-06"
  },
+ "Multiplier": {
+  "slug": "multiplier",
+  "ats": "recruitee",
+  "seen": "2026-10-20"
+ },
  "Omio": {
   "slug": "omio",
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
+ },
+ "Oyster": {
+  "slug": "oyster",
+  "ats": "ashby",
+  "seen": "2026-11-06"
+ },
+ "Papaya": {
+  "slug": "papaya",
+  "ats": "greenhouse",
+  "seen": "2026-09-29"
  },
  "People Can Fly": {
   "slug": "peoplecanfly",
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
  },
+ "Personio": {
+  "slug": "personio",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
+ "Phase": {
+  "slug": "phase",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
  "Picnic": {
   "slug": "picnic",
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
+ },
+ "Pragmatic Coders": {
+  "slug": "pragmaticcoders",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
+ "Quantum Systems": {
+  "slug": "quantumsystems",
+  "ats": "recruitee",
+  "seen": "2026-09-25"
  },
  "Salv": {
   "slug": "salv",
@@ -2419,14 +2379,34 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
  },
+ "Signifly": {
+  "slug": "signifly",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
  "Sipgate": {
   "slug": "sipgate",
   "ats": "personio",
   "seen": "2026-11-06"
  },
+ "Snyk": {
+  "slug": "snyk",
+  "ats": "ashby",
+  "seen": "2026-11-06"
+ },
+ "Spyke Games": {
+  "slug": "spyke-games",
+  "ats": "lever",
+  "seen": "2026-11-06"
+ },
  "Starship": {
   "slug": "starship",
   "ats": "personio",
+  "seen": "2026-11-06"
+ },
+ "STRV": {
+  "slug": "strv",
+  "ats": "recruitee",
   "seen": "2026-11-06"
  },
  "Tado": {
@@ -2439,6 +2419,16 @@
   "ats": "personio",
   "seen": "2026-11-06"
  },
+ "Twisto": {
+  "slug": "twisto",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
+ "Tylko": {
+  "slug": "tylko",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
  "Userlane": {
   "slug": "userlane",
   "ats": "personio",
@@ -2449,9 +2439,19 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
  },
+ "Virtual Identity": {
+  "slug": "virtualidentity",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
  "Westwing": {
   "slug": "westwing",
   "ats": "personio",
   "seen": "2026-11-06"
+ },
+ "Xebia": {
+  "slug": "xebia",
+  "ats": "recruitee",
+  "seen": "2026-10-16"
  }
 }
