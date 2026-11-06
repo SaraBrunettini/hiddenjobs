@@ -633,6 +633,10 @@ async function pool(items, size, fn) {
   return out;
 }
 
+/* discover.js reads feeds the same way, so the readers are shared. */
+module.exports = { ATS, fetchFeed, pool, discipline, country, workplace, inEurope };
+if (require.main !== module) return;
+
 (async () => {
   if (typeof fetch !== 'function') {
     console.error('Needs Node 18+.'); process.exit(1);

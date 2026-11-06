@@ -36,6 +36,17 @@ The page is read for the job markup most careers sites include so Google can
 list their roles, and if the page just links out to one of the boards above,
 that board's feed is read instead.
 
+## Finding new companies
+
+`discover.js` runs every Monday. Each hiring tool gives a company a jobs page
+at a predictable address, and Common Crawl, a free public archive of the
+web, lists the ones it has seen. Every company not already on the list has
+its feed read once, and those with a creative role open in Europe are added to
+`companies.txt` under a dated `# Found by discover.js` heading. Delete any line
+you don't want. A company already listed whose board was never found gets
+its board filled in. Boards that were checked and passed over are remembered
+in `discovered.json` and looked at again after 90 days.
+
 ## Running it yourself
 
 ```
