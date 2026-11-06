@@ -14,7 +14,7 @@
  */
 
 const fs = require('fs');
-const { ATS, fetchFeed, pool, discipline, country, workplace, inEurope } = require('./fetch-jobs.js');
+const { ATS, fetchFeed, pool, discipline, country, workplace, inEurope, workdayOwner } = require('./fetch-jobs.js');
 
 /* Where each tool's job pages live, and how the company's board name sits
    in the address. */
@@ -29,6 +29,11 @@ const SOURCES = [
   { ats: 'smartrecruiters', url: 'jobs.smartrecruiters.com/*',  slug: /^https?:\/\/jobs\.smartrecruiters\.com\/([^/?#]+)/i },
   { ats: 'teamtailor',      url: '*.teamtailor.com',            slug: /^https?:\/\/([a-z0-9-]+)\.teamtailor\.com/i },
   { ats: 'homerun',         url: '*.homerun.co',                slug: /^https?:\/\/([a-z0-9-]+)\.homerun\.co/i },
+  /* A Workday board is the company's server and its site name together -
+     philips.wd3/jobs-and-careers - and the site name keeps its case. */
+  { ats: 'workday',         url: '*.myworkdayjobs.com',          keepCase: true,
+    slug: /^https?:\/\/([a-z0-9-]+\.wd\d+)\.myworkdayjobs\.com\/(?:[a-z]{2}-[a-z]{2}\/)?(?!wday\/|[a-z]{2}-[a-z]{2}\/?$)([\w-]+)/i,
+    join: m => `${m[1].toLowerCase()}/${m[2]}` },
 ];
 
 /* Path segments that are the tool's own pages, not a company. */
@@ -77,8 +82,11 @@ async function slugsFromCrawl(crawl, source) {
       try { url = JSON.parse(line).url; } catch { continue; }
       const m = url && url.match(source.slug);
       if (m) {
-        const slug = decodeURIComponent(m[1]).toLowerCase();
-        if (!NOT_A_BOARD.test(slug) && /^[\w.-]{2,60}$/.test(slug)) slugs.add(slug);
+        let slug;
+        try { slug = decodeURIComponent(source.join ? source.join(m) : m[1]); } catch { continue; }
+        if (!source.keepCase) slug = slug.toLowerCase();
+        const last = slug.split('/').pop();
+        if (!NOT_A_BOARD.test(last) && /^[\w.\/-]{2,80}$/.test(slug)) slugs.add(slug);
       }
     }
   }
@@ -89,6 +97,7 @@ async function slugsFromCrawl(crawl, source) {
 /* A board's feed rarely says whose it is, so the name comes from the feed
    where it can and from the board name otherwise: acme-studio -> Acme Studio. */
 async function companyName(slug, ats) {
+  if (ats === 'workday') return workdayOwner(slug);
   try {
     if (ats === 'greenhouse') {
       const res = await fetch(`https://boards-api.greenhouse.io/v1/boards/${slug}`,

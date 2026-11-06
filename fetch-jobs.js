@@ -222,6 +222,78 @@ const ATS = {
     pinnedOnly: true,
     load: s => readCareersPage(s),
   },
+  /* Workday - the careers sites of big brands, agencies and in-house teams.
+     The address has three parts (philips.wd3/jobs-and-careers), so it is
+     never guessed: discover.js finds it, or the line in companies.txt says. */
+  workday: {
+    pinnedOnly: true,
+    load: s => readWorkday(s),
+  },
+};
+
+/* A Workday site can hold thousands of roles, so it is searched for the
+   creative ones rather than read whole, and only those still young enough
+   to show are opened for their date and country. */
+const WD_TERMS = ['design', 'designer', 'creative', 'brand', 'UX', 'motion', 'copywriter',
+  'illustrator', 'art director', 'animator', 'visual', 'video', 'content'];
+const WD_PAGE = 20, WD_MAX = 200;
+
+async function workdayCall(base, path, body) {
+  try {
+    const res = await fetch(base + path, {
+      method: body ? 'POST' : 'GET',
+      headers: { accept: 'application/json', ...(body && { 'content-type': 'application/json' }) },
+      body: body && JSON.stringify(body),
+      signal: AbortSignal.timeout(20000),
+    });
+    return res.ok ? await res.json() : null;
+  } catch { return null; }
+}
+
+const workdayBase = (slug) => {
+  const [host, site] = slug.split('/');
+  return host && site && `https://${host}.myworkdayjobs.com/wday/cxs/${host.split('.')[0]}/${site}`;
+};
+
+async function readWorkday(slug) {
+  const base = workdayBase(slug);
+  if (!base) return null;
+  const hits = new Map();
+  let answered = false;
+  for (const searchText of WD_TERMS) {
+    for (let offset = 0; offset < WD_MAX; offset += WD_PAGE) {
+      const d = await workdayCall(base, '/jobs', { appliedFacets: {}, limit: WD_PAGE, offset, searchText });
+      if (!d) break;
+      answered = true;
+      for (const j of d.jobPostings || [])
+        if (j.externalPath && discipline(j.title) && !/30\+/.test(j.postedOn || '')) hits.set(j.externalPath, j);
+      if (offset + WD_PAGE >= (d.total || 0)) break;
+    }
+  }
+  if (!answered) return null;
+  const details = await pool([...hits.keys()], 5, p => workdayCall(base, p));
+  return details.filter(Boolean).map(d => {
+    const i = d.jobPostingInfo || {};
+    const req = i.jobRequisitionLocation || {};
+    const where = [i.location || req.descriptor, (req.country || i.country || {}).descriptor]
+      .filter(Boolean).join(', ');
+    return {
+      title: i.title,
+      location: [where, ...(i.additionalLocations || [])].join('; '),
+      url: i.externalUrl,
+      posted: i.startDate,
+      type: i.timeType,
+      work: i.remoteType,
+    };
+  });
+}
+
+/* Workday names the legal entity behind a role ("NL90 NETHERLANDS"), not
+   the brand, so discover.js names the company after the site's owner in
+   the address: philips.wd3/... -> Philips. */
+const workdayOwner = slug => {
+  const t = String(slug).split('.')[0].replace(/[-_]+/g, ' ');
+  return t.length <= 4 ? t.toUpperCase() : t.replace(/\b\w/g, c => c.toUpperCase());
 };
 
 /* Personio's XML is flat - <position> holding plain text fields - so a
@@ -400,6 +472,10 @@ const NOT_CREATIVE = new RegExp([
   'account manager|account director|client partner|design advisor',
   'organizational transformation|benefit design|insurance product',
   'product manager|planning manager|marketing specialist|engagement lead|ing[e\u00e9]nieur',
+  /* manufacturers' engineering titles, common on Workday */
+  'design (quality|transfer|assurance|verification|control|validation)',
+  '(board|electronics?|firmware|asic|fpga|analog|power|process|validation|verification) design',
+  'software designer|brand licensing|licensing manager',
 ].join('|'), 'i');
 
 /* Which bucket a role belongs in. First match wins, so order matters:
@@ -412,7 +488,7 @@ const DISCIPLINES = [
   ['Motion',       /(\bmotion|\banimator|\banimation|\b3d |\bvideo editor|\bvideo artist|\bvideographer)/i],
   ['Design ops',   /\b(design ops|design operations|design program|design producer|creative operations|production design)/i],
   ['Brand',        /(\bbrand|\bgraphic design|\bvisual identity|\bvisual design|\bcommunications design|\bpackaging|\bmarketing design|\billustrat)/i],
-  ['Product & UX', /(\bproduct design|\bproduct experience design|\bux\b|\bui\b|\buser experience|\buser interface|\binteraction design|\bdesign system|\bdesign engineer|\bdesign technologist|\bdigital design|\bweb design)/i],
+  ['Product & UX', /(\bproduct design|\busability|\bproduct experience design|\bux\b|\bui\b|\buser experience|\buser interface|\binteraction design|\bdesign system|\bdesign engineer|\bdesign technologist|\bdigital design|\bweb design)/i],
 ];
 
 function discipline(title) {
@@ -696,7 +772,7 @@ async function pool(items, size, fn) {
 }
 
 /* discover.js reads feeds the same way, so the readers are shared. */
-module.exports = { ATS, fetchFeed, pool, discipline, country, workplace, inEurope };
+module.exports = { ATS, fetchFeed, pool, discipline, country, workplace, inEurope, workdayOwner };
 if (require.main !== module) return;
 
 (async () => {

@@ -26,6 +26,16 @@ If the guess picks the wrong board, name it yourself:
 Fever | feverup | greenhouse
 ```
 
+Big brands often use Workday, whose addresses can't be guessed, so they are
+listed by server and site name, read off their careers address
+(`philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers`):
+
+```
+Philips | philips.wd3/jobs-and-careers | workday
+```
+
+Workday sites are searched for creative roles rather than read whole.
+
 A company with no feed can be listed by its careers page instead:
 
 ```

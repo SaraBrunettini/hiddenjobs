@@ -1017,3 +1017,6 @@ Zettle
 Zolar
 Zoopla
 Zuhlke
+
+# Workday sites: company | server/site | workday
+Philips | philips.wd3/jobs-and-careers | workday
