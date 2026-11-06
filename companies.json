@@ -2459,6 +2459,11 @@
   "ats": "teamtailor",
   "seen": "2026-11-06"
  },
+ "Moneybird": {
+  "slug": "moneybird",
+  "ats": "homerun",
+  "seen": "2026-11-06"
+ },
  "Monterail": {
   "slug": "monterail",
   "ats": "workable",
@@ -2714,6 +2719,11 @@
   "ats": "recruitee",
   "seen": "2026-10-16"
  },
+ "Yapily": {
+  "slug": "yapily",
+  "ats": "workable",
+  "seen": "2026-11-06"
+ },
  "Yonder": {
   "slug": "yonder",
   "ats": "teamtailor",
@@ -2749,14 +2759,24 @@
   "ats": "workday",
   "seen": "2026-11-06"
  },
- "Moneybird": {
-  "slug": "moneybird",
-  "ats": "homerun",
+ "Adidas": {
+  "slug": "https://jobs.adidas-group.com/sitemap.xml",
+  "ats": "sitemap",
   "seen": "2026-11-06"
  },
- "Yapily": {
-  "slug": "yapily",
+ "Hugging Face": {
+  "slug": "huggingface",
   "ats": "workable",
+  "seen": "2026-11-06"
+ },
+ "Puma": {
+  "slug": "https://about.puma.com/",
+  "ats": "sitemap",
+  "seen": "2026-11-06"
+ },
+ "Nike": {
+  "slug": "https://careers.nike.com/",
+  "ats": "sitemap",
   "seen": "2026-11-06"
  }
 }
