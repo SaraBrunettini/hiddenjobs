@@ -579,7 +579,7 @@ const NOT_CREATIVE = new RegExp([
   '(board|electronics?|firmware|asic|fpga|analog|power|process|validation|verification) design',
   'software designer|brand licensing|licensing manager',
   /* big brands: shop floor, tours and finance that name the brand or outlet */
-  'designer outlet|brand specialist|fp&a|controlling|data visuali[sz]ation|events coordinator|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
+  'designer outlet|concept store|flagship store|retail assistant|sales assistant|brand specialist|fp&a|controlling|data visuali[sz]ation|events coordinator|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
 ].join('|'), 'i');
 
 /* Which bucket a role belongs in. First match wins, so order matters:
@@ -959,9 +959,15 @@ if (require.main !== module) return;
     }
   }
 
-  /* The same role can appear twice under different guessed slugs. */
+  /* The same role can appear twice under different guessed slugs, and big
+     stores post one role several times under different addresses. */
   const seenUrl = new Set();
-  const unique = jobs.filter(j => seenUrl.has(j.url) ? false : (seenUrl.add(j.url), true));
+  const unique = jobs.filter(j => {
+    const keys = [j.url, `${j.company}|${j.title}|${j.location}`.toLowerCase()];
+    if (keys.some(k => seenUrl.has(k))) return false;
+    keys.forEach(k => seenUrl.add(k));
+    return true;
+  });
   unique.sort((a, b) => String(b.posted || '').localeCompare(String(a.posted || '')));
 
   const out = {
