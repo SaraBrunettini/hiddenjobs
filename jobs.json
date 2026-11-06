@@ -1,8 +1,21 @@
 {
- "updated": "2026-11-06T09:17:08.784Z",
- "companies": 491,
- "count": 172,
+ "updated": "2026-11-06T10:03:23.791Z",
+ "companies": 541,
+ "count": 182,
  "jobs": [
+  {
+   "title": "Design Lead",
+   "company": "Delivery Hero",
+   "location": "Praha, Czechia",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000160156249",
+   "posted": "2026-11-06"
+  },
   {
    "title": "German Copywriter & Content Editor",
    "company": "Bitpanda",
@@ -225,16 +238,16 @@
    "posted": "2026-11-05"
   },
   {
-   "title": "Design Lead",
-   "company": "Delivery Hero",
-   "location": "Praha, Czechia",
-   "country": "Czechia",
-   "city": "Prague",
-   "discipline": "Leadership",
+   "title": "UI/UX Designer",
+   "company": "Huel",
+   "location": "Birmingham, United Kingdom",
+   "country": "United Kingdom",
+   "city": "Birmingham",
+   "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Hybrid",
    "salary": null,
-   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000159823629",
+   "url": "https://careers.huel.com/jobs/8674481-ui-ux-designer",
    "posted": "2026-11-05"
   },
   {
@@ -719,6 +732,19 @@
    "posted": "2026-10-30"
   },
   {
+   "title": "Brand Manager",
+   "company": "Tails.com",
+   "location": "Richmond, United Kingdom",
+   "country": "United Kingdom",
+   "city": "Richmond",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://careers.tails.com/jobs/8642774-brand-manager",
+   "posted": "2026-10-30"
+  },
+  {
    "title": "B2B Designer",
    "company": "Fever",
    "location": "Madrid",
@@ -1122,6 +1148,19 @@
    "posted": "2026-10-26"
   },
   {
+   "title": "Senior Level Designer",
+   "company": "Sharkmob",
+   "location": "Malmö, Sweden",
+   "country": "Sweden",
+   "city": "Malmö",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://career.sharkmob.com/jobs/8616274-senior-level-designer",
+   "posted": "2026-10-26"
+  },
+  {
    "title": "Senior Brand Designer (Maternity Cover)",
    "company": "Blockchain.com",
    "location": "Paris",
@@ -1252,6 +1291,19 @@
    "posted": "2026-10-23"
   },
   {
+   "title": "Staff Product Design",
+   "company": "Shine",
+   "location": "Berlin, Germany; Amsterdam, Netherlands",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://careers.shine.co/jobs/8594089-staff-product-design",
+   "posted": "2026-10-23"
+  },
+  {
    "title": "Art Director (hands on)",
    "company": "Tylko",
    "location": "Warszawa, Poland",
@@ -1353,6 +1405,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.vml.com/careers/job/8893970002?gh_jid=8893970002",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "2D/UI Artist - Europa Universalis V",
+   "company": "Paradox Interactive",
+   "location": "Sitges, Spain",
+   "country": "Spain",
+   "city": "Sitges",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://career.paradoxplaza.com/jobs/8588435-2d-ui-artist-europa-universalis-v",
    "posted": "2026-10-22"
   },
   {
@@ -1538,6 +1603,19 @@
    "posted": "2026-10-20"
   },
   {
+   "title": "UX Lead, Schibsted Product Lab",
+   "company": "Schibsted",
+   "location": "Oslo, Norway; Stockholm, Sweden",
+   "country": "Sweden",
+   "city": "Oslo",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://schibsted.teamtailor.com/jobs/8576384-ux-lead-schibsted-product-lab",
+   "posted": "2026-10-20"
+  },
+  {
    "title": "Middle Graphic Designer (6 months)",
    "company": "N-iX",
    "location": "Ukraine",
@@ -1603,6 +1681,19 @@
    "posted": "2026-10-19"
   },
   {
+   "title": "Product Designer",
+   "company": "Yonder",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://yonder.teamtailor.com/jobs/8571147-product-designer",
+   "posted": "2026-10-19"
+  },
+  {
    "title": "Video Editor (Growth/Paid Media)",
    "company": "Preply",
    "location": "Barcelona",
@@ -1639,6 +1730,19 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://jobs.lever.co/zopa/fc4c701a-2420-41fa-bd29-a10f2a3e6090",
+   "posted": "2026-10-16"
+  },
+  {
+   "title": "Senior UI Technical Artist",
+   "company": "Sharkmob",
+   "location": "Malmö, Sweden",
+   "country": "Sweden",
+   "city": "Malmö",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://career.sharkmob.com/jobs/8558591-senior-ui-technical-artist",
    "posted": "2026-10-16"
   },
   {
@@ -1704,6 +1808,32 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/ASOS/744000155699529",
+   "posted": "2026-10-15"
+  },
+  {
+   "title": "Gameplay and System Design Internship - 1st half 2027",
+   "company": "Paradox Interactive",
+   "location": "Delft, Netherlands",
+   "country": "Netherlands",
+   "city": "Delft",
+   "discipline": "Other",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://career.paradoxplaza.com/jobs/8552857-gameplay-and-system-design-internship-1st-half-2027",
+   "posted": "2026-10-15"
+  },
+  {
+   "title": "Head of Product & Product Design",
+   "company": "Tails.com",
+   "location": "Richmond, United Kingdom",
+   "country": "United Kingdom",
+   "city": "Richmond",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://careers.tails.com/jobs/8553058-head-of-product-product-design",
    "posted": "2026-10-15"
   },
   {
