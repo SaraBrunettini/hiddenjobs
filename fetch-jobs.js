@@ -229,6 +229,13 @@ const ATS = {
     pinnedOnly: true,
     load: s => readWorkday(s),
   },
+  /* A brand's own careers site, read from its sitemap - the list of pages
+     every site keeps for search engines. Never guessed: the line gives the
+     sitemap, or the site, whose robots.txt names the sitemap. */
+  sitemap: {
+    pinnedOnly: true,
+    load: s => readSitemap(s),
+  },
 };
 
 /* A Workday site can hold thousands of roles, so it is searched for the
@@ -450,6 +457,101 @@ async function readCareersPage(url) {
   return rows;
 }
 
+/* Big brands' sitemaps run to thousands of pages - Nike's lists every role
+   once per language - but a role's address almost always carries its
+   title, so only the ones whose address reads as creative are opened. */
+const SITEMAP_MAX_FILES = 40;
+const SITEMAP_MAX_PAGES = 120;
+const SITEMAP_MAX_AGE_DAYS = 45;
+const JOB_PATH = /\/(jobs?|jobdetail|vacanc\w*|positions?|stellen\w*|offres?|openings?|roles?)(\/|$)/i;
+const LANG_SEGMENT = /^(?:[a-z]{2}(?:[-_][a-z]{2})?|global)$/i;
+
+async function sitemapsOf(url) {
+  if (/\.xml(\.gz)?(\?|$)/i.test(url)) return [url];
+  const page = await getPage(new URL('/robots.txt', url).href);
+  const listed = page ? [...page.html.matchAll(/^\s*sitemap:\s*(\S+)/gim)].map(m => m[1]) : [];
+  return listed.length ? listed : [new URL('/sitemap.xml', url).href];
+}
+
+async function sitemapEntries(urls) {
+  const entries = [], queue = [...urls];
+  for (let files = 0; queue.length && files < SITEMAP_MAX_FILES; files++) {
+    const page = await getPage(queue.shift());
+    if (!page) continue;
+    if (/<sitemapindex/i.test(page.html)) {
+      for (const [, loc] of page.html.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)) queue.push(unXml(loc));
+      continue;
+    }
+    for (const [, body] of page.html.matchAll(/<url>([\s\S]*?)<\/url>/g)) {
+      const loc = (body.match(/<loc>\s*([^<\s]+)\s*<\/loc>/) || [])[1];
+      const mod = (body.match(/<lastmod>\s*([^<\s]+)\s*<\/lastmod>/) || [])[1];
+      if (loc) entries.push({ url: unXml(loc), lastmod: mod });
+    }
+  }
+  return entries;
+}
+
+/* The words in an address: /de/senior-graphic-designer/job/R-1 -> "de senior graphic designer job R 1". */
+const pathWords = u => {
+  let p = new URL(u).pathname;
+  try { p = decodeURIComponent(p); } catch {}
+  return p.replace(/[\/_+\-]+/g, ' ').replace(/\s+/g, ' ').trim();
+};
+
+/* SAP SuccessFactors careers sites - common with big European employers -
+   label each field on the page rather than marking up a JobPosting. */
+function successFactorsRow(html, url) {
+  const field = name => {
+    const m = html.match(new RegExp(`data-careersite-propertyid="${name}"[^>]*>([\\s\\S]*?)</span>`));
+    return m ? unXml(m[1].replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim() : '';
+  };
+  const title = field('title');
+  if (!title) return null;
+  const date = Date.parse(field('date'));
+  const c = field('country'), country = ISO[c.toUpperCase()] || c, town = field('city');
+  return {
+    title,
+    location: [town !== country && town, country].filter(Boolean).join(', '),
+    url,
+    posted: Number.isFinite(date) ? new Date(date).toISOString() : null,
+    type: field('shifttype'),
+  };
+}
+
+async function readSitemap(site) {
+  const entries = await sitemapEntries(await sitemapsOf(site));
+  if (!entries.length) return null;
+
+  /* One address per role: the same path in every language is one role, and
+     the English (or language-free) copy is the one kept. */
+  const roles = new Map();
+  for (const e of entries) {
+    let u;
+    try { u = new URL(e.url); } catch { continue; }
+    if (!JOB_PATH.test(u.pathname)) continue;
+    if (e.lastmod && Date.now() - Date.parse(e.lastmod) > SITEMAP_MAX_AGE_DAYS * 864e5) continue;
+    const segs = u.pathname.split('/').filter(Boolean);
+    const lang = segs.find(s => LANG_SEGMENT.test(s));
+    const key = u.host + '/' + segs.filter(s => !LANG_SEGMENT.test(s)).join('/');
+    const english = !lang || /^en/i.test(lang);
+    const prev = roles.get(key);
+    if (!prev || (english && !prev.english)) roles.set(key, { ...e, english });
+  }
+
+  const creative = [...roles.values()]
+    .filter(e => { const w = pathWords(e.url); return CREATIVE.test(w) && !NOT_CREATIVE.test(w); })
+    .sort((a, b) => String(b.lastmod || '').localeCompare(String(a.lastmod || '')))
+    .slice(0, SITEMAP_MAX_PAGES);
+
+  const pages = await pool(creative.map(e => e.url), 4, getPage);
+  return pages.filter(Boolean).flatMap(p => {
+    const marked = jobPostings(p.html).map(j => postingRow(j, p.url));
+    if (marked.length) return marked;
+    const sf = successFactorsRow(p.html, p.url);
+    return sf ? [sf] : [];
+  });
+}
+
 /* What counts as a creative role at all. */
 const CREATIVE = /(\bdesign|\bcreative|\billustrat|\bbrand\b|\bgraphic|\bux\b|\bui\b|\buser experience|\buser interface|\bmotion|\banimat|\bcopywriter|\bcontent design|\bcontent strateg|\bux writ|\bart director|\buser research|\btypograph|\bvisual|\bvideo editor|\bvideo artist|\bvideographer|\bcontent producer|\bsocial producer|\bstudio producer)/i;
 
@@ -477,7 +579,7 @@ const NOT_CREATIVE = new RegExp([
   '(board|electronics?|firmware|asic|fpga|analog|power|process|validation|verification) design',
   'software designer|brand licensing|licensing manager',
   /* big brands: shop floor, tours and finance that name the brand or outlet */
-  'designer outlet|brand specialist|data visuali[sz]ation|events coordinator|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
+  'designer outlet|brand specialist|fp&a|controlling|data visuali[sz]ation|events coordinator|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
 ].join('|'), 'i');
 
 /* Which bucket a role belongs in. First match wins, so order matters:
