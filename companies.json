@@ -2129,6 +2129,11 @@
   "ats": "workable",
   "seen": "2026-11-06"
  },
+ "Accenture Song": {
+  "slug": "accenture.wd103/AccentureCareers",
+  "ats": "workday",
+  "seen": "2026-11-06"
+ },
  "Adesso": {
   "slug": "adesso",
   "ats": "recruitee",
@@ -2716,11 +2721,6 @@
  },
  "Philips": {
   "slug": "philips.wd3/jobs-and-careers",
-  "ats": "workday",
-  "seen": "2026-11-06"
- },
- "Accenture Song": {
-  "slug": "accenture.wd103/AccentureCareers",
   "ats": "workday",
   "seen": "2026-11-06"
  },
