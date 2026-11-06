@@ -1,8 +1,47 @@
 {
- "updated": "2026-11-06T12:41:39.637Z",
- "companies": 550,
- "count": 201,
+ "updated": "2026-11-06T14:13:38.755Z",
+ "companies": 552,
+ "count": 206,
  "jobs": [
+  {
+   "title": "Brand Director",
+   "company": "Mentimeter",
+   "location": "Stockholm",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/mentimeter/jobs/5029479101",
+   "posted": "2026-11-06"
+  },
+  {
+   "title": "Creative Director",
+   "company": "Mollie",
+   "location": "Amsterdam",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/mollie/ee8ab8d6-36f7-42d0-980c-612089c3cadd",
+   "posted": "2026-11-06"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Hostinger",
+   "location": "Vilnius",
+   "country": "Lithuania",
+   "city": "Vilnius",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/hostinger/8b2bba95-5220-4912-8c35-17b972462703",
+   "posted": "2026-11-06"
+  },
   {
    "title": "Design Lead",
    "company": "Delivery Hero",
@@ -1265,6 +1304,19 @@
    "posted": "2026-10-27"
   },
   {
+   "title": "Brand Marketing Manager (m/f/d)",
+   "company": "Westwing",
+   "location": "Munich Office",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://westwing.jobs.personio.de/job/2863372",
+   "posted": "2026-10-27"
+  },
+  {
    "title": "Video & Motion Graphics (Baja Maternidad)",
    "company": "Ogilvy",
    "location": "Barcelona, Spain",
@@ -1652,6 +1704,19 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/PeopleCanFly/744000157141440",
+   "posted": "2026-10-22"
+  },
+  {
+   "title": "Intern UX Design (m/f/d)",
+   "company": "Westwing",
+   "location": "Munich Office",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Product & UX",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://westwing.jobs.personio.de/job/2855793",
    "posted": "2026-10-22"
   },
   {
