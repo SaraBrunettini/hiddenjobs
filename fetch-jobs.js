@@ -127,7 +127,194 @@ const ATS = {
       pay: ashbyPay(j.compensation),
     })),
   },
+  /* Personio answers in XML, and any subdomain loads - an unknown one just
+     serves Personio's own site - so only a real feed root counts. */
+  personio: {
+    url: s => `https://${s}.jobs.personio.de/xml?language=en`,
+    format: 'xml',
+    isFeed: d => /<workzag-jobs[\s>]/.test(d),
+    rows: (d, s) => xmlItems(d, 'position').map(j => ({
+      title: j.name,
+      location: j.office,
+      url: `https://${s}.jobs.personio.de/job/${j.id}`,
+      posted: j.createdAt,
+      type: j.schedule === 'part-time' ? 'parttime'
+          : /intern|trainee/i.test(j.employmentType) ? 'intern'
+          : /freelance|temporary/i.test(j.employmentType) ? 'contract' : j.schedule,
+    })),
+  },
+  /* Workable has many dormant accounts under common names, so a guess has
+     to have roles and carry the company's own name. */
+  workable: {
+    url: s => `https://apply.workable.com/api/v1/widget/accounts/${s}?details=false`,
+    isFeed: d => (d.jobs || []).length > 0,
+    owner: d => d.name,
+    rows: d => (d.jobs || []).map(j => ({
+      title: j.title,
+      location: (j.locations && j.locations.length
+        ? j.locations.map(l => [l.city, l.country].filter(Boolean).join(', ')).join('; ')
+        : [j.city, j.country].filter(Boolean).join(', ')),
+      url: j.url || j.shortlink || j.application_url,
+      posted: j.published_on || j.created_at,
+      type: j.employment_type,
+      work: j.telecommuting ? 'remote' : '',
+    })),
+  },
+  /* SmartRecruiters returns an empty list for any name at all, so an empty
+     answer to a guess says nothing - only a board with roles on it, posted
+     under the company's own name, counts. */
+  smartrecruiters: {
+    url: s => `https://api.smartrecruiters.com/v1/companies/${s}/postings?limit=100`,
+    isFeed: d => (d.content || []).length > 0,
+    owner: d => ((d.content || [])[0] || {}).company && d.content[0].company.name,
+    rows: (d, s) => (d.content || []).map(j => ({
+      title: j.name,
+      location: j.location && (String(j.location.fullLocation || '').replace(/(\s*,)+\s*/g, ', ') ||
+        [j.location.city, ISO[String(j.location.country || '').toUpperCase()] || j.location.country]
+          .filter(Boolean).join(', ')),
+      url: `https://jobs.smartrecruiters.com/${(j.company && j.company.identifier) || s}/${j.id}`,
+      posted: j.releasedDate,
+      type: j.typeOfEmployment && j.typeOfEmployment.label,
+      work: j.location && (j.location.remote ? 'remote' : j.location.hybrid ? 'hybrid' : ''),
+    })),
+  },
+  /* A company's own careers page, for those with no feed. Most careers sites
+     describe each role in schema.org JobPosting markup so Google can list it;
+     this reads that. Never guessed: the line in companies.txt gives the URL. */
+  page: {
+    pinnedOnly: true,
+    load: s => readCareersPage(s),
+  },
 };
+
+/* Personio's XML is flat - <position> holding plain text fields - so a
+   couple of regexes read it without a parser dependency. */
+const unXml = s => String(s || '')
+  .replace(/^<!\[CDATA\[|\]\]>$/g, '')
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"')
+  .replace(/&#39;|&apos;/g, "'").replace(/&amp;/g, '&').trim();
+
+function xmlItems(xml, tag) {
+  const items = [];
+  for (const [, body] of xml.matchAll(new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`, 'g'))) {
+    const item = {};
+    for (const [, k, v] of body.matchAll(/<(\w+)>([^<]*|<!\[CDATA\[[\s\S]*?\]\]>)<\/\1>/g))
+      if (!(k in item)) item[k] = unXml(v);
+    items.push(item);
+  }
+  return items;
+}
+
+/* JobPosting markup, wherever it sits in a page's JSON-LD: alone, in a list,
+   or inside an @graph. */
+function jobPostings(html) {
+  const found = [];
+  const walk = (x) => {
+    if (Array.isArray(x)) return x.forEach(walk);
+    if (!x || typeof x !== 'object') return;
+    const t = [].concat(x['@type'] || []);
+    if (t.includes('JobPosting')) found.push(x);
+    if (x['@graph']) walk(x['@graph']);
+  };
+  for (const [, body] of html.matchAll(
+      /<script[^>]*type=["']?application\/ld\+json["']?[^>]*>([\s\S]*?)<\/script>/gi)) {
+    try { walk(JSON.parse(body.trim())); } catch {}
+  }
+  return found;
+}
+
+const text = v => typeof v === 'string' ? v : (v && (v.name || v['@id'])) || '';
+
+function postingRow(p, pageUrl) {
+  const places = [].concat(p.jobLocation || []).map(l => {
+    const a = (l && l.address) || {};
+    const c = text(a.addressCountry);
+    return [a.addressLocality, ISO[c.toUpperCase()] || c].filter(Boolean).join(', ');
+  }).filter(Boolean);
+  const remote = /telecommute/i.test(String(p.jobLocationType || ''));
+  const v = (p.baseSalary && p.baseSalary.value) || {};
+  return {
+    title: unXml(p.title),
+    location: places.join('; ') || (remote ? 'Remote' : ''),
+    url: p.url || pageUrl,
+    posted: p.datePosted,
+    type: [].concat(p.employmentType || [])[0],
+    work: remote ? 'remote' : '',
+    pay: p.baseSalary && {
+      min: v.minValue != null ? v.minValue : v.value, max: v.maxValue,
+      currency: p.baseSalary.currency || v.currency,
+      interval: String(v.unitText || 'YEAR').toUpperCase() },
+  };
+}
+
+async function getPage(url) {
+  try {
+    const res = await fetch(url, {
+      headers: { accept: 'text/html', 'user-agent': 'Mozilla/5.0 (compatible; HiddenJobs)' },
+      signal: AbortSignal.timeout(20000),
+    });
+    return res.ok ? { url: res.url, html: await res.text() } : null;
+  } catch { return null; }
+}
+
+/* A careers page usually lists roles and marks up only the role pages
+   themselves, so when the list has no markup, follow its links that look
+   like roles on the same site and read those. */
+const ROLE_LINK = /\/(jobs?|careers?|positions?|openings?|vacanc|roles?|join|apply|stellen)/i;
+const MAX_ROLE_PAGES = 40;
+
+/* Many careers pages are a shop front for one of the boards above - an
+   embed, or "Apply" links out to it. Then the board's feed is the better
+   read: it has every role, and dates. */
+const BOARD_LINKS = [
+  ['greenhouse', /(?:boards|job-boards)(?:\.eu)?\.greenhouse\.io\/(?:embed\/job_board(?:\/js)?\?for=)?([\w-]+)/i],
+  ['lever', /jobs\.lever\.co\/([\w.-]+)/i],
+  ['ashby', /jobs\.ashbyhq\.com\/([\w.%-]+)/i],
+  ['recruitee', /\/\/([\w-]+)\.recruitee\.com/i],
+  ['personio', /\/\/([\w-]+)\.jobs\.personio\.(?:de|com)/i],
+  ['workable', /apply\.workable\.com\/(?:api\/v\d\/widget\/accounts\/)?([\w-]+)/i],
+  ['smartrecruiters', /(?:jobs|careers)\.smartrecruiters\.com\/([\w-]+)/i],
+];
+
+function boardOn(html) {
+  for (const [ats, re] of BOARD_LINKS) {
+    const m = html.match(re);
+    if (m && !/^(embed|api|j|jobs|v\d)$/i.test(m[1])) return { ats, slug: m[1] };
+  }
+  return null;
+}
+
+async function readCareersPage(url) {
+  const page = await getPage(url);
+  if (!page) return null;
+  let rows = jobPostings(page.html).map(p => postingRow(p, page.url));
+  const board = !rows.length && boardOn(page.html);
+  if (board) {
+    const feed = await fetchFeed(board.slug, board.ats);
+    if (feed) return feed.rows;
+  }
+  if (!rows.length) {
+    const base = new URL(page.url);
+    const links = new Set();
+    for (const [, href] of page.html.matchAll(/<a\b[^>]*href=["']([^"'#]+)["']/gi)) {
+      let u;
+      try { u = new URL(unXml(href), base); } catch { continue; }
+      if (u.host === base.host && u.pathname !== base.pathname
+          && u.pathname.length > base.pathname.length && ROLE_LINK.test(u.pathname))
+        links.add(u.href);
+    }
+    const pages = await pool([...links].slice(0, MAX_ROLE_PAGES), 5, getPage);
+    rows = pages.filter(Boolean).flatMap(p => jobPostings(p.html).map(j => postingRow(j, p.url)));
+  }
+  /* Roles marked up together on one page share its address; give each its
+     own, or the de-duplication below keeps only the first. */
+  const seen = new Set();
+  for (const r of rows) {
+    if (seen.has(r.url)) r.url += '#' + r.title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    seen.add(r.url);
+  }
+  return rows;
+}
 
 /* What counts as a creative role at all. */
 const CREATIVE = /(\bdesign|\bcreative|\billustrat|\bbrand\b|\bgraphic|\bux\b|\bui\b|\buser experience|\buser interface|\bmotion|\banimat|\bcopywriter|\bcontent design|\bcontent strateg|\bux writ|\bart director|\buser research|\btypograph|\bvisual|\bvideo editor|\bvideo artist|\bvideographer|\bcontent producer|\bsocial producer|\bstudio producer)/i;
@@ -150,6 +337,7 @@ const NOT_CREATIVE = new RegExp([
   'creative strateg|performance creative(?! designer)|forward deployed|brand ambassador',
   'account manager|account director|client partner|design advisor',
   'organizational transformation|benefit design|insurance product',
+  'product manager|planning manager|marketing specialist|engagement lead|ing[e\u00e9]nieur',
 ].join('|'), 'i');
 
 /* Which bucket a role belongs in. First match wins, so order matters:
@@ -407,14 +595,33 @@ function slugsFor(name) {
   return [...new Set([base.replace(/ /g, ''), base.replace(/ /g, '-')])].filter(Boolean);
 }
 
-async function fetchFeed(slug, ats) {
+/* "Starling Bank" and "Starling Bank Ltd" are the same owner; "Sky" and
+   "Skyline Plumbing" are not. */
+const bare = s => String(s || '').toLowerCase()
+  .replace(/\b(ltd|limited|inc|llc|gmbh|bv|ab|oy|sa|sas|plc|group|the|ag|se|as)\b/g, '')
+  .replace(/[^a-z0-9]/g, '');
+const sameOwner = (a, b) => bare(a) && bare(a) === bare(b);
+
+/* `guessFor` is set when the slug was guessed from a company name rather
+   than confirmed, so the board has to prove it is that company's. */
+async function fetchFeed(slug, ats, guessFor) {
+  const board = ATS[ats];
   try {
-    const res = await fetch(ATS[ats].url(slug), {
-      headers: { accept: 'application/json' },
+    if (board.load) {
+      const rows = await board.load(slug);
+      return rows && { slug, ats, rows: rows.filter(r => r.title && r.url) };
+    }
+    const xml = board.format === 'xml';
+    const res = await fetch(board.url(slug), {
+      headers: { accept: xml ? 'application/xml' : 'application/json' },
       signal: AbortSignal.timeout(20000),
     });
     if (!res.ok) return null;
-    const rows = ATS[ats].rows(await res.json()).filter(r => r.title && r.url);
+    const data = xml ? await res.text() : await res.json();
+    if (guessFor && board.isFeed && !board.isFeed(data)) return null;
+    if (guessFor && board.owner && !sameOwner(board.owner(data), guessFor)) return null;
+    if (!guessFor && board.format === 'xml' && !board.isFeed(data)) return null;
+    const rows = board.rows(data, slug).filter(r => r.title && r.url);
     return { slug, ats, rows };
   } catch { return null; }
 }
@@ -433,6 +640,8 @@ async function pool(items, size, fn) {
 
   /* One company per line. A line may name its board outright —
        Fever | feverup | greenhouse
+     — or, with no feed, its careers page —
+       Atomix | https://atomix.ai/careers | page
      — and otherwise the board name is guessed from the company name. */
   const pinned = {};
   const names = fs.readFileSync(`${__dirname}/companies.txt`, 'utf8')
@@ -454,12 +663,13 @@ async function pool(items, size, fn) {
     const hit = pinned[name] || known[name];
     if (hit) { targets.push({ name, slug: hit.slug, ats: hit.ats }); continue; }
     for (const slug of slugsFor(name))
-      for (const ats of Object.keys(ATS)) targets.push({ name, slug, ats });
+      for (const ats of Object.keys(ATS))
+        if (!ATS[ats].pinnedOnly) targets.push({ name, slug, ats, guess: true });
   }
 
   console.log(`${names.length} companies -> ${targets.length} feed requests`);
   const feeds = (await pool(targets, 20, t =>
-    fetchFeed(t.slug, t.ats).then(r => r && { ...r, name: t.name })
+    fetchFeed(t.slug, t.ats, t.guess && t.name).then(r => r && { ...r, name: t.name })
   )).filter(Boolean);
 
   /* Keep the richest feed per company. */
