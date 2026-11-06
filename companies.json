@@ -2139,9 +2139,24 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
  },
+ "Anyfin": {
+  "slug": "anyfin",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Arc": {
+  "slug": "arc",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
  "Asos": {
   "slug": "asos",
   "ats": "smartrecruiters",
+  "seen": "2026-11-06"
+ },
+ "Attest": {
+  "slug": "attest",
+  "ats": "teamtailor",
   "seen": "2026-11-06"
  },
  "Believe": {
@@ -2169,6 +2184,21 @@
   "ats": "recruitee",
   "seen": "2026-11-06"
  },
+ "BookBeat": {
+  "slug": "bookbeat",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Build in Amsterdam": {
+  "slug": "buildinamsterdam",
+  "ats": "homerun",
+  "seen": "2026-11-06"
+ },
+ "Busuu": {
+  "slug": "busuu",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
  "Canva": {
   "slug": "canva",
   "ats": "smartrecruiters",
@@ -2184,14 +2214,34 @@
   "ats": "workable",
   "seen": "2026-11-06"
  },
+ "Chip": {
+  "slug": "chip",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Clever Franke": {
+  "slug": "cleverfranke",
+  "ats": "homerun",
+  "seen": "2026-11-06"
+ },
  "Codecentric": {
   "slug": "codecentric",
   "ats": "personio",
   "seen": "2026-11-06"
  },
+ "Computas": {
+  "slug": "computas",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
  "Coolblue": {
   "slug": "coolblue",
   "ats": "smartrecruiters",
+  "seen": "2026-11-06"
+ },
+ "Coverflex": {
+  "slug": "coverflex",
+  "ats": "teamtailor",
   "seen": "2026-11-06"
  },
  "Craftzing": {
@@ -2209,9 +2259,24 @@
   "ats": "recruitee",
   "seen": "2026-11-06"
  },
+ "Deezer": {
+  "slug": "deezer",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
  "Delivery Hero": {
   "slug": "deliveryhero",
   "ats": "smartrecruiters",
+  "seen": "2026-11-06"
+ },
+ "Descartes Underwriting": {
+  "slug": "descartesunderwriting",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Detectify": {
+  "slug": "detectify",
+  "ats": "teamtailor",
   "seen": "2026-11-06"
  },
  "Devoteam": {
@@ -2229,6 +2294,11 @@
   "ats": "recruitee",
   "seen": "2026-11-06"
  },
+ "Eficode": {
+  "slug": "eficode",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
  "Endava": {
   "slug": "endava",
   "ats": "smartrecruiters",
@@ -2239,9 +2309,34 @@
   "ats": "recruitee",
   "seen": "2026-11-06"
  },
+ "Fabrique": {
+  "slug": "fabrique",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
  "Famly": {
   "slug": "famly",
   "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
+ "Fatshark": {
+  "slug": "fatshark",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Filippa K": {
+  "slug": "filippak",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Funnel": {
+  "slug": "funnel",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Ganni": {
+  "slug": "ganni",
+  "ats": "teamtailor",
   "seen": "2026-11-06"
  },
  "Gousto": {
@@ -2269,14 +2364,34 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
  },
+ "Huel": {
+  "slug": "huel",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Idealista": {
+  "slug": "idealista",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
  "Incentro": {
   "slug": "incentro",
   "ats": "personio",
   "seen": "2026-11-06"
  },
+ "Instabee": {
+  "slug": "instabee",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
  "IQM": {
   "slug": "iqm",
   "ats": "lever",
+  "seen": "2026-11-06"
+ },
+ "Itera": {
+  "slug": "itera",
+  "ats": "teamtailor",
   "seen": "2026-11-06"
  },
  "Jobteaser": {
@@ -2309,6 +2424,11 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
  },
+ "Lightyear": {
+  "slug": "lightyear",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
  "Lottiefiles": {
   "slug": "lottiefiles",
   "ats": "smartrecruiters",
@@ -2319,14 +2439,39 @@
   "ats": "personio",
   "seen": "2026-11-06"
  },
+ "Meilisearch": {
+  "slug": "meilisearch",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Monese": {
+  "slug": "monese",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
  "Multiplier": {
   "slug": "multiplier",
   "ats": "recruitee",
   "seen": "2026-10-20"
  },
+ "Nested": {
+  "slug": "nested",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Oddbox": {
+  "slug": "oddbox",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
  "Omio": {
   "slug": "omio",
   "ats": "smartrecruiters",
+  "seen": "2026-11-06"
+ },
+ "Ornikar": {
+  "slug": "ornikar",
+  "ats": "teamtailor",
   "seen": "2026-11-06"
  },
  "Oyster": {
@@ -2338,6 +2483,16 @@
   "slug": "papaya",
   "ats": "greenhouse",
   "seen": "2026-09-29"
+ },
+ "Paradox Interactive": {
+  "slug": "paradox-interactive",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "PayFit": {
+  "slug": "payfit",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
  },
  "People Can Fly": {
   "slug": "peoplecanfly",
@@ -2359,6 +2514,11 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-06"
  },
+ "Podimo": {
+  "slug": "podimo",
+  "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
  "Pragmatic Coders": {
   "slug": "pragmaticcoders",
   "ats": "recruitee",
@@ -2369,251 +2529,6 @@
   "ats": "recruitee",
   "seen": "2026-09-25"
  },
- "Salv": {
-  "slug": "salv",
-  "ats": "personio",
-  "seen": "2026-11-06"
- },
- "Sigma Software": {
-  "slug": "sigmasoftware",
-  "ats": "smartrecruiters",
-  "seen": "2026-11-06"
- },
- "Signifly": {
-  "slug": "signifly",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Sipgate": {
-  "slug": "sipgate",
-  "ats": "personio",
-  "seen": "2026-11-06"
- },
- "Snyk": {
-  "slug": "snyk",
-  "ats": "ashby",
-  "seen": "2026-11-06"
- },
- "Spyke Games": {
-  "slug": "spyke-games",
-  "ats": "lever",
-  "seen": "2026-11-06"
- },
- "Starship": {
-  "slug": "starship",
-  "ats": "personio",
-  "seen": "2026-11-06"
- },
- "STRV": {
-  "slug": "strv",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Tado": {
-  "slug": "tado",
-  "ats": "personio",
-  "seen": "2026-11-06"
- },
- "Teamwork": {
-  "slug": "teamwork",
-  "ats": "personio",
-  "seen": "2026-11-06"
- },
- "Twisto": {
-  "slug": "twisto",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Tylko": {
-  "slug": "tylko",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Userlane": {
-  "slug": "userlane",
-  "ats": "personio",
-  "seen": "2026-11-06"
- },
- "Version 1": {
-  "slug": "version1",
-  "ats": "smartrecruiters",
-  "seen": "2026-11-06"
- },
- "Virtual Identity": {
-  "slug": "virtualidentity",
-  "ats": "recruitee",
-  "seen": "2026-11-06"
- },
- "Westwing": {
-  "slug": "westwing",
-  "ats": "personio",
-  "seen": "2026-11-06"
- },
- "Xebia": {
-  "slug": "xebia",
-  "ats": "recruitee",
-  "seen": "2026-10-16"
- },
- "Anyfin": {
-  "slug": "anyfin",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Arc": {
-  "slug": "arc",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Attest": {
-  "slug": "attest",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "BookBeat": {
-  "slug": "bookbeat",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Build in Amsterdam": {
-  "slug": "buildinamsterdam",
-  "ats": "homerun",
-  "seen": "2026-11-06"
- },
- "Busuu": {
-  "slug": "busuu",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Chip": {
-  "slug": "chip",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Clever Franke": {
-  "slug": "cleverfranke",
-  "ats": "homerun",
-  "seen": "2026-11-06"
- },
- "Computas": {
-  "slug": "computas",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Coverflex": {
-  "slug": "coverflex",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Deezer": {
-  "slug": "deezer",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Descartes Underwriting": {
-  "slug": "descartesunderwriting",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Detectify": {
-  "slug": "detectify",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Eficode": {
-  "slug": "eficode",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Fabrique": {
-  "slug": "fabrique",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Fatshark": {
-  "slug": "fatshark",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Filippa K": {
-  "slug": "filippak",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Funnel": {
-  "slug": "funnel",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Ganni": {
-  "slug": "ganni",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Huel": {
-  "slug": "huel",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Idealista": {
-  "slug": "idealista",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Instabee": {
-  "slug": "instabee",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Itera": {
-  "slug": "itera",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Lightyear": {
-  "slug": "lightyear",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Meilisearch": {
-  "slug": "meilisearch",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Monese": {
-  "slug": "monese",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Nested": {
-  "slug": "nested",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Oddbox": {
-  "slug": "oddbox",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Ornikar": {
-  "slug": "ornikar",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Paradox Interactive": {
-  "slug": "paradox-interactive",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "PayFit": {
-  "slug": "payfit",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
- "Podimo": {
-  "slug": "podimo",
-  "ats": "teamtailor",
-  "seen": "2026-11-06"
- },
  "Quinyx": {
   "slug": "quinyx",
   "ats": "teamtailor",
@@ -2622,6 +2537,11 @@
  "Qvik": {
   "slug": "qvik",
   "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Salv": {
+  "slug": "salv",
+  "ats": "personio",
   "seen": "2026-11-06"
  },
  "Schibsted": {
@@ -2644,9 +2564,29 @@
   "ats": "teamtailor",
   "seen": "2026-11-06"
  },
+ "Sigma Software": {
+  "slug": "sigmasoftware",
+  "ats": "smartrecruiters",
+  "seen": "2026-11-06"
+ },
+ "Signifly": {
+  "slug": "signifly",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
+ "Sipgate": {
+  "slug": "sipgate",
+  "ats": "personio",
+  "seen": "2026-11-06"
+ },
  "Smart Pension": {
   "slug": "smartpension",
   "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Snyk": {
+  "slug": "snyk",
+  "ats": "ashby",
   "seen": "2026-11-06"
  },
  "Spacelift": {
@@ -2654,14 +2594,39 @@
   "ats": "teamtailor",
   "seen": "2026-11-06"
  },
+ "Spyke Games": {
+  "slug": "spyke-games",
+  "ats": "lever",
+  "seen": "2026-11-06"
+ },
+ "Starship": {
+  "slug": "starship",
+  "ats": "personio",
+  "seen": "2026-11-06"
+ },
  "Storytel": {
   "slug": "storytel",
   "ats": "teamtailor",
   "seen": "2026-11-06"
  },
+ "STRV": {
+  "slug": "strv",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
+ "Tado": {
+  "slug": "tado",
+  "ats": "personio",
+  "seen": "2026-11-06"
+ },
  "Tails.com": {
   "slug": "tailscom",
   "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Teamwork": {
+  "slug": "teamwork",
+  "ats": "personio",
   "seen": "2026-11-06"
  },
  "Templafy": {
@@ -2679,9 +2644,34 @@
   "ats": "teamtailor",
   "seen": "2026-11-06"
  },
+ "Twisto": {
+  "slug": "twisto",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
+ "Tylko": {
+  "slug": "tylko",
+  "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
+ "Userlane": {
+  "slug": "userlane",
+  "ats": "personio",
+  "seen": "2026-11-06"
+ },
+ "Version 1": {
+  "slug": "version1",
+  "ats": "smartrecruiters",
+  "seen": "2026-11-06"
+ },
  "Vipps": {
   "slug": "vipps",
   "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Virtual Identity": {
+  "slug": "virtualidentity",
+  "ats": "recruitee",
   "seen": "2026-11-06"
  },
  "Visma": {
@@ -2694,14 +2684,39 @@
   "ats": "teamtailor",
   "seen": "2026-11-06"
  },
+ "Westwing": {
+  "slug": "westwing",
+  "ats": "personio",
+  "seen": "2026-11-06"
+ },
  "Wunderdog": {
   "slug": "wunderdog",
   "ats": "teamtailor",
   "seen": "2026-11-06"
  },
+ "Xebia": {
+  "slug": "xebia",
+  "ats": "recruitee",
+  "seen": "2026-10-16"
+ },
  "Yonder": {
   "slug": "yonder",
   "ats": "teamtailor",
+  "seen": "2026-11-06"
+ },
+ "Enrise": {
+  "slug": "enrise",
+  "ats": "homerun",
+  "seen": "2026-11-06"
+ },
+ "Monterail": {
+  "slug": "monterail",
+  "ats": "workable",
+  "seen": "2026-11-06"
+ },
+ "Philips": {
+  "slug": "philips.wd3/jobs-and-careers",
+  "ats": "workday",
   "seen": "2026-11-06"
  }
 }

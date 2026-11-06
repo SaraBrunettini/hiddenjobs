@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-06T10:03:23.791Z",
- "companies": 541,
- "count": 182,
+ "updated": "2026-11-06T11:02:55.955Z",
+ "companies": 544,
+ "count": 181,
  "jobs": [
   {
    "title": "Design Lead",
@@ -695,19 +695,6 @@
   {
    "title": "Senior UX Designer (Focus on Research)",
    "company": "DEPT",
-   "location": "Budapest",
-   "country": "Hungary",
-   "city": "Budapest",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8336607",
-   "posted": "2026-10-30"
-  },
-  {
-   "title": "Senior UX Designer (Focus on Research)",
-   "company": "DEPT",
    "location": "Skopje",
    "country": "North Macedonia",
    "city": "Skopje",
@@ -716,6 +703,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8336632",
+   "posted": "2026-10-30"
+  },
+  {
+   "title": "Senior UX Designer (Focus on Research)",
+   "company": "DEPT",
+   "location": "Budapest",
+   "country": "Hungary",
+   "city": "Budapest",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8336607",
    "posted": "2026-10-30"
   },
   {
@@ -924,6 +924,19 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://jobs.lever.co/contentsquare/3e58d215-9395-4968-814d-da8168571f7a",
+   "posted": "2026-10-29"
+  },
+  {
+   "title": "Internship: Philips Communications & Brand",
+   "company": "Philips",
+   "location": "Amsterdam, Netherlands; Eindhoven; Best; Drachten",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Brand",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Amsterdam/Internship--Philips-Communications---Brand_594772",
    "posted": "2026-10-29"
   },
   {
@@ -2341,32 +2354,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://iodigital.recruitee.com/o/ux-strateeg-8",
-   "posted": "2026-10-07"
-  },
-  {
-   "title": "Motion Designer (DanceBit)",
-   "company": "Gismart",
-   "location": "Kyiv",
-   "country": "Ukraine",
-   "city": "Kyiv",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/gismart/059d1905-ddd2-46af-8364-c6e8cc2399c1",
-   "posted": "2026-10-07"
-  },
-  {
-   "title": "Creative Marketing Manager (DanceBit)",
-   "company": "Gismart",
-   "location": "Remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/gismart/e875cf5c-9692-44ce-9a7b-6399254aec22",
    "posted": "2026-10-07"
   }
  ]
