@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-06T14:24:38.425Z",
- "companies": 556,
- "count": 252,
+ "updated": "2026-11-06T17:58:39.811Z",
+ "companies": 563,
+ "count": 242,
  "jobs": [
   {
    "title": "Brand Director",
@@ -27,6 +27,71 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/mollie/ee8ab8d6-36f7-42d0-980c-612089c3cadd",
+   "posted": "2026-11-06"
+  },
+  {
+   "title": "Graphic Designer | Mid-Senior | Saily",
+   "company": "Nord Security",
+   "location": "Vilnius",
+   "country": "Lithuania",
+   "city": "Vilnius",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "€2.7K – €4.2K a month",
+   "url": "https://jobs.ashbyhq.com/nord-security/a6afb8b0-61b1-447c-b731-20d3661cfba7",
+   "posted": "2026-11-06"
+  },
+  {
+   "title": "Lead Brand Designer",
+   "company": "Synthesia",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/synthesia/621e1d72-ed10-437a-8906-2d42d3776eaf",
+   "posted": "2026-11-06"
+  },
+  {
+   "title": "Senior Brand Designer, Web",
+   "company": "Synthesia",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/synthesia/02f7ad9c-a596-4fd0-91e3-e08b2b7cf5c8",
+   "posted": "2026-11-06"
+  },
+  {
+   "title": "Unreal Engine Motion Designer - Mob Control",
+   "company": "Voodoo",
+   "location": "Paris",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/efa492d2-1133-4fbf-b8b7-dc2dc4df0cad",
+   "posted": "2026-11-06"
+  },
+  {
+   "title": "Motion Designer",
+   "company": "Fonio",
+   "location": "Vienna",
+   "country": "Austria",
+   "city": "Vienna",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "€65K – €100K",
+   "url": "https://jobs.ashbyhq.com/Fonio/d95edc12-ff26-45d6-b4a7-c4a5bf8f8f45",
    "posted": "2026-11-06"
   },
   {
@@ -186,19 +251,6 @@
    "posted": "2026-11-05"
   },
   {
-   "title": "Technical Instructional Designer (AI Programmes)",
-   "company": "Multiverse",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/multiverse/5e2c6d02-a513-451b-a486-3405841a0e40",
-   "posted": "2026-11-05"
-  },
-  {
    "title": "Product Designer | Mid-Senior",
    "company": "Nord Security",
    "location": "Vilnius",
@@ -261,19 +313,6 @@
    "workplace": "On-site",
    "salary": "€70K – €95K",
    "url": "https://jobs.ashbyhq.com/Fonio/4d69ed37-6958-414c-81b6-f504836ba55f",
-   "posted": "2026-11-05"
-  },
-  {
-   "title": "Art Director",
-   "company": "VML",
-   "location": "Prague, Czechia",
-   "country": "Czechia",
-   "city": "Prague",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.vml.com/careers/job/8928264002?gh_jid=8928264002",
    "posted": "2026-11-05"
   },
   {
@@ -560,19 +599,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Service-Design-Consultant_R00319812-1",
-   "posted": "2026-11-04"
-  },
-  {
-   "title": "Retail Assistant (m/f/d) befristet 28 - 35 Std - Brand Concept Store Herzogenaurach",
-   "company": "Adidas",
-   "location": "Herzogenaurach, Germany",
-   "country": "Germany",
-   "city": "Herzogenaurach",
-   "discipline": "Brand",
-   "type": "Part-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Herzogenaurach-Retail-Assistant-%28mfd%29-befristet-28-35-Std-Brand-Concept-Store-Herzogenaurach-BY/1390222733/",
    "posted": "2026-11-04"
   },
   {
@@ -968,19 +994,6 @@
   {
    "title": "Senior UX Designer (Focus on Research)",
    "company": "DEPT",
-   "location": "Skopje",
-   "country": "North Macedonia",
-   "city": "Skopje",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8336632",
-   "posted": "2026-10-30"
-  },
-  {
-   "title": "Senior UX Designer (Focus on Research)",
-   "company": "DEPT",
    "location": "Budapest",
    "country": "Hungary",
    "city": "Budapest",
@@ -992,16 +1005,16 @@
    "posted": "2026-10-30"
   },
   {
-   "title": "Senior Product Designer",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
+   "title": "Senior UX Designer (Focus on Research)",
+   "company": "DEPT",
+   "location": "Skopje",
+   "country": "North Macedonia",
+   "city": "Skopje",
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/490ab89d-3fd5-4f3a-a213-343c8df3a45b",
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8336632",
    "posted": "2026-10-30"
   },
   {
@@ -1015,19 +1028,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.adidas-group.com/job/Cannock-VISUAL-MERCHANDISER-CANNOCK/1380155433/",
-   "posted": "2026-10-30"
-  },
-  {
-   "title": "RETAIL ASSISTANT (M/W/D) BEFRISTET - BRAND CONCEPT STORE FRANKFURT",
-   "company": "Adidas",
-   "location": "Frankfurt, Germany",
-   "country": "Germany",
-   "city": "Frankfurt",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Frankfurt-RETAIL-ASSISTANT-%28MWD%29-BEFRISTET-BRAND-CONCEPT-STORE-FRANKFURT/1391909333/",
    "posted": "2026-10-30"
   },
   {
@@ -1486,19 +1486,6 @@
    "posted": "2026-10-27"
   },
   {
-   "title": "Consumer Experience Specialist (m/f/d) Vollzeit, 39h/Woche - ADIDAS Brand Flagship Store BERLIN",
-   "company": "Adidas",
-   "location": "Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Berlin-Consumer-Experience-Specialist-%28mfd%29-Vollzeit%2C-39hWoche-ADIDAS-Brand-Flagship-Store-BERLIN-BE/1442014033/",
-   "posted": "2026-10-27"
-  },
-  {
    "title": "Brand Marketing Manager (m/f/d)",
    "company": "Westwing",
    "location": "Munich Office",
@@ -1925,19 +1912,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/landor/jobs/8300759",
-   "posted": "2026-10-23"
-  },
-  {
-   "title": "Brand Marketing Lead",
-   "company": "Pleo",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/pleo/667345dd-55ee-4df5-ab38-aae2655bae1f",
    "posted": "2026-10-23"
   },
   {
@@ -2474,45 +2448,6 @@
    "posted": "2026-10-19"
   },
   {
-   "title": "Retail Assistant (m/f/d) 28-35h/Woche, befristet - ADIDAS Brand Flagship Store BERLIN",
-   "company": "Adidas",
-   "location": "Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Berlin-Retail-Assistant-%28mfd%29-28-35hWoche%2C-befristet-ADIDAS-Brand-Flagship-Store-BERLIN-BE/1388362133/",
-   "posted": "2026-10-19"
-  },
-  {
-   "title": "Retail Assistant (m/f/d) 28-35h/Woche, befristet - ADIDAS Brand Flagship Store BERLIN",
-   "company": "Adidas",
-   "location": "Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Berlin-Retail-Assistant-%28mfd%29-28-35hWoche%2C-befristet-ADIDAS-Brand-Flagship-Store-BERLIN-BE/1388363833/",
-   "posted": "2026-10-19"
-  },
-  {
-   "title": "Retail Assistant (m/f/d) 28-35h/Woche, befristet - ADIDAS Brand Flagship Store BERLIN",
-   "company": "Adidas",
-   "location": "Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Berlin-Retail-Assistant-%28mfd%29-28-35hWoche%2C-befristet-ADIDAS-Brand-Flagship-Store-BERLIN-BE/1388362433/",
-   "posted": "2026-10-19"
-  },
-  {
    "title": "Product Designer",
    "company": "Yonder",
    "location": "London, United Kingdom",
@@ -3033,19 +2968,6 @@
    "posted": "2026-10-12"
   },
   {
-   "title": "Staff UX Researcher",
-   "company": "Parloa",
-   "location": "Berlin Office",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/parloa/jobs/5003647101",
-   "posted": "2026-10-12"
-  },
-  {
    "title": "AI Solution Designer / AI Business Advisor",
    "company": "Solita",
    "location": "Finland",
@@ -3134,19 +3056,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/landor/jobs/8243434",
-   "posted": "2026-10-09"
-  },
-  {
-   "title": "Design Director - Consumer CPG",
-   "company": "Landor",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/landor/jobs/8243333",
    "posted": "2026-10-09"
   },
   {
@@ -3239,45 +3148,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/supercell/ef3ddd1b-bf20-4ff2-b6ef-4340662aa20a",
    "posted": "2026-10-08"
-  },
-  {
-   "title": "Senior Motion Designer (m/f/d)",
-   "company": "Raisin",
-   "location": "Berlin, Berlin, Germany; Hamburg",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4999592101",
-   "posted": "2026-10-07"
-  },
-  {
-   "title": "UX Strateeg",
-   "company": "iO Digital",
-   "location": "Eindhoven, Netherlands",
-   "country": "Netherlands",
-   "city": "Eindhoven",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://iodigital.recruitee.com/o/ux-strateeg-9",
-   "posted": "2026-10-07"
-  },
-  {
-   "title": "UX Strateeg",
-   "company": "iO Digital",
-   "location": "Den Bosch, Netherlands",
-   "country": "Netherlands",
-   "city": "Den Bosch",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://iodigital.recruitee.com/o/ux-strateeg-8",
-   "posted": "2026-10-07"
   }
  ]
 }

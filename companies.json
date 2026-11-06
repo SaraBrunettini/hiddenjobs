@@ -2139,6 +2139,11 @@
   "ats": "recruitee",
   "seen": "2026-11-06"
  },
+ "Adidas": {
+  "slug": "https://jobs.adidas-group.com/sitemap.xml",
+  "ats": "sitemap",
+  "seen": "2026-11-06"
+ },
  "Alten": {
   "slug": "alten",
   "ats": "smartrecruiters",
@@ -2379,6 +2384,11 @@
   "ats": "teamtailor",
   "seen": "2026-11-06"
  },
+ "Hugging Face": {
+  "slug": "huggingface",
+  "ats": "workable",
+  "seen": "2026-11-06"
+ },
  "Idealista": {
   "slug": "idealista",
   "ats": "teamtailor",
@@ -2542,6 +2552,11 @@
  "Pragmatic Coders": {
   "slug": "pragmaticcoders",
   "ats": "recruitee",
+  "seen": "2026-11-06"
+ },
+ "Puma": {
+  "slug": "https://about.puma.com/",
+  "ats": "sitemap",
   "seen": "2026-11-06"
  },
  "Quantum Systems": {
@@ -2759,24 +2774,44 @@
   "ats": "workday",
   "seen": "2026-11-06"
  },
- "Adidas": {
-  "slug": "https://jobs.adidas-group.com/sitemap.xml",
-  "ats": "sitemap",
-  "seen": "2026-11-06"
- },
- "Hugging Face": {
-  "slug": "huggingface",
-  "ats": "workable",
-  "seen": "2026-11-06"
- },
- "Puma": {
-  "slug": "https://about.puma.com/",
-  "ats": "sitemap",
-  "seen": "2026-11-06"
- },
  "Nike": {
   "slug": "https://careers.nike.com/",
   "ats": "sitemap",
+  "seen": "2026-11-06"
+ },
+ "Exotec": {
+  "slug": "exotec",
+  "ats": "workable",
+  "seen": "2026-11-06"
+ },
+ "Exoticca": {
+  "slug": "exoticca",
+  "ats": "workable",
+  "seen": "2026-11-06"
+ },
+ "Jasper": {
+  "slug": "jasper",
+  "ats": "workable",
+  "seen": "2026-11-06"
+ },
+ "Kahoot": {
+  "slug": "kahoot",
+  "ats": "workable",
+  "seen": "2026-11-06"
+ },
+ "Netguru": {
+  "slug": "netguru",
+  "ats": "workable",
+  "seen": "2026-11-06"
+ },
+ "Perlego": {
+  "slug": "perlego",
+  "ats": "workable",
+  "seen": "2026-11-06"
+ },
+ "Zoopla": {
+  "slug": "zoopla",
+  "ats": "workable",
   "seen": "2026-11-06"
  }
 }
