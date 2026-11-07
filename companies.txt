@@ -561,7 +561,7 @@ Cushon
 Cuvva
 Cybercom
 Dailymotion
-Darktrace
+Darktrace | darktrace.wd3/darktaceexternal | workday
 Dashmote
 Dazn
 dbt Labs
@@ -672,7 +672,7 @@ Ikea
 Immeo
 Incentro
 Incident.io
-Inetum
+Inetum | inetum2 | smartrecruiters
 Infarm
 Infermedica
 Infinity Works
@@ -987,7 +987,7 @@ Volt
 Voorhoede
 Wagestream
 Wallbox
-Wargaming
+Wargaming | wargamingen | greenhouse
 Wefox
 Weights & Biases
 Welcome Jungle
@@ -1028,3 +1028,300 @@ Warner Bros. Discovery | warnerbros.wd5/global | workday
 
 # Careers sites read from their sitemap: company | site or sitemap | sitemap
 Nike | https://careers.nike.com/ | sitemap
+
+# Found by discover.js on 2026-11-07
+2K | 2k | greenhouse
+A1group | a1group.wd3/A1_Jobs_bg | workday
+Aampower | aampower.wd1/aam-career-site | workday
+ABB | abb.wd3/external_career_page | workday
+Abercrombie | abercrombie.wd108/anf | workday
+ABOUT YOU SE & Co. KG | aboutyougmbh | smartrecruiters
+AccorCorpo | accorcorpo | smartrecruiters
+ACE | ace | homerun
+act digital | altersolutions | smartrecruiters
+Adjoe | adjoe | ashby
+Adventhealth | adventhealth.wd12/AH_External_Career_Site | workday
+AFRY | afry | smartrecruiters
+AG | ag.wd3/Airbus | workday
+Aikidosecurity | aikidosecurity | recruitee
+Airalo | airalo | lever
+Airbnb | airbnb | greenhouse
+Airliquidehr | airliquidehr.wd3/AirLiquideExternalCareer | workday
+Alfalaval | alfalaval.wd3/Alfa_Laval_jobs | workday
+Alice Bob | alice-bob | lever
+Alliancewd | alliancewd.wd3/alpine-racing-careers | workday
+ALO | aloyoga | greenhouse
+AlphaSense | alphasense | greenhouse
+Alta Ares | alta-ares | ashby
+Altera | altera.wd1/altera | workday
+ALX Africa | alxafrica | greenhouse
+Amo | amo | ashby
+Analogdevices | analogdevices.wd1/External | workday
+Anaplan | anaplan | greenhouse
+Apify | apify | ashby
+Aquablu | aquablu | recruitee
+Arianegroup | arianegroup.wd3/EXTERNALALL | workday
+Aristocrat | aristocrat.wd3/AristocratExternalCareersSite | workday
+Aspora | aspora | ashby
+Assist Digital Netherlands | assist-digital | homerun
+Assured | assured | ashby
+ASSYSTEM | assystem | smartrecruiters
+ATP architekten ingenieure | atparchitekteningenieure | smartrecruiters
+Atria Group LLC | atriagroupllc | smartrecruiters
+Aumovio | aumovio | smartrecruiters
+Austro Holding | austroholding | smartrecruiters
+AUTO1 Group | auto1 | smartrecruiters
+Avalerehealth | avalerehealth | lever
+Avantos | avantos | ashby
+Aviva | aviva.wd1/External | workday
+AWG | awg.wd3/AW | workday
+AXIS | axis.wd3/External_Career_Site | workday
+Axle Careers | axle-careers | ashby
+Ayvens | ayvens.wd3/AyvensCareers | workday
+Barclays | barclays.wd3/External_Career_Site_Barclays | workday
+Barrière | barriere | smartrecruiters
+Beam Up | beam-up | ashby
+Benesch | alfredbeneschco | greenhouse
+Bertelsmann-Jobs | bertelsmann-jobs | smartrecruiters
+bet365 | bet3651 | smartrecruiters
+BEUMER Group | beumergroup1 | smartrecruiters
+Billups | billups | ashby
+Bite | bite | ashby
+Bjakcareer | bjakcareer | ashby
+Blackbaud | blackbaud.wd1/ExternalCareers | workday
+Blackline | blackline.wd108/BlackLineCareers | workday
+Blackrock | blackrock.wd1/BlackRock_Professional | workday
+Blacksemiconductor | blacksemiconductor | ashby
+Boeing | boeing.wd1/EXTERNAL_CAREERS | workday
+Bosch Group | boschgroup | smartrecruiters
+Bristolmyerssquibb | bristolmyerssquibb.wd5/BMS | workday
+BUPA | bupa.wd3/EXT_CAREER | workday
+BUT | but2 | smartrecruiters
+Camping TV | camping | homerun
+Cancerresearchuk | cancerresearchuk.wd3/External_Careers | workday
+Capitalone | capitalone.wd12/Capital_One | workday
+Capri | capri.wd1/Michael_Kors | workday
+CAT | cat.wd5/caterpillarcareers | workday
+CC | cc.wd3/ChanelCareers | workday
+CD PROJEKT RED | cdprojektred | smartrecruiters
+CGM | cgm.wd3/cgm | workday
+Chubb Fire & Security | chubbfiresecurity | smartrecruiters
+Cielo | cielo2 | smartrecruiters
+Cisco | cisco.wd5/cisco_careers | workday
+CITECH | citech | smartrecruiters
+CITI | citi.wd5/2 | workday
+CLIO | clio.wd3/ClioCareerSite | workday
+Cloudera | cloudera.wd5/External_Career | workday
+Coinmarketcap | coinmarketcap | lever
+COKE | coke.wd1/coca-cola-careers | workday
+Colisée France | coliseefrance | smartrecruiters
+Condenast | condenast.wd115/CondeCareers | workday
+Conforama | conforama | smartrecruiters
+Constructor | constructor | ashby
+Continental | continental | smartrecruiters
+CSL | csl.wd1/CSL_External | workday
+Curtisswright | curtisswright.wd1/CW_External_Career_Site | workday
+CW | cw.wd1/External | workday
+Cyrusone | cyrusone.wd1/CyrusOneCareerPortal | workday
+Damen | damen.wd3/Damen_Careers | workday
+Darkroom | darkroom | ashby
+Datev | datev.wd3/Datev_Careers | workday
+DB | db.wd3/dbwebsite | workday
+Ddn | ddn | ashby
+Deloitte | deloittenordic | smartrecruiters
+Demegroup | demegroup.wd3/careers_external | workday
+Dentsu Creative Amsterdam | dentsucreative | homerun
+Dentsuaegis | dentsuaegis.wd3/DAN_GLOBAL | workday
+Deutsche Glasfaser | deutscheglasfaser | smartrecruiters
+Deutsche Telekom IT Solutions Slovakia | deutschetelekomitsolutionsslovakia | smartrecruiters
+Disher | disher | lever
+Ditt Officemakers | ditt-officemakers | homerun
+Dowjones | dowjones.wd1/Dow_Jones_Career | workday
+Drees & Sommer SE | dreessommerse | smartrecruiters
+Duckwise | duckwise | homerun
+E. Breuninger GmbH & Co. | ebreuningergmbhco | smartrecruiters
+Ecolab | ecolab.wd1/Ecolab_External | workday
+EDF UK | edf-uk | smartrecruiters
+Eightsleep | eightsleep | ashby
+Ekimetrics | ekimetrics | lever
+Elekta | elekta.wd3/Elekta_Careers | workday
+Elyos | elyos | ashby
+Entrust | entrust.wd1/entrustcareers | workday
+Epoch Ai | epoch-ai | lever
+Essity | essity.wd3/Job_opportunities | workday
+EVERIENCE | everience | smartrecruiters
+Eversource | eversource.wd1/ExternalSite | workday
+Evolution | evolution | smartrecruiters
+Fedex | fedex.wd1/FXE-EU_External | workday
+FLIR | flir.wd1/flircareers | workday
+Fortrea | fortrea.wd1/Fortrea | workday
+Fticonsulting | fticonsulting.wd108/FTIConsultingCareers | workday
+Gameloft | gameloft | smartrecruiters
+General Dynamics Missions System International | gdmsi | smartrecruiters
+Genesys | genesys.wd1/Genesys | workday
+Globalfoundries | globalfoundries.wd1/External | workday
+Goodstack | goodstack | ashby
+Groupe Hospitalier Paris Saint Joseph | groupehospitalierparissaintjoseph | smartrecruiters
+Groupement Mousquetaires | groupementmousquetaires3 | smartrecruiters
+H&M Group | hmgroup | smartrecruiters
+Harmattan Ai | harmattan-ai | ashby
+Headway | headway | ashby
+Heinz | heinz.wd1/KraftHeinz_Careers | workday
+Hiflylabs | hiflylabs | smartrecruiters
+Hims And Hers | hims-and-hers | ashby
+Hitachi | hitachi.wd1/hitachi | workday
+Home | home | homerun
+Hometap | hometap | greenhouse
+HopSkipDrive | hopskipdrive | greenhouse
+House Rx | houserx | greenhouse
+HousingAnywhere Group | housinganywhere | greenhouse
+HRtechX | hrtechx | greenhouse
+Hudson River Trading | wehrtyou | greenhouse
+HumanSignal | humansignal | greenhouse
+Hungryroot | hungryroot | greenhouse
+iCapital | icapitalnetwork | greenhouse
+IDEO | ideo | greenhouse
+Imprint | imprint | ashby
+Informa Group Plc. | informagroupplc | smartrecruiters
+Ingérop | ingrop | smartrecruiters
+InPost | inpost | smartrecruiters
+Interbrand | interbrand | greenhouse
+Interdependence | interdependence | greenhouse
+Interstellar Lab | interstellarlab | greenhouse
+IONOS EN | ionos2 | greenhouse
+Isar Aerospace SE | isaraerospace | greenhouse
+Isomorphic Labs | isomorphiclabs | greenhouse
+Ispeedtolead | ispeedtolead | ashby
+Iterative Health | iterativehealth | greenhouse
+IXL Learning | ixllearning | greenhouse
+Jack Jill External Ats | jack-jill-external-ats | ashby
+Jack Link's Protein Snacks | jacklinksproteinsnacks | smartrecruiters
+Jack Morton Worldwide | jackmortonworldwide | greenhouse
+JACOBS DOUWE EGBERTS | jacobsdouweegberts | smartrecruiters
+JBTM | jbtm.wd108/JBT_Marel_Career_Site | workday
+Jellyfishcareers | jellyfishcareers | ashby
+Jensen Hughes | jensenhughes | greenhouse
+Jerry Ai | jerry.ai | ashby
+JetBrains | jetbrains | greenhouse
+Jobgether | jobgether | lever
+Join9am | join9am | ashby
+Journey | journey | greenhouse
+Kanadevia Inova | kanadeviainova | smartrecruiters
+Kayak | kayak | ashby
+Keenfinity | keenfinity | smartrecruiters
+Kiabi | kiabi | smartrecruiters
+Klick | klick1 | smartrecruiters
+Koos | koos | homerun
+Koro | koro | ashby
+Kota | kota | ashby
+KPN | kpn | smartrecruiters
+Kraken Com | kraken.com | ashby
+Kronospan | kronospan | smartrecruiters
+Kubix Media | kubix-media | homerun
+Leovegasgroup | leovegasgroup | ashby
+Lexroom | lexroom | ashby
+Lightspeedhq | lightspeedhq | ashby
+Lilly | lilly.wd115/LLY | workday
+Lilt Production | lilt-production | ashby
+Locinox | locinox | smartrecruiters
+M3USA | m3usa | smartrecruiters
+Mattel | mattelinc | smartrecruiters
+Max Mara Fashion Group | maxmarafashiongroup | smartrecruiters
+Melkweg | melkweg | homerun
+Mendix | mendix | lever
+METRO/MAKRO | metromakro | smartrecruiters
+Monolithicpower | monolithicpower.wd12/MPS_Careers | workday
+NBCUniversal | nbcuniversal3 | smartrecruiters
+NCC | ncc | smartrecruiters
+NECSWS | necsws | smartrecruiters
+Neko Health | neko-health | ashby
+Netcompany | netcompany1 | smartrecruiters
+Nexity | nexity | smartrecruiters
+NEXTON | nexton | smartrecruiters
+Niantic Spatial | niantic-spatial | ashby
+Novaspace | novaspace | lever
+OCTO Technology | octotechnology | smartrecruiters
+OECD | oecd | smartrecruiters
+Oktoberagency | oktoberagency | ashby
+Old Skull Games | oldskullgames1 | smartrecruiters
+Omnea | omnea | ashby
+ON A DAILY BASIS (ODB) | onadailybasis | homerun
+Oneimpression | oneimpression | lever
+Outpost VFX | outpostvfx | smartrecruiters
+Oviva | oviva | ashby
+PA Consulting | paconsulting | smartrecruiters
+Peec | peec | ashby
+Perk | perk | ashby
+Picanol Group | picanolgroup | smartrecruiters
+Plaud | plaud | ashby
+Playlab | playlab | ashby
+Playtech | playtech | smartrecruiters
+Prosus | prosus | ashby
+Proxima Fusion | proxima-fusion | ashby
+Qualysoft | qualysoft | lever
+Ramp | ramp | ashby
+Ruby Labs | ruby-labs | ashby
+Runway Ml | runway-ml | ashby
+Saabgroup | saabgroup.wd116/Combitech_careers | workday
+Salesforce | salesforce.wd12/external_career_site | workday
+Sapph | sapph | homerun
+Scaleway | scaleway | lever
+Second Front Systems | second-front-systems | ashby
+Sereact | sereact | ashby
+Shieldai | shieldai | lever
+Siena | siena | ashby
+Skelar | skelar | ashby
+Skydio | skydio | ashby
+Snowflake | snowflake | ashby
+Sonarsource | sonarsource | lever
+Spoton | spoton | ashby
+Statista | statista | ashby
+Stellarentertainment | stellarentertainment | ashby
+Suno | suno | ashby
+SYBO | sybo | teamtailor
+Systek | systek | homerun
+Tailor&Fox Srl | tailorfox | teamtailor
+Talentin | talentin | teamtailor
+TEAM LEWIS | teamlewis | teamtailor
+Teamsnap | teamsnap | lever
+TeamViewer Germany GmbH | teamviewer | teamtailor
+Telenor Sweden | telenorsweden | teamtailor
+Tensorwave | tensorwave | ashby
+Tenstorrent | tenstorrent | greenhouse
+Teton | teton | ashby
+Teya | teya | ashby
+Tgc | tgc | ashby
+The Knot Worldwide | theknotworldwide | greenhouse
+The MISSION Group | themissiongroup | teamtailor
+The Quality Group | thequalitygroupgmbh2 | greenhouse
+The Quality Group GmbH | thequalitygroupgmbh1 | greenhouse
+Thermofisher | thermofisher.wd5/ThermoFisherCareers | workday
+Things I Like Things I Love | thingsilikethingsilove | homerun
+Thrive Market | thrivemarket | greenhouse
+Tldr Tech | tldr.tech | ashby
+Trading212 | trading212 | ashby
+TradingView | tradingview | teamtailor
+Tripledot Studios | tripledotstudios | greenhouse
+Turquoise Health | turquoise-health | ashby
+Tycho Ai | tycho-ai | ashby
+Umusic | umusic.wd5/UMGUK | workday
+Unlimit | unlimit | lever
+Unseen Studio | unseenstudio | homerun
+VANMOKUM | vanmokum | homerun
+VaynerMedia LLC | vaynermedia | greenhouse
+Vertical Aerospace | vertical-aerospace | ashby
+VFC | vfc.wd5/kipling_careers | workday
+Virtualitics | virtualitics | lever
+Viseven | viseven | lever
+VML/WPP Enterprise Solutions | vmlenterprisesolutions | greenhouse
+Wave | wavemm1 | greenhouse
+Weloglobal | weloglobal | lever
+Wikimedia Foundation | wikimedia | greenhouse
+Wonderful | wonderful | ashby
+Workwize | workwize | greenhouse
+WPP | wpp | greenhouse
+Xsolla | xsolla | lever
+Yubo | yubo | ashby
+Zapier | zapier | ashby
+Zeely | zeely | ashby
+Zenjob | zenjob | ashby
