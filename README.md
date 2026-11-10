@@ -44,6 +44,16 @@ names the sitemap) or the sitemap itself:
 Nike | https://careers.nike.com/ | sitemap
 ```
 
+Oracle Recruiting sites (ITV, the Guardian) are searched like Workday ones,
+named by server and site from the careers address:
+
+```
+ITV | fa-euup-saasfaprod1.fa.ocs/CX_1 | oracle
+```
+
+A role that gives only a closing date - the BBC's do - is dated from the day
+the board first saw it, as long as it hasn't closed.
+
 Only roles whose address reads as creative are opened, so a sitemap of
 thousands of roles costs a few dozen page reads.
 
