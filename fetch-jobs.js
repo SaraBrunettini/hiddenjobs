@@ -732,6 +732,9 @@ const NOT_CREATIVE = new RegExp([
   'animat(eur|rice)\\b(?! ?(2d|3d|motion))|controller|purchas|buyer|inköpare',
   /* shop floor */
   'brand representative|conseiller de vente|assistente alle vendite|verkoopmedewerker',
+  /* teaching and academic research - design subjects, not design jobs */
+  'lecturer|professor|teaching fellow|tutor\\b|course leader|subject leader|academic lead|head of programmes',
+  'research (fellow|associate|assistant)|postdoc|post-doc|phd|doctoral|studentship|chair in|reader in',
   'data analyst|multi-channel marketer|designer outlet|concept store|flagship store|retail assistant|sales assistant|brand specialist|fp&a|controlling|data visuali[sz]ation|events coordinator|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
 ].join('|'), 'i');
 
