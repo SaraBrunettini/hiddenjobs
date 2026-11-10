@@ -215,6 +215,45 @@ const ATS = {
       pay: homerunPay(xmlTag(j, 'salary_indication')),
     })),
   },
+  /* Breezy - small agencies and studios. An unknown name answers 404, and
+     every role carries the company's name, so a guess can be checked. */
+  breezy: {
+    url: s => `https://${s}.breezy.hr/json`,
+    isFeed: d => Array.isArray(d) && d.length > 0,
+    owner: d => d[0] && d[0].company && d[0].company.name,
+    rows: d => (Array.isArray(d) ? d : []).map(j => ({
+      title: j.name,
+      location: ((j.locations && j.locations.length) ? j.locations : [j.location || {}])
+        .map(l => [l.city, l.country && (ISO[l.country.id] || l.country.name)].filter(Boolean).join(', '))
+        .filter(Boolean).join('; '),
+      url: j.url,
+      posted: j.published_date,
+      type: j.type && j.type.name,
+      work: j.location && j.location.is_remote ? 'remote' : '',
+    })),
+  },
+  /* Pinpoint - UK companies. Its feed gives no posting date, only open
+     roles, so a role is dated from when the board first saw it. */
+  pinpoint: {
+    url: s => `https://${s}.pinpointhq.com/postings.json`,
+    isFeed: d => (d.data || []).length > 0,
+    rows: d => (d.data || []).map(j => {
+      const l = j.location || {};
+      return {
+        title: j.title,
+        location: [...new Set([l.city, l.province].filter(Boolean))].join(', ') || l.name,
+        url: j.url,
+        posted: null,
+        undated: true,
+        closes: j.deadline_at,
+        type: j.employment_type,
+        work: j.workplace_type,
+        pay: j.compensation_visible && { min: j.compensation_minimum, max: j.compensation_maximum,
+          currency: j.compensation_currency,
+          interval: String(j.compensation_frequency || 'year').toUpperCase().replace(/LY$/, '') },
+      };
+    }),
+  },
   /* A company's own careers page, for those with no feed. Most careers sites
      describe each role in schema.org JobPosting markup so Google can list it;
      this reads that. Never guessed: the line in companies.txt gives the URL. */
@@ -455,6 +494,8 @@ const BOARD_LINKS = [
   ['workable', /apply\.workable\.com\/(?:api\/v\d\/widget\/accounts\/)?([\w-]+)/i],
   ['smartrecruiters', /(?:jobs|careers)\.smartrecruiters\.com\/([\w-]+)/i],
   ['teamtailor', /\/\/(?!app\.|www\.|support\.)([\w-]+)\.teamtailor\.com/i],
+  ['breezy', /\/\/(?!www\.|app\.|api\.)([\w-]+)\.breezy\.hr/i],
+  ['pinpoint', /\/\/(?!www\.|app\.|api\.)([\w-]+)\.pinpointhq\.com/i],
   ['homerun', /\/\/(?!www\.|app\.|help\.|static\.|cdn\.|feed\.|api\.|developers\.)([\w-]+)\.homerun\.co/i],
 ];
 
@@ -1042,7 +1083,7 @@ if (require.main !== module) return;
     for (const r of f.rows) {
       const disc = discipline(r.title);
       if (!disc) continue;
-      if (!r.posted && r.closes && Date.parse(r.closes) > Date.now())
+      if (!r.posted && (r.undated || (r.closes && Date.parse(r.closes) > Date.now())))
         r.posted = firstSeen[r.url] || today;
       if (!isRecent(r.posted)) continue;
       const loc = (r.location || 'Not stated').trim();
