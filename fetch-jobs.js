@@ -282,7 +282,50 @@ const ATS = {
     pinnedOnly: true,
     load: s => readOracle(s),
   },
+  /* jobs.ac.uk - where UK universities, colleges and research bodies post
+     their own vacancies. Each role is listed under the institution that
+     posted it, not under jobs.ac.uk. The line names the categories to read. */
+  jobsacuk: {
+    pinnedOnly: true,
+    load: s => readJobsAcUk(s),
+  },
 };
+
+const JAC = 'https://www.jobs.ac.uk';
+const JAC_FACETS = {
+  'creative-arts-and-design': 'academicDisciplineFacet',
+  'media-and-communications': 'academicDisciplineFacet',
+  'web-design-and-development': 'nonAcademicDisciplineFacet',
+  'pr-marketing-sales-and-communication': 'nonAcademicDisciplineFacet',
+};
+
+async function readJobsAcUk(categories) {
+  const links = new Set();
+  let answered = false;
+  for (const cat of String(categories).split(',').map(c => c.trim()).filter(Boolean)) {
+    const facet = JAC_FACETS[cat] || 'academicDisciplineFacet';
+    for (let start = 1; start < 1000; start += 25) {
+      const page = await getPage(`${JAC}/search/?activeFacet=${facet}&sortOrder=1&pageSize=25` +
+        `&startIndex=${start}&${facet}%5B0%5D=${encodeURIComponent(cat)}`);
+      if (!page) break;
+      answered = true;
+      const found = [...new Set([...page.html.matchAll(/href="(\/job\/[^"#?]+)"/g)].map(m => m[1]))];
+      if (!found.length) break;
+      /* The address carries the title, so only creative-sounding roles are opened. */
+      for (const path of found) {
+        const w = pathWords(JAC + path);
+        if (CREATIVE.test(w) && !NOT_CREATIVE.test(w)) links.add(JAC + path);
+      }
+    }
+  }
+  if (!answered) return null;
+  const pages = await pool([...links], 4, getPage);
+  return pages.filter(Boolean).flatMap(p => jobPostings(p.html).map(j => ({
+    ...postingRow(j, p.url),
+    company: j.hiringOrganization && text(j.hiringOrganization).trim(),
+    closes: j.validThrough,
+  })));
+}
 
 async function readOracle(slug) {
   const [server, site] = String(slug).split('/');
@@ -1095,7 +1138,7 @@ if (require.main !== module) return;
       if (!inEurope(where, loc, work)) continue;
       jobs.push({
         title: r.title.trim(),
-        company: name,
+        company: r.company || name,
         location: loc,
         country: where,
         city: city(loc),

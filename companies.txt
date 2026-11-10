@@ -1329,3 +1329,6 @@ Zenjob | zenjob | ashby
 
 # Broadcasters
 BBC | https://careers.bbc.co.uk/ | sitemap
+
+# UK universities, colleges and research bodies, listed under each institution
+jobs.ac.uk | creative-arts-and-design,media-and-communications,web-design-and-development,pr-marketing-sales-and-communication | jobsacuk
