@@ -902,9 +902,12 @@ const EUROPE = new Set([
 ]);
 const OPEN_TO_EUROPE = /\b(europe|emea|global|worldwide|anywhere)\b/i;
 
+/* "Remote - Anywhere - USA" is anywhere in America: a remote role counts as
+   open to Europe only when no country outside Europe is named. */
 const inEurope = (countryName, loc, work) =>
   EUROPE.has(countryName) ||
-  (work === 'Remote' && (OPEN_TO_EUROPE.test(loc) || /^\s*remote\s*$/i.test(loc)));
+  (work === 'Remote' && ['Europe-wide', 'Other'].includes(countryName) &&
+   (OPEN_TO_EUROPE.test(loc) || /^\s*remote\s*$/i.test(loc)));
 
 /* A title with its country taken out, so "Video Editor (Remote - Austria)"
    and "Video Editor (Remote - Greece)" are recognised as one role. */
