@@ -51,6 +51,10 @@ named by server and site from the careers address:
 ITV | fa-euup-saasfaprod1.fa.ocs/CX_1 | oracle
 ```
 
+UK universities and colleges are read from jobs.ac.uk, where they post their
+own vacancies; each role appears under the institution that posted it. The
+line names the jobs.ac.uk categories to read.
+
 A role that gives only a closing date - the BBC's do - is dated from the day
 the board first saw it, as long as it hasn't closed.
 
