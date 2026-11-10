@@ -1042,7 +1042,7 @@ act digital | altersolutions | smartrecruiters
 Adjoe | adjoe | ashby
 Adventhealth | adventhealth.wd12/AH_External_Career_Site | workday
 AFRY | afry | smartrecruiters
-AG | ag.wd3/Airbus | workday
+Airbus | ag.wd3/Airbus | workday
 Aikidosecurity | aikidosecurity | recruitee
 Airalo | airalo | lever
 Airbnb | airbnb | greenhouse
@@ -1101,10 +1101,9 @@ Camping TV | camping | homerun
 Cancerresearchuk | cancerresearchuk.wd3/External_Careers | workday
 Capitalone | capitalone.wd12/Capital_One | workday
 Capri | capri.wd1/Michael_Kors | workday
-CAT | cat.wd5/caterpillarcareers | workday
-CC | cc.wd3/ChanelCareers | workday
+Caterpillar | cat.wd5/caterpillarcareers | workday
 CD PROJEKT RED | cdprojektred | smartrecruiters
-CGM | cgm.wd3/cgm | workday
+CompuGroup Medical | cgm.wd3/cgm | workday
 Chubb Fire & Security | chubbfiresecurity | smartrecruiters
 Cielo | cielo2 | smartrecruiters
 Cisco | cisco.wd5/cisco_careers | workday
@@ -1126,7 +1125,7 @@ Cyrusone | cyrusone.wd1/CyrusOneCareerPortal | workday
 Damen | damen.wd3/Damen_Careers | workday
 Darkroom | darkroom | ashby
 Datev | datev.wd3/Datev_Careers | workday
-DB | db.wd3/dbwebsite | workday
+Deutsche Bank | db.wd3/dbwebsite | workday
 Ddn | ddn | ashby
 Deloitte | deloittenordic | smartrecruiters
 Demegroup | demegroup.wd3/careers_external | workday
@@ -1203,7 +1202,8 @@ Jellyfishcareers | jellyfishcareers | ashby
 Jensen Hughes | jensenhughes | greenhouse
 Jerry Ai | jerry.ai | ashby
 JetBrains | jetbrains | greenhouse
-Jobgether | jobgether | lever
+# Not an employer - reposts other companies' jobs; kept here so discovery skips it:
+# Jobgether | jobgether | lever
 Join9am | join9am | ashby
 Journey | journey | greenhouse
 Kanadevia Inova | kanadeviainova | smartrecruiters
@@ -1281,7 +1281,8 @@ Suno | suno | ashby
 SYBO | sybo | teamtailor
 Systek | systek | homerun
 Tailor&Fox Srl | tailorfox | teamtailor
-Talentin | talentin | teamtailor
+# Not an employer - reposts other companies' jobs; kept here so discovery skips it:
+# Talentin | talentin | teamtailor
 TEAM LEWIS | teamlewis | teamtailor
 Teamsnap | teamsnap | lever
 TeamViewer Germany GmbH | teamviewer | teamtailor
@@ -1310,7 +1311,7 @@ Unseen Studio | unseenstudio | homerun
 VANMOKUM | vanmokum | homerun
 VaynerMedia LLC | vaynermedia | greenhouse
 Vertical Aerospace | vertical-aerospace | ashby
-VFC | vfc.wd5/kipling_careers | workday
+VF Corporation (Kipling) | vfc.wd5/kipling_careers | workday
 Virtualitics | virtualitics | lever
 Viseven | viseven | lever
 VML/WPP Enterprise Solutions | vmlenterprisesolutions | greenhouse

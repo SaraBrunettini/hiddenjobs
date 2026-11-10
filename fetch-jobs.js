@@ -643,6 +643,11 @@ const NOT_CREATIVE = new RegExp([
   '(board|electronics?|firmware|asic|fpga|analog|power|process|validation|verification) design',
   'software designer|brand licensing|licensing manager',
   /* big brands: shop floor, tours and finance that name the brand or outlet */
+  /* aerospace and industrial engineering on big brands' Workday sites */
+  'airframe|avionic|aerodynamic|stress calculation|component design|electrification|visuali[sz]ation engineer',
+  'animat(eur|rice)\\b(?! ?(2d|3d|motion))|controller|purchas|buyer|inköpare',
+  /* shop floor */
+  'brand representative|conseiller de vente|assistente alle vendite|verkoopmedewerker',
   'data analyst|multi-channel marketer|designer outlet|concept store|flagship store|retail assistant|sales assistant|brand specialist|fp&a|controlling|data visuali[sz]ation|events coordinator|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
 ].join('|'), 'i');
 
@@ -812,9 +817,28 @@ const US_STATES = new RegExp('^(' + [
   'vermont|virginia|washington|west virginia|wisconsin|wyoming',
 ].join('|') + ')$', 'i');
 
+/* Country names said outright. They outrank any city in the same location:
+   "Cambridge (US), Massachusetts, United States" is in America, though
+   Cambridge on its own reads as England. */
+const NAMED_COUNTRY = [
+  ['United States', /\b(united states( of america)?|usa|u\.s\.a?\.?)\b|\((us|usa)\)|,\s*us\s*$/],
+  ['Canada', /\bcanada\b|\(ca\)/], ['Australia', /\baustralia\b/], ['India', /\bindia\b/],
+  ['Mexico', /\bmexico\b/], ['Brazil', /\bbra[sz]il\b/], ['Singapore', /\bsingapore\b/],
+  ['China', /\bchina\b/], ['Japan', /\bjapan\b/], ['South Africa', /\bsouth africa\b/],
+  ['United Kingdom', /\b(united kingdom|england|scotland|wales|northern ireland)\b/],
+];
+
 function country(loc) {
   const raw = String(loc || '');
   const l = raw.toLowerCase();
+  /* A location naming one country outright is taken at its word; one naming
+     several ("London; New York") is left to the first place listed below. */
+  const named = NAMED_COUNTRY.filter(([, re]) => re.test(l.replace(/new south wales/g, '')));
+  if (!named.length && raw.split(/[;,]/).some(p => US_STATES.test(p.replace(/\(.*?\)/g, '').trim())))
+    named.push(['United States']);
+  const european = COUNTRIES.filter(([n, re]) => EUROPE.has(n) &&
+    new RegExp(`\\b${n.toLowerCase()}\\b`).test(l));
+  if (named.length === 1 && !european.some(([n]) => n !== named[0][0])) return named[0][0];
   for (const [name, re] of COUNTRIES) if (re.test(l)) return name;
 
   const parts = raw.split(/[;,]/).map(x => x.replace(/\(.*?\)/g, '').trim()).filter(Boolean);
@@ -881,6 +905,13 @@ const OPEN_TO_EUROPE = /\b(europe|emea|global|worldwide|anywhere)\b/i;
 const inEurope = (countryName, loc, work) =>
   EUROPE.has(countryName) ||
   (work === 'Remote' && (OPEN_TO_EUROPE.test(loc) || /^\s*remote\s*$/i.test(loc)));
+
+/* A title with its country taken out, so "Video Editor (Remote - Austria)"
+   and "Video Editor (Remote - Greece)" are recognised as one role. */
+const COUNTRY_WORDS = new RegExp('\\b(' + [...EUROPE, 'Europe', 'EMEA', 'Czech Republic', 'UK']
+  .map(c => c.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')\\b', 'gi');
+const roleName = t => String(t).replace(COUNTRY_WORDS, ' ')
+  .replace(/[\s\-\u2013\u2014()|,\/]+/g, ' ').trim().toLowerCase();
 
 /* A role has to be a month old at most. A board still showing a job that
    closed in the spring is worse than a short board: it costs someone an
@@ -1034,15 +1065,28 @@ if (require.main !== module) return;
     }
   }
 
-  /* The same role can appear twice under different guessed slugs, and big
-     stores post one role several times under different addresses. */
-  const seenUrl = new Set();
-  const unique = jobs.filter(j => {
-    const keys = [j.url, `${j.company}|${j.title}|${j.location}`.toLowerCase()];
-    if (keys.some(k => seenUrl.has(k))) return false;
-    keys.forEach(k => seenUrl.add(k));
-    return true;
-  });
+  /* The same role can appear twice under different guessed slugs, and some
+     companies post one remote role once per country - forty copies of one
+     "Product Designer". Each becomes a single card naming its countries. */
+  const seenUrl = new Set(), byRole = new Map(), unique = [];
+  for (const j of jobs) {
+    if (seenUrl.has(j.url)) continue;
+    seenUrl.add(j.url);
+    const key = `${j.company}|${roleName(j.title)}`;
+    const first = byRole.get(key);
+    if (!first) { byRole.set(key, j); unique.push(j); continue; }
+    first.copies = (first.copies || [first]).concat(j);
+  }
+  for (const j of unique) {
+    if (!j.copies) continue;
+    const places = [...new Set(j.copies.map(c => c.location))];
+    const countries = [...new Set(j.copies.map(c => c.country))];
+    j.location = places.length <= 3 ? places.join('; ')
+      : `${places.slice(0, 2).join('; ')} and ${places.length - 2} more`;
+    if (countries.length > 1) { j.country = 'Europe-wide'; j.city = null; }
+    j.posted = j.copies.map(c => c.posted).filter(Boolean).sort().pop() || j.posted;
+    delete j.copies;
+  }
   unique.sort((a, b) => String(b.posted || '').localeCompare(String(a.posted || '')));
 
   const out = {
