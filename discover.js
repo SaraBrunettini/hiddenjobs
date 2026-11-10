@@ -28,6 +28,8 @@ const SOURCES = [
   { ats: 'workable',        url: 'apply.workable.com/*',        slug: /^https?:\/\/apply\.workable\.com\/([^/?#]+)/i },
   { ats: 'smartrecruiters', url: 'jobs.smartrecruiters.com/*',  slug: /^https?:\/\/jobs\.smartrecruiters\.com\/([^/?#]+)/i },
   { ats: 'teamtailor',      url: '*.teamtailor.com',            slug: /^https?:\/\/([a-z0-9-]+)\.teamtailor\.com/i },
+  { ats: 'breezy',          url: '*.breezy.hr',                 slug: /^https?:\/\/([a-z0-9-]+)\.breezy\.hr/i },
+  { ats: 'pinpoint',        url: '*.pinpointhq.com',            slug: /^https?:\/\/([a-z0-9-]+)\.pinpointhq\.com/i },
   { ats: 'homerun',         url: '*.homerun.co',                slug: /^https?:\/\/([a-z0-9-]+)\.homerun\.co/i },
   /* A Workday board is the company's server and its site name together -
      philips.wd3/jobs-and-careers - and the site name keeps its case. */
