@@ -2129,6 +2129,11 @@
   "ats": "workable",
   "seen": "2026-11-10"
  },
+ "1Komma5": {
+  "slug": "1komma5",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
  "Accenture Song": {
   "slug": "accenture.wd103/AccentureCareers",
   "ats": "workday",
@@ -2139,9 +2144,19 @@
   "ats": "recruitee",
   "seen": "2026-11-10"
  },
+ "Adevinta": {
+  "slug": "adevinta",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
  "Adidas": {
   "slug": "https://jobs.adidas-group.com/sitemap.xml",
   "ats": "sitemap",
+  "seen": "2026-11-10"
+ },
+ "Aiven": {
+  "slug": "aiven",
+  "ats": "pinpoint",
   "seen": "2026-11-10"
  },
  "Alten": {
@@ -2164,6 +2179,11 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-10"
  },
+ "Atom Bank": {
+  "slug": "atombank",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
  "Attest": {
   "slug": "attest",
   "ats": "teamtailor",
@@ -2172,6 +2192,11 @@
  "Believe": {
   "slug": "believe",
   "ats": "smartrecruiters",
+  "seen": "2026-11-10"
+ },
+ "Bending Spoons": {
+  "slug": "bendingspoons",
+  "ats": "pinpoint",
   "seen": "2026-11-10"
  },
  "Bibliu": {
@@ -2192,6 +2217,16 @@
  "Bloober Team": {
   "slug": "blooberteam",
   "ats": "recruitee",
+  "seen": "2026-11-10"
+ },
+ "Bohemia Interactive": {
+  "slug": "bohemia-interactive",
+  "ats": "breezy",
+  "seen": "2026-11-10"
+ },
+ "Boldare": {
+  "slug": "boldare",
+  "ats": "breezy",
   "seen": "2026-11-10"
  },
  "BookBeat": {
@@ -2227,6 +2262,11 @@
  "Chip": {
   "slug": "chip",
   "ats": "teamtailor",
+  "seen": "2026-11-10"
+ },
+ "Ciklum": {
+  "slug": "ciklum",
+  "ats": "pinpoint",
   "seen": "2026-11-10"
  },
  "Clever Franke": {
@@ -2274,6 +2314,11 @@
   "ats": "recruitee",
   "seen": "2026-11-10"
  },
+ "Dazn": {
+  "slug": "dazn",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
  "Deezer": {
   "slug": "deezer",
   "ats": "teamtailor",
@@ -2297,6 +2342,11 @@
  "Devoteam": {
   "slug": "devoteam",
   "ats": "smartrecruiters",
+  "seen": "2026-11-10"
+ },
+ "Dext": {
+  "slug": "dext",
+  "ats": "pinpoint",
   "seen": "2026-11-10"
  },
  "Doctorly": {
@@ -2357,6 +2407,16 @@
  "Filippa K": {
   "slug": "filippak",
   "ats": "teamtailor",
+  "seen": "2026-11-10"
+ },
+ "FreeAgent": {
+  "slug": "freeagent",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Frontier Developments": {
+  "slug": "frontierdevelopments",
+  "ats": "pinpoint",
   "seen": "2026-11-10"
  },
  "Funnel": {
@@ -2494,9 +2554,19 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-10"
  },
+ "Made Tech": {
+  "slug": "made-tech",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
  "MaibornWolff": {
   "slug": "maibornwolff",
   "ats": "personio",
+  "seen": "2026-11-10"
+ },
+ "Mambu": {
+  "slug": "mambu",
+  "ats": "pinpoint",
   "seen": "2026-11-10"
  },
  "Meilisearch": {
@@ -2532,6 +2602,16 @@
  "Netguru": {
   "slug": "netguru",
   "ats": "workable",
+  "seen": "2026-11-10"
+ },
+ "Northvolt": {
+  "slug": "northvolt",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Obsidian": {
+  "slug": "obsidian",
+  "ats": "pinpoint",
   "seen": "2026-11-10"
  },
  "Oddbox": {
@@ -2599,6 +2679,11 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-10"
  },
+ "Playdead": {
+  "slug": "playdead",
+  "ats": "breezy",
+  "seen": "2026-11-10"
+ },
  "Podimo": {
   "slug": "podimo",
   "ats": "teamtailor",
@@ -2629,6 +2714,11 @@
   "ats": "teamtailor",
   "seen": "2026-11-10"
  },
+ "Remarkable": {
+  "slug": "remarkable",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
  "Salv": {
   "slug": "salv",
   "ats": "personio",
@@ -2637,6 +2727,11 @@
  "Schibsted": {
   "slug": "schibsted",
   "ats": "teamtailor",
+  "seen": "2026-11-10"
+ },
+ "Secret Escapes": {
+  "slug": "secret-escapes",
+  "ats": "pinpoint",
   "seen": "2026-11-10"
  },
  "Seedtag": {
@@ -2679,6 +2774,11 @@
   "ats": "ashby",
   "seen": "2026-11-10"
  },
+ "Sopra Steria": {
+  "slug": "soprasteria",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
  "Spacelift": {
   "slug": "spacelift",
   "ats": "teamtailor",
@@ -2702,6 +2802,11 @@
  "STRV": {
   "slug": "strv",
   "ats": "recruitee",
+  "seen": "2026-11-10"
+ },
+ "Swapfiets": {
+  "slug": "swapfiets",
+  "ats": "pinpoint",
   "seen": "2026-11-10"
  },
  "Tado": {
@@ -2734,6 +2839,11 @@
   "ats": "teamtailor",
   "seen": "2026-11-10"
  },
+ "Trifork": {
+  "slug": "trifork",
+  "ats": "homerun",
+  "seen": "2026-11-10"
+ },
  "Twisto": {
   "slug": "twisto",
   "ats": "recruitee",
@@ -2742,6 +2852,11 @@
  "Tylko": {
   "slug": "tylko",
   "ats": "recruitee",
+  "seen": "2026-11-10"
+ },
+ "Unit4": {
+  "slug": "unit4",
+  "ats": "pinpoint",
   "seen": "2026-11-10"
  },
  "Userlane": {
@@ -2802,6 +2917,11 @@
  "Yonder": {
   "slug": "yonder",
   "ats": "teamtailor",
+  "seen": "2026-11-10"
+ },
+ "Zendesk": {
+  "slug": "zendesk",
+  "ats": "pinpoint",
   "seen": "2026-11-10"
  },
  "Zoopla": {
@@ -4229,124 +4349,9 @@
   "ats": "sitemap",
   "seen": "2026-11-10"
  },
- "1Komma5": {
-  "slug": "1komma5",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Adevinta": {
-  "slug": "adevinta",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Aiven": {
-  "slug": "aiven",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Atom Bank": {
-  "slug": "atombank",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Bending Spoons": {
-  "slug": "bendingspoons",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Bohemia Interactive": {
-  "slug": "bohemia-interactive",
-  "ats": "breezy",
-  "seen": "2026-11-10"
- },
- "Boldare": {
-  "slug": "boldare",
-  "ats": "breezy",
-  "seen": "2026-11-10"
- },
- "Ciklum": {
-  "slug": "ciklum",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Dazn": {
-  "slug": "dazn",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Dext": {
-  "slug": "dext",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "FreeAgent": {
-  "slug": "freeagent",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Frontier Developments": {
-  "slug": "frontierdevelopments",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Made Tech": {
-  "slug": "made-tech",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Mambu": {
-  "slug": "mambu",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Northvolt": {
-  "slug": "northvolt",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Obsidian": {
-  "slug": "obsidian",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Playdead": {
-  "slug": "playdead",
-  "ats": "breezy",
-  "seen": "2026-11-10"
- },
- "Remarkable": {
-  "slug": "remarkable",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Secret Escapes": {
-  "slug": "secret-escapes",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Sopra Steria": {
-  "slug": "soprasteria",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Swapfiets": {
-  "slug": "swapfiets",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Trifork": {
-  "slug": "trifork",
-  "ats": "homerun",
-  "seen": "2026-11-10"
- },
- "Unit4": {
-  "slug": "unit4",
-  "ats": "pinpoint",
-  "seen": "2026-11-10"
- },
- "Zendesk": {
-  "slug": "zendesk",
-  "ats": "pinpoint",
+ "jobs.ac.uk": {
+  "slug": "creative-arts-and-design,media-and-communications,web-design-and-development,pr-marketing-sales-and-communication",
+  "ats": "jobsacuk",
   "seen": "2026-11-10"
  }
 }
