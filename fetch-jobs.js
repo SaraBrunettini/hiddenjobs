@@ -236,7 +236,48 @@ const ATS = {
     pinnedOnly: true,
     load: s => readSitemap(s),
   },
+  /* Oracle Recruiting Cloud - ITV and other large employers. Like Workday
+     it is searched for creative roles; the line names the server and site
+     from the careers address: fa-euup-saasfaprod1.fa.ocs/CX_1. */
+  oracle: {
+    pinnedOnly: true,
+    load: s => readOracle(s),
+  },
 };
+
+async function readOracle(slug) {
+  const [server, site] = String(slug).split('/');
+  if (!server || !site) return null;
+  const host = `https://${server}.oraclecloud.com`;
+  const hits = new Map();
+  let answered = false;
+  for (const term of WD_TERMS) {
+    for (let offset = 0; offset < 100; offset += 25) {
+      const finder = `findReqs;siteNumber=${site},limit=25,offset=${offset},keyword="${term}",sortBy=POSTING_DATES_DESC`;
+      let d = null;
+      try {
+        const res = await fetch(`${host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions` +
+          `?onlyData=true&expand=requisitionList.secondaryLocations&finder=${encodeURIComponent(finder)}`,
+          { headers: { accept: 'application/json' }, signal: AbortSignal.timeout(20000) });
+        d = res.ok ? await res.json() : null;
+      } catch {}
+      const list = d && d.items && d.items[0] && d.items[0].requisitionList;
+      if (!list) break;
+      answered = true;
+      for (const j of list) if (discipline(j.Title)) hits.set(j.Id, j);
+      if (list.length < 25) break;
+    }
+  }
+  if (!answered) return null;
+  return [...hits.values()].map(j => ({
+    title: j.Title,
+    location: [j.PrimaryLocation, ...(j.secondaryLocations || []).map(l => l.Name)].filter(Boolean).join('; '),
+    url: `${host}/hcmUI/CandidateExperience/en/sites/${site}/job/${j.Id}`,
+    posted: j.PostedDate,
+    type: j.ContractType || j.JobSchedule,
+    work: j.WorkplaceType,
+  }));
+}
 
 /* A Workday site can hold thousands of roles, so it is searched for the
    creative ones rather than read whole, and only those still young enough
@@ -518,6 +559,27 @@ function successFactorsRow(html, url) {
   };
 }
 
+/* Some careers sites mark up only a role's title and write the rest as
+   text - the BBC's says "LOCATION : London" and "Closing Date: 24 November
+   2026", with no date it was posted. The closing date is kept so the role
+   can be dated from when the board first saw it. */
+function pageTextRow(html, url) {
+  const t = (html.match(/itemprop="title"[^>]*>([\s\S]*?)<\//) || [])[1];
+  const title = t && unXml(t.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+  if (!title) return null;
+  const text = html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ');
+  const where = (text.match(/\bLOCATION\s*:\s*(.{2,80}?)\s+(?:SALARY|CONTRACT|BAND|HOURS|JOB|DEPARTMENT|PROOF)\b/i) || [])[1];
+  const closes = Date.parse((text.match(/Closing Date\s*:?\s*(\d{1,2}\s+[A-Za-z]+\s+20\d\d)/i) || [])[1]);
+  return {
+    title,
+    location: where ? unXml(where).trim() : '',
+    url,
+    posted: null,
+    closes: Number.isFinite(closes) ? new Date(closes).toISOString() : null,
+  };
+}
+
 async function readSitemap(site) {
   const entries = await sitemapEntries(await sitemapsOf(site));
   if (!entries.length) return null;
@@ -548,7 +610,9 @@ async function readSitemap(site) {
     const marked = jobPostings(p.html).map(j => postingRow(j, p.url));
     if (marked.length) return marked;
     const sf = successFactorsRow(p.html, p.url);
-    return sf ? [sf] : [];
+    if (sf) return [sf];
+    const plain = pageTextRow(p.html, p.url);
+    return plain ? [plain] : [];
   });
 }
 
@@ -579,7 +643,7 @@ const NOT_CREATIVE = new RegExp([
   '(board|electronics?|firmware|asic|fpga|analog|power|process|validation|verification) design',
   'software designer|brand licensing|licensing manager',
   /* big brands: shop floor, tours and finance that name the brand or outlet */
-  'designer outlet|concept store|flagship store|retail assistant|sales assistant|brand specialist|fp&a|controlling|data visuali[sz]ation|events coordinator|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
+  'data analyst|multi-channel marketer|designer outlet|concept store|flagship store|retail assistant|sales assistant|brand specialist|fp&a|controlling|data visuali[sz]ation|events coordinator|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
 ].join('|'), 'i');
 
 /* Which bucket a role belongs in. First match wins, so order matters:
@@ -902,6 +966,15 @@ if (require.main !== module) return;
 
   /* A confirmed board is remembered, so we stop guessing after the first
      success and the run gets faster over time. */
+  /* Roles that give only a closing date are dated from the day the board
+     first saw them, which the last jobs.json remembers. */
+  const firstSeen = {};
+  try {
+    for (const j of JSON.parse(fs.readFileSync(`${__dirname}/jobs.json`, 'utf8')).jobs || [])
+      if (j.posted) firstSeen[j.url] = j.posted;
+  } catch {}
+  const today = new Date().toISOString().slice(0, 10);
+
   let known = {};
   try { known = JSON.parse(fs.readFileSync(`${__dirname}/companies.json`, 'utf8')); } catch {}
 
@@ -938,6 +1011,8 @@ if (require.main !== module) return;
     for (const r of f.rows) {
       const disc = discipline(r.title);
       if (!disc) continue;
+      if (!r.posted && r.closes && Date.parse(r.closes) > Date.now())
+        r.posted = firstSeen[r.url] || today;
       if (!isRecent(r.posted)) continue;
       const loc = (r.location || 'Not stated').trim();
       const where = country(loc);
