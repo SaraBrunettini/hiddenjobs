@@ -735,7 +735,7 @@ const NOT_CREATIVE = new RegExp([
   /* teaching and academic research - design subjects, not design jobs */
   'lecturer|professor|teaching fellow|tutor\\b|course leader|subject leader|academic lead|head of programmes',
   'research (fellow|associate|assistant)|postdoc|post-doc|phd|doctoral|studentship|chair in|reader in',
-  'data analyst|multi-channel marketer|designer outlet|concept store|flagship store|retail assistant|sales assistant|brand specialist|fp&a|controlling|data visuali[sz]ation|events coordinator|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
+  'thesis|data analyst|multi-channel marketer|designer outlet|concept store|flagship store|retail assistant|sales assistant|brand specialist|fp&a|controlling|data visuali[sz]ation|events coordinator|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
 ].join('|'), 'i');
 
 /* Which bucket a role belongs in. First match wins, so order matters:
@@ -751,8 +751,14 @@ const DISCIPLINES = [
   ['Product & UX', /(\bproduct design|\busability|\bproduct experience design|\bux\b|\bui\b|\buser experience|\buser interface|\binteraction design|\bdesign system|\bdesign engineer|\bdesign technologist|\bdigital design|\bweb design)/i],
 ];
 
+/* "Brand" alone names marketing - brand managers, brand marketing, brand
+   support - or a team ("Analytics Engineer, Brand"). It counts only beside
+   a word for making the brand: designing, writing or filming it. */
+const BRAND_MAKING = /design|creative|visual|identity|art director|illustrat|copy|text lead|motion|video|film|photo|animat|content creator|3d\b|typograph|graphic/i;
+
 function discipline(title) {
   if (!title || !CREATIVE.test(title) || NOT_CREATIVE.test(title)) return null;
+  if (/\bbrand/i.test(title) && !BRAND_MAKING.test(title)) return null;
   for (const [name, re] of DISCIPLINES) if (re.test(title)) return name;
   return 'Other';
 }
