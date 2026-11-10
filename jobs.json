@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-10T16:10:31.398Z",
+ "updated": "2026-11-10T16:58:04.235Z",
  "companies": 871,
- "count": 592,
+ "count": 533,
  "jobs": [
   {
    "title": "Intern Brand Design",
@@ -110,7 +110,7 @@
   {
    "title": "Visual Merchandising Specialist adidas (H/F/D)",
    "company": "Adidas",
-   "location": "Beaucouze, France; Metz, France and 2 more",
+   "location": "Beaucouze, France; France and 2 more",
    "country": "France",
    "city": "Beaucouze",
    "discipline": "Other",
@@ -420,6 +420,19 @@
    "posted": "2026-11-10"
   },
   {
+   "title": "Motion Designer H/F",
+   "company": "NEXTON",
+   "location": "Paris, IDF, France",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Motion",
+   "type": "Part-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000160923049",
+   "posted": "2026-11-10"
+  },
+  {
    "title": "Learning and Development Designer",
    "company": "OECD",
    "location": "Paris, Île-de-France Region, France",
@@ -602,19 +615,6 @@
    "posted": "2026-11-09"
   },
   {
-   "title": "Brand Collaborations Manager",
-   "company": "Hostinger",
-   "location": "Vilnius",
-   "country": "Lithuania",
-   "city": "Vilnius",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/hostinger/811b7504-4e4f-4c10-99f2-7a995feb6dd2",
-   "posted": "2026-11-09"
-  },
-  {
    "title": "Visual Merchandiser - Milano Corso Vittorio Emanuele",
    "company": "Adidas",
    "location": "Milan, Italy",
@@ -625,19 +625,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.adidas-group.com/job/Milan-Visual-Merchandiser-Milano-Corso-Vittorio-Emanuele/1455727733/",
-   "posted": "2026-11-09"
-  },
-  {
-   "title": "BRAND MARKETING GRADUATES 2027 | MANCHESTER & LONDON",
-   "company": "Adidas",
-   "location": "Stockport, United Kingdom",
-   "country": "United Kingdom",
-   "city": "Stockport",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Stockport-BRAND-MARKETING-GRADUATES-2027-MANCHESTER-&-LONDON/1455578933/",
    "posted": "2026-11-09"
   },
   {
@@ -664,32 +651,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8365180",
-   "posted": "2026-11-09"
-  },
-  {
-   "title": "Senior Brand Manager - Rum",
-   "company": "Diageo",
-   "location": "Budapest, Hungary, Hungary",
-   "country": "Hungary",
-   "city": "Budapest",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers/job/Budapest-Hungary/Senior-Brand-Manager---Rum_JR1129414-2",
-   "posted": "2026-11-09"
-  },
-  {
-   "title": "Senior Analytics Engineer - Brand Analytics (all genders)",
-   "company": "ABOUT YOU SE & Co. KG",
-   "location": "Hamburg, HH, Germany",
-   "country": "Germany",
-   "city": "Hamburg",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/ABOUTYOUGmbH/744000160646101",
    "posted": "2026-11-09"
   },
   {
@@ -781,19 +742,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Spain-Valencia-Cortes-Valencianas/Staff-Analog-Mixed-Signal-IC-Design-Engineer_R267637",
-   "posted": "2026-11-09"
-  },
-  {
-   "title": "Global Brand Manager (m/w/d)",
-   "company": "BEUMER Group",
-   "location": "Beckum, NRW, Germany",
-   "country": "Germany",
-   "city": "Beckum",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/BEUMERGroup1/744000160564619",
    "posted": "2026-11-09"
   },
   {
@@ -1018,19 +966,6 @@
    "posted": "2026-11-06"
   },
   {
-   "title": "Brand Director",
-   "company": "Mentimeter",
-   "location": "Stockholm",
-   "country": "Sweden",
-   "city": "Stockholm",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/mentimeter/jobs/5029479101",
-   "posted": "2026-11-06"
-  },
-  {
    "title": "Creative Director",
    "company": "Mollie",
    "location": "Amsterdam",
@@ -1132,19 +1067,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.adidas-group.com/job/France-Visual-Merchandising-Specialist-adidas-%28HFD%29-Avignon/1425095133/",
-   "posted": "2026-11-06"
-  },
-  {
-   "title": "Manager Brand Events - Focus on Materials, Event Production & Installations (m/f/d)",
-   "company": "Adidas",
-   "location": "Herzogenaurach, Germany",
-   "country": "Germany",
-   "city": "Herzogenaurach",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Herzogenaurach-Manager-Brand-Events-Focus-on-Materials%2C-Event-Production-&-Installations-%28mfd%29-BY/1445629233/",
    "posted": "2026-11-06"
   },
   {
@@ -1447,32 +1369,6 @@
    "posted": "2026-11-06"
   },
   {
-   "title": "Senior Manager, Brand Marketing",
-   "company": "Kayak",
-   "location": "Cambridge Office",
-   "country": "United Kingdom",
-   "city": "Cambridge",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/kayak/ce0db529-94ef-4b28-a71e-0e3badddab69",
-   "posted": "2026-11-06"
-  },
-  {
-   "title": "Senior Campaign and Brand Manager",
-   "company": "Telenor Sweden",
-   "location": "Solna, Sweden",
-   "country": "Sweden",
-   "city": "Solna",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://careers.telenor.se/jobs/8680210-senior-campaign-and-brand-manager",
-   "posted": "2026-11-06"
-  },
-  {
    "title": "German Copywriter & Content Editor",
    "company": "Bitpanda",
    "location": "Vienna, Vienna, Austria",
@@ -1613,19 +1509,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.lever.co/360learning/61f6ea5c-5ef1-4890-b1b9-1eee825680f3",
-   "posted": "2026-11-05"
-  },
-  {
-   "title": "Werkstudent Content & Brand",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/Clera/6950a3c0-956a-46cc-9e31-99c81b7c8a32",
    "posted": "2026-11-05"
   },
   {
@@ -1785,19 +1668,6 @@
    "posted": "2026-11-05"
   },
   {
-   "title": "Brand Strategy & Marketing Assistant, Novotel ENA – Internship",
-   "company": "AccorCorpo",
-   "location": "Paris, IDF, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/AccorCorpo/744000159818530",
-   "posted": "2026-11-05"
-  },
-  {
    "title": "FPGA-Designer till Försvarsindustrin",
    "company": "AFRY",
    "location": "Stockholm, Stockholm County, Sweden",
@@ -1889,32 +1759,6 @@
    "posted": "2026-11-05"
   },
   {
-   "title": "Brand Activation Coordinator",
-   "company": "Dentsuaegis",
-   "location": "København K, Denmark; Aarhus",
-   "country": "Denmark",
-   "city": "København K",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Kbenhavn-K/Brand-Activation-Coordinator_R1133643",
-   "posted": "2026-11-05"
-  },
-  {
-   "title": "Business Operations Lead, Brand & Experiences",
-   "company": "Dowjones",
-   "location": "London-1 London Bridge St, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London- London Bridge St",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://dowjones.wd1.myworkdayjobs.com/Dow_Jones_Career/job/London-1-London-Bridge-St/Business-Operations-Lead--Brand---Experiences_Job_Req_56165",
-   "posted": "2026-11-05"
-  },
-  {
    "title": "Head of Creative Direction (m/w/d) // hybrid",
    "company": "E. Breuninger GmbH & Co.",
    "location": "Stuttgart, BW, Germany",
@@ -1925,19 +1769,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/EBreuningerGmbHCo/744000159799779",
-   "posted": "2026-11-05"
-  },
-  {
-   "title": "Stage Assistant Marketing Brand and Activation Manager - TENA/MEDICAL H/F",
-   "company": "Essity",
-   "location": "Paris , France, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://essity.wd3.myworkdayjobs.com/Job_opportunities/job/Paris--France/Stage-Assistant-Marketing-Brand-and-Activation-Manager---TENA-MEDICAL-H-F_Essity265536",
    "posted": "2026-11-05"
   },
   {
@@ -2133,19 +1964,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/marshmallow/0aef1ce7-b6f1-409e-8656-5fd177eded62",
-   "posted": "2026-11-04"
-  },
-  {
-   "title": "Senior Developer Relations, Twitter Brand Rep",
-   "company": "Supabase",
-   "location": "Remote, Global",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/supabase/985abb8d-cb2b-4f32-97d7-497e9f89e3ce",
    "posted": "2026-11-04"
   },
   {
@@ -2487,32 +2305,6 @@
    "posted": "2026-11-04"
   },
   {
-   "title": "VP Brand (f/m/d)",
-   "company": "Koro",
-   "location": "KoRo HQ Berlin",
-   "country": "Germany",
-   "city": "KoRo HQ Berlin",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/koro/761fb23b-19a5-4b01-bda5-f1e358faee9b",
-   "posted": "2026-11-04"
-  },
-  {
-   "title": "Head of Brand & Marketing DACH (w/m/d)",
-   "company": "Koro",
-   "location": "KoRo HQ Berlin",
-   "country": "Germany",
-   "city": "KoRo HQ Berlin",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/koro/5bcc686e-a772-4f72-b93b-fbd5cfb72951",
-   "posted": "2026-11-04"
-  },
-  {
    "title": "Senior User Researcher",
    "company": "NECSWS",
    "location": "Remote, United Kingdom, United Kingdom",
@@ -2749,14 +2541,14 @@
   {
    "title": "Senior Animator (World of Tanks Console)",
    "company": "Wargaming",
-   "location": "Belgrade; Vilnius",
+   "location": "Vilnius; Belgrade",
    "country": "Europe-wide",
    "city": null,
    "discipline": "Motion",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8345748",
+   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8345758",
    "posted": "2026-11-03"
   },
   {
@@ -2809,19 +2601,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://careers.nike.com/specialist-ii-visual-merchandising-and-styling-d%C3%BCsseldorf-region-m-f-d/job/R-92027",
-   "posted": "2026-11-03"
-  },
-  {
-   "title": "Senior Professional, Energy Brand Management, Jordan France",
-   "company": "Nike",
-   "location": "Paris, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.nike.com/senior-professional-energy-brand-management-jordan-france/job/R-95962",
    "posted": "2026-11-03"
   },
   {
@@ -2887,19 +2666,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Donauwrth/Bachelorand-Masterand--d-m-w--im-Bereich-Rotor-System-Design_JR10453310",
-   "posted": "2026-11-03"
-  },
-  {
-   "title": "Executive Assistant to the CFO and EVP, Brand & Communications in Lund",
-   "company": "Alfalaval",
-   "location": "Lund, Sweden",
-   "country": "Sweden",
-   "city": "Lund",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://alfalaval.wd3.myworkdayjobs.com/Alfa_Laval_jobs/job/Lund/Executive-Assistant-to-the-CFO-and-EVP--Brand---Communications-in-Lund_JR0049297",
    "posted": "2026-11-03"
   },
   {
@@ -2978,19 +2744,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/London-21-Moorfields/Trade-Management-UI-Engineer---FIC-Shared-Services_R0455140-1",
-   "posted": "2026-11-03"
-  },
-  {
-   "title": "Brand Manager Zewa",
-   "company": "Essity",
-   "location": "Athens, Greece, Greece",
-   "country": "Greece",
-   "city": "Athens",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://essity.wd3.myworkdayjobs.com/Job_opportunities/job/Athens-Greece/Brand-Manager-Zewa_Essity266315",
    "posted": "2026-11-03"
   },
   {
@@ -3267,19 +3020,6 @@
    "posted": "2026-11-02"
   },
   {
-   "title": "Brand Director",
-   "company": "Amo",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/amo/dac23777-7658-4a85-b9a3-c6a5d61d0187",
-   "posted": "2026-11-02"
-  },
-  {
    "title": "Staff RFIC Design Engineer",
    "company": "Analogdevices",
    "location": "Turkey, Istanbul, Bilisim Vadisi, Türkiye",
@@ -3394,19 +3134,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://condenast.wd115.myworkdayjobs.com/CondeCareers/job/The-Adelphi-London-GB/Creative-Marketing-Strategist_R-25281",
-   "posted": "2026-11-02"
-  },
-  {
-   "title": "Director (m/f/x), HAE / ANDEMBRY Brand Lead",
-   "company": "CSL",
-   "location": "EMEA, ES, Barcelona, Esplugues de Llobregat, CSL Behring, Spain; EMEA, DK, Kgs. Lyngby, CSL Behring; EMEA, DE, Hattersheim, CSL Behring; EMEA, DE, Munich, CSL Vifor; EMEA, IT, Milan, CSL Behring; EMEA, GB, West Sussex, Haywards Heath, CSL Behring",
-   "country": "Germany",
-   "city": "ES",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://csl.wd1.myworkdayjobs.com/CSL_External/job/EMEA-ES-Barcelona-Esplugues-de-Llobregat-CSL-Behring/Director--m-f-x---HAE---ANDEMBRY-Brand-Lead_R-291592-1",
    "posted": "2026-11-02"
   },
   {
@@ -3602,19 +3329,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://about.puma.com/en/jobs/junior-designer-sportstyle-apparel-r44177",
-   "posted": "2026-10-30"
-  },
-  {
-   "title": "Brand Manager",
-   "company": "Tails.com",
-   "location": "Richmond, United Kingdom",
-   "country": "United Kingdom",
-   "city": "Richmond",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://careers.tails.com/jobs/8642774-brand-manager",
    "posted": "2026-10-30"
   },
   {
@@ -3839,19 +3553,6 @@
    "posted": "2026-10-29"
   },
   {
-   "title": "Brand Manager - Marketing Effectiveness",
-   "company": "SumUp",
-   "location": "London, England, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://sumup.com/careers/positions/8922386002?gh_jid=8922386002",
-   "posted": "2026-10-29"
-  },
-  {
    "title": "Senior Brand Designer",
    "company": "Carwow",
    "location": "London",
@@ -3914,45 +3615,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/quantexa/79a8560f-67ab-495e-99d9-577b0c2c54e6",
-   "posted": "2026-10-29"
-  },
-  {
-   "title": "Director of Brand & Creative",
-   "company": "Contentsquare",
-   "location": "London area",
-   "country": "United Kingdom",
-   "city": null,
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.lever.co/contentsquare/3e58d215-9395-4968-814d-da8168571f7a",
-   "posted": "2026-10-29"
-  },
-  {
-   "title": "Internship: Philips Communications & Brand",
-   "company": "Philips",
-   "location": "Amsterdam, Netherlands; Eindhoven; Best; Drachten",
-   "country": "Netherlands",
-   "city": "Amsterdam",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Amsterdam/Internship--Philips-Communications---Brand_594772",
-   "posted": "2026-10-29"
-  },
-  {
-   "title": "Brand & Communication intern",
-   "company": "AccorCorpo",
-   "location": "Paris, IDF, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/AccorCorpo/744000158490429",
    "posted": "2026-10-29"
   },
   {
@@ -4021,19 +3683,6 @@
    "posted": "2026-10-29"
   },
   {
-   "title": "Lead Design Engineer",
-   "company": "Curtisswright",
-   "location": "UK-Christchurch, United Kingdom",
-   "country": "United Kingdom",
-   "city": "UK-Christchurch",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site/job/UK-Christchurch/Lead-Design-Engineer_JR14079",
-   "posted": "2026-10-29"
-  },
-  {
    "title": "Junior Product Designer",
    "company": "Entrust",
    "location": "United Kingdom - London (Onfido), United Kingdom",
@@ -4057,19 +3706,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/ITA---Lombardy---Pavia/Digital-Design-Manager_JR-2603510",
-   "posted": "2026-10-29"
-  },
-  {
-   "title": "Meewerkstage Marketing Brand Management",
-   "company": "JACOBS DOUWE EGBERTS",
-   "location": "Utrecht, UT, Netherlands",
-   "country": "Netherlands",
-   "city": "Utrecht",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/JACOBSDOUWEEGBERTS/744000158519835",
    "posted": "2026-10-29"
   },
   {
@@ -4192,14 +3828,14 @@
   {
    "title": "Senior UI Designer (World of Tanks Console)",
    "company": "Wargaming",
-   "location": "Vilnius; Nicosia; Belgrade",
+   "location": "Belgrade; Vilnius; Nicosia",
    "country": "Europe-wide",
    "city": null,
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305734",
+   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305724",
    "posted": "2026-10-28"
   },
   {
@@ -4239,19 +3875,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://pvh.wd1.myworkdayjobs.com/PVH_Careers/job/Tommy-Hilfiger-Hamburg-Alte-Post/Instore-Visual-Merchandiser-Tommy-Hilfiger-Hamburg-Alte-Post--m-w-d-_R63745",
-   "posted": "2026-10-28"
-  },
-  {
-   "title": "Global Brand Marketing Director",
-   "company": "PVH (Tommy Hilfiger, Calvin Klein)",
-   "location": "Amsterdam, NL, Netherlands",
-   "country": "Netherlands",
-   "city": "Amsterdam",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://pvh.wd1.myworkdayjobs.com/PVH_Careers/job/Amsterdam-NL/Global-Brand-Marketing-Director_R64903",
    "posted": "2026-10-28"
   },
   {
@@ -4502,19 +4125,6 @@
    "posted": "2026-10-27"
   },
   {
-   "title": "Brand Support (F/M/X) - Permanent",
-   "company": "Veepee",
-   "location": "Dusseldorf",
-   "country": "Germany",
-   "city": "Dusseldorf",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.lever.co/veepee/c1680444-e69f-488e-bc8a-d37b1f3fa92a",
-   "posted": "2026-10-27"
-  },
-  {
    "title": "Creative Social Media Manager",
    "company": "VML",
    "location": "Lisbon, Portugal",
@@ -4538,32 +4148,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.adidas-group.com/job/Frankfurt-Visual-Merchandiser-%28mfd%29-39hWoche%2C-BCS-Frankfurt/1451793133/",
-   "posted": "2026-10-27"
-  },
-  {
-   "title": "Brand Marketing Manager (m/f/d)",
-   "company": "Westwing",
-   "location": "Munich Office",
-   "country": "Germany",
-   "city": "Munich",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://westwing.jobs.personio.de/job/2863372",
-   "posted": "2026-10-27"
-  },
-  {
-   "title": "Senior Manager Brand Website Experience & Optimization - Premium, Midscale & Economy (PM&E) Brands - F/H/X",
-   "company": "AccorCorpo",
-   "location": "Issy-les-Moulineaux, IDF, France",
-   "country": "France",
-   "city": "Issy-les-Moulineaux",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/AccorCorpo/744000158110799",
    "posted": "2026-10-27"
   },
   {
@@ -5334,19 +4918,6 @@
    "posted": "2026-10-23"
   },
   {
-   "title": "Brand Assistant — Emerging Brands — Internship F/M/X",
-   "company": "AccorCorpo",
-   "location": "Issy-les-Moulineaux, IDF, France",
-   "country": "France",
-   "city": "Issy-les-Moulineaux",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/AccorCorpo/744000157501104",
-   "posted": "2026-10-23"
-  },
-  {
    "title": "Engineer, Design Evaluation Engineering",
    "company": "Analogdevices",
    "location": "Italy, Milan, Assago, Italy",
@@ -5357,32 +4928,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Italy-Milan-Assago/Engineer--Design-Evaluation-Engineering_R266004",
-   "posted": "2026-10-23"
-  },
-  {
-   "title": "Master Thesis – Designing Ternary Neural Networks for Edge Vision",
-   "company": "AXIS",
-   "location": "Sweden - Lund, Sweden",
-   "country": "Sweden",
-   "city": "Lund",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://axis.wd3.myworkdayjobs.com/External_Career_Site/job/Sweden---Lund/Master-Thesis---Designing-Ternary-Neural-Networks-for-Edge-Vision_R-124235",
-   "posted": "2026-10-23"
-  },
-  {
-   "title": "Master Thesis – Shaping Sound: How Modular Speaker Design Affects Acoustic Performance",
-   "company": "AXIS",
-   "location": "Sweden - Lund, Sweden",
-   "country": "Sweden",
-   "city": "Lund",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://axis.wd3.myworkdayjobs.com/External_Career_Site/job/Sweden---Lund/Master-Thesis---Shaping-Sound--How-Modular-Speaker-Design-Affects-Acoustic-Performance_R-124227-1",
    "posted": "2026-10-23"
   },
   {
@@ -5581,32 +5126,6 @@
    "posted": "2026-10-22"
   },
   {
-   "title": "Brand Paid Media Manager - 9 Month FTC",
-   "company": "Trainline",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "Remote",
-   "salary": "£40K – £50K",
-   "url": "https://jobs.ashbyhq.com/trainline/aac35e37-9430-4034-882f-6593e146df1d",
-   "posted": "2026-10-22"
-  },
-  {
-   "title": "Brand Manager - 9 Month FTC",
-   "company": "Trainline",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": "£45K – £50K",
-   "url": "https://jobs.ashbyhq.com/trainline/8554ede1-fc4c-4608-9294-c7b35891bc15",
-   "posted": "2026-10-22"
-  },
-  {
    "title": "Content Designer UK",
    "company": "VML",
    "location": "London, United Kingdom",
@@ -5685,19 +5204,6 @@
    "posted": "2026-10-22"
   },
   {
-   "title": "Internship / Global Brand Manager Assistant / Luxury Segment",
-   "company": "AccorCorpo",
-   "location": "Paris, IDF, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/AccorCorpo/744000157239709",
-   "posted": "2026-10-22"
-  },
-  {
    "title": "Sr. Staff Experience Designer",
    "company": "Airbnb",
    "location": "London, United Kingdom",
@@ -5737,32 +5243,6 @@
    "posted": "2026-10-22"
   },
   {
-   "title": "Master Thesis – Enhanced Reasoning in Vision-Language Models Using Structured Visual Representations",
-   "company": "AXIS",
-   "location": "Sweden - Lund, Sweden",
-   "country": "Sweden",
-   "city": "Lund",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://axis.wd3.myworkdayjobs.com/External_Career_Site/job/Sweden---Lund/Master-Thesis---Learning-Structured-Visual-Representation-Reasoning-for-Vision-Language-Reasoning_R-124208",
-   "posted": "2026-10-22"
-  },
-  {
-   "title": "Brand and Content Manager",
-   "company": "Bjakcareer",
-   "location": "United Kingdom",
-   "country": "United Kingdom",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/bjakcareer/27f8a1fd-034c-455e-8920-904f3493deef",
-   "posted": "2026-10-22"
-  },
-  {
    "title": "Senior Designer - UI/UX (f/m/x)",
    "company": "Deutsche Bank",
    "location": "Bucharest, 6A Dimitrie Pompeiu Blvd, Romania",
@@ -5789,58 +5269,6 @@
    "posted": "2026-10-22"
   },
   {
-   "title": "Master Thesis Usability Evaluation and Modernization Strategy for a Safety-Critical Medical Device User Interface",
-   "company": "Elekta",
-   "location": "Stockholm, Sweden",
-   "country": "Sweden",
-   "city": "Stockholm",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://elekta.wd3.myworkdayjobs.com/Elekta_Careers/job/Stockholm/Master-Thesis-Usability-Evaluation-and-Modernization-Strategy-for-a-Safety-Critical-Medical-Device-User-Interface_R2026-1485",
-   "posted": "2026-10-22"
-  },
-  {
-   "title": "Master Thesis AI Based Prediction for Anatomical Motion Modelling on Unity",
-   "company": "Elekta",
-   "location": "Stockholm, Sweden",
-   "country": "Sweden",
-   "city": "Stockholm",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://elekta.wd3.myworkdayjobs.com/Elekta_Careers/job/Stockholm/Master-Thesis-AI-Based-Prediction-for-Anatomical-Motion-Modelling-on-Unity_R2026-1569",
-   "posted": "2026-10-22"
-  },
-  {
-   "title": "Master Thesis Motion Compensation in CBCT-imaging",
-   "company": "Elekta",
-   "location": "Stockholm, Sweden",
-   "country": "Sweden",
-   "city": "Stockholm",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://elekta.wd3.myworkdayjobs.com/Elekta_Careers/job/Stockholm/Master-Thesis-Motion-Compensation-in-CBCT-imaging_R2026-1560",
-   "posted": "2026-10-22"
-  },
-  {
-   "title": "Master Thesis Creating Synthetic Motion in MR Images for Evaluation of Novel Approaches to Motion Management on Unity",
-   "company": "Elekta",
-   "location": "Stockholm, Sweden",
-   "country": "Sweden",
-   "city": "Stockholm",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://elekta.wd3.myworkdayjobs.com/Elekta_Careers/job/Stockholm/Master-Thesis-Creating-Synthetic-Motion-in-MR-Images-for-Evaluation-of-Novel-Approaches-to-Motion-Management-on-Unity_R2026-1570",
-   "posted": "2026-10-22"
-  },
-  {
    "title": "Financial Designer- Assistant Vice President",
    "company": "iCapital",
    "location": "Lisbon, Portugal",
@@ -5864,19 +5292,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/5013742101",
-   "posted": "2026-10-22"
-  },
-  {
-   "title": "Stage/Internship Brand Portfolio Manager",
-   "company": "JACOBS DOUWE EGBERTS",
-   "location": "Brussels, Belgium",
-   "country": "Belgium",
-   "city": "Brussels",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/JACOBSDOUWEEGBERTS/744000157046937",
    "posted": "2026-10-22"
   },
   {
@@ -6023,19 +5438,6 @@
    "posted": "2026-10-21"
   },
   {
-   "title": "Brand Support - German Speaker (F/M/X) - Permanent",
-   "company": "Veepee",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.lever.co/veepee/4be6d951-2149-4dc0-bc0f-1a28680bb598",
-   "posted": "2026-10-21"
-  },
-  {
    "title": "Copywriter: Od dobrého nápadu ke skvělé kampani.",
    "company": "VML",
    "location": "Prague, Czechia",
@@ -6046,19 +5448,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.vml.com/careers/job/8725978002?gh_jid=8725978002",
-   "posted": "2026-10-21"
-  },
-  {
-   "title": "Brand Expert",
-   "company": "Charlotte Tilbury",
-   "location": "Nantes, France",
-   "country": "France",
-   "city": "Nantes",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://apply.workable.com/j/731B605A92",
    "posted": "2026-10-21"
   },
   {
@@ -6127,19 +5516,6 @@
    "posted": "2026-10-21"
   },
   {
-   "title": "Master Thesis – Core Tech Graphics: Three Different Ideas",
-   "company": "AXIS",
-   "location": "Sweden - Lund, Sweden",
-   "country": "Sweden",
-   "city": "Lund",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://axis.wd3.myworkdayjobs.com/External_Career_Site/job/Sweden---Lund/Master-Thesis---Core-Tech-Graphics--Three-Different-Ideas_R-124183",
-   "posted": "2026-10-21"
-  },
-  {
    "title": "Senior 2D Motion Designer",
    "company": "CD PROJEKT RED",
    "location": "Warsaw, Masovian Voivodeship, Poland",
@@ -6202,19 +5578,6 @@
    "workplace": "On-site",
    "salary": "£65K – £80K",
    "url": "https://job-boards.greenhouse.io/journey/jobs/5270932007",
-   "posted": "2026-10-21"
-  },
-  {
-   "title": "Brand Manager - Action Figures, Plush & Imaginext",
-   "company": "Mattel",
-   "location": "Warsaw, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/MattelInc/744000156801059",
    "posted": "2026-10-21"
   },
   {
@@ -6504,19 +5867,6 @@
    "posted": "2026-10-20"
   },
   {
-   "title": "Director of Brand Experience",
-   "company": "Prosus",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/prosus/c0bebb3d-21f4-4c39-b406-81d2db54b906",
-   "posted": "2026-10-20"
-  },
-  {
    "title": "Middle Creative Designer",
    "company": "Skelar",
    "location": "Ukraine, Remote",
@@ -6686,19 +6036,6 @@
    "posted": "2026-10-19"
   },
   {
-   "title": "Design System Manager H/F",
-   "company": "NEXTON",
-   "location": "Lille, Hauts-de-France, France",
-   "country": "France",
-   "city": "Lille",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/NEXTON/744000156255356",
-   "posted": "2026-10-19"
-  },
-  {
    "title": "Full-stack Marketing Designer",
    "company": "Skelar",
    "location": "Ukraine, Remote",
@@ -6735,19 +6072,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/preply/e5345e2d-c93e-40c7-a42d-584908a536cf",
-   "posted": "2026-10-16"
-  },
-  {
-   "title": "Sustainability Brand & Impact Manager (Maternity Cover)",
-   "company": "Vestiaire Collective",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.lever.co/vestiairecollective/4adcc4e6-b335-410d-8cd5-18cbca8f2d13",
    "posted": "2026-10-16"
   },
   {
@@ -6865,19 +6189,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.lever.co/shieldai/ac75662f-e937-4870-8040-6dbe733d0a47",
-   "posted": "2026-10-16"
-  },
-  {
-   "title": "Brand & Editorial Marketer",
-   "company": "Tldr Tech",
-   "location": "Remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "$211.5K – $253.5K",
-   "url": "https://jobs.ashbyhq.com/tldr.tech/9e14860c-c754-498a-ae16-b74b82baecd7",
    "posted": "2026-10-16"
   },
   {
@@ -7167,32 +6478,6 @@
    "posted": "2026-10-14"
   },
   {
-   "title": "CDD/Freelance - Brand Campaign Manager - (M/F/X)",
-   "company": "HelloFresh",
-   "location": "Paris, Paris, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8281103?gh_jid=8281103",
-   "posted": "2026-10-14"
-  },
-  {
-   "title": "CDD/Freelance - Brand & Communication Senior Manager - (M/F/X)",
-   "company": "HelloFresh",
-   "location": "Paris, Paris, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8281292?gh_jid=8281292",
-   "posted": "2026-10-14"
-  },
-  {
    "title": "Senior UI/UX Designer (N-iX Games)",
    "company": "N-iX",
    "location": "Ukraine",
@@ -7294,19 +6579,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Senior-Conceptual-Campaign-Designer_26997501",
-   "posted": "2026-10-14"
-  },
-  {
-   "title": "Brand Manager (m/f/x) - Vaccines Austria",
-   "company": "CSL",
-   "location": "EMEA, AT, Vienna, CSL Behring, Austria",
-   "country": "Austria",
-   "city": "AT",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://csl.wd1.myworkdayjobs.com/CSL_External/job/EMEA-AT-Vienna-CSL-Behring/Brand-Manager--m-f-x----Vaccines-Austria_R-293376",
    "posted": "2026-10-14"
   },
   {
@@ -7466,32 +6738,6 @@
    "posted": "2026-10-13"
   },
   {
-   "title": "Director, Patient and Brand Marketing",
-   "company": "Headway",
-   "location": "Remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "$212K – $265K",
-   "url": "https://jobs.ashbyhq.com/headway/f8d4f38f-c192-4fdb-9480-4115328861cf",
-   "posted": "2026-10-13"
-  },
-  {
-   "title": "Senior Brand Manager Nordics",
-   "company": "Heinz",
-   "location": "Stockholm, Sweden",
-   "country": "Sweden",
-   "city": "Stockholm",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers/job/Stockholm/Senior-Brand-Manager-Nordics_R-107570",
-   "posted": "2026-10-13"
-  },
-  {
    "title": "Senior Medical Copywriter",
    "company": "Klick",
    "location": "London, England, United Kingdom",
@@ -7554,19 +6800,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/Klick1/744000155322629",
-   "posted": "2026-10-13"
-  },
-  {
-   "title": "Head of Brand & Marketing DACH (f/m/d)",
-   "company": "Koro",
-   "location": "KoRo HQ Berlin",
-   "country": "Germany",
-   "city": "KoRo HQ Berlin",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/koro/2520f7bc-a8f8-4fc4-903f-cfd1b1140f9c",
    "posted": "2026-10-13"
   },
   {
