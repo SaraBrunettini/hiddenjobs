@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-10T15:32:44.117Z",
- "companies": 846,
- "count": 582,
+ "updated": "2026-11-10T15:49:52.939Z",
+ "companies": 870,
+ "count": 583,
  "jobs": [
   {
    "title": "Intern Brand Design",
@@ -27,6 +27,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/dept/jobs/8371846",
+   "posted": "2026-11-10"
+  },
+  {
+   "title": "Motion Designer",
+   "company": "DEPT",
+   "location": "Budapest",
+   "country": "Hungary",
+   "city": "Budapest",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8372056",
    "posted": "2026-11-10"
   },
   {
@@ -131,6 +144,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.adidas-group.com/job/Brugnato-Visual-Merchandiser-New-Opening-Brugnato-5Terre-Outlet-SP/1455940433/",
+   "posted": "2026-11-10"
+  },
+  {
+   "title": "Motion Designer",
+   "company": "Dazn",
+   "location": "Leeds, , United Kingdom",
+   "country": "United Kingdom",
+   "city": "Leeds",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://careers.dazn.com/en/postings/4c59565b-4f06-48b2-809a-cb251c404696",
    "posted": "2026-11-10"
   },
   {
@@ -2123,6 +2149,19 @@
    "posted": "2026-11-04"
   },
   {
+   "title": "Video Artist",
+   "company": "Bohemia Interactive",
+   "location": "Prague, Czechia",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://bohemia-interactive.breezy.hr/p/bcc8721df30201-video-artist",
+   "posted": "2026-11-04"
+  },
+  {
    "title": "Copywriter",
    "company": "Charlotte Tilbury",
    "location": "London, United Kingdom",
@@ -3514,19 +3553,6 @@
    "posted": "2026-10-30"
   },
   {
-   "title": "Sr Manager, Brand Content & Thought Leadership",
-   "company": "Blackbaud",
-   "location": "Remote - Anywhere - USA, United States of America",
-   "country": "United States",
-   "city": "United States of America",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://blackbaud.wd1.myworkdayjobs.com/ExternalCareers/job/Remote---Anywhere---USA/Sr-Manager--Brand-Content---Thought-Leadership_R0014515",
-   "posted": "2026-10-30"
-  },
-  {
    "title": "Specialist UX-Research (m/w/d) (befr. 2 Jahre)",
    "company": "Datev",
    "location": "Nürnberg, Deutschland",
@@ -4062,14 +4088,14 @@
   {
    "title": "Senior UI Designer (World of Tanks Console)",
    "company": "Wargaming",
-   "location": "Nicosia; Vilnius; Belgrade",
+   "location": "Vilnius; Nicosia; Belgrade",
    "country": "Europe-wide",
    "city": null,
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305729",
+   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305734",
    "posted": "2026-10-28"
   },
   {
@@ -7307,19 +7333,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Glasgow-Campus/Senior-UX-Researcher_JR-0000113769",
-   "posted": "2026-10-13"
-  },
-  {
-   "title": "Vice President, Change Management & Organization Design - Remote Flex",
-   "company": "Blackbaud",
-   "location": "Remote - Anywhere - USA, United States of America",
-   "country": "United States",
-   "city": "United States of America",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://blackbaud.wd1.myworkdayjobs.com/ExternalCareers/job/Remote---Anywhere---USA/Vice-President--Change-Management---Organization-Design_R0014777",
    "posted": "2026-10-13"
   },
   {

@@ -2332,12 +2332,12 @@
  "Exotec": {
   "slug": "exotec",
   "ats": "workable",
-  "seen": "2026-11-06"
+  "seen": "2026-11-10"
  },
  "Exoticca": {
   "slug": "exoticca",
   "ats": "workable",
-  "seen": "2026-11-06"
+  "seen": "2026-11-10"
  },
  "Fabrique": {
   "slug": "fabrique",
@@ -2374,6 +2374,11 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-10"
  },
+ "Guardian": {
+  "slug": "fa-euxy-saasfaprod1.fa.ocs/CX_1",
+  "ats": "oracle",
+  "seen": "2026-11-10"
+ },
  "Hibob": {
   "slug": "hibob",
   "ats": "smartrecruiters",
@@ -2402,7 +2407,7 @@
  "Hugging Face": {
   "slug": "huggingface",
   "ats": "workable",
-  "seen": "2026-11-06"
+  "seen": "2026-11-10"
  },
  "Idealista": {
   "slug": "idealista",
@@ -2432,6 +2437,11 @@
  "Itera": {
   "slug": "itera",
   "ats": "teamtailor",
+  "seen": "2026-11-10"
+ },
+ "ITV": {
+  "slug": "fa-euup-saasfaprod1.fa.ocs/CX_1",
+  "ats": "oracle",
   "seen": "2026-11-10"
  },
  "Jasper": {
@@ -2522,7 +2532,7 @@
  "Netguru": {
   "slug": "netguru",
   "ats": "workable",
-  "seen": "2026-11-06"
+  "seen": "2026-11-10"
  },
  "Oddbox": {
   "slug": "oddbox",
@@ -2572,7 +2582,7 @@
  "Perlego": {
   "slug": "perlego",
   "ats": "workable",
-  "seen": "2026-11-06"
+  "seen": "2026-11-10"
  },
  "Personio": {
   "slug": "personio",
@@ -2889,6 +2899,11 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-10"
  },
+ "Airbus": {
+  "slug": "ag.wd3/Airbus",
+  "ats": "workday",
+  "seen": "2026-11-10"
+ },
  "Aikidosecurity": {
   "slug": "aikidosecurity",
   "ats": "recruitee",
@@ -3169,9 +3184,19 @@
   "ats": "workday",
   "seen": "2026-11-10"
  },
+ "Caterpillar": {
+  "slug": "cat.wd5/caterpillarcareers",
+  "ats": "workday",
+  "seen": "2026-11-10"
+ },
  "CD PROJEKT RED": {
   "slug": "cdprojektred",
   "ats": "smartrecruiters",
+  "seen": "2026-11-10"
+ },
+ "CompuGroup Medical": {
+  "slug": "cgm.wd3/cgm",
+  "ats": "workday",
   "seen": "2026-11-10"
  },
  "Chubb Fire & Security": {
@@ -3276,6 +3301,11 @@
  },
  "Datev": {
   "slug": "datev.wd3/Datev_Careers",
+  "ats": "workday",
+  "seen": "2026-11-10"
+ },
+ "Deutsche Bank": {
+  "slug": "db.wd3/dbwebsite",
   "ats": "workday",
   "seen": "2026-11-10"
  },
@@ -4119,6 +4149,11 @@
   "ats": "ashby",
   "seen": "2026-11-10"
  },
+ "VF Corporation (Kipling)": {
+  "slug": "vfc.wd5/kipling_careers",
+  "ats": "workday",
+  "seen": "2026-11-10"
+ },
  "Virtualitics": {
   "slug": "virtualitics",
   "ats": "lever",
@@ -4189,44 +4224,129 @@
   "ats": "ashby",
   "seen": "2026-11-10"
  },
- "Guardian": {
-  "slug": "fa-euxy-saasfaprod1.fa.ocs/CX_1",
-  "ats": "oracle",
-  "seen": "2026-11-10"
- },
- "ITV": {
-  "slug": "fa-euup-saasfaprod1.fa.ocs/CX_1",
-  "ats": "oracle",
-  "seen": "2026-11-10"
- },
- "Airbus": {
-  "slug": "ag.wd3/Airbus",
-  "ats": "workday",
-  "seen": "2026-11-10"
- },
- "Caterpillar": {
-  "slug": "cat.wd5/caterpillarcareers",
-  "ats": "workday",
-  "seen": "2026-11-10"
- },
- "CompuGroup Medical": {
-  "slug": "cgm.wd3/cgm",
-  "ats": "workday",
-  "seen": "2026-11-10"
- },
- "Deutsche Bank": {
-  "slug": "db.wd3/dbwebsite",
-  "ats": "workday",
-  "seen": "2026-11-10"
- },
- "VF Corporation (Kipling)": {
-  "slug": "vfc.wd5/kipling_careers",
-  "ats": "workday",
-  "seen": "2026-11-10"
- },
  "BBC": {
   "slug": "https://careers.bbc.co.uk/",
   "ats": "sitemap",
+  "seen": "2026-11-10"
+ },
+ "1Komma5": {
+  "slug": "1komma5",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Adevinta": {
+  "slug": "adevinta",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Aiven": {
+  "slug": "aiven",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Atom Bank": {
+  "slug": "atombank",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Bending Spoons": {
+  "slug": "bendingspoons",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Bohemia Interactive": {
+  "slug": "bohemia-interactive",
+  "ats": "breezy",
+  "seen": "2026-11-10"
+ },
+ "Boldare": {
+  "slug": "boldare",
+  "ats": "breezy",
+  "seen": "2026-11-10"
+ },
+ "Ciklum": {
+  "slug": "ciklum",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Dazn": {
+  "slug": "dazn",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Dext": {
+  "slug": "dext",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "FreeAgent": {
+  "slug": "freeagent",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Frontier Developments": {
+  "slug": "frontierdevelopments",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Made Tech": {
+  "slug": "made-tech",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Mambu": {
+  "slug": "mambu",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Northvolt": {
+  "slug": "northvolt",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Obsidian": {
+  "slug": "obsidian",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Playdead": {
+  "slug": "playdead",
+  "ats": "breezy",
+  "seen": "2026-11-10"
+ },
+ "Remarkable": {
+  "slug": "remarkable",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Secret Escapes": {
+  "slug": "secret-escapes",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Sopra Steria": {
+  "slug": "soprasteria",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Swapfiets": {
+  "slug": "swapfiets",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Trifork": {
+  "slug": "trifork",
+  "ats": "homerun",
+  "seen": "2026-11-10"
+ },
+ "Unit4": {
+  "slug": "unit4",
+  "ats": "pinpoint",
+  "seen": "2026-11-10"
+ },
+ "Zendesk": {
+  "slug": "zendesk",
+  "ats": "pinpoint",
   "seen": "2026-11-10"
  }
 }
