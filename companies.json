@@ -2534,6 +2534,11 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-10"
  },
+ "Optimizely": {
+  "slug": "optimizely",
+  "ats": "smartrecruiters",
+  "seen": "2026-11-10"
+ },
  "Ornikar": {
   "slug": "ornikar",
   "ats": "teamtailor",
@@ -2884,11 +2889,6 @@
   "ats": "smartrecruiters",
   "seen": "2026-11-10"
  },
- "AG": {
-  "slug": "ag.wd3/Airbus",
-  "ats": "workday",
-  "seen": "2026-11-10"
- },
  "Aikidosecurity": {
   "slug": "aikidosecurity",
   "ats": "recruitee",
@@ -3169,24 +3169,9 @@
   "ats": "workday",
   "seen": "2026-11-10"
  },
- "CAT": {
-  "slug": "cat.wd5/caterpillarcareers",
-  "ats": "workday",
-  "seen": "2026-11-10"
- },
- "CC": {
-  "slug": "cc.wd3/ChanelCareers",
-  "ats": "workday",
-  "seen": "2026-11-10"
- },
  "CD PROJEKT RED": {
   "slug": "cdprojektred",
   "ats": "smartrecruiters",
-  "seen": "2026-11-10"
- },
- "CGM": {
-  "slug": "cgm.wd3/cgm",
-  "ats": "workday",
   "seen": "2026-11-10"
  },
  "Chubb Fire & Security": {
@@ -3291,11 +3276,6 @@
  },
  "Datev": {
   "slug": "datev.wd3/Datev_Careers",
-  "ats": "workday",
-  "seen": "2026-11-10"
- },
- "DB": {
-  "slug": "db.wd3/dbwebsite",
   "ats": "workday",
   "seen": "2026-11-10"
  },
@@ -3659,11 +3639,6 @@
   "ats": "greenhouse",
   "seen": "2026-11-10"
  },
- "Jobgether": {
-  "slug": "jobgether",
-  "ats": "lever",
-  "seen": "2026-11-10"
- },
  "Join9am": {
   "slug": "join9am",
   "ats": "ashby",
@@ -4019,11 +3994,6 @@
   "ats": "teamtailor",
   "seen": "2026-11-10"
  },
- "Talentin": {
-  "slug": "talentin",
-  "ats": "teamtailor",
-  "seen": "2026-11-10"
- },
  "TEAM LEWIS": {
   "slug": "teamlewis",
   "ats": "teamtailor",
@@ -4149,11 +4119,6 @@
   "ats": "ashby",
   "seen": "2026-11-10"
  },
- "VFC": {
-  "slug": "vfc.wd5/kipling_careers",
-  "ats": "workday",
-  "seen": "2026-11-10"
- },
  "Virtualitics": {
   "slug": "virtualitics",
   "ats": "lever",
@@ -4224,9 +4189,44 @@
   "ats": "ashby",
   "seen": "2026-11-10"
  },
- "Optimizely": {
-  "slug": "optimizely",
-  "ats": "smartrecruiters",
+ "Guardian": {
+  "slug": "fa-euxy-saasfaprod1.fa.ocs/CX_1",
+  "ats": "oracle",
+  "seen": "2026-11-10"
+ },
+ "ITV": {
+  "slug": "fa-euup-saasfaprod1.fa.ocs/CX_1",
+  "ats": "oracle",
+  "seen": "2026-11-10"
+ },
+ "Airbus": {
+  "slug": "ag.wd3/Airbus",
+  "ats": "workday",
+  "seen": "2026-11-10"
+ },
+ "Caterpillar": {
+  "slug": "cat.wd5/caterpillarcareers",
+  "ats": "workday",
+  "seen": "2026-11-10"
+ },
+ "CompuGroup Medical": {
+  "slug": "cgm.wd3/cgm",
+  "ats": "workday",
+  "seen": "2026-11-10"
+ },
+ "Deutsche Bank": {
+  "slug": "db.wd3/dbwebsite",
+  "ats": "workday",
+  "seen": "2026-11-10"
+ },
+ "VF Corporation (Kipling)": {
+  "slug": "vfc.wd5/kipling_careers",
+  "ats": "workday",
+  "seen": "2026-11-10"
+ },
+ "BBC": {
+  "slug": "https://careers.bbc.co.uk/",
+  "ats": "sitemap",
   "seen": "2026-11-10"
  }
 }
