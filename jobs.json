@@ -1,8 +1,21 @@
 {
- "updated": "2026-11-11T10:18:58.881Z",
- "companies": 913,
- "count": 543,
+ "updated": "2026-11-11T10:40:10.494Z",
+ "companies": 915,
+ "count": 545,
  "jobs": [
+  {
+   "title": "Senior Staff Product Designer",
+   "company": "Tide",
+   "location": "United Kingdom",
+   "country": "United Kingdom",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/tide/jobs/8201236003",
+   "posted": "2026-11-11"
+  },
   {
    "title": "Creative Manager",
    "company": "Moonpig",
@@ -118,6 +131,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/HMGroup/744000161037459",
+   "posted": "2026-11-11"
+  },
+  {
+   "title": "Meewerkstage Design",
+   "company": "KPN",
+   "location": "Amsterdam, NH, Netherlands",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Other",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/KPN/744000161056111",
    "posted": "2026-11-11"
   },
   {
