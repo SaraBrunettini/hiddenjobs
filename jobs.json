@@ -1,21 +1,8 @@
 {
- "updated": "2026-11-11T14:14:21.099Z",
+ "updated": "2026-11-11T15:43:36.998Z",
  "companies": 932,
- "count": 541,
+ "count": 539,
  "jobs": [
-  {
-   "title": "Product Designer",
-   "company": "N26",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://n26.com/en-eu/careers/positions/8377964?gh_jid=8377964",
-   "posted": "2026-11-11"
-  },
   {
    "title": "Senior Staff Product Designer",
    "company": "Tide",
@@ -108,6 +95,32 @@
    "posted": "2026-11-11"
   },
   {
+   "title": "Graphic Designer",
+   "company": "Holded",
+   "location": "Barcelona, Spain",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.holded.com/o/graphicdesigner",
+   "posted": "2026-11-11"
+  },
+  {
+   "title": "Working Student (d/f/m) Simulation Control UI Software Infrastructure",
+   "company": "Airbus",
+   "location": "Manching, Germany",
+   "country": "Germany",
+   "city": "Manching",
+   "discipline": "Product & UX",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Manching/Working-Student--d-f-m--Simulation-Control-UI-Software-Infrastructure_JR10434146",
+   "posted": "2026-11-11"
+  },
+  {
    "title": "3DEXPERIENCE & DMU Data Specialist | Physical Design & Engineering IT (d/f/m)",
    "company": "Airbus",
    "location": "Immenstaad am Bodensee, Germany",
@@ -173,6 +186,32 @@
    "posted": "2026-11-11"
   },
   {
+   "title": "Software Development Engineer – UI",
+   "company": "Genesys",
+   "location": "Galway, Ireland, Ireland",
+   "country": "Ireland",
+   "city": "Galway",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://genesys.wd1.myworkdayjobs.com/Genesys/job/Galway-Ireland/Software-Development-Engineer---UI_JR112297-1",
+   "posted": "2026-11-11"
+  },
+  {
+   "title": "Visual Merchandiser - Heinsberg (m/w/d)",
+   "company": "H&M Group",
+   "location": "Heinsberg, NRW, Germany",
+   "country": "Germany",
+   "city": "Heinsberg",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/HMGroup/744000161111429",
+   "posted": "2026-11-11"
+  },
+  {
    "title": "Visual Merchandiser Vollzeit - Nordhorn (m/w/d)",
    "company": "H&M Group",
    "location": "Nordhorn, NDS, Germany",
@@ -222,6 +261,19 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/ruby-labs/9713cce2-2048-452a-b83f-dab60be69dcf",
+   "posted": "2026-11-11"
+  },
+  {
+   "title": "Freelance Designer",
+   "company": "TEAM LEWIS",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://teamlewis.teamtailor.com/jobs/8705908-freelance-designer",
    "posted": "2026-11-11"
   },
   {
@@ -625,45 +677,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/HMGroup/744000160896569",
-   "posted": "2026-11-10"
-  },
-  {
-   "title": "Digital Product Designer - Retail Tech",
-   "company": "H&M Group",
-   "location": "Stockholm, Stockholms län, Sweden",
-   "country": "Sweden",
-   "city": "Stockholm",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/HMGroup/744000160883484",
-   "posted": "2026-11-10"
-  },
-  {
-   "title": "Visual Merchandiser Vollzeit - Westfield Überseequartier Hamburg (m/w/d)",
-   "company": "H&M Group",
-   "location": "Hamburg, HH, Germany",
-   "country": "Germany",
-   "city": "Hamburg",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/HMGroup/744000160860469",
-   "posted": "2026-11-10"
-  },
-  {
-   "title": "Visual Merchandiser | Serravalle",
-   "company": "H&M Group",
-   "location": "Serravalle Scrivia, Piemonte, Italy",
-   "country": "Italy",
-   "city": "Serravalle Scrivia",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/HMGroup/744000160853754",
    "posted": "2026-11-10"
   },
   {
@@ -2149,6 +2162,19 @@
    "posted": "2026-11-05"
   },
   {
+   "title": "Game Designer (Mid/Senior)",
+   "company": "Xsolla",
+   "location": "Serbia",
+   "country": "Serbia",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.lever.co/xsolla/8e985aa9-d28d-4e22-81f8-c8eebc6de43b",
+   "posted": "2026-11-05"
+  },
+  {
    "title": "Motion Editor",
    "company": "Jones Knowles Ritchie",
    "location": "London, United Kingdom",
@@ -2198,6 +2224,19 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/marshmallow/0aef1ce7-b6f1-409e-8656-5fd177eded62",
+   "posted": "2026-11-04"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Spotify",
+   "location": "Stockholm",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.lever.co/spotify/a9d581f9-1361-4227-b230-94a0d6ffdef4",
    "posted": "2026-11-04"
   },
   {
@@ -2328,19 +2367,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/ASSYSTEM/744000159603614",
-   "posted": "2026-11-04"
-  },
-  {
-   "title": "Senior Copywriter (f/m/x)",
-   "company": "AUTO1 Group",
-   "location": "Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/Auto1/744000159708366",
    "posted": "2026-11-04"
   },
   {
@@ -2497,19 +2523,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://genesys.wd1.myworkdayjobs.com/Genesys/job/Virtual-Office-Ireland/Senior-User-Experience-Designer_JR112693",
-   "posted": "2026-11-04"
-  },
-  {
-   "title": "Stagiair Creative Content en Copywriting",
-   "company": "Melkweg",
-   "location": "Amsterdam",
-   "country": "Netherlands",
-   "city": "Amsterdam",
-   "discipline": "Other",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://melkweg.homerun.co/stagiair-creative-content-en-copywriting-2",
    "posted": "2026-11-04"
   },
   {
@@ -2762,14 +2775,14 @@
   {
    "title": "Senior Animator (World of Tanks Console)",
    "company": "Wargaming",
-   "location": "Vilnius; Belgrade",
+   "location": "Belgrade; Vilnius",
    "country": "Europe-wide",
    "city": null,
    "discipline": "Motion",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8345758",
+   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8345748",
    "posted": "2026-11-03"
   },
   {
@@ -3215,19 +3228,6 @@
    "posted": "2026-11-02"
   },
   {
-   "title": "Visual Designer",
-   "company": "Twisto",
-   "location": "Prague, Czechia",
-   "country": "Czechia",
-   "city": "Prague",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://twisto.recruitee.com/o/visual-designer-1",
-   "posted": "2026-11-02"
-  },
-  {
    "title": "Staff RFIC Design Engineer",
    "company": "Analogdevices",
    "location": "Turkey, Istanbul, Bilisim Vadisi, Türkiye",
@@ -3355,19 +3355,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/EBreuningerGmbHCo/744000159102086",
-   "posted": "2026-11-02"
-  },
-  {
-   "title": "AI Design Technologist",
-   "company": "Koos",
-   "location": "Amsterdam",
-   "country": "Netherlands",
-   "city": "Amsterdam",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.koosservicedesign.com/ai-design-technologist-3",
    "posted": "2026-11-02"
   },
   {
@@ -4049,14 +4036,14 @@
   {
    "title": "Senior UI Designer (World of Tanks Console)",
    "company": "Wargaming",
-   "location": "Belgrade; Vilnius; Nicosia",
+   "location": "Vilnius; Belgrade; Nicosia",
    "country": "Europe-wide",
    "city": null,
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305724",
+   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305734",
    "posted": "2026-10-28"
   },
   {
@@ -4265,6 +4252,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/NEXTON/744000158333370",
+   "posted": "2026-10-28"
+  },
+  {
+   "title": "Senior Product Designer (Banking)",
+   "company": "Unlimit",
+   "location": "Belgrade",
+   "country": "Serbia",
+   "city": "Belgrade",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.lever.co/unlimit/4a815740-5d5f-4048-ad3b-98e5fe2d1a3f",
    "posted": "2026-10-28"
   },
   {
@@ -6478,19 +6478,6 @@
    "posted": "2026-10-15"
   },
   {
-   "title": "Gameplay and System Design Internship - 1st half 2027",
-   "company": "Paradox Interactive",
-   "location": "Delft, Netherlands",
-   "country": "Netherlands",
-   "city": "Delft",
-   "discipline": "Other",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://career.paradoxplaza.com/jobs/8552857-gameplay-and-system-design-internship-1st-half-2027",
-   "posted": "2026-10-15"
-  },
-  {
    "title": "Head of Product & Product Design",
    "company": "Tails.com",
    "location": "Richmond, United Kingdom",
@@ -7022,19 +7009,6 @@
    "salary": null,
    "url": "https://careers.koto.studio/jobs/8541139-senior-digital-designer",
    "posted": "2026-10-13"
-  },
-  {
-   "title": "Design Release Engineer",
-   "company": "Harmattan Ai",
-   "location": "Lausanne",
-   "country": "Switzerland",
-   "city": "Lausanne",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/harmattan-ai/3d14cb02-01a4-4ca2-9021-2eac2288fe63",
-   "posted": "2026-10-12"
   }
  ]
 }
