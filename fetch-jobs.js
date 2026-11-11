@@ -735,6 +735,8 @@ const NOT_CREATIVE = new RegExp([
   /* teaching and academic research - design subjects, not design jobs */
   'lecturer|professor|teaching fellow|tutor\\b|course leader|subject leader|academic lead|head of programmes',
   'research (fellow|associate|assistant)|postdoc|post-doc|phd|doctoral|studentship|chair in|reader in',
+  /* "designer" in IT, tooling, training and building-services titles */
+  '(solution|solutions|it|sap|tooling|instructional|learning|project|piping|mould|mold|electrical|cad|bim|(?<!design )system) designer',
   'thesis|data analyst|multi-channel marketer|designer outlet|concept store|flagship store|retail assistant|sales assistant|brand specialist|fp&a|controlling|data visuali[sz]ation|events coordinator|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
 ].join('|'), 'i');
 
@@ -748,7 +750,7 @@ const DISCIPLINES = [
   ['Motion',       /(\bmotion|\banimator|\banimation|\b3d |\bvideo editor|\bvideo artist|\bvideographer)/i],
   ['Design ops',   /\b(design ops|design operations|design program|design producer|creative operations|production design)/i],
   ['Brand',        /(\bbrand|\bgraphic design|\bvisual identity|\bvisual design|\bcommunications design|\bpackaging|\bmarketing design|\billustrat)/i],
-  ['Product & UX', /(\bproduct design|\busability|\bproduct experience design|\bux\b|\bui\b|\buser experience|\buser interface|\binteraction design|\bdesign system|\bdesign engineer|\bdesign technologist|\bdigital design|\bweb design)/i],
+  ['Product & UX', /(\bproduct design|\busability|\bservice design|\bexperience design|\bconversational design|\bproduct experience design|\bux\b|\bui\b|\buser experience|\buser interface|\binteraction design|\bdesign system|\bdesign engineer|\bdesign technologist|\bdigital design|\bweb design)/i],
 ];
 
 /* "Brand" alone names marketing - brand managers, brand marketing, brand
