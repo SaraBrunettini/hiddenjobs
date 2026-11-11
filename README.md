@@ -84,6 +84,17 @@ in `discovered.json` and looked at again after 14 days, in case they have
 started hiring designers. Common Crawl publishes about once a month, so it is
 only read when there is a new crawl.
 
+## Sharing and following
+
+Every view of the board has its own link: the address records the
+discipline, location, workplace and contract type, so `?d=ux` opens Product
+& UX and `?d=brand&w=Remote` remote brand roles. **Copy link** copies it.
+
+Each morning's run also writes RSS feeds - `feed.xml` for every role and
+`feeds/<discipline>.xml` for each tab (`feeds/product-ux.xml` and so on).
+Links in the feeds point at `SITE_URL`, which defaults to the GitHub Pages
+address; set it in the workflow if the board moves to its own domain.
+
 ## Running it yourself
 
 ```

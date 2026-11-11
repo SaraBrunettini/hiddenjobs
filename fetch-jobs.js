@@ -736,6 +736,8 @@ const NOT_CREATIVE = new RegExp([
   /* teaching and academic research - design subjects, not design jobs */
   'lecturer|professor|teaching fellow|tutor\\b|course leader|subject leader|academic lead|head of programmes',
   'research (fellow|associate|assistant)|postdoc|post-doc|phd|doctoral|studentship|chair in|reader in',
+  /* software roles that build user interfaces rather than design them */
+  'ui software|software infrastructure|ui (developer|engineer)|frontend|front-end',
   /* chip design */
   '(physical|logical|logic|asic|rtl|analog|digital ic|soc) design',
   /* "designer" in IT, tooling, training and building-services titles */
@@ -1070,8 +1072,53 @@ async function pool(items, size, fn) {
   return out;
 }
 
+/* RSS, so people can follow new roles without visiting: one feed of every
+   role and one per discipline. Newest first, the latest hundred each. */
+const SITE = (process.env.SITE_URL || 'https://sarabrunettini.github.io/hiddenjobs/').replace(/\/?$/, '/');
+const FEEDS = { 'Product & UX': 'product-ux', 'Brand': 'brand', 'Motion': 'motion', 'Content': 'content',
+  'Research': 'research', 'Design ops': 'design-ops', 'Leadership': 'leadership', 'Other': 'other' };
+const SITE_SLUG = { 'Product & UX': 'ux', 'Design ops': 'design-ops' };
+const xmlText = t => String(t == null ? '' : t)
+  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+function rss(title, link, jobs) {
+  const items = jobs.slice(0, 100).map(j => {
+    const facts = [j.company, j.location, j.discipline, j.type, j.workplace, j.salary].filter(Boolean).join(' · ');
+    return `  <item>
+   <title>${xmlText(`${j.title} — ${j.company}`)}</title>
+   <link>${xmlText(j.url)}</link>
+   <guid isPermaLink="true">${xmlText(j.url)}</guid>
+   ${j.posted ? `<pubDate>${new Date(j.posted + 'T08:00:00Z').toUTCString()}</pubDate>` : ''}
+   <category>${xmlText(j.discipline)}</category>
+   <description>${xmlText(facts)}</description>
+  </item>`;
+  }).join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ <channel>
+  <title>${xmlText(title)}</title>
+  <link>${xmlText(link)}</link>
+  <description>Design jobs across Europe, read from each company's own careers page. Updated every morning.</description>
+  <language>en</language>
+  <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+${items}
+ </channel>
+</rss>
+`;
+}
+
+function writeFeeds(jobs) {
+  fs.writeFileSync(`${__dirname}/feed.xml`, rss('Hidden Jobs', SITE, jobs));
+  fs.mkdirSync(`${__dirname}/feeds`, { recursive: true });
+  for (const [disc, file] of Object.entries(FEEDS)) {
+    const slug = SITE_SLUG[disc] || file;
+    fs.writeFileSync(`${__dirname}/feeds/${file}.xml`,
+      rss(`Hidden Jobs: ${disc}`, `${SITE}?d=${slug}`, jobs.filter(j => j.discipline === disc)));
+  }
+}
+
 /* discover.js reads feeds the same way, so the readers are shared. */
-module.exports = { ATS, fetchFeed, pool, discipline, country, workplace, inEurope, workdayOwner, boardOn };
+module.exports = { ATS, fetchFeed, pool, discipline, country, workplace, inEurope, workdayOwner, boardOn, writeFeeds };
 if (require.main !== module) return;
 
 (async () => {
@@ -1196,6 +1243,7 @@ if (require.main !== module) return;
   };
 
   fs.writeFileSync(`${__dirname}/jobs.json`, JSON.stringify(out, null, 1));
+  writeFeeds(unique);
   fs.writeFileSync(`${__dirname}/companies.json`, JSON.stringify(registry, null, 1));
 
   const tally = key => unique.reduce((m, j) => (m[j[key]] = (m[j[key]] || 0) + 1, m), {});

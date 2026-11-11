@@ -7,6 +7,8 @@
 <meta name="description" content="Design, brand, motion, content and research jobs across Europe, taken from each company's own careers page rather than a job board. Checked every morning, nothing older than two months.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg stroke='%23fff' stroke-width='.7' stroke-linejoin='round'%3E%3Cpath d='M7.6 3.6 9.7 9.5H3z' fill='%23ffb020'/%3E%3Cpath d='M7.6 3.6h8.8l-2.1 5.9H9.7z' fill='%23ff5a36'/%3E%3Cpath d='M16.4 3.6 21 9.5h-6.7z' fill='%23c44bd6'/%3E%3Cpath d='M3 9.5h6.7L12 20.6z' fill='%232bb673'/%3E%3Cpath d='M9.7 9.5h4.6L12 20.6z' fill='%231fb5c9'/%3E%3Cpath d='M14.3 9.5H21L12 20.6z' fill='%235b6cff'/%3E%3C/g%3E%3C/svg%3E">
 <script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="alternate" type="application/rss+xml" title="Hidden Jobs - all roles" href="feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Hidden Jobs - Product &amp; UX" href="feeds/product-ux.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=Inter+Tight:wght@400;500;600;700&display=swap">
@@ -182,6 +184,10 @@ h1 button:hover .gem .f3,h1 button:hover .gem .f6{animation-delay:.4s}
 
 .tab[aria-selected=true]{border-bottom-color:transparent;
   border-image:linear-gradient(90deg,#ffb020,#ff5a36,#c44bd6,#5b6cff,#1fb5c9,#2bb673) 1}
+.acts{display:flex;align-items:center;gap:8px}
+.act{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:6px 11px;
+  font:inherit;font-size:.86rem;font-weight:500;color:var(--ink);text-decoration:none;cursor:pointer}
+.act:hover{background:var(--hover)}
 .top{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .theme{flex:none;margin-top:18px;display:grid;place-items:center;width:36px;height:36px;
   background:var(--card);border:1px solid var(--line);border-radius:99px;color:var(--muted);cursor:pointer}
@@ -316,12 +322,16 @@ input,select,.pill,.more,.note,.combo ul{border-radius:4px}
 
   <div class="head">
     <p class="count" id="count"></p>
+    <div class="acts">
+    <button class="act" id="share" type="button">Copy link</button>
+    <a class="act" id="rss" href="feed.xml">RSS</a>
     <label><span class="vh">Show</span>
       <select id="sort">
         <option value="new">Newest first</option>
         <option value="old">Oldest first</option>
       </select>
     </label>
+    </div>
   </div>
 
   <div id="list"><p class="note">Loading...</p></div>
@@ -329,6 +339,9 @@ input,select,.pill,.more,.note,.combo ul{border-radius:4px}
   <footer>
     <p id="updated"></p>
     <p>Nothing older than two months. No account, no tracking, free.</p>
+    <p>Follow new roles by RSS: <a href="feed.xml">all roles</a> · <a href="feeds/product-ux.xml">Product &amp; UX</a> ·
+      <a href="feeds/brand.xml">Brand</a> · <a href="feeds/motion.xml">Motion</a> · <a href="feeds/content.xml">Content</a>.
+      A free service such as Blogtrottr turns a feed into email.</p>
   </footer>
 </div>
 
@@ -494,16 +507,57 @@ function render(){
     : '<p class="note">No jobs match these filters.</p>';
 }
 
-function set(patch){ Object.assign(state, patch, { shown: PAGE }); render(); }
+/* The view lives in the address, so any filtered board can be shared:
+   ?d=ux opens Product & UX, ?d=brand&w=Remote remote brand roles. */
+const SLUG = { 'Product & UX': 'ux', 'Brand': 'brand', 'Motion': 'motion', 'Content': 'content',
+  'Research': 'research', 'Design ops': 'design-ops', 'Leadership': 'leadership', 'Other': 'other' };
+const FEED = { 'Product & UX': 'product-ux', 'Brand': 'brand', 'Motion': 'motion', 'Content': 'content',
+  'Research': 'research', 'Design ops': 'design-ops', 'Leadership': 'leadership', 'Other': 'other' };
+const UNSLUG = Object.fromEntries(Object.entries(SLUG).map(([k, v]) => [v, k]));
+UNSLUG['product-ux'] = 'Product & UX';
+
+function readUrl(){
+  const q = new URLSearchParams(location.search);
+  state.disc = UNSLUG[(q.get('d') || '').toLowerCase()] || '';
+  state.loc = q.get('loc') || '';
+  state.work = (q.get('w') || '').split(',').filter(w => WORK_ORDER.includes(w));
+  state.type = q.get('t') || '';
+  state.view = q.get('v') === 'old' ? 'old' : 'new';
+}
+function writeUrl(){
+  const q = new URLSearchParams();
+  if (state.disc) q.set('d', SLUG[state.disc] || state.disc);
+  if (state.loc) q.set('loc', state.loc);
+  if (state.work.length) q.set('w', state.work.join(','));
+  if (state.type) q.set('t', state.type);
+  if (state.view === 'old') q.set('v', 'old');
+  const s = q.toString();
+  history.replaceState(null, '', location.pathname + (s ? '?' + s : '') + location.hash);
+  $('#rss').href = state.disc ? `feeds/${FEED[state.disc]}.xml` : 'feed.xml';
+  $('#rss').title = state.disc ? `RSS feed of ${state.disc} roles` : 'RSS feed of all roles';
+}
+
+function set(patch){ Object.assign(state, patch, { shown: PAGE }); writeUrl(); render(); }
 
 fetch('jobs.json?' + Date.now())
   .then(r => r.json())
   .then(d => {
     state.jobs = d.jobs || [];
+    readUrl();
+    if (state.loc) $('#locInput').value = locValue();
+    $('#sort').value = state.view;
+    writeUrl();
     $('#updated').textContent = `Updated ${(ago(d.updated) || 'today').toLowerCase()}.`;
     render();
   })
   .catch(() => { $('#list').innerHTML = '<p class="note">Could not load jobs. Please try again later.</p>'; });
+
+$('#share').addEventListener('click', async () => {
+  const b = $('#share');
+  try { await navigator.clipboard.writeText(location.href); b.textContent = 'Link copied'; }
+  catch (e) { prompt('Copy this link:', location.href); }
+  setTimeout(() => { b.textContent = 'Copy link'; }, 1800);
+});
 
 $('#tabs').addEventListener('click', e => {
   const b = e.target.closest('.tab'); if (b) set({ disc: b.dataset.d });
