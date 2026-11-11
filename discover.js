@@ -157,7 +157,7 @@ async function getroDesignHiring() {
 
 /* Recruiters, staffing firms and talent marketplaces post other companies'
    roles. The board lists employers only, so none is ever added. */
-const NOT_EMPLOYER = /recruit|talent|staffing|headhunt|search partners|employment agency|hiring|\bjobs?\b|careers?\b|^(lemon\.io|mercor|contra|toptal|upwork|fiverr|braintrust|turing|crossover|andela|arc\.dev|gun\.io|a\.team|jobgether|outsized|malt)$/i;
+const NOT_EMPLOYER = /recruit|talent|staffing|headhunt|search partners|executive search|\bsearch$|personalberatung|personaldienst|employment agency|hiring|\bjobs?\b|careers?\b|^(lemon\.io|mercor|contra|toptal|upwork|fiverr|braintrust|turing|crossover|andela|arc\.dev|gun\.io|a\.team|jobgether|outsized|malt)$/i;
 
 /* Remote job sites - We Work Remotely, Himalayas, Dribbble. Like the
    investors' boards they are read only for company names: which companies
@@ -190,11 +190,18 @@ const rssTag = (item, tag) => {
 };
 
 async function remoteDesignHiring() {
-  const names = new Set();
-  const take = (company, title, places, when) => {
-    if (company && !NOT_EMPLOYER.test(company.trim()) && discipline(title) && openToEurope(places) && recentEnough(when))
-      names.add(company.trim());
+  const names = new Set(), boards = new Map();
+  const take = (company, title, places, when, applyUrl) => {
+    company = String(company || '').replace(/\s+\d+$/, '').trim();   // "Intetics 2"
+    if (!company || NOT_EMPLOYER.test(company.trim()) || !discipline(title) || !openToEurope(places) || !recentEnough(when)) return;
+    names.add(company.trim());
+    /* An apply link straight to a hiring tool the board reads gives the
+       company's own board - no guessing needed. */
+    const b = applyUrl && boardOn(String(applyUrl));
+    if (b) boards.set(company.trim(), b);
   };
+  const json = async url => { try { return JSON.parse(await getText(url) || 'null'); } catch { return null; } };
+  let before;
 
   /* We Work Remotely: "Company: Role", with the region it is open to. */
   for (const cat of ['remote-design-jobs', 'remote-product-jobs']) {
@@ -206,7 +213,7 @@ async function remoteDesignHiring() {
   console.log(`  We Work Remotely: ${names.size} companies`);
 
   /* Himalayas: a search, each role listing the countries it is open to. */
-  const before = names.size;
+  before = names.size;
   for (const q of ['product designer', 'ux designer', 'ui designer', 'brand designer', 'motion designer']) {
     for (let page = 1; page <= 4; page++) {
       await wait(4000);
@@ -226,7 +233,46 @@ async function remoteDesignHiring() {
     if (m) take(rssTag(it, 'dc:creator') || m[1], m[2], m[3] ? [m[3]] : [], Date.parse(rssTag(it, 'pubDate')));
   }
   console.log(`  Dribbble: ${names.size - before2} more`);
-  return [...names];
+
+  /* Remote OK: one call for its design tag; asks for a link back if its
+     listings are shown, which they are not - only the company is taken. */
+  before = names.size;
+  for (const j of ((await json('https://remoteok.com/api?tag=design')) || []).slice(1))
+    take(j.company, j.position, [j.location].filter(Boolean), Date.parse(j.date), j.apply_url);
+  console.log(`  Remote OK: ${names.size - before} more`);
+
+  /* Working Nomads: its latest roles, each with a category and the places
+     it is open to. */
+  before = names.size;
+  for (const j of (await json('https://www.workingnomads.com/api/exposed_jobs/')) || [])
+    if (/design/i.test(j.category_name || '')) take(j.company_name, j.title, String(j.location || '').split(/,\s*/).filter(Boolean), Date.parse(j.pub_date));
+  console.log(`  Working Nomads: ${names.size - before} more`);
+
+  /* Arbeitnow: German and European roles, three hundred a page. */
+  before = names.size;
+  for (let page = 1; page <= 5; page++) {
+    await wait(1500);
+    const d = await json(`https://www.arbeitnow.com/api/job-board-api?page=${page}`);
+    const jobs = (d && d.data) || [];
+    if (!jobs.length) break;
+    for (const j of jobs) take(j.company_name, j.title, j.remote ? ['Remote', j.location] : [j.location], (j.created_at || 0) * 1000);
+  }
+  console.log(`  Arbeitnow: ${names.size - before} more`);
+
+  /* Authentic Jobs and EU Remote Jobs run WP Job Manager, whose job feed
+     takes a keyword. */
+  for (const [label, base] of [['Authentic Jobs', 'https://authenticjobs.com/'], ['EU Remote Jobs', 'https://euremotejobs.com/']]) {
+    before = names.size;
+    for (const kw of ['designer', 'ux']) {
+      for (const it of rssItems(await getText(`${base}?feed=job_feed&search_keywords=${kw}`, 1))) {
+        const where = rssTag(it, 'job_listing:location');
+        take(rssTag(it, 'job_listing:company'), rssTag(it, 'title'),
+          label === 'EU Remote Jobs' ? ['Europe'] : [where || 'Anywhere'], Date.parse(rssTag(it, 'pubDate')));
+      }
+    }
+    console.log(`  ${label}: ${names.size - before} more`);
+  }
+  return [...names].map(name => ({ name, board: boards.get(name) }));
 }
 
 /* A board's feed rarely says whose it is, so the name comes from the feed
@@ -346,7 +392,15 @@ function creativeInEurope(rows) {
   }
   if (!(state.remoteAt && Date.now() - Date.parse(state.remoteAt) < REMOTE_EVERY_DAYS * 864e5)) {
     console.log('Reading remote job sites');
-    for (const n of await remoteDesignHiring()) if (!haveName.has(n.toLowerCase())) byRemote.push(n);
+    /* A shorter form of a company already listed ("Bjak" for Bjakcareer) is the same company. */
+    const listed = [...haveName];
+    const known = n => haveName.has(n) || (n.length >= 4 && listed.some(h => h.startsWith(n) && /^[a-z]/.test(h.slice(n.length))));
+    for (const { name, board } of await remoteDesignHiring()) {
+      if (known(name.toLowerCase())) continue;
+      const key = board && `${board.ats}:${board.slug.toLowerCase()}`;
+      if (board && !haveBoard.has(key)) candidates.set(key, { ...board, name });
+      else if (!board) byRemote.push(name);
+    }
     state.remoteAt = today;
   }
 
