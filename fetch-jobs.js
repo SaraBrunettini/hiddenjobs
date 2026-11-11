@@ -396,7 +396,8 @@ async function readWorkday(slug) {
       if (!d) break;
       answered = true;
       for (const j of d.jobPostings || [])
-        if (j.externalPath && discipline(j.title) && !/30\+/.test(j.postedOn || '')) hits.set(j.externalPath, j);
+        /* "Posted 30+ Days Ago" may still be inside the limit; the role's own date decides. */
+        if (j.externalPath && discipline(j.title)) hits.set(j.externalPath, j);
       if (offset + WD_PAGE >= (d.total || 0)) break;
     }
   }
@@ -587,7 +588,7 @@ async function readCareersPage(url) {
    title, so only the ones whose address reads as creative are opened. */
 const SITEMAP_MAX_FILES = 40;
 const SITEMAP_MAX_PAGES = 120;
-const SITEMAP_MAX_AGE_DAYS = 45;
+const SITEMAP_MAX_AGE_DAYS = 75;
 const JOB_PATH = /\/(jobs?|jobdetail|vacanc\w*|positions?|stellen\w*|offres?|openings?|roles?)(\/|$)/i;
 const LANG_SEGMENT = /^(?:[a-z]{2}(?:[-_][a-z]{2})?|global)$/i;
 
@@ -1013,12 +1014,10 @@ const COUNTRY_WORDS = new RegExp('\\b(' + [...EUROPE, 'Europe', 'EMEA', 'Czech R
 const roleName = t => String(t).replace(COUNTRY_WORDS, ' ')
   .replace(/[\s\-\u2013\u2014()|,\/]+/g, ' ').trim().toLowerCase();
 
-/* A role has to be a month old at most. A board still showing a job that
-   closed in the spring is worse than a short board: it costs someone an
-   application to find out. */
-/* Stored to the day, so a role admitted at 30.9 days can render as 31.
-   Cutting at 30 keeps the promise on the page true. */
-const MAX_AGE_DAYS = 30;
+/* A role has to be two months old at most. Design roles - senior product
+   design above all - often stay open for weeks, so a month hid real
+   vacancies; much older and the board shows jobs that have quietly closed. */
+const MAX_AGE_DAYS = 60;
 const isRecent = (posted) => {
   const t = Date.parse(posted);
   return Number.isFinite(t) && Date.now() - t <= MAX_AGE_DAYS * 864e5;
