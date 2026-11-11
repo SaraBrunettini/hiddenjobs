@@ -84,6 +84,13 @@ in `discovered.json` and looked at again after 14 days, in case they have
 started hiring designers. Common Crawl publishes about once a month, so it is
 only read when there is a new crawl.
 
+Discovery also reads, once a week, the job boards of venture investors
+(Atomico, Index, Creandum, Accel, Dawn, Northzone) and remote job sites (We
+Work Remotely, Himalayas, Dribbble) for companies hiring designers in
+Europe. Only the company is taken from them - its roles are read from the
+company itself. Recruiters, staffing firms and talent marketplaces are
+never added.
+
 ## Sharing and following
 
 Every view of the board has its own link: the address records the

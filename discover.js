@@ -155,6 +155,80 @@ async function getroDesignHiring() {
   return [...orgs.values()];
 }
 
+/* Recruiters, staffing firms and talent marketplaces post other companies'
+   roles. The board lists employers only, so none is ever added. */
+const NOT_EMPLOYER = /recruit|talent|staffing|headhunt|search partners|employment agency|hiring|\bjobs?\b|careers?\b|^(lemon\.io|mercor|contra|toptal|upwork|fiverr|braintrust|turing|crossover|andela|arc\.dev|gun\.io|a\.team|jobgether|outsized|malt)$/i;
+
+/* Remote job sites - We Work Remotely, Himalayas, Dribbble. Like the
+   investors' boards they are read only for company names: which companies
+   are hiring designers that someone in Europe can take. The roles are then
+   read from the companies themselves. Their apply links lead through their
+   own pages, so a company is added by name and its board found on each run. */
+const REMOTE_EVERY_DAYS = 7;
+const REMOTE_MAX_AGE_DAYS = 60;
+const UA = { 'user-agent': 'Mozilla/5.0 (compatible; HiddenJobs)' };
+const recentEnough = d => Number.isFinite(d) && Date.now() - d < REMOTE_MAX_AGE_DAYS * 864e5;
+const openToEurope = places => !places.length || places.some(l =>
+  /anywhere|worldwide|europe|emea|\bcet\b|\bgmt\b/i.test(l) || inEurope(country(l), l, ''));
+
+async function getText(url, tries = 3) {
+  for (let i = 0; i < tries; i++) {
+    try {
+      const res = await fetch(url, { headers: UA, signal: AbortSignal.timeout(30000) });
+      if (res.ok) return await res.text();
+      if (res.status !== 429) return null;
+    } catch {}
+    await wait(30000 * (i + 1));   // asked to slow down
+  }
+  return null;
+}
+
+const rssItems = xml => [...String(xml || '').matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m => m[1]);
+const rssTag = (item, tag) => {
+  const m = item.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`));
+  return m ? m[1].replace(/^<!\[CDATA\[|\]\]>$/g, '').replace(/&amp;/g, '&').replace(/&#39;|&apos;/g, "'").trim() : '';
+};
+
+async function remoteDesignHiring() {
+  const names = new Set();
+  const take = (company, title, places, when) => {
+    if (company && !NOT_EMPLOYER.test(company.trim()) && discipline(title) && openToEurope(places) && recentEnough(when))
+      names.add(company.trim());
+  };
+
+  /* We Work Remotely: "Company: Role", with the region it is open to. */
+  for (const cat of ['remote-design-jobs', 'remote-product-jobs']) {
+    for (const it of rssItems(await getText(`https://weworkremotely.com/categories/${cat}.rss`))) {
+      const t = rssTag(it, 'title'), i = t.indexOf(':');
+      if (i > 0) take(t.slice(0, i), t.slice(i + 1), [rssTag(it, 'region')].filter(Boolean), Date.parse(rssTag(it, 'pubDate')));
+    }
+  }
+  console.log(`  We Work Remotely: ${names.size} companies`);
+
+  /* Himalayas: a search, each role listing the countries it is open to. */
+  const before = names.size;
+  for (const q of ['product designer', 'ux designer', 'ui designer', 'brand designer', 'motion designer']) {
+    for (let page = 1; page <= 4; page++) {
+      await wait(4000);
+      let d = null;
+      try { d = JSON.parse(await getText(`https://himalayas.app/jobs/api/search?q=${encodeURIComponent(q)}&page=${page}`) || 'null'); } catch {}
+      const jobs = (d && d.jobs) || [];
+      if (!jobs.length) break;
+      for (const j of jobs) take(j.companyName, j.title, j.locationRestrictions || [], (j.pubDate || 0) * 1000);
+    }
+  }
+  console.log(`  Himalayas: ${names.size - before} more`);
+
+  /* Dribbble: "Company is hiring for a position of Role in Place". */
+  const before2 = names.size;
+  for (const it of rssItems(await getText('https://dribbble.com/jobs.rss'))) {
+    const m = rssTag(it, 'title').match(/^(.*?) is hiring for a position of (.*?)(?: in (.*))?$/);
+    if (m) take(rssTag(it, 'dc:creator') || m[1], m[2], m[3] ? [m[3]] : [], Date.parse(rssTag(it, 'pubDate')));
+  }
+  console.log(`  Dribbble: ${names.size - before2} more`);
+  return [...names];
+}
+
 /* A board's feed rarely says whose it is, so the name comes from the feed
    where it can and from the board name otherwise: acme-studio -> Acme Studio. */
 async function companyName(slug, ats) {
@@ -258,17 +332,22 @@ function creativeInEurope(rows) {
   /* Once a week, the investors' boards. A company whose roles link to a
      hiring tool is checked like any other board; one with its own careers
      site is added by name, for the daily run to find its board. */
-  const byName = [];
+  const byName = [], byRemote = [];
   if (!(state.getroAt && Date.now() - Date.parse(state.getroAt) < GETRO_EVERY_DAYS * 864e5)) {
     console.log('Reading investors\' job boards');
     for (const o of await getroDesignHiring()) {
-      if (haveName.has(o.name.toLowerCase())) continue;
+      if (haveName.has(o.name.toLowerCase()) || NOT_EMPLOYER.test(o.name)) continue;
       const boards = [...o.boards.entries()].filter(([key]) => !haveBoard.has(key));
       if (boards.length) boards.forEach(([key, b]) => candidates.set(key, { ...b, name: o.name }));
       else if (!o.boards.size) byName.push(o.name);
     }
     state.getroAt = today;
     console.log(`${byName.length} more hiring designers in Europe through their own careers sites`);
+  }
+  if (!(state.remoteAt && Date.now() - Date.parse(state.remoteAt) < REMOTE_EVERY_DAYS * 864e5)) {
+    console.log('Reading remote job sites');
+    for (const n of await remoteDesignHiring()) if (!haveName.has(n.toLowerCase())) byRemote.push(n);
+    state.remoteAt = today;
   }
 
   /* Workable turns callers away when asked too fast, so it is read slowly
@@ -303,19 +382,23 @@ function creativeInEurope(rows) {
   added.sort((a, b) => a.name.localeCompare(b.name));
 
   const named = [...new Set(byName)].filter(n => !haveName.has(n.toLowerCase())).sort();
-  if (added.length || matched.length || named.length) {
+  named.forEach(n => haveName.add(n.toLowerCase()));
+  const remote = [...new Set(byRemote)].filter(n => !haveName.has(n.toLowerCase())).sort();
+  if (added.length || matched.length || named.length || remote.length) {
     if (added.length) lines.push('', `# Found by discover.js on ${today}`,
       ...added.map(f => `${f.name} | ${f.slug} | ${f.ats}`));
     if (named.length) lines.push('', `# Hiring designers in Europe on investors' job boards, ${today}; board guessed on each run`,
       ...named);
+    if (remote.length) lines.push('', `# Hiring designers open to Europe on remote job sites, ${today}; board guessed on each run`,
+      ...remote);
     fs.writeFileSync(txtPath, lines.join('\n') + '\n');
   }
   /* A crawl counts as read only if the index answered for it. */
   const read = [...new Set([...(state.crawls || []), ...unread])].filter(c => crawls.includes(c));
-  fs.writeFileSync(seenPath, JSON.stringify({ crawls: read, getroAt: state.getroAt, boards: seen }, null, 1));
+  fs.writeFileSync(seenPath, JSON.stringify({ crawls: read, getroAt: state.getroAt, remoteAt: state.remoteAt, boards: seen }, null, 1));
 
   console.log(`${found.length} hiring creatives in Europe: ${added.length} added to companies.txt, ` +
-              `${matched.length} already listed and now matched to their board, ${named.length} added by name\n`);
+              `${matched.length} already listed and now matched to their board, ${named.length + remote.length} added by name\n`);
   for (const f of [...matched, ...added])
     console.log(`  ${f.name.padEnd(32)} ${f.ats.padEnd(15)} ${f.roles.slice(0, 2).map(r => r.title).join(' / ')}`);
 })();
