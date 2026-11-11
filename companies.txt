@@ -1332,3 +1332,139 @@ BBC | https://careers.bbc.co.uk/ | sitemap
 
 # UK universities, colleges and research bodies, listed under each institution
 jobs.ac.uk | creative-arts-and-design,media-and-communications,web-design-and-development,pr-marketing-sales-and-communication | jobsacuk
+
+# UK studios, agencies, game studios, brands and cultural organisations
+# Boards confirmed by hand:
+SomeOne | someone | greenhouse
+Superunion | superunion | smartrecruiters
+Grey London | grey | greenhouse
+Anomaly | anomaly | lever
+ustwo games | ustwo-games | homerun
+Rockstar Games | rockstargames | greenhouse
+Supermassive Games | supermassive-games | workable
+Mediatonic | mediatonic | greenhouse
+Mulberry | mulberry | lever
+Lush | lush | greenhouse
+ClassPass | classpass | greenhouse
+Hearst UK | hearst | greenhouse
+Riot Games | riotgames | greenhouse
+National Trust | nationaltrust | smartrecruiters
+Duolingo | duolingo | greenhouse
+Figma | figma | greenhouse
+Mubi | mubi | ashby
+What3words | what3words | ashby
+# Boards guessed on each run:
+Pentagram
+Wolff Olins
+DesignStudio
+Koto
+Ragged Edge
+JKR
+Jones Knowles Ritchie
+Mother
+Mother Design
+Wieden+Kennedy
+AMV BBDO
+Uncommon
+Uncommon Creative Studio
+adam&eveDDB
+BBH
+Droga5
+Lucky Generals
+Saatchi & Saatchi
+McCann
+VCCP
+Leo Burnett
+Havas London
+TBWA
+Dentsu Creative
+Pearlfisher
+Moving Brands
+Studio Output
+Manyone
+Fjord
+Made by Many
+Nomensa
+Clearleft
+Hugo & Cat
+Elmwood
+Seymourpowell
+Map Project Office
+Layer Design
+Heatherwick Studio
+Magpie Studio
+Dalton Maag
+Colophon Foundry
+Rockstar North
+Playground Games
+Media Molecule
+Rare
+Bulkhead
+Lockwood Publishing
+Ninja Theory
+Hello Games
+Roll7
+Bossa
+Natural Motion
+Space Ape
+John Lewis
+Marks and Spencer
+Selfridges
+Liberty London
+Harrods
+Penguin Random House
+HarperCollins
+Bloomsbury
+Burberry
+Paul Smith
+Ted Baker
+AllSaints
+Boden
+Cos
+Aesop
+Innocent Drinks
+Oatly
+The Economist
+Dazed Media
+Vice Media
+Monocle
+Wallpaper
+Conde Nast
+Immediate Media
+Future plc
+LADbible
+Bauer Media
+Global
+BBC Studios
+ITV Studios
+Aardman
+Framestore
+DNEG
+MPC
+The Mill
+Blue Zoo
+Passion Pictures
+Nexus Studios
+Moonbug
+Unit9
+Somesuch
+Tate
+V&A
+Science Museum Group
+British Museum
+Barbican
+Southbank Centre
+Royal Opera House
+National Theatre
+Design Council
+Wellcome Trust
+Cancer Research UK
+British Heart Foundation
+Oxfam
+Macmillan Cancer Support
+Battersea
+Patreon
+Net-a-Porter
+Graze
+Kraken
+Citymapper
