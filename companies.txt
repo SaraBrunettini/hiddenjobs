@@ -1354,14 +1354,15 @@ Figma | figma | greenhouse
 Mubi | mubi | ashby
 What3words | what3words | ashby
 # Boards guessed on each run:
-Pentagram
+Pentagram | https://www.pentagram.com/careers | page
+# Wolff Olins hires through Workable; the board tries it daily and lists it once a role is open
 Wolff Olins
 DesignStudio
 Koto
 Ragged Edge
 JKR
 Jones Knowles Ritchie
-Mother
+Mother | https://www.motherlondon.com/careers | page
 Mother Design
 Wieden+Kennedy
 AMV BBDO
