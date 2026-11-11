@@ -1431,7 +1431,8 @@ Monocle
 Wallpaper
 Conde Nast
 Immediate Media
-Future plc
+# Future plc: the Greenhouse board "future" is a US fitness app, not the publisher; left out until its real careers site is added:
+# Future plc
 LADbible
 Bauer Media
 Global
