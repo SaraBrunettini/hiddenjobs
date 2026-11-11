@@ -1667,7 +1667,7 @@
  "Toptal": {
   "slug": "toptal",
   "ats": "lever",
-  "seen": "2026-11-10"
+  "seen": "2026-11-11"
  },
  "Trustly": {
   "slug": "trustly",
@@ -4517,11 +4517,6 @@
  "Monocle": {
   "slug": "monocle",
   "ats": "breezy",
-  "seen": "2026-11-11"
- },
- "Future plc": {
-  "slug": "future",
-  "ats": "greenhouse",
   "seen": "2026-11-11"
  },
  "Bauer Media": {

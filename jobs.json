@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-11T10:03:18.694Z",
- "companies": 914,
+ "updated": "2026-11-11T10:18:58.881Z",
+ "companies": 913,
  "count": 543,
  "jobs": [
   {
@@ -52,7 +52,20 @@
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000161051525",
+   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000161053929",
+   "posted": "2026-11-11"
+  },
+  {
+   "title": "Design office",
+   "company": "Airbus",
+   "location": "Gyula, Hungary",
+   "country": "Hungary",
+   "city": "Gyula",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Gyula/Design-office_JR10450544-1",
    "posted": "2026-11-11"
   },
   {
@@ -66,6 +79,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/Design-System-Technical-Product-Owner_JR-0000103745",
+   "posted": "2026-11-11"
+  },
+  {
+   "title": "Manager Video Creative Development",
+   "company": "Condenast",
+   "location": "Paseo de la Castellana 9-11, Madrid, ES, Spain",
+   "country": "Spain",
+   "city": "Paseo de la Castellana -",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://condenast.wd115.myworkdayjobs.com/CondeCareers/job/Paseo-de-la-Castellana-9-11-Madrid-ES/Manager-Video-Creative-Development_R-25350",
    "posted": "2026-11-11"
   },
   {
@@ -1093,19 +1119,6 @@
    "workplace": "On-site",
    "salary": "£45.3K – £54K",
    "url": "https://www.jobs.ac.uk/job/DTP006/interim-studio-manager-screen-digital-and-design-practices",
-   "posted": "2026-11-09"
-  },
-  {
-   "title": "Innovation Associate – Design For Recycling Project",
-   "company": "University Of The Arts London",
-   "location": "London, United Kingdom; Millbank, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "£45.3K – £54K",
-   "url": "https://www.jobs.ac.uk/job/DTO845/innovation-associate-design-for-recycling-project",
    "posted": "2026-11-09"
   },
   {
@@ -2697,14 +2710,14 @@
   {
    "title": "Senior Animator (World of Tanks Console)",
    "company": "Wargaming",
-   "location": "Belgrade; Vilnius",
+   "location": "Vilnius; Belgrade",
    "country": "Europe-wide",
    "city": null,
    "discipline": "Motion",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8345748",
+   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8345758",
    "posted": "2026-11-03"
   },
   {
@@ -2809,19 +2822,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Marseille-Area/Transmission-System-Design-Responsible--f-m-_JR10448742",
-   "posted": "2026-11-03"
-  },
-  {
-   "title": "Bachelorand/Masterand (d/m/w) im Bereich Rotor System Design",
-   "company": "Airbus",
-   "location": "Donauwörth, Germany",
-   "country": "Germany",
-   "city": "Donauwörth",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Donauwrth/Bachelorand-Masterand--d-m-w--im-Bereich-Rotor-System-Design_JR10453310",
    "posted": "2026-11-03"
   },
   {
@@ -3984,14 +3984,14 @@
   {
    "title": "Senior UI Designer (World of Tanks Console)",
    "company": "Wargaming",
-   "location": "Vilnius; Nicosia; Belgrade",
+   "location": "Belgrade; Vilnius; Nicosia",
    "country": "Europe-wide",
    "city": null,
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305734",
+   "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305724",
    "posted": "2026-10-28"
   },
   {
@@ -6595,6 +6595,19 @@
    "posted": "2026-10-15"
   },
   {
+   "title": "Digital Communications and Design Manager",
+   "company": "The Russell Group",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "£52K – £57K",
+   "url": "https://www.jobs.ac.uk/job/DTG993/digital-communications-and-design-manager",
+   "posted": "2026-10-15"
+  },
+  {
    "title": "Mid/Senior Designer",
    "company": "DEPT",
    "location": "Budapest",
@@ -6865,19 +6878,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/AustroHolding/744000155192720",
-   "posted": "2026-10-13"
-  },
-  {
-   "title": "Senior UX Researcher",
-   "company": "Barclays",
-   "location": "Glasgow Campus, United Kingdom",
-   "country": "United Kingdom",
-   "city": "Glasgow Campus",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Glasgow-Campus/Senior-UX-Researcher_JR-0000113769",
    "posted": "2026-10-13"
   },
   {
