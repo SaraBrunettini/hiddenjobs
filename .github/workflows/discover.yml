@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-jobs
+  cancel-in-progress: false
+
 jobs:
   discover:
     runs-on: ubuntu-latest

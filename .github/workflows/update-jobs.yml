@@ -10,6 +10,12 @@ on:
 permissions:
   contents: write
 
+# One update at a time: a run started while another is going waits for it,
+# rather than both reading the same list and one losing its save.
+concurrency:
+  group: update-jobs
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
