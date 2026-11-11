@@ -4439,6 +4439,11 @@
   "ats": "ashby",
   "seen": "2026-11-11"
  },
+ "Pentagram": {
+  "slug": "https://www.pentagram.com/careers",
+  "ats": "page",
+  "seen": "2026-11-11"
+ },
  "Koto": {
   "slug": "koto",
   "ats": "teamtailor",
@@ -4452,6 +4457,11 @@
  "Jones Knowles Ritchie": {
   "slug": "jones-knowles-ritchie",
   "ats": "workable",
+  "seen": "2026-11-11"
+ },
+ "Mother": {
+  "slug": "https://www.motherlondon.com/careers",
+  "ats": "page",
   "seen": "2026-11-11"
  },
  "Uncommon": {
@@ -4562,16 +4572,6 @@
  "Kraken": {
   "slug": "kraken",
   "ats": "pinpoint",
-  "seen": "2026-11-11"
- },
- "Pentagram": {
-  "slug": "https://www.pentagram.com/careers",
-  "ats": "page",
-  "seen": "2026-11-11"
- },
- "Mother": {
-  "slug": "https://www.motherlondon.com/careers",
-  "ats": "page",
   "seen": "2026-11-11"
  }
 }
