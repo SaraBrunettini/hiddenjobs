@@ -1470,3 +1470,48 @@ Net-a-Porter
 Graze
 Kraken
 Citymapper
+
+
+# Found by discover.js on 2026-11-11
+Anine Bing | aninebing | greenhouse
+Atira | atira | ashby
+BeReal. | bereal | ashby
+Bigger Games | biggergames | ashby
+Conduct | conduct | ashby
+Datadog | datadog | greenhouse
+Duna | duna | ashby
+Enode | enode | ashby
+Fonoa | fonoa | ashby
+getviktor.com | viktor | ashby
+Granola | granola | ashby
+H Company | hcompany | ashby
+Nebius | nebius | greenhouse
+New Relic | newrelic | greenhouse
+Nexthink | Nexthink | smartrecruiters
+Scale AI | scaleai | greenhouse
+Scope | getscope | ashby
+SEON | seon | ashby
+Tem. | tem | ashby
+Wordsmith AI | wordsmith | ashby
+
+# Hiring designers in Europe on investors' job boards, 2026-11-11; board guessed on each run
+Blackwall
+CHECK24
+Complyance
+Flatpay
+Frame.io
+HotelTonight
+Iterable
+Kive
+Leapsome
+Maisa AI
+OPOWER
+Pave Space Sa
+Pismo
+Planhat
+Printify
+Qogita
+Space Ape Games
+Stripe
+Strise
+Swiftkey

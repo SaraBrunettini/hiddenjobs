@@ -735,6 +735,8 @@ const NOT_CREATIVE = new RegExp([
   /* teaching and academic research - design subjects, not design jobs */
   'lecturer|professor|teaching fellow|tutor\\b|course leader|subject leader|academic lead|head of programmes',
   'research (fellow|associate|assistant)|postdoc|post-doc|phd|doctoral|studentship|chair in|reader in',
+  /* chip design */
+  '(physical|logical|logic|asic|rtl|analog|digital ic|soc) design',
   /* "designer" in IT, tooling, training and building-services titles */
   '(solution|solutions|it|sap|tooling|instructional|learning|project|piping|mould|mold|electrical|cad|bim|(?<!design )system) designer',
   'thesis|data analyst|multi-channel marketer|designer outlet|concept store|flagship store|retail assistant|sales assistant|brand specialist|fp&a|controlling|data visuali[sz]ation|events coordinator|brand homes?\\b|finance manager|programmer|sales associate|store manager|doradca|verk[a\u00e4]ufer',
@@ -1070,7 +1072,7 @@ async function pool(items, size, fn) {
 }
 
 /* discover.js reads feeds the same way, so the readers are shared. */
-module.exports = { ATS, fetchFeed, pool, discipline, country, workplace, inEurope, workdayOwner };
+module.exports = { ATS, fetchFeed, pool, discipline, country, workplace, inEurope, workdayOwner, boardOn };
 if (require.main !== module) return;
 
 (async () => {

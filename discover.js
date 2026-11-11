@@ -14,7 +14,7 @@
  */
 
 const fs = require('fs');
-const { ATS, fetchFeed, pool, discipline, country, workplace, inEurope, workdayOwner } = require('./fetch-jobs.js');
+const { ATS, fetchFeed, pool, discipline, country, workplace, inEurope, workdayOwner, boardOn } = require('./fetch-jobs.js');
 
 /* Where each tool's job pages live, and how the company's board name sits
    in the address. */
@@ -94,6 +94,65 @@ async function slugsFromCrawl(crawl, source) {
   }
   console.log(`  ${crawl} ${source.url.padEnd(28)} ${String(Math.min(pages, MAX_PAGES)).padStart(3)}/${pages} pages, ${slugs.size} boards`);
   return slugs;
+}
+
+/* Venture investors' job boards list every role at the companies they back -
+   tens of thousands, mostly at product companies, which is where product
+   designers work. They are read only to learn which companies hire
+   designers in Europe and where those companies post: each role links to
+   the company's own careers page or hiring tool. Most run on Getro. */
+const GETRO_BOARDS = ['careers.atomico.com', 'indexventures.getro.com', 'careers.creandum.com',
+  'jobs.accel.com', 'jobs.dawncapital.com', 'opportunities.northzone.com'];
+const GETRO_QUERIES = ['designer', 'UX', 'design'];
+const GETRO_MAX_PAGES = 40;
+const GETRO_EVERY_DAYS = 7;
+
+async function getroCollection(host) {
+  try {
+    const res = await fetch(`https://${host}/jobs`, { headers: { 'user-agent': 'Mozilla/5.0 (compatible; HiddenJobs)' },
+      signal: AbortSignal.timeout(30000) });
+    const html = res.ok ? await res.text() : '';
+    const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+    return m && JSON.parse(m[1]).props.pageProps.network.id;
+  } catch { return null; }
+}
+
+async function getroDesignHiring() {
+  const orgs = new Map();
+  for (const host of GETRO_BOARDS) {
+    const id = await getroCollection(host);
+    if (!id) { console.log(`  ${host.padEnd(30)} unavailable`); continue; }
+    let roles = 0;
+    for (const query of GETRO_QUERIES) {
+      for (let page = 0; page < GETRO_MAX_PAGES; page++) {
+        await wait(400);
+        let jobs = [];
+        try {
+          const res = await fetch(`https://api.getro.com/api/v2/collections/${id}/search/jobs`, {
+            method: 'POST', signal: AbortSignal.timeout(30000),
+            headers: { 'content-type': 'application/json', accept: 'application/json' },
+            body: JSON.stringify({ hitsPerPage: 20, page, filters: { page }, query }),
+          });
+          jobs = res.ok ? ((await res.json()).results || {}).jobs || [] : [];
+        } catch {}
+        if (!jobs.length) break;
+        for (const j of jobs) {
+          const name = j.organization && String(j.organization.name || '').trim();
+          if (!name || !discipline(j.title)) continue;
+          const places = (j.locations || []).concat(j.searchable_locations || []);
+          const europe = places.some(l => /^europe$|emea/i.test(l) || inEurope(country(l), l, ''));
+          if (!europe) continue;
+          roles++;
+          const o = orgs.get(name) || { name, boards: new Map() };
+          const b = boardOn(String(j.url || ''));
+          if (b) o.boards.set(`${b.ats}:${b.slug.toLowerCase()}`, b);
+          orgs.set(name, o);
+        }
+      }
+    }
+    console.log(`  ${host.padEnd(30)} ${roles} design roles in Europe`);
+  }
+  return [...orgs.values()];
 }
 
 /* A board's feed rarely says whose it is, so the name comes from the feed
@@ -196,6 +255,22 @@ function creativeInEurope(rows) {
     });
   console.log(`\n${newBoards} new boards, ${candidates.size - newBoards} re-checked`);
 
+  /* Once a week, the investors' boards. A company whose roles link to a
+     hiring tool is checked like any other board; one with its own careers
+     site is added by name, for the daily run to find its board. */
+  const byName = [];
+  if (!(state.getroAt && Date.now() - Date.parse(state.getroAt) < GETRO_EVERY_DAYS * 864e5)) {
+    console.log('Reading investors\' job boards');
+    for (const o of await getroDesignHiring()) {
+      if (haveName.has(o.name.toLowerCase())) continue;
+      const boards = [...o.boards.entries()].filter(([key]) => !haveBoard.has(key));
+      if (boards.length) boards.forEach(([key, b]) => candidates.set(key, { ...b, name: o.name }));
+      else if (!o.boards.size) byName.push(o.name);
+    }
+    state.getroAt = today;
+    console.log(`${byName.length} more hiring designers in Europe through their own careers sites`);
+  }
+
   /* Workable turns callers away when asked too fast, so it is read slowly
      and the rest at a normal pace. */
   const all = [...candidates.values()];
@@ -214,7 +289,7 @@ function creativeInEurope(rows) {
   }
 
   const added = [], matched = [];
-  for (const f of await pool(found, 10, async f => ({ ...f, name: await companyName(f.slug, f.ats) }))) {
+  for (const f of await pool(found, 10, async f => ({ ...f, name: f.name || await companyName(f.slug, f.ats) }))) {
     const key = f.name.toLowerCase();
     if (unmatched.has(key)) {
       lines[unmatched.get(key)] = `${lines[unmatched.get(key)].trim()} | ${f.slug} | ${f.ats}`;
@@ -227,17 +302,20 @@ function creativeInEurope(rows) {
   }
   added.sort((a, b) => a.name.localeCompare(b.name));
 
-  if (added.length || matched.length) {
+  const named = [...new Set(byName)].filter(n => !haveName.has(n.toLowerCase())).sort();
+  if (added.length || matched.length || named.length) {
     if (added.length) lines.push('', `# Found by discover.js on ${today}`,
       ...added.map(f => `${f.name} | ${f.slug} | ${f.ats}`));
+    if (named.length) lines.push('', `# Hiring designers in Europe on investors' job boards, ${today}; board guessed on each run`,
+      ...named);
     fs.writeFileSync(txtPath, lines.join('\n') + '\n');
   }
   /* A crawl counts as read only if the index answered for it. */
   const read = [...new Set([...(state.crawls || []), ...unread])].filter(c => crawls.includes(c));
-  fs.writeFileSync(seenPath, JSON.stringify({ crawls: read, boards: seen }, null, 1));
+  fs.writeFileSync(seenPath, JSON.stringify({ crawls: read, getroAt: state.getroAt, boards: seen }, null, 1));
 
   console.log(`${found.length} hiring creatives in Europe: ${added.length} added to companies.txt, ` +
-              `${matched.length} already listed and now matched to their board\n`);
+              `${matched.length} already listed and now matched to their board, ${named.length} added by name\n`);
   for (const f of [...matched, ...added])
     console.log(`  ${f.name.padEnd(32)} ${f.ats.padEnd(15)} ${f.roles.slice(0, 2).map(r => r.title).join(' / ')}`);
 })();
