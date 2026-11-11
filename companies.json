@@ -2912,7 +2912,7 @@
  "Yapily": {
   "slug": "yapily",
   "ats": "workable",
-  "seen": "2026-11-10"
+  "seen": "2026-11-11"
  },
  "Yonder": {
   "slug": "yonder",
@@ -4657,6 +4657,121 @@
  "Kraken": {
   "slug": "kraken",
   "ats": "pinpoint",
+  "seen": "2026-11-11"
+ },
+ "Anine Bing": {
+  "slug": "aninebing",
+  "ats": "greenhouse",
+  "seen": "2026-11-11"
+ },
+ "Atira": {
+  "slug": "atira",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "BeReal.": {
+  "slug": "bereal",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "Bigger Games": {
+  "slug": "biggergames",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "Conduct": {
+  "slug": "conduct",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "Datadog": {
+  "slug": "datadog",
+  "ats": "greenhouse",
+  "seen": "2026-11-11"
+ },
+ "Duna": {
+  "slug": "duna",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "Enode": {
+  "slug": "enode",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "Fonoa": {
+  "slug": "fonoa",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "getviktor.com": {
+  "slug": "viktor",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "Granola": {
+  "slug": "granola",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "H Company": {
+  "slug": "hcompany",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "Nebius": {
+  "slug": "nebius",
+  "ats": "greenhouse",
+  "seen": "2026-11-11"
+ },
+ "New Relic": {
+  "slug": "newrelic",
+  "ats": "greenhouse",
+  "seen": "2026-11-11"
+ },
+ "Nexthink": {
+  "slug": "Nexthink",
+  "ats": "smartrecruiters",
+  "seen": "2026-11-11"
+ },
+ "Scale AI": {
+  "slug": "scaleai",
+  "ats": "greenhouse",
+  "seen": "2026-11-11"
+ },
+ "Scope": {
+  "slug": "getscope",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "SEON": {
+  "slug": "seon",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "Tem.": {
+  "slug": "tem",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "Wordsmith AI": {
+  "slug": "wordsmith",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "Iterable": {
+  "slug": "iterable",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "Planhat": {
+  "slug": "planhat",
+  "ats": "ashby",
+  "seen": "2026-11-11"
+ },
+ "Stripe": {
+  "slug": "stripe",
+  "ats": "greenhouse",
   "seen": "2026-11-11"
  }
 }
