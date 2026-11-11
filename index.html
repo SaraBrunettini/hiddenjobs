@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hidden Jobs — design roles straight from company careers pages</title>
 <meta name="description" content="Design, brand, motion, content and research jobs across Europe, taken from each company's own careers page rather than a job board. Checked every morning, nothing older than a month.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c96442'/%3E%3Cpath d='M10.6 7.5h10.8L27 14 16 26 5 14z' fill='%23fff'/%3E%3Cpath d='M5 14h22M12.9 14 16 26M19.1 14 16 26M10.6 7.5 12.9 14M21.4 7.5 19.1 14' stroke='%23c96442' stroke-width='1.1' fill='none'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg stroke='%23fff' stroke-width='.7' stroke-linejoin='round'%3E%3Cpath d='M7.6 3.6 9.7 9.5H3z' fill='%23ffb020'/%3E%3Cpath d='M7.6 3.6h8.8l-2.1 5.9H9.7z' fill='%23ff5a36'/%3E%3Cpath d='M16.4 3.6 21 9.5h-6.7z' fill='%23c44bd6'/%3E%3Cpath d='M3 9.5h6.7L12 20.6z' fill='%232bb673'/%3E%3Cpath d='M9.7 9.5h4.6L12 20.6z' fill='%231fb5c9'/%3E%3Cpath d='M14.3 9.5H21L12 20.6z' fill='%235b6cff'/%3E%3C/g%3E%3C/svg%3E">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap">
@@ -17,11 +18,7 @@
   --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%236b7280' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 }
-@media (prefers-color-scheme:dark){:root{
-  --bg:#131211; --card:#1c1a18; --ink:#ece8e3; --muted:#a09991; --faint:#6f6963;
-  --line:#2c2926; --link:#ece8e3; --accent:#ff7a4d; --chip:#241f1c; --hover:#211e1b; --sel:#ece8e3; --sel-ink:#15120f;
-  --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%239aa2ad' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-}}
+
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
@@ -120,7 +117,7 @@ body{font-family:var(--font);font-size:15px;line-height:1.55;letter-spacing:-.00
 header{border-bottom:1px solid var(--line)}
 h1{margin:0;padding:22px 0 4px;font-size:1.32rem;font-weight:600;letter-spacing:-.022em;line-height:1.2}
 h1 button{display:inline-flex;align-items:center;gap:10px}
-h1 .gem{width:23px;height:23px;flex:none;color:var(--accent)}
+h1 .gem{width:34px;height:34px;flex:none;margin:-4px 0}
 h1 .wm{font-family:'Newsreader',Georgia,'Times New Roman',serif;font-weight:500;letter-spacing:-.012em}
 .sub{font-size:.9rem;color:var(--muted);padding:0 0 18px;letter-spacing:-.003em}
 
@@ -137,7 +134,7 @@ input,select{border-radius:10px;border:1px solid var(--line);font-family:var(--f
 
 .job{border-radius:12px;border:1px solid var(--line);padding:16px 18px;margin-bottom:10px;
   transition:border-color .15s ease, box-shadow .15s ease}
-.job:hover{border-color:#ddd6cc;box-shadow:0 1px 2px rgba(34,32,29,.04),0 8px 20px rgba(34,32,29,.045)}
+.job:hover{border-color:var(--hoverline,#ddd6cc);box-shadow:0 1px 2px var(--shadow,rgba(34,32,29,.04)),0 8px 20px var(--shadow,rgba(34,32,29,.045))}
 .job h3{font-size:1rem;font-weight:600;letter-spacing:-.012em;line-height:1.4}
 .job h3 a{color:var(--ink);text-decoration:none}
 .job h3 a:hover{color:var(--accent)}
@@ -155,11 +152,46 @@ footer{font-size:.82rem;color:var(--faint);padding:32px 0 48px}
 .clear{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line)}
 .clear:hover{color:var(--ink)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-@media (prefers-color-scheme:dark){:root{
-  --bg:#191817; --card:#201f1d; --ink:#eae7e2; --muted:#a19b93; --faint:#726c65;
-  --line:#2f2d2a; --link:#eae7e2; --accent:#d98a6a; --chip:#282624; --hover:#242220;
-  --sel:#eae7e2; --sel-ink:#191817;
+/* Dark follows the device unless the visitor has picked a theme. */
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+  --bg:#141312; --card:#1d1c1a; --ink:#eeebe6; --muted:#a39d95; --faint:#76706a;
+  --line:#2e2c29; --link:#eeebe6; --accent:#ff8a5c; --chip:#272523; --hover:#232120;
+  --sel:#eeebe6; --sel-ink:#141312; --hoverline:#45413c; --shadow:rgba(0,0,0,.35);
+  --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%239aa2ad' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  color-scheme:dark;
 }}
+:root[data-theme=dark]{
+  --bg:#141312; --card:#1d1c1a; --ink:#eeebe6; --muted:#a39d95; --faint:#76706a;
+  --line:#2e2c29; --link:#eeebe6; --accent:#ff8a5c; --chip:#272523; --hover:#232120;
+  --sel:#eeebe6; --sel-ink:#141312; --hoverline:#45413c; --shadow:rgba(0,0,0,.35);
+  --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%239aa2ad' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  color-scheme:dark;
+}
+:root[data-theme=light]{color-scheme:light}
+
+/* The gem: one colour per facet, a slow shimmer on hover. */
+.gem .f1{fill:#ffb020}.gem .f2{fill:#ff5a36}.gem .f3{fill:#c44bd6}
+.gem .f4{fill:#2bb673}.gem .f5{fill:#1fb5c9}.gem .f6{fill:#5b6cff}
+.gem path{stroke:var(--card);stroke-width:.7;stroke-linejoin:round;transition:filter .3s ease}
+h1 button:hover{opacity:1}
+h1 button:hover .gem path{animation:shimmer 1.6s ease-in-out infinite}
+h1 button:hover .gem .f2,h1 button:hover .gem .f5{animation-delay:.2s}
+h1 button:hover .gem .f3,h1 button:hover .gem .f6{animation-delay:.4s}
+@keyframes shimmer{0%,100%{filter:none}50%{filter:brightness(1.25) saturate(1.15)}}
+@media (prefers-reduced-motion:reduce){h1 button:hover .gem path{animation:none}}
+
+.tab[aria-selected=true]{border-bottom-color:transparent;
+  border-image:linear-gradient(90deg,#ffb020,#ff5a36,#c44bd6,#5b6cff,#1fb5c9,#2bb673) 1}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.theme{flex:none;margin-top:18px;display:grid;place-items:center;width:36px;height:36px;
+  background:var(--card);border:1px solid var(--line);border-radius:99px;color:var(--muted);cursor:pointer}
+.theme:hover{color:var(--ink);background:var(--hover)}
+.theme svg{width:17px;height:17px}
+.theme .moon{display:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .theme .sun{display:none}
+  :root:not([data-theme=light]) .theme .moon{display:block}}
+:root[data-theme=dark] .theme .sun{display:none}
+:root[data-theme=dark] .theme .moon{display:block}
 .f > label,.f > .lbl{text-transform:none;font-size:.8rem;font-weight:500;letter-spacing:-.003em;color:var(--muted)}
 .f{gap:7px}
 h1{padding:24px 0 5px;font-size:1.5rem;font-weight:500;letter-spacing:-.012em}
@@ -172,15 +204,23 @@ h1{padding:24px 0 5px;font-size:1.5rem;font-weight:500;letter-spacing:-.012em}
 
 <header>
   <div class="in">
+    <div class="top">
     <h1><button id="home" type="button">
       <svg class="gem" viewBox="0 0 24 24" aria-hidden="true">
-        <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round">
-          <path d="M7.6 3.6h8.8L21 9.5 12 20.6 3 9.5z" stroke-width="1.6"/>
-          <path d="M3 9.5h18M9.7 9.5 12 20.6M14.3 9.5 12 20.6M7.6 3.6 9.7 9.5M16.4 3.6 14.3 9.5" stroke-width="1.1" opacity=".75"/>
-        </g>
+        <path class="f1" d="M7.6 3.6 9.7 9.5H3z"/>
+        <path class="f2" d="M7.6 3.6h8.8l-2.1 5.9H9.7z"/>
+        <path class="f3" d="M16.4 3.6 21 9.5h-6.7z"/>
+        <path class="f4" d="M3 9.5h6.7L12 20.6z"/>
+        <path class="f5" d="M9.7 9.5h4.6L12 20.6z"/>
+        <path class="f6" d="M14.3 9.5H21L12 20.6z"/>
       </svg>
       <span class="wm">Hidden Jobs</span>
     </button></h1>
+    <button class="theme" id="theme" type="button" aria-label="Switch to dark mode">
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+    </button>
+    </div>
     <p class="sub">Design jobs across Europe, taken from each company's own careers page. Checked every morning.</p>
     <div class="tabs" id="tabs" role="tablist" aria-label="Discipline"></div>
   </div>
@@ -463,6 +503,21 @@ $('#clear').addEventListener('click', () => {
   $('#locInput').value = '';
   set({ disc: '', loc: '', work: [], type: '' });
 });
+
+/* Light or dark. Follows the device until the visitor picks; the pick is
+   remembered on this device only. */
+(function () {
+  const btn = document.getElementById('theme');
+  const root = document.documentElement;
+  const dark = () => (root.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')) === 'dark';
+  const label = () => btn.setAttribute('aria-label', dark() ? 'Switch to light mode' : 'Switch to dark mode');
+  btn.addEventListener('click', () => {
+    root.dataset.theme = dark() ? 'light' : 'dark';
+    try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+    label();
+  });
+  label();
+})();
 </script>
 </body>
 </html>
