@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-11T12:19:56.438Z",
- "companies": 915,
- "count": 545,
+ "updated": "2026-11-11T14:14:21.099Z",
+ "companies": 932,
+ "count": 541,
  "jobs": [
   {
    "title": "Product Designer",
@@ -30,6 +30,19 @@
    "posted": "2026-11-11"
   },
   {
+   "title": "Senior Product Designer",
+   "company": "Epidemic Sound",
+   "location": "Stockholm HQ",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/epidemic-sound/1b35df8c-0875-4c81-b92e-bb40310e8783",
+   "posted": "2026-11-11"
+  },
+  {
    "title": "Creative Manager",
    "company": "Moonpig",
    "location": "London",
@@ -40,6 +53,19 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://jobs.lever.co/moonpig/7f551fba-b37c-478b-8a81-bfc55a2c8802",
+   "posted": "2026-11-11"
+  },
+  {
+   "title": "Product Designer, Channel Readiness",
+   "company": "Omnisend",
+   "location": "Vilnius, Lithuania",
+   "country": "Lithuania",
+   "city": "Vilnius",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.lever.co/omnisend/ac1fe5ad-8cdd-45be-98ab-6307bbfb093c",
    "posted": "2026-11-11"
   },
   {
@@ -58,7 +84,7 @@
   {
    "title": "Visual Merchandising Specialist adidas (H/F/D)",
    "company": "Adidas",
-   "location": "France; Metz, France and 2 more",
+   "location": "France; Miramas, France and 2 more",
    "country": "France",
    "city": null,
    "discipline": "Other",
@@ -79,6 +105,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000161053929",
+   "posted": "2026-11-11"
+  },
+  {
+   "title": "3DEXPERIENCE & DMU Data Specialist | Physical Design & Engineering IT (d/f/m)",
+   "company": "Airbus",
+   "location": "Immenstaad am Bodensee, Germany",
+   "country": "Germany",
+   "city": "Immenstaad am Bodensee",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Immenstaad-am-Bodensee/XMLNAME-3DEXPERIENCE---DMU-Data-Specialist---Physical-Design---Engineering-IT--d-f-m-_JR10453998",
    "posted": "2026-11-11"
   },
   {
@@ -381,16 +420,16 @@
    "posted": "2026-11-10"
   },
   {
-   "title": "Visual Merchandiser - New Opening Brugnato 5Terre Outlet",
+   "title": "Visual Merchandiser (Part Time 30h) - New Opening Brugnato 5Terre Outlet",
    "company": "Adidas",
    "location": "Brugnato, Italy",
    "country": "Italy",
    "city": "Brugnato",
    "discipline": "Other",
-   "type": "Full-time",
+   "type": "Part-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Brugnato-Visual-Merchandiser-New-Opening-Brugnato-5Terre-Outlet-SP/1455940433/",
+   "url": "https://jobs.adidas-group.com/job/Brugnato-Visual-Merchandiser-%28Part-Time-30h%29-New-Opening-Brugnato-5Terre-Outlet-SP/1455940433/",
    "posted": "2026-11-10"
   },
   {
@@ -625,45 +664,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/HMGroup/744000160853754",
-   "posted": "2026-11-10"
-  },
-  {
-   "title": "Visual Merchandiser | Gravellona Toce",
-   "company": "H&M Group",
-   "location": "Gravellona Toce, Piemonte, Italy",
-   "country": "Italy",
-   "city": "Gravellona Toce",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/HMGroup/744000160854729",
-   "posted": "2026-11-10"
-  },
-  {
-   "title": "Visual Merchandiser - Cork",
-   "company": "H&M Group",
-   "location": "Cork, CO, Ireland",
-   "country": "Ireland",
-   "city": "Cork",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/HMGroup/744000160853134",
-   "posted": "2026-11-10"
-  },
-  {
-   "title": "Visual Merchandiser - Newbridge",
-   "company": "H&M Group",
-   "location": "Newbridge, County Kildare, Ireland",
-   "country": "Ireland",
-   "city": "Newbridge",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/HMGroup/744000160846411",
    "posted": "2026-11-10"
   },
   {
@@ -1187,19 +1187,6 @@
    "posted": "2026-11-09"
   },
   {
-   "title": "Innovation Associate – Design For Recycling Project",
-   "company": "University Of The Arts London",
-   "location": "London, United Kingdom; Millbank, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "£45.3K – £54K",
-   "url": "https://www.jobs.ac.uk/job/DTO845/innovation-associate-design-for-recycling-project",
-   "posted": "2026-11-09"
-  },
-  {
    "title": "Senior Wholesale Design & Project Manager",
    "company": "Adidas",
    "location": "Herzogenaurach, Germany",
@@ -1278,7 +1265,7 @@
    "posted": "2026-11-06"
   },
   {
-   "title": "Lead Brand Designer",
+   "title": "Lead Brand Designer, Experiential",
    "company": "Synthesia",
    "location": "London",
    "country": "United Kingdom",
@@ -2162,19 +2149,6 @@
    "posted": "2026-11-05"
   },
   {
-   "title": "Game Designer (Mid/Senior)",
-   "company": "Xsolla",
-   "location": "Serbia",
-   "country": "Serbia",
-   "city": null,
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.lever.co/xsolla/8e985aa9-d28d-4e22-81f8-c8eebc6de43b",
-   "posted": "2026-11-05"
-  },
-  {
    "title": "Motion Editor",
    "company": "Jones Knowles Ritchie",
    "location": "London, United Kingdom",
@@ -2523,6 +2497,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://genesys.wd1.myworkdayjobs.com/Genesys/job/Virtual-Office-Ireland/Senior-User-Experience-Designer_JR112693",
+   "posted": "2026-11-04"
+  },
+  {
+   "title": "Stagiair Creative Content en Copywriting",
+   "company": "Melkweg",
+   "location": "Amsterdam",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Other",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://melkweg.homerun.co/stagiair-creative-content-en-copywriting-2",
    "posted": "2026-11-04"
   },
   {
@@ -3368,6 +3355,19 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/EBreuningerGmbHCo/744000159102086",
+   "posted": "2026-11-02"
+  },
+  {
+   "title": "AI Design Technologist",
+   "company": "Koos",
+   "location": "Amsterdam",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://careers.koosservicedesign.com/ai-design-technologist-3",
    "posted": "2026-11-02"
   },
   {
@@ -4268,19 +4268,6 @@
    "posted": "2026-10-28"
   },
   {
-   "title": "Senior Product Designer (Banking)",
-   "company": "Unlimit",
-   "location": "Belgrade",
-   "country": "Serbia",
-   "city": "Belgrade",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.lever.co/unlimit/4a815740-5d5f-4048-ad3b-98e5fe2d1a3f",
-   "posted": "2026-10-28"
-  },
-  {
    "title": "Senior UX Designer",
    "company": "Wikimedia Foundation",
    "location": "Remote",
@@ -4785,19 +4772,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/hearst/jobs/4466482009",
-   "posted": "2026-10-26"
-  },
-  {
-   "title": "VP, Creative - Hearst Global Solutions",
-   "company": "Hearst UK",
-   "location": "LONDON, Greater London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "LONDON",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/hearst/jobs/4466456009",
    "posted": "2026-10-26"
   },
   {
@@ -6660,6 +6634,19 @@
    "posted": "2026-10-15"
   },
   {
+   "title": "Digital Communications and Design Manager",
+   "company": "The Russell Group",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "£52K – £57K",
+   "url": "https://www.jobs.ac.uk/job/DTG993/digital-communications-and-design-manager",
+   "posted": "2026-10-15"
+  },
+  {
    "title": "Mid/Senior Designer",
    "company": "DEPT",
    "location": "Budapest",
@@ -7035,45 +7022,6 @@
    "salary": null,
    "url": "https://careers.koto.studio/jobs/8541139-senior-digital-designer",
    "posted": "2026-10-13"
-  },
-  {
-   "title": "Senior Service Designer, Food Systems & Fulfillment",
-   "company": "HelloFresh",
-   "location": "Warszawa, Masovian Voivodeship, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8242900?gh_jid=8242900",
-   "posted": "2026-10-12"
-  },
-  {
-   "title": "Senior Service Designer, Food Systems & Fulfillment (f/m/x)",
-   "company": "HelloFresh",
-   "location": "Berlin, Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8242893?gh_jid=8242893",
-   "posted": "2026-10-12"
-  },
-  {
-   "title": "Marketing Motion Designer (Spilio)",
-   "company": "Gismart",
-   "location": "Kyiv",
-   "country": "Ukraine",
-   "city": "Kyiv",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/gismart/5399068d-b995-4771-936e-be65c35b30fb",
-   "posted": "2026-10-12"
   },
   {
    "title": "Design Release Engineer",
