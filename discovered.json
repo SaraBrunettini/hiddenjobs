@@ -3,6 +3,8 @@
   "CC-MAIN-2026-43",
   "CC-MAIN-2026-39"
  ],
+ "getroAt": "2026-11-12",
+ "remoteAt": "2026-11-12",
  "boards": {
   "ashby:0g": "2026-11-07",
   "ashby:0x": "2026-11-07",
@@ -601,7 +603,7 @@
   "ashby:office-hours": "2026-11-07",
   "ashby:ohr": "2026-11-07",
   "ashby:oktoberagency": "2026-11-07",
-  "ashby:olix": "2026-11-07",
+  "ashby:olix": "2026-11-12",
   "ashby:ollama": "2026-11-07",
   "ashby:omaze": "2026-11-07",
   "ashby:omnea": "2026-11-07",
@@ -745,7 +747,7 @@
   "ashby:retell-ai": "2026-11-07",
   "ashby:revecore": "2026-11-07",
   "ashby:revel": "2026-11-07",
-  "ashby:revenuecat": "2026-11-07",
+  "ashby:revenuecat": "2026-11-12",
   "ashby:revic": "2026-11-07",
   "ashby:revin": "2026-11-07",
   "ashby:rho": "2026-11-07",
@@ -969,7 +971,7 @@
   "ashby:workyard": "2026-11-07",
   "ashby:wynd-labs": "2026-11-07",
   "ashby:xds": "2026-11-07",
-  "ashby:xero": "2026-11-07",
+  "ashby:xero": "2026-11-12",
   "ashby:xona-space": "2026-11-07",
   "ashby:yobi": "2026-11-07",
   "ashby:yondr": "2026-11-07",
@@ -4782,6 +4784,11 @@
   "workday:erm.wd3/robots": "2026-11-07",
   "workday:eset.wd3/ESET_External": "2026-11-07",
   "workday:eset.wd3/robots": "2026-11-07",
-  "workday:essity.wd3/Job_opportunities": "2026-11-07"
+  "workday:essity.wd3/Job_opportunities": "2026-11-07",
+  "ashby:Melio-payments": "2026-11-12",
+  "ashby:oneleet": "2026-11-12",
+  "workable:arondite": "2026-11-12",
+  "workable:fuseenergy": "2026-11-12",
+  "workable:runware": "2026-11-12"
  }
 }

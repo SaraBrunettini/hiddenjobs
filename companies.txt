@@ -1597,3 +1597,28 @@ Taikonauten GmbH
 Teampicnic
 Vinteden
 everii Group GmbH
+
+# Found by discover.js on 2026-11-12
+Arondite | arondite | workable
+Fuse Energy | fuseenergy | workable
+Runware | runware | workable
+Xero | xero | ashby
+
+# Hiring designers in Europe on investors' job boards, 2026-11-12; board guessed on each run
+Google
+
+# Hiring designers open to Europe on remote job sites, 2026-11-12; board guessed on each run
+Creatio
+Healthtech
+Isometric
+Kaluza
+Letly
+Mistral.ai
+Paired
+Quantum-Systems GmbH
+Resident Advisor
+SGB-SMIT Group
+SOFTGAMES
+Se3
+opentable
+wongdoody
