@@ -275,6 +275,22 @@ async function remoteDesignHiring() {
   return [...names].map(name => ({ name, board: boards.get(name) }));
 }
 
+/* UX Jobs (jobs.uxjobs.io, also behind UX Speakeasy's and X2Talent's
+   boards) links each of its newest design roles straight to the company's
+   own posting. Its homepage is read once a week for those links - its
+   robots.txt welcomes general readers there, keeping only /api/ and /go/
+   private - and each linked board is checked like any other. */
+async function uxJobsBoards() {
+  const html = await getText('https://jobs.uxjobs.io/');
+  const found = new Map();
+  for (const [, url] of String(html || '').matchAll(/href="(https?:\/\/[^"#]+)"/g)) {
+    const b = boardOn(url);
+    if (b) found.set(`${b.ats}:${b.slug.toLowerCase()}`, b);
+  }
+  console.log(`  UX Jobs: ${found.size} company boards linked`);
+  return found;
+}
+
 /* A board's feed rarely says whose it is, so the name comes from the feed
    where it can and from the board name otherwise: acme-studio -> Acme Studio. */
 async function companyName(slug, ats) {
@@ -401,6 +417,8 @@ function creativeInEurope(rows) {
       if (board && !haveBoard.has(key)) candidates.set(key, { ...board, name });
       else if (!board) byRemote.push(name);
     }
+    for (const [key, b] of await uxJobsBoards())
+      if (!haveBoard.has(key) && !candidates.has(key)) candidates.set(key, b);
     state.remoteAt = today;
   }
 

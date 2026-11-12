@@ -87,7 +87,8 @@ only read when there is a new crawl.
 Discovery also reads, once a week, the job boards of venture investors
 (Atomico, Index, Creandum, Accel, Dawn, Northzone) and remote and design job sites (We
 Work Remotely, Himalayas, Dribbble, Remote OK, Working Nomads, Arbeitnow,
-Authentic Jobs, EU Remote Jobs) for companies hiring designers in
+Authentic Jobs, EU Remote Jobs, and UX Jobs - the source behind UX Speakeasy's
+and X2Talent's boards) for companies hiring designers in
 Europe. Only the company is taken from them - its roles are read from the
 company itself. Recruiters, staffing firms and talent marketplaces are
 never added.
