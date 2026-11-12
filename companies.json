@@ -2587,7 +2587,7 @@
  "Monterail": {
   "slug": "monterail",
   "ats": "workable",
-  "seen": "2026-11-06"
+  "seen": "2026-11-12"
  },
  "Multiplier": {
   "slug": "multiplier",
@@ -2602,7 +2602,7 @@
  "Netguru": {
   "slug": "netguru",
   "ats": "workable",
-  "seen": "2026-11-10"
+  "seen": "2026-11-12"
  },
  "Northvolt": {
   "slug": "northvolt",
@@ -2897,6 +2897,11 @@
  "Westwing": {
   "slug": "westwing",
   "ats": "personio",
+  "seen": "2026-11-12"
+ },
+ "Withings": {
+  "slug": "withings",
+  "ats": "workable",
   "seen": "2026-11-12"
  },
  "Wunderdog": {
@@ -3527,7 +3532,7 @@
  "Ekimetrics": {
   "slug": "ekimetrics",
   "ats": "lever",
-  "seen": "2026-11-11"
+  "seen": "2026-11-12"
  },
  "Elekta": {
   "slug": "elekta.wd3/Elekta_Careers",
@@ -4909,11 +4914,6 @@
   "ats": "teamtailor",
   "seen": "2026-11-12"
  },
- "Withings": {
-  "slug": "withings",
-  "ats": "workable",
-  "seen": "2026-11-12"
- },
  "Clario": {
   "slug": "clario",
   "ats": "recruitee",
@@ -4982,6 +4982,11 @@
  "wongdoody": {
   "slug": "wongdoody",
   "ats": "greenhouse",
+  "seen": "2026-11-12"
+ },
+ "UX Jobs": {
+  "slug": "jobs.uxjobs.io",
+  "ats": "uxjobs",
   "seen": "2026-11-12"
  }
 }
