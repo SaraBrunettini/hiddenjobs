@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hidden Jobs — design roles straight from company careers pages</title>
-<meta name="description" content="Design, brand, motion, content and research jobs across Europe, taken from each company's own careers page rather than a job board. Checked every morning, nothing older than two months.">
+<meta name="description" content="Design, brand, motion, content and research jobs across Europe, read from each company's own careers page, plus roles from UX Jobs. No recruiters. Checked every morning, nothing older than two months.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg stroke='%23fff' stroke-width='.7' stroke-linejoin='round'%3E%3Cpath d='M7.6 3.6 9.7 9.5H3z' fill='%23ffb020'/%3E%3Cpath d='M7.6 3.6h8.8l-2.1 5.9H9.7z' fill='%23ff5a36'/%3E%3Cpath d='M16.4 3.6 21 9.5h-6.7z' fill='%23c44bd6'/%3E%3Cpath d='M3 9.5h6.7L12 20.6z' fill='%232bb673'/%3E%3Cpath d='M9.7 9.5h4.6L12 20.6z' fill='%231fb5c9'/%3E%3Cpath d='M14.3 9.5H21L12 20.6z' fill='%235b6cff'/%3E%3C/g%3E%3C/svg%3E">
 <script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="alternate" type="application/rss+xml" title="Hidden Jobs - all roles" href="feed.xml">
@@ -188,6 +188,7 @@ h1 button:hover .gem .f3,h1 button:hover .gem .f6{animation-delay:.4s}
 .act{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:6px 11px;
   font:inherit;font-size:.86rem;font-weight:500;color:var(--ink);text-decoration:none;cursor:pointer}
 .act:hover{background:var(--hover)}
+.tag.via{background:transparent;border:1px dashed var(--line);color:var(--muted)}
 .top{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .theme{flex:none;margin-top:18px;display:grid;place-items:center;width:36px;height:36px;
   background:var(--card);border:1px solid var(--line);border-radius:99px;color:var(--muted);cursor:pointer}
@@ -287,7 +288,7 @@ input,select,.pill,.more,.note,.combo ul{border-radius:4px}
     <div class="hero">
       <p class="eyebrow">Design jobs across Europe</p>
       <h2 class="display">Creative jobs, <span class="mk m1">straight</span> from <span class="mk m2">the source</span></h2>
-      <p class="sub">Every role is read from the company's own careers page, never a job board. Checked every morning, nothing older than two months.</p>
+      <p class="sub">Roles read straight from companies' own careers pages, plus picks from UX Jobs, marked as such. No recruiters. Checked every morning, nothing older than two months.</p>
       <a class="cta" href="#count">Explore open roles</a>
     </div>
     <div class="in">
@@ -499,6 +500,7 @@ function render(){
         <span class="tag">${esc(j.discipline)}</span>
         ${j.type !== 'Full-time' ? `<span class="tag">${esc(j.type)}</span>` : ''}
         ${j.workplace !== 'On-site' ? `<span class="tag">${esc(j.workplace)}</span>` : ''}
+        ${j.via ? `<span class="tag via">via ${esc(j.via)}</span>` : ''}
         ${ago(j.posted) ? `<span class="date">${esc(ago(j.posted))}</span>` : ''}
       </div>
     </article>`).join('') +

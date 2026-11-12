@@ -93,6 +93,11 @@ Europe. Only the company is taken from them - its roles are read from the
 company itself. Recruiters, staffing firms and talent marketplaces are
 never added.
 
+One job board is listed from directly, by choice: UX Jobs. Its roles in
+Europe are shown with a "via UX Jobs" tag and link to their page on UX Jobs,
+roles at companies the board already reads are left to the company's own
+feed, and recruiters and staffing agencies are left out.
+
 ## Sharing and following
 
 Every view of the board has its own link: the address records the

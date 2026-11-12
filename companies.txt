@@ -1622,3 +1622,6 @@ SOFTGAMES
 Se3
 opentable
 wongdoody
+
+# UX Jobs - the one job board listed from, by choice; each role links to its UX Jobs page and says "via UX Jobs"
+UX Jobs | jobs.uxjobs.io | uxjobs

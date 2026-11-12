@@ -289,7 +289,54 @@ const ATS = {
     pinnedOnly: true,
     load: s => readJobsAcUk(s),
   },
+  /* UX Jobs (jobs.uxjobs.io) - the one job board the board lists from, at the
+     owner's choice. Each role links to its page on UX Jobs and is marked as
+     coming from there; roles at companies the board already reads directly
+     are left to the company's own feed. Its robots.txt welcomes general
+     readers on its pages; /api/ and /go/ are never touched. */
+  uxjobs: {
+    pinnedOnly: true,
+    load: () => readUxJobs(),
+  },
 };
+
+/* Recruiters and staffing agencies list other companies' roles; the board
+   lists employers only. */
+const AGENCY = /recruit|talent|staffing|headhunt|executive search|personalberatung|\b(aquent|vitamin t|robert half|hays|randstad|adecco|michael page|page group|major players|creative recruitment|gemini people|harnham|search consultancy|hunter & hunt|represent|cpl|amoria bond|jobgether|lemon\.io|toptal|mercor)\b/i;
+
+/* Boards the run reads directly, filled in before any feed is read. */
+const DIRECT_BOARDS = new Set();
+
+async function readUxJobs() {
+  const page = await getPage('https://jobs.uxjobs.io/');
+  if (!page) return null;
+  let jobs = [];
+  for (const [, body] of page.html.matchAll(/<script[^>]*type="application\/json"[^>]*>([\s\S]*?)<\/script>/g)) {
+    const t = body.trim();
+    if (t.startsWith('[{"s":')) { try { jobs = JSON.parse(t); } catch {} }
+  }
+  return jobs.filter(j => {
+    if (AGENCY.test(String(j.co || ''))) return false;
+    const b = boardOn(String(j.u || ''));
+    return !(b && DIRECT_BOARDS.has(`${b.ats}:${b.slug.toLowerCase()}`));
+  }).map(j => {
+    const where = ISO[String(j.c || '').toUpperCase()] || '';
+    const city = String(j.ci || j.l || '').replace(/,\s*[A-Z]{2}$/, '');
+    const remote = j.rm === 1 || j.rm === true;
+    return {
+      title: String(j.t || '').replace(new RegExp(`\\s*[-\u2013|@]\\s*${String(j.co || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*$`, 'i'), ''),
+      company: j.co,
+      location: [remote && 'Remote', city && city !== where ? city.replace(new RegExp(`,?\\s*${where}$`, 'i'), '') : '', where]
+        .filter(Boolean).join(', ') || 'Not stated',
+      url: `https://jobs.uxjobs.io/jobs/${j.s}/`,
+      posted: j.p ? new Date(j.p).toISOString() : null,
+      type: j.em,
+      work: remote ? 'remote' : j.wp,
+      salaryText: j.sal || null,
+      via: 'UX Jobs',
+    };
+  }).filter(r => r.title && r.company);
+}
 
 const JAC = 'https://www.jobs.ac.uk';
 const JAC_FACETS = {
@@ -1163,6 +1210,7 @@ if (require.main !== module) return;
       for (const ats of Object.keys(ATS))
         if (!ATS[ats].pinnedOnly) targets.push({ name, slug, ats, guess: true });
   }
+  for (const t of targets) if (!t.guess) DIRECT_BOARDS.add(`${t.ats}:${String(t.slug).toLowerCase()}`);
 
   console.log(`${names.length} companies -> ${targets.length} feed requests`);
   const feeds = (await pool(targets, 20, t =>
@@ -1204,9 +1252,10 @@ if (require.main !== module) return;
         discipline: disc,
         type: employmentType(r.type, r.title),
         workplace: work,
-        salary: salary(r.pay),
+        salary: r.salaryText || salary(r.pay),
         url: r.url,
         posted: r.posted ? String(r.posted).slice(0, 10) : null,
+        ...(r.via && { via: r.via }),
       });
     }
   }
