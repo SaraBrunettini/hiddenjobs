@@ -1586,7 +1586,7 @@ Clario
 Conten
 Eventinc GmbH
 Feedbackfruits
-Intetics
+Intetics | intetics-2 | workable
 Pangea Propulsion
 Pennylane SAS
 Rosental Organics GmbH
@@ -1625,3 +1625,35 @@ wongdoody
 
 # UX Jobs - the one job board listed from, by choice; each role links to its UX Jobs page and says "via UX Jobs"
 UX Jobs | jobs.uxjobs.io | uxjobs
+
+# Found by discover.js on 2026-11-19
+7learnings | 7learnings | personio
+Fanatics Collectibles | fanaticscollectibles | greenhouse
+Injective | injective | ashby
+Intersnackitkg | intersnackitkg | recruitee
+knowmad mood | knowmadmood | teamtailor
+Parallel | beparallel | ashby
+Pixelmatters | pixelmatters | ashby
+Prophet Security | prophet-security | ashby
+Roman Klis Design Gmbh | roman-klis-design-gmbh | personio
+Skydropx | skydropx | ashby
+Valon | valon | ashby
+
+# Hiring designers open to Europe on remote job sites, 2026-11-19; board guessed on each run
+AZAV Pilot
+Agilerobotsse
+Algo1
+Avail Project
+BeReal
+Electrify Video Partners
+Homa Games
+Hubvisory
+MLabs
+Optics11
+TaxIt Consulting GmbH
+Uplane
+Vesoma
+Wellis
+YOO AG
+Zexter
+prepmymeal GmbH
