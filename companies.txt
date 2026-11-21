@@ -1657,3 +1657,23 @@ Wellis
 YOO AG
 Zexter
 prepmymeal GmbH
+
+# Found by discover.js on 2026-11-21
+9fin | 9fin | ashby
+Acorns | acorns | ashby
+Applus IDIADA | applusidiada1 | smartrecruiters
+Baxter | baxter.wd1/baxter | workday
+BDX | bdx.wd1/EXTERNAL_CAREER_SITE_GERMANY | workday
+Ciandt | ciandt | lever
+Colliers International EMEA | colliersinternationalemea | smartrecruiters
+Entain | entain | smartrecruiters
+Horace Mann | horacemannservicecorporation | greenhouse
+IFS | ifs1 | smartrecruiters
+Inter IKEA Group | interikeagroup | smartrecruiters
+Kyutai | kyutai | homerun
+LEONI | leoni1 | smartrecruiters
+Lesaffre | lesaffre | smartrecruiters
+Lifted, an Upwork Company™ | liftedanupworkcompany | smartrecruiters
+Veeva | veeva | lever
+Virtahealth | virtahealth | ashby
+Voize | voize | ashby
