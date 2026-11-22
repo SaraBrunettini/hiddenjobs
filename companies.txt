@@ -1677,3 +1677,22 @@ Lifted, an Upwork Company™ | liftedanupworkcompany | smartrecruiters
 Veeva | veeva | lever
 Virtahealth | virtahealth | ashby
 Voize | voize | ashby
+
+# Found by discover.js on 2026-11-22
+Aalto | aalto.wd3/aalto | workday
+AG | ag.wd3/Airbus | workday
+AQA | aqa.wd3/AQA | workday
+ASML | asml.wd3/asmlext1 | workday
+Belron | belron.wd3/Carglass_Deutschland | workday
+Bpinternational | bpinternational.wd3/bpprivateexternalcareerssite | workday
+Cadence | cadence.wd1/External_Careers | workday
+CAE | cae.wd3/career | workday
+CC | cc.wd3/ChanelCareers | workday
+Covestro | covestro.wd3/cov_external | workday
+DB | db.wd3/DBWebsite | workday
+Eosgroup | eosgroup.wd3/eos | workday
+Equinor | equinor.wd3/EQNR | workday
+ESET | eset.wd3/ESET_External | workday
+Intel | intel.wd1/External | workday
+Teamwass | teamwass.wd5/WassermanCareers | workday
+VFC | vfc.wd5/vfc_careers | workday
