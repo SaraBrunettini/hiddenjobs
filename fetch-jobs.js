@@ -290,8 +290,8 @@ const ATS = {
     load: s => readJobsAcUk(s),
   },
   /* UX Jobs (jobs.uxjobs.io) - the one job board the board lists from, at the
-     owner's choice. Each role links to its page on UX Jobs and is marked as
-     coming from there; roles at companies the board already reads directly
+     owner's choice. Each role links straight to the company's own posting and
+     is marked as found on UX Jobs; roles at companies the board already reads directly
      are left to the company's own feed. Its robots.txt welcomes general
      readers on its pages; /api/ and /go/ are never touched. */
   uxjobs: {
@@ -328,7 +328,8 @@ async function readUxJobs() {
       company: j.co,
       location: [remote && 'Remote', city && city !== where ? city.replace(new RegExp(`,?\\s*${where}$`, 'i'), '') : '', where]
         .filter(Boolean).join(', ') || 'Not stated',
-      url: `https://jobs.uxjobs.io/jobs/${j.s}/`,
+      /* Straight to the company's own posting; UX Jobs' page only if there is none. */
+      url: /^https?:\/\//.test(j.u || '') && !/uxjobs\.io/.test(j.u) ? j.u : `https://jobs.uxjobs.io/jobs/${j.s}/`,
       posted: j.p ? new Date(j.p).toISOString() : null,
       type: j.em,
       work: remote ? 'remote' : j.wp,
