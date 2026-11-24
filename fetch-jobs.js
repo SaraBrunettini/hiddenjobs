@@ -290,8 +290,7 @@ const ATS = {
     load: s => readJobsAcUk(s),
   },
   /* UX Jobs (jobs.uxjobs.io) - the one job board the board lists from, at the
-     owner's choice. Each role links straight to the company's own posting and
-     is marked as found on UX Jobs; roles at companies the board already reads directly
+     owner's choice. Each role links straight to the company's own posting; roles at companies the board already reads directly
      are left to the company's own feed. Its robots.txt welcomes general
      readers on its pages; /api/ and /go/ are never touched. */
   uxjobs: {

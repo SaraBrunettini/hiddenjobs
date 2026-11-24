@@ -188,7 +188,6 @@ h1 button:hover .gem .f3,h1 button:hover .gem .f6{animation-delay:.4s}
 .act{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:6px 11px;
   font:inherit;font-size:.86rem;font-weight:500;color:var(--ink);text-decoration:none;cursor:pointer}
 .act:hover{background:var(--hover)}
-.tag.via{background:transparent;border:1px dashed var(--line);color:var(--muted)}
 .top{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .theme{flex:none;margin-top:18px;display:grid;place-items:center;width:36px;height:36px;
   background:var(--card);border:1px solid var(--line);border-radius:99px;color:var(--muted);cursor:pointer}
@@ -288,7 +287,7 @@ input,select,.pill,.more,.note,.combo ul{border-radius:4px}
     <div class="hero">
       <p class="eyebrow">Design jobs across Europe</p>
       <h2 class="display">Creative jobs, <span class="mk m1">straight</span> from <span class="mk m2">the source</span></h2>
-      <p class="sub">Roles read straight from companies' own careers pages, plus picks from UX Jobs, marked as such. No recruiters. Checked every morning, nothing older than two months.</p>
+      <p class="sub">Roles from companies' own careers pages and from UX Jobs, every one linking straight to the company. No recruiters. Checked every morning, nothing older than two months.</p>
       <a class="cta" href="#count">Explore open roles</a>
     </div>
     <div class="in">
@@ -500,7 +499,6 @@ function render(){
         <span class="tag">${esc(j.discipline)}</span>
         ${j.type !== 'Full-time' ? `<span class="tag">${esc(j.type)}</span>` : ''}
         ${j.workplace !== 'On-site' ? `<span class="tag">${esc(j.workplace)}</span>` : ''}
-        ${j.via ? `<span class="tag via">via ${esc(j.via)}</span>` : ''}
         ${ago(j.posted) ? `<span class="date">${esc(ago(j.posted))}</span>` : ''}
       </div>
     </article>`).join('') +
