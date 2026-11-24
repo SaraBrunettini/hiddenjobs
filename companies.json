@@ -1517,7 +1517,7 @@
  "Fly.io": {
   "slug": "fly",
   "ats": "lever",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Frontify": {
   "slug": "frontify",
@@ -2852,7 +2852,7 @@
  "Trifork": {
   "slug": "trifork",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Twisto": {
   "slug": "twisto",
@@ -3017,7 +3017,7 @@
  "ACE": {
   "slug": "ace",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "act digital": {
   "slug": "altersolutions",
@@ -3147,7 +3147,7 @@
  "Assist Digital Netherlands": {
   "slug": "assist-digital",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Assured": {
   "slug": "assured",
@@ -3317,7 +3317,7 @@
  "Camping TV": {
   "slug": "camping",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Cancerresearchuk": {
   "slug": "cancerresearchuk.wd3/External_Careers",
@@ -3477,7 +3477,7 @@
  "Dentsu Creative Amsterdam": {
   "slug": "dentsucreative",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Dentsuaegis": {
   "slug": "dentsuaegis.wd3/DAN_GLOBAL",
@@ -3502,7 +3502,7 @@
  "Ditt Officemakers": {
   "slug": "ditt-officemakers",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Dowjones": {
   "slug": "dowjones.wd1/Dow_Jones_Career",
@@ -3517,7 +3517,7 @@
  "Duckwise": {
   "slug": "duckwise",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "E. Breuninger GmbH & Co.": {
   "slug": "ebreuningergmbhco",
@@ -3677,7 +3677,7 @@
  "Home": {
   "slug": "home",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Hometap": {
   "slug": "hometap",
@@ -3877,7 +3877,7 @@
  "Koos": {
   "slug": "koos",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Koro": {
   "slug": "koro",
@@ -3907,7 +3907,7 @@
  "Kubix Media": {
   "slug": "kubix-media",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Leovegasgroup": {
   "slug": "leovegasgroup",
@@ -3957,7 +3957,7 @@
  "Melkweg": {
   "slug": "melkweg",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Mendix": {
   "slug": "mendix",
@@ -4047,7 +4047,7 @@
  "ON A DAILY BASIS (ODB)": {
   "slug": "onadailybasis",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Oneimpression": {
   "slug": "oneimpression",
@@ -4142,7 +4142,7 @@
  "Sapph": {
   "slug": "sapph",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Scaleway": {
   "slug": "scaleway",
@@ -4217,7 +4217,7 @@
  "Systek": {
   "slug": "systek",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Tailor&Fox Srl": {
   "slug": "tailorfox",
@@ -4297,7 +4297,7 @@
  "Things I Like Things I Love": {
   "slug": "thingsilikethingsilove",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Thrive Market": {
   "slug": "thrivemarket",
@@ -4347,12 +4347,12 @@
  "Unseen Studio": {
   "slug": "unseenstudio",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "VANMOKUM": {
   "slug": "vanmokum",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "VaynerMedia LLC": {
   "slug": "vaynermedia",
@@ -4472,7 +4472,7 @@
  "ustwo games": {
   "slug": "ustwo-games",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "Rockstar Games": {
   "slug": "rockstargames",
@@ -5207,7 +5207,7 @@
  "Kyutai": {
   "slug": "kyutai",
   "ats": "homerun",
-  "seen": "2026-11-23"
+  "seen": "2026-11-24"
  },
  "LEONI": {
   "slug": "leoni1",
@@ -5322,6 +5322,11 @@
  "VFC": {
   "slug": "vfc.wd5/vfc_careers",
   "ats": "workday",
+  "seen": "2026-11-24"
+ },
+ "Sensat": {
+  "slug": "sensat",
+  "ats": "pinpoint",
   "seen": "2026-11-24"
  }
 }
