@@ -891,7 +891,7 @@ Sipgate
 Siteimprove
 Skeleton
 Sketch
-Sky
+Sky | sky.wd3/TUX | workday
 Skyscanner
 Slalom
 Smart Pension
@@ -958,7 +958,7 @@ Twisto
 Tylko
 Tymit
 Typedream
-Ubisoft
+Ubisoft | ubisoft2 | smartrecruiters
 Uizard
 Umbraco
 Unbabel
@@ -1412,7 +1412,7 @@ John Lewis
 Marks and Spencer
 Selfridges
 Liberty London
-Harrods
+Harrods | harrods.wd3/Harrods_External1 | workday
 Penguin Random House
 HarperCollins
 Bloomsbury
@@ -1696,3 +1696,252 @@ ESET | eset.wd3/ESET_External | workday
 Intel | intel.wd1/External | workday
 Teamwass | teamwass.wd5/WassermanCareers | workday
 VFC | vfc.wd5/vfc_careers | workday
+
+# Found by discover.js on 2026-11-25
+1komma5grad | 1komma5grad | personio
+Abbott | abbott.wd5/abbottcareers | workday
+ACLU - Internships | acluinternships | greenhouse
+Action1 | action1 | workable
+Aeyde | aeyde | personio
+Aion | aion | workable
+Aircall.io, Inc. | aircallioinc | greenhouse
+Aiya Europe | aiya-europe | personio
+Allwynls | allwynls | workable
+Allwynuk | allwynuk | workable
+ALPADIA Language Schools SA | alpadialanguageschoolssa | smartrecruiters
+Alt | alt | ashby
+ALU | alu | greenhouse
+Alumil | alumil | workable
+And Digital | and-digital | workable
+Anima | anima | ashby
+Antenna | antenna | workable
+Appian Corporation | appian | greenhouse
+Archer | archer56 | greenhouse
+Artefact | artefact | greenhouse
+Asana | asana | greenhouse
+Assogroup | assogroup | workable
+Astonmartinf1 | astonmartinf1 | pinpoint
+Atari | atariinc | greenhouse
+AttoTude | attotude | greenhouse
+Aureol Global Connections | aureol-global-connections | workable
+Autarcenergy | autarcenergy | personio
+Authentic Brands Group | authenticbrandsgroup | greenhouse
+AutoScout24 | autoscout24 | greenhouse
+Axios | axios | greenhouse
+B12 | b12 | greenhouse
+Bakerhughes | bakerhughes.wd5/BakerHughes | workday
+Bask Health 1 | bask-health-1 | workable
+Bband E 1 | bband-e-1 | workable
+Bbdo | bbdo | personio
+Bettercallpaul | bettercallpaul | personio
+Betty CA | bettyjobboard | greenhouse
+BLACKLANE | blacklane | greenhouse
+Blank Street | blankstreet | greenhouse
+Blenheim Chalcot | blenheimchalcot | greenhouse
+Blue State | bluestatedigital | greenhouse
+Blueprint Technologies | bpcs | greenhouse
+Boldgames | boldgames | ashby
+Boomgmbh | boomgmbh | personio
+Boskalis | boskalis | smartrecruiters
+Brainient | brainient | smartrecruiters
+Bridges Ltd Careers | bridges-ltd-careers | workable
+Burkert | burkert.wd502/burkert-career | workday
+Businessangels | businessangels | personio
+Cadillacf1team | cadillacf1team | workable
+Cambridge Gan Devices | cambridge-gan-devices | workable
+Charlesundcharlottegmbh | charlesundcharlottegmbh | personio
+Circle | circle | ashby
+Civica Uk Ltd 1 | civica-uk-ltd-1 | workable
+Clayglobal | clayglobal | workable
+Client Accelerators | client-accelerators | workable
+Climax Studios | climax-studios | workable
+Cloudimperiumgames | cloudimperiumgames.wd503/CIG_Global_Careers | workday
+Cloudtalk | cloudtalk | workable
+Comeon Group | comeon-group | workable
+Data4life | data4life | personio
+Dayhoff Labs | dayhoff-labs | ashby
+Deckers | deckers.wd5/Deckers | workday
+Delistaff | delistaff | recruitee
+Demodern | demodern | personio
+Dieseo Gmbh | dieseo-gmbh | personio
+Disney | disney.wd5/disneycareerdc | workday
+Djeholdings | djeholdings.wd5/edelman-careers-E200 | workday
+Doccheckgroup | doccheckgroup | recruitee
+Dyflexis | dyflexis | recruitee
+EBAY | ebay.wd5/apply | workday
+Egis Group | egisgroup | smartrecruiters
+Embassy Sporthandel GmbH | embassysporthandelgmbh | smartrecruiters
+Enovis | enovis.wd5/enovis | workday
+Evotecgroup | evotecgroup.wd3/Evotec_Career_Site | workday
+Fastretailing | fastretailing.wd3/headquarters_eu_Uniqlo | workday
+Fieldfisher | fieldfisher | personio
+FIL | fil.wd3/001 | workday
+Focusentertainment | focusentertainment | recruitee
+Formulaone | formulaone.wd3/F1 | workday
+Fraser Gmbh | fraser-gmbh | personio
+Freseniusmedicalcare | freseniusmedicalcare.wd3/fme | workday
+Freshfields | freshfields.wd3/FBD_101 | workday
+Fujifilm | fujifilm.wd3/FLB_CS | workday
+Galileo | galileo.wd3/macromedia_university_career_site | workday
+Gartner | gartner.wd5/EXT | workday
+Geaerospace | geaerospace.wd5/GE_ExternalSite | workday
+GEHC | gehc.wd5/GEHC_ExternalSite | workday
+General Assembly | generalassembly | greenhouse
+Gevernova | gevernova.wd5/Only_Confidential_Executive_Recruiting | workday
+Globalhr | globalhr.wd5/REC_RTX_Ext_Gateway | workday
+GN | gn.wd3/GN-Careers | workday
+GRPR | grpr.wd3/parques_reunidos | workday
+GSK | gsk.wd5/GSKCareers | workday
+Gsknch | gsknch.wd3/GSKCareers | workday
+GWI | globalwebindex | greenhouse
+Holy | holy | personio
+HP | hp.wd5/ExternalCareerSite | workday
+Huawei Research Center Germany | huaweiresearchcentergermanyaustria | teamtailor
+Iberdrola | iberdrola.wd3/Iberdrola | workday
+IFF | iff.wd5/IFF_Careers | workday
+Inceptive | inceptive | greenhouse
+Infobip | infobip.wd3/InfobipCareers | workday
+ING | ing.wd3/ICSGBLCOR | workday
+Init Ag | init-ag | personio
+Instinct3 | instinct3 | personio
+Institutminestelecom | institutminestelecom | recruitee
+Interdambv | interdambv | recruitee
+Intermategroupgmbh | intermategroupgmbh | recruitee
+Interpublic | interpublic.wd5/OMC | workday
+Invisix | invisix | recruitee
+IOTA GROUP | iotagroup | smartrecruiters
+Ironmountain | ironmountain.wd5/iron-mountain-jobs | workday
+ITW | itw.wd5/External | workday
+J&B Hopkins | jbhopkins | teamtailor
+JCI | jci.wd5/JCI | workday
+JJ | jj.wd5/JJ | workday
+Job&Talent powered by Multitempo | multitempo | teamtailor
+Jungvonmatt | jungvonmatt | personio
+Kaliop | kaliop | recruitee
+Kb1 | kb1 | personio
+Kiongroup | kiongroup.wd3/KION_SCS | workday
+Knauf Deutschland | knaufdeutschland | teamtailor
+Knsk | knsk | personio
+KPMG Nederland | kpmgnederland | smartrecruiters
+Kurppa Hosk | kurppahosk | teamtailor
+Kyndryl | kyndryl.wd5/KyndrylProfessionalCareers | workday
+Lanch | lanch | personio
+LBG | lbg.wd3/broadbean_external | workday
+LearnUpon | learnupon | greenhouse
+Level Access | levelaccess | greenhouse
+Levistraussandco | levistraussandco.wd5/External | workday
+LinkedIn Job Wrapping | artefactlinkedin | greenhouse
+Linklaters | linklaters.wd3/Linklaters | workday
+Livenation | livenation.wd503/RNExternalSite | workday
+LNW | lnw.wd5/LightWonderExternalCareers | workday
+Logitech | logitech.wd5/Logitech | workday
+Lonza | lonza.wd3/Lonza_Careers | workday
+LRG | lrgcareers | teamtailor
+Lyreco | lyreco.wd3/Lyreco_Careers | workday
+Mai Group | mai-group | personio
+Mango | mango.wd3/Mango_Work_Your_Passion | workday
+Market Partner | marketpartner | teamtailor
+MARS | mars.wd3/bettertogether | workday
+Material Bank | materialbank | greenhouse
+Mawave Marketing Gmbh | mawave-marketing-gmbh | personio
+Media Pioneer Publishing Ag | media-pioneer-publishing-ag | personio
+Mendo.ai | mendoai-1730204279 | teamtailor
+Meritis | meritis | smartrecruiters
+MHP Group | mhpgroup | teamtailor
+MMD Monitors & Displays | mmd | teamtailor
+MOOG | moog.wd5/MOOG_External_Career_Site | workday
+Mozilla | mozilla | greenhouse
+Muon Space | muonspace | greenhouse
+Muraytech | muraytech | personio
+Mutabor | mutabor | personio
+Native Design | native-design | personio
+Nava PBC | navapbc | greenhouse
+Nemetschek SE2 | nemetschekse2 | smartrecruiters
+Netlife Design | netlifedesign | teamtailor
+Networkplus | networkplus | pinpoint
+Nmbrs | nmbrs | recruitee
+Nofence | nofence | teamtailor
+Nye og Kloke Hoder | nyeogklokehoder | teamtailor
+Nyrahealth | nyrahealth | recruitee
+OLIPOP | olipop | greenhouse
+Olsson | olsson | greenhouse
+Ondo Finance | ondofinance | greenhouse
+OPSWAT | opswat | greenhouse
+Orbio World | orbioworld | teamtailor
+Orca Security | orcasecurity | greenhouse
+Peak Performance | peakperformance | teamtailor
+Peloton | peloton | greenhouse
+PG | pg.wd5/1000 | workday
+Pihr | pihr | teamtailor
+Polestar | polestar | teamtailor
+PRU | pru.wd5/PGIM_Careers | workday
+Qtsdatacenters | qtsdatacenters.wd5/qts | workday
+Redcare Pharmacy | redcare-pharmacy | smartrecruiters
+RELX | relx.wd3/lexisnexislegal | workday
+Renesas Electronics | renesaselectronics | smartrecruiters
+Renishaw | renishaw.wd3/Renishaw | workday
+Resmed | resmed.wd3/Resmed_External_Careers | workday
+RHE | rhe.wd3/R1111 | workday
+Richemont | richemont.wd3/richemont | workday
+Roche | roche.wd3/mysugr-ext | workday
+Rollsroyce | rollsroyce.wd3/professional | workday
+Rothschildandco | rothschildandco.wd3/Rothschildandco_Lateral | workday
+S.A. Studio Santagostino Srl | studiosantagostino-1746448557 | teamtailor
+SaaS | saasglobal | teamtailor
+Sabre | sabre.wd1/SabreJobs | workday
+Sandvik | sandvik.wd3/sandvik-jobs | workday
+Sanofi | sanofi.wd3/SanofiCareers | workday
+SAP IT Business Systeme | sapitbusinesssysteme | smartrecruiters
+Sartorius | sartorius.wd3/sartoriuscareers | workday
+Sbdinc | sbdinc.wd1/Stanley_Black_Decker_Career_Site | workday
+Scalable GmbH | scalablegmbh | smartrecruiters
+Securitas | securitas | teamtailor
+Sedgwick | sedgwick.wd1/Sedgwick | workday
+Semtech | semtech.wd1/SemtechCareers | workday
+SHD | shd | teamtailor
+Shellworks | shellworks | teamtailor
+Sifive | sifive.wd1/sifivecareers | workday
+Silae | silae-career | teamtailor
+Slihrms | slihrms.wd3/Linxon | workday
+SOM | som.wd5/External | workday
+SOMFY Group | somfygroup | smartrecruiters
+Sportradar | sportradar | smartrecruiters
+SQLI | sqli1 | smartrecruiters
+Stats Perform | statsperform | teamtailor
+StepStone Group | stepstonegroup | smartrecruiters
+Storaenso | storaenso.wd502/Stora_Enso_site_opportunities | workday
+Stryker | stryker.wd1/StrykerCareers | workday
+Surbanajurong | surbanajurong.wd3/RobertBirdGroup_Careers | workday
+Swarovski | swarovski.wd3/swarovski | workday
+Swiss Medical Network | swissmedicalnetwork1 | smartrecruiters
+Swissquote | swissquote | smartrecruiters
+Sysco | sysco.wd5/syscocareers | workday
+Takeda | takeda.wd502/external | workday
+Techland S.A. | techlandsa | smartrecruiters
+Tencent | tencent.wd1/Tencent_Careers | workday
+Terex | terex.wd1/terexcareers | workday
+Theapexgroup | theapexgroup.wd3/apexgroupcareers | workday
+Tomtailorgroup | tomtailorgroup.wd502/TomTailor | workday
+Transperfect | transperfect.wd5/transperfect | workday
+Trumpf | trumpf.wd3/TRUMPF_Graduates_and_Professionals | workday
+TSYS | tsys.wd1/TSYS | workday
+Ttiemea | ttiemea.wd3/TTI | workday
+Twoday Denmark | twodaydenmark | teamtailor
+UK Atomic Energy Authority | ukatomicenergyauthority | smartrecruiters
+Uncovered Group | uncoveredgroup-1688718843 | teamtailor
+Unitytech | unitytech.wd1/Unity | workday
+Unleash | unleash-amby | teamtailor
+Valeo | valeo.wd3/valeo_jobs | workday
+Valsea Technology | valsea | teamtailor
+Vantagedc | vantagedc.wd1/Vantage | workday
+Vattenfall | vattenfall | smartrecruiters
+Veoliauki | veoliauki.wd3/vescareers | workday
+Viatris | viatris.wd5/External | workday
+Vira Games | viragames | teamtailor
+VISA | visa.wd5/Visa | workday
+Walls Construction | wallsconstruction | teamtailor
+WeRoad | weroad | teamtailor
+WK | wk.wd3/External | workday
+WMH Project | wmhproject | smartrecruiters
+Wwecorp | wwecorp.wd5/IMG | workday
+Zeissgroup | zeissgroup.wd3/External | workday
