@@ -1945,3 +1945,51 @@ WK | wk.wd3/External | workday
 WMH Project | wmhproject | smartrecruiters
 Wwecorp | wwecorp.wd5/IMG | workday
 Zeissgroup | zeissgroup.wd3/External | workday
+
+# Found by discover.js on 2026-11-26
+Ideals | ideals | ashby
+Jack & Jill | jack-jill | ashby
+Justera Group | justergroupab | teamtailor
+Tessl | tesslcareers | ashby
+Twelve | twelve | personio
+Viking | vikingassistance | teamtailor
+
+# Hiring designers in Europe on investors' job boards, 2026-11-26; board guessed on each run
+Earendil
+
+# Hiring designers open to Europe on remote job sites, 2026-11-26; board guessed on each run
+3Ive
+Anybotics
+BrainStack
+Coreweaveu
+Elation Health
+Entity Games
+Fanaticsfbg
+Feazer
+Finom
+Fuseenergy
+Gemini
+German Design Council - Rat für Formgebung
+Goodmaven
+Gusto, Inc.
+JACQUEMUS
+Keywords Intl1
+LastPass
+Ledgy
+Lemrock
+Lufthansa Innovation Hub GmbH
+MEDvidi
+Mayflower
+Octopus Energy Group
+PB3C GmbH
+SeekOut
+Storymachine GmbH
+Symphony Solutions
+Tebra
+XERUS CONSEIL
+Yoummday
+aha! Agentur für Handelsmarketing
+bunq
+group.one
+i-doit GmbH
+wppmedia
