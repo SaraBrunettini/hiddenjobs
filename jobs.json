@@ -1,8 +1,600 @@
 {
- "updated": "2026-11-26T17:05:50.605Z",
+ "updated": "2026-11-27T16:51:52.301Z",
  "companies": 1344,
- "count": 1544,
+ "count": 1521,
  "jobs": [
+  {
+   "title": "Senior Product Designer",
+   "company": "Faculty",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/faculty/22ce725b-8869-4f34-8059-f4c96a051c1b",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Copywriter | Mid-Senior | Coveron",
+   "company": "Nord Security",
+   "location": "Vilnius; Warsaw",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "€2.2K – €3.6K a month",
+   "url": "https://jobs.ashbyhq.com/nord-security/acdda827-0d4f-4126-81d1-d0a2284e0101",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Senior Game Developer (Game Feel, UI, Animations, VFX) - Paper.io2",
+   "company": "Voodoo",
+   "location": "Barcelona; Istanbul",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Motion",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/6e97f81e-241a-4058-bff4-de43f5b2d37a",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "UX/UI Designer Grooming and Beauty, Amsterdam",
+   "company": "Philips",
+   "location": "Amsterdam, Netherlands",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Amsterdam/UX-UI-Designer-Grooming-and-Beauty--Amsterdam_593855-2",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Associate designer",
+   "company": "ABB",
+   "location": "Brno, Jihomoravský kraj, Czechia, Czechia",
+   "country": "Czechia",
+   "city": "Brno",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Brno-Jihomoravsk-kraj-Czechia/Associate-designer_JR00047537",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Design Project Manager (m/f/d) - DACH",
+   "company": "AccorCorpo",
+   "location": "Munich, BY, Germany",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/AccorCorpo/744000164048579",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "FPGA-Designer till Försvarsindustrin",
+   "company": "AFRY",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/AFRY/744000164019918",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Design Studio - Cabin Interior CMF Designer (F/M)",
+   "company": "Airbus",
+   "location": "Toulouse Area, France",
+   "country": "France",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/Design-Studio---Industrial-Designer-Project-Manager--F-M-_JR10377963",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Praktikum im Bereich Composite Design Structure Site Engineering NOR",
+   "company": "Airbus",
+   "location": "Nordenham, Germany",
+   "country": "Germany",
+   "city": "Nordenham",
+   "discipline": "Other",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Nordenham/Praktikum-im-Bereich-Composite-Design-Structure-Site-Engineering-NOR_JR10456015",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "STAGE 2027 - Graphic Designer (h/f)",
+   "company": "Airbus",
+   "location": "Paris Area, France",
+   "country": "France",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Paris-Area/STAGE-2027---Design-Graphique--h-f-_JR10444841",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Engine Performance Research & Predevelopment Engineer (Powerplant CoC in Design Office)",
+   "company": "Airbus",
+   "location": "Toulouse Area, France",
+   "country": "France",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/Engine-Performance-Research---Predevelopment-Engineer--Powerplant-CoC-in-Design-Office-_JR10451282-1",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Senior Design Engineer",
+   "company": "ASSYSTEM",
+   "location": "Derby, United Kingdom",
+   "country": "United Kingdom",
+   "city": "Derby",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/ASSYSTEM/744000164047039",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Planung Innenarchitektur/Architektur (m/w/d) mit Schwerpunkt Entwurf & Design",
+   "company": "ATP architekten ingenieure",
+   "location": "Zürich, ZH, Switzerland",
+   "country": "Switzerland",
+   "city": "Zurich",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/ATParchitekteningenieure/744000163993429",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Praktikum in KI-Schulungen, Prompting und AI Tools mit UX-Fokus",
+   "company": "Bosch Group",
+   "location": "Stuttgart, BW, Germany",
+   "country": "Germany",
+   "city": "Stuttgart",
+   "discipline": "Product & UX",
+   "type": "Internship",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000164051902",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Senior Product Designer - Webex",
+   "company": "Cisco",
+   "location": "Galway, Ireland, Ireland",
+   "country": "Ireland",
+   "city": "Galway",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Product-Designer---Webex_2032198",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Senior Visuals Editor (12 month FTC) - Condé Nast Traveller",
+   "company": "Condenast",
+   "location": "The Adelphi, London, GB, United Kingdom",
+   "country": "United Kingdom",
+   "city": "The Adelphi",
+   "discipline": "Other",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://condenast.wd115.myworkdayjobs.com/CondeCareers/job/The-Adelphi-London-GB/Senior-Visuals-Editor---12-month-FTC_R-25308",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Design & Proposal Engineer Specials",
+   "company": "Damen",
+   "location": "Gorinchem, Netherlands",
+   "country": "Netherlands",
+   "city": "Gorinchem",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://damen.wd3.myworkdayjobs.com/Damen_Careers/job/Gorinchem/Design---Proposal-Engineer-Specials_JR0019299-1",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Content und Graphic Designer (w/m/d) in Teilzeit (20 Wochenstunden)",
+   "company": "Drees & Sommer SE",
+   "location": "Stuttgart, BW, Germany",
+   "country": "Germany",
+   "city": "Stuttgart",
+   "discipline": "Brand",
+   "type": "Part-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/DreesSommerSE/744000164029405",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Visual Merchandiser, Zagreb",
+   "company": "H&M Group",
+   "location": "Zagreb, Croatia",
+   "country": "Croatia",
+   "city": "Zagreb",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/HMGroup/744000164042919",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Visual Merchandiser",
+   "company": "H&M Group",
+   "location": "Stockholm, Stockholms län, Sweden",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/HMGroup/744000164030499",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Visual Merchandiser Trainee (m/w/d) - Schwaz (30 Wochenstunden)",
+   "company": "H&M Group",
+   "location": "Schwaz, Tirol, Austria",
+   "country": "Austria",
+   "city": "Schwaz",
+   "discipline": "Other",
+   "type": "Part-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/HMGroup/744000163975619",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Product Designer H/F",
+   "company": "NEXTON",
+   "location": "Lyon, Auvergne-Rhône-Alpes, France; Paris, IDF, France",
+   "country": "France",
+   "city": "Lyon",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000164071259",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "UX DESIGNER H/F",
+   "company": "NEXTON",
+   "location": "Lyon, Auvergne-Rhône-Alpes, France",
+   "country": "France",
+   "city": "Lyon",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000164064365",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Middle Creative Marketing Manager - Spirio",
+   "company": "Skelar",
+   "location": "Any of our Offices (Kyiv / Lviv / Warsaw)",
+   "country": "Poland",
+   "city": "Any of our Offices Kyiv",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/SKELAR/74c0f618-209a-42b8-af12-14eb0097bb96",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Junior Creative Marketing Manager - Spirio",
+   "company": "Skelar",
+   "location": "Any of our Offices (Kyiv / Lviv / Warsaw)",
+   "country": "Poland",
+   "city": "Any of our Offices Kyiv",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/SKELAR/e7ec773a-d331-47b7-b084-ae55d896293b",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Email Designer",
+   "company": "Harrods",
+   "location": "Hammersmith, United Kingdom",
+   "country": "United Kingdom",
+   "city": "Hammersmith",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://harrods.wd3.myworkdayjobs.com/Harrods_External1/job/Hammersmith/Email-Designer_VAC-55854-1",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Graphic Designer (Freelance)",
+   "company": "BetterMe",
+   "location": "Ukraine",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://betterme.breezy.hr/p/2afe04db12f1-graphic-designer-freelance",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Senior Manager, Digital Product Design",
+   "company": "LEGO",
+   "location": "Copenhagen, Denmark",
+   "country": "Denmark",
+   "city": "Copenhagen",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://lego.wd103.myworkdayjobs.com/LEGO_External/job/Copenhagen/Senior-Manager--Digital-Product-Design_0000040563",
+   "posted": "2026-11-27",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "UX-designer",
+   "company": "Telia",
+   "location": "Oslo, Norway",
+   "country": "Norway",
+   "city": "Oslo",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://teliacompany.wd3.myworkdayjobs.com/Telia_careers/job/Oslo/UX-designer_62004",
+   "posted": "2026-11-27",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Principal Product Designer - ZEOS",
+   "company": "Zalando",
+   "location": "Berlin, Germany",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://zalando.wd3.myworkdayjobs.com/zalandositewd/job/Berlin/Principal-Product-Designer---ZEOS--all-genders-_2724261-1",
+   "posted": "2026-11-27",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Senior UX Consultant / Designer",
+   "company": "Evolit",
+   "location": "Wien, Austria",
+   "country": "Austria",
+   "city": "Vienna",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://evolit.recruitee.com/o/senior-ux-consultant-designer-wmd",
+   "posted": "2026-11-27",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Senior Product Designer till Clearon",
+   "company": "Amendo",
+   "location": "Stockholm, Sweden",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobb.amendo.se/jobs/8746977-senior-product-designer-till-clearon",
+   "posted": "2026-11-27",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Projektant / Projektantka UX/UI",
+   "company": "Leroy Merlin Polska",
+   "location": "Warsaw, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Product & UX",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://leroymerlinpoland.teamtailor.com/jobs/8792301-projektant-projektantka-ux-ui",
+   "posted": "2026-11-27",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "UX Design Internship",
+   "company": "Above",
+   "location": "Stockholm, Sweden",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Product & UX",
+   "type": "Internship",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://above.teamtailor.com/jobs/7468027-ux-design-internship",
+   "posted": "2026-11-27",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Art Director (m/w/d)",
+   "company": "Djeholdings",
+   "location": "Munich, Germany, Germany",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://djeholdings.wd5.myworkdayjobs.com/edelman-careers-E200/job/Munich-Germany/Producer---Content-Manager_JR102970",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Creative Solutions Senior Executive",
+   "company": "Interpublic",
+   "location": "London, London, United Kingdom, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/London-London-United-Kingdom/Creative-Solutions-Senior-Executive_R18088-1",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Senior Sprinkler Designer",
+   "company": "JCI",
+   "location": "Manchester-Manchester-United Kingdom, United Kingdom",
+   "country": "United Kingdom",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Manchester-Manchester-United-Kingdom/Senior-Sprinkler-Designer_WD30285659",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Visual Merchandiser (m/w/d) 100%",
+   "company": "Mango",
+   "location": "Lucerne, Lucerne, Switzerland, Switzerland",
+   "country": "Switzerland",
+   "city": "Lucerne",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://mango.wd3.myworkdayjobs.com/Mango_Work_Your_Passion/job/Lucerne-Lucerne-Switzerland/Visual-Merchandiser--m-w-d--100-_JR138868-1",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Visual Merchandising Lead (m/w/d)",
+   "company": "Mango",
+   "location": "Frankfurt am Main, Hesse, Germany, Germany",
+   "country": "Germany",
+   "city": "Frankfurt am Main",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://mango.wd3.myworkdayjobs.com/Mango_Work_Your_Passion/job/Frankfurt-am-Main-Hesse-Germany/Regional-Visual-Merchandising-Manager--m-w-d-_JR142223-1",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "UX Researcher Senior (H/F)",
+   "company": "Meritis",
+   "location": "Aix-en-Provence, Provence-Alpes-Côte d'Azur, France",
+   "country": "France",
+   "city": "Aix-en-Provence",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.smartrecruiters.com/Meritis/744000164011159",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Visual Merchandiser - full time (100%)",
+   "company": "Peak Performance",
+   "location": "München, Germany; Oslo, Norway",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://peakperformance.teamtailor.com/jobs/8804924-visual-merchandiser-full-time-100",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Spécialiste en adaptation graphique digitale –Studio intégré /Digital Graphic Adaptation Specialist, In-house Studio",
+   "company": "PG",
+   "location": "PARIS GO-ASNIERES-SUR-SEINE, France",
+   "country": "France",
+   "city": "PARIS GO-ASNIERES-SUR-SEINE",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/PARIS-GO-ASNIERES-SUR-SEINE/diteur-trice--de-Contenus-Digitaux---Digital-Content-Editor_R000159117",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Project & Production Manager – Visual Merchandising & Gifting (m/f/d)",
+   "company": "Richemont",
+   "location": "BERLIN, Germany",
+   "country": "Germany",
+   "city": "BERLIN",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://richemont.wd3.myworkdayjobs.com/richemont/job/BERLIN/Project---Production-Manager---Visual-Merchandising---Gifting--m-f-d-_JR136483-3",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Creative Director, Studios",
+   "company": "Wwecorp",
+   "location": "London - Stockley Park 5LW, United Kingdom; London, UK",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://wwecorp.wd5.myworkdayjobs.com/IMG/job/London---Stockley-Park-5LW/Creative-Director--Studios_R0008899-1",
+   "posted": "2026-11-27"
+  },
+  {
+   "title": "Video Editor",
+   "company": "Flo Health",
+   "location": "Lithuania | Ukraine | Poland",
+   "country": "Poland",
+   "city": "Lithuania Ukraine Poland",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/flohealth/jobs/8217804003",
+   "posted": "2026-11-26"
+  },
   {
    "title": "Creative Technologist",
    "company": "Black Forest Labs",
@@ -56,6 +648,19 @@
    "posted": "2026-11-26"
   },
   {
+   "title": "Product Designer",
+   "company": "Accenture Song",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Growth-Strategist_R00362391-1",
+   "posted": "2026-11-26"
+  },
+  {
    "title": "Creative Tech | DevOps Engineer",
    "company": "Devoteam",
    "location": "Lisboa, Lisboa, Portugal",
@@ -105,19 +710,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://a1group.wd3.myworkdayjobs.com/A1_Jobs_bg/job/IP-Architect_REQ-8471-1",
-   "posted": "2026-11-26"
-  },
-  {
-   "title": "Associate designer",
-   "company": "ABB",
-   "location": "Brno, Jihomoravský kraj, Czechia, Czechia",
-   "country": "Czechia",
-   "city": "Brno",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Brno-Jihomoravsk-kraj-Czechia/Associate-designer_JR00054604",
    "posted": "2026-11-26"
   },
   {
@@ -186,19 +778,6 @@
    "posted": "2026-11-26"
   },
   {
-   "title": "Mandatory Internship Simulation & Digital Twin in Manufacturing - Electrified Motion",
-   "company": "Bosch Group",
-   "location": "Bühl, BW, Germany",
-   "country": "Germany",
-   "city": "Bühl",
-   "discipline": "Motion",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163872029",
-   "posted": "2026-11-26"
-  },
-  {
    "title": "Content Designer - Senior Associate",
    "company": "Capitalone",
    "location": "London, Eng, United Kingdom; Nottingham,  Eng",
@@ -264,19 +843,6 @@
    "posted": "2026-11-26"
   },
   {
-   "title": "Senior Copywriter",
-   "company": "Klick",
-   "location": "London, England, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/Klick1/744000163875869",
-   "posted": "2026-11-26"
-  },
-  {
    "title": "Digital Design Engineer",
    "company": "Monolithicpower",
    "location": "Schaffhausen - Switzerland, Switzerland",
@@ -316,6 +882,19 @@
    "posted": "2026-11-26"
   },
   {
+   "title": "PROGETTISTA MECCANICO / TECHNICAL DESIGNER",
+   "company": "Tailor&Fox Srl",
+   "location": "Milan, Italy",
+   "country": "Italy",
+   "city": "Milan",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://tailorfox.teamtailor.com/jobs/8801236-progettista-meccanico-technical-designer",
+   "posted": "2026-11-26"
+  },
+  {
    "title": "Associate Project Design Manager - Central Laboratory Services",
    "company": "Thermofisher",
    "location": "Remote, Belgium, Belgium",
@@ -342,17 +921,46 @@
    "posted": "2026-11-26"
   },
   {
-   "title": "Graphic Designer (Freelance)",
-   "company": "BetterMe",
-   "location": "Ukraine",
-   "country": "Ukraine",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "Remote",
+   "title": "Senior User Researcher",
+   "company": "Transform",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "Hybrid",
    "salary": null,
-   "url": "https://betterme.breezy.hr/p/2afe04db12f1-graphic-designer-freelance",
-   "posted": "2026-11-26"
+   "url": "https://transformuk.pinpointhq.com/en/postings/22ccb260-8bf3-4bee-92ed-980623cb72fc",
+   "posted": "2026-11-26",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Senior UX/Product Researcher, EU INTech Experience",
+   "company": "Amazon",
+   "location": "Luxembourg, Lux, Luxembourg",
+   "country": "Luxembourg",
+   "city": "Lux",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.amazon.jobs/en/jobs/10615431/senior-ux-product-researcher-eu-intech-experience",
+   "posted": "2026-11-26",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "UX Designer",
+   "company": "4itsolutions",
+   "location": "Warsaw, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://4itsolutions.traffit.com/public/an/73e1b1cb8726ea09e6e6283ffe5a34c1336f6571?source=career_page",
+   "posted": "2026-11-26",
+   "via": "UX Jobs"
   },
   {
    "title": "UX Designer - 12 Month FTC",
@@ -383,8 +991,22 @@
    "via": "UX Jobs"
   },
   {
+   "title": "UI Designer",
+   "company": "4itsolutions",
+   "location": "Warsaw, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://4itsolutions.traffit.com/public/an/7169ada88c32e064cc4b62322a2893a252425368?source=career_page",
+   "posted": "2026-11-26",
+   "via": "UX Jobs"
+  },
+  {
    "title": "UX/UI Expert - German Speaking",
-   "company": "A1group",
+   "company": "A1 Group",
    "location": "Skopje",
    "country": "North Macedonia",
    "city": "Skopje",
@@ -439,6 +1061,62 @@
    "via": "UX Jobs"
   },
   {
+   "title": "Senior Interaction Designer",
+   "company": "IRELAND",
+   "location": "IRL Limerick - Castletroy, Ireland",
+   "country": "Ireland",
+   "city": "IRL Limerick",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "€57k–€86k",
+   "url": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_IRELAND/job/IRL-Limerick---Castletroy/Senior-Interaction-Designer_R-552528-1",
+   "posted": "2026-11-26",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Senior Product Designer, Growth - fixed-term contract - 18 months",
+   "company": "Kleinanzeigen",
+   "location": "Berlin, Germany",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://kleinanzeigendegmbh.careers.hibob.com/jobs/7795d0e7-2f63-4b78-91d1-dafd6f714328",
+   "posted": "2026-11-26",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Senior Product Designer - Scalable Growth",
+   "company": "Wise",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "£72k–£105k",
+   "url": "https://jobs.smartrecruiters.com/Wise/744000163886936",
+   "posted": "2026-11-26",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Product Designer Team Leader",
+   "company": "Garmin",
+   "location": "Cluj-Napoca, Romania",
+   "country": "Romania",
+   "city": "Cluj-Napoca",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.workable.com/view/dM2kghjAKizhsfe1hnC2aX/hybrid-product-designer-team-leader-in-cluj-napoca-at-garmin-cluj",
+   "posted": "2026-11-26",
+   "via": "UX Jobs"
+  },
+  {
    "title": "Senior UI/UX Designer",
    "company": "Aviloo",
    "location": "Wien, Wiener Neudorf",
@@ -463,6 +1141,20 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://blaudirekt.jobs.personio.com/job/2903065",
+   "posted": "2026-11-26",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Werkstudent UX Research & UI Design",
+   "company": "E.ON",
+   "location": "45131, Germany",
+   "country": "Germany",
+   "city": null,
+   "discipline": "Research",
+   "type": "Internship",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://fa-eylc-saasfaeuraprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1178",
    "posted": "2026-11-26",
    "via": "UX Jobs"
   },
@@ -740,19 +1432,6 @@
    "posted": "2026-11-25"
   },
   {
-   "title": "Senior Game Developer (Game Feel, UI, Animations, VFX) - Paper.io2",
-   "company": "Voodoo",
-   "location": "Barcelona; Istanbul",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Motion",
-   "type": "Contract",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/8f86c74e-7d06-447d-bd1b-ad268e46bb3e",
-   "posted": "2026-11-25"
-  },
-  {
    "title": "Game Designer (Multiplayer Gameplay Modes) - Paper.io 2",
    "company": "Voodoo",
    "location": "Paris; Istanbul",
@@ -776,19 +1455,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/4ddbc278-8946-41f3-bf4e-da7b160e40d9",
-   "posted": "2026-11-25"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Tinybird",
-   "location": "Spain",
-   "country": "Spain",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€54K – €95K",
-   "url": "https://jobs.lever.co/tinybird/b8f94bbe-16c0-4026-a2e4-6516f6d57fae",
    "posted": "2026-11-25"
   },
   {
@@ -844,19 +1510,6 @@
    "posted": "2026-11-25"
   },
   {
-   "title": "Visual Merchandiser (m/w/d) Wertheim",
-   "company": "Adidas",
-   "location": "Wertheim, Germany",
-   "country": "Germany",
-   "city": "Wertheim",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Wertheim-Visual-Merchandiser-%28mwd%29-Wertheim-BW/1460520433/",
-   "posted": "2026-11-25"
-  },
-  {
    "title": "VISUAL MERCHANDISER (M/W/D) BCS FRANKFURT",
    "company": "Adidas",
    "location": "Frankfurt, Germany",
@@ -867,6 +1520,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.adidas-group.com/job/Frankfurt-VISUAL-MERCHANDISER-%28MWD%29-BCS-FRANKFURT/1451793133/",
+   "posted": "2026-11-25"
+  },
+  {
+   "title": "Visual Merchandiser (m/w/d) Wertheim",
+   "company": "Adidas",
+   "location": "Wertheim, Germany",
+   "country": "Germany",
+   "city": "Wertheim",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.adidas-group.com/job/Wertheim-Visual-Merchandiser-%28mwd%29-Wertheim-BW/1460520433/",
    "posted": "2026-11-25"
   },
   {
@@ -1052,19 +1718,6 @@
    "posted": "2026-11-25"
   },
   {
-   "title": "Senior Design Engineer",
-   "company": "ASSYSTEM",
-   "location": "Derby, United Kingdom",
-   "country": "United Kingdom",
-   "city": "Derby",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/ASSYSTEM/744000163641919",
-   "posted": "2026-11-25"
-  },
-  {
    "title": "Graphic Design Intern (m/w/d)",
    "company": "Bertelsmann-Jobs",
    "location": "Köln, Nordrhein-Westfalen, Germany",
@@ -1221,19 +1874,6 @@
    "posted": "2026-11-25"
   },
   {
-   "title": "Visual Merchandiser - Newbridge",
-   "company": "H&M Group",
-   "location": "Newbridge, County Kildare, Ireland",
-   "country": "Ireland",
-   "city": "Newbridge",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/HMGroup/744000163626199",
-   "posted": "2026-11-25"
-  },
-  {
    "title": "Landscape Design Manager",
    "company": "NBCUniversal",
    "location": "Bedford, United Kingdom",
@@ -1378,20 +2018,6 @@
    "via": "UX Jobs"
   },
   {
-   "title": "Senior Content Designer - Spend",
-   "company": "Wise",
-   "location": "London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": "£72k–£105k",
-   "url": "https://jobs.smartrecruiters.com/Wise/744000163724775",
-   "posted": "2026-11-25",
-   "via": "UX Jobs"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "TXP",
    "location": "Remote, Vigil 365 Limited - Sucursal em Portugal, Portugal",
@@ -1430,20 +2056,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://amadeus.wd502.myworkdayjobs.com/jobs/job/Lisbon/AI-UX-Designer_R37851-1",
-   "posted": "2026-11-25",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Principal Content Designer, Fincrime - AUP",
-   "company": "Wise",
-   "location": "London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "£128k–£173k",
-   "url": "https://jobs.smartrecruiters.com/Wise/744000163699449",
    "posted": "2026-11-25",
    "via": "UX Jobs"
   },
@@ -1490,44 +2102,30 @@
    "via": "UX Jobs"
   },
   {
-   "title": "Senior User Researcher",
-   "company": "Civica",
-   "location": "Manchester, United Kingdom",
-   "country": "United Kingdom",
-   "city": "Manchester",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.workable.com/view/3NihZfLXurEeYrD8cja4JK/hybrid-senior-user-researcher-in-manchester-at-civica",
-   "posted": "2026-11-25",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Senior UX/UI Designer",
-   "company": "Humanoid",
-   "location": "UK, London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
+   "title": "UX/UI Designer",
+   "company": "Clurgo",
+   "location": "Warsaw, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://jobs.ashbyhq.com/humanoid/d9202f9d-0581-4216-916d-f11c34abf772",
+   "url": "https://clurgo.traffit.com/public/an/337d069253a3129687e9228dd87456db33576a4d?source=career_page",
    "posted": "2026-11-25",
    "via": "UX Jobs"
   },
   {
-   "title": "Head of Design",
-   "company": "ANYbotics",
-   "location": "Zurich, Any Available Eor Location, Switzerland",
-   "country": "Switzerland",
-   "city": "Zurich",
-   "discipline": "Leadership",
+   "title": "Principal Content Designer, Fincrime - AUP",
+   "company": "Wise",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Content",
    "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.lever.co/anybotics/9236afb8-8439-4dee-98e9-9a2fe7e5dbcd",
+   "workplace": "On-site",
+   "salary": "£128k–£173k",
+   "url": "https://jobs.smartrecruiters.com/Wise/744000163699449",
    "posted": "2026-11-25",
    "via": "UX Jobs"
   },
@@ -1588,16 +2186,16 @@
    "via": "UX Jobs"
   },
   {
-   "title": "Service Designer - Consultant / Senior Consultant- Deutschlandweit",
-   "company": "Infosys Consulting Europe",
-   "location": "Munich, Germany",
-   "country": "Germany",
-   "city": "Munich",
+   "title": "Service Designer - Consultant / Senior Consultant- Poland",
+   "company": "Infosys Consulting - Europe",
+   "location": "Wrocław, Poland; London, United Kingdom",
+   "country": "Europe-wide",
+   "city": null,
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Hybrid",
    "salary": null,
-   "url": "https://apply.workable.com/infosys-consulting-europe/j/21D80713B2/",
+   "url": "https://apply.workable.com/infosys-consulting-europe/j/D274049A2D/",
    "posted": "2026-11-25",
    "via": "UX Jobs"
   },
@@ -1616,16 +2214,16 @@
    "via": "UX Jobs"
   },
   {
-   "title": "Service Designer - Consultant / Senior Consultant- Poland",
-   "company": "Infosys Consulting Europe",
-   "location": "Wrocław, Poland; London, United Kingdom",
-   "country": "Europe-wide",
-   "city": null,
+   "title": "Service Designer - Consultant / Senior Consultant- Deutschlandweit",
+   "company": "Infosys Consulting - Europe",
+   "location": "Munich, Germany",
+   "country": "Germany",
+   "city": "Munich",
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Hybrid",
    "salary": null,
-   "url": "https://apply.workable.com/infosys-consulting-europe/j/D274049A2D/",
+   "url": "https://apply.workable.com/infosys-consulting-europe/j/21D80713B2/",
    "posted": "2026-11-25",
    "via": "UX Jobs"
   },
@@ -1736,9 +2334,9 @@
   {
    "title": "Visual Merchandiser (m/w/d) in Vollzeit",
    "company": "Mango",
-   "location": "Wien, Wien, Austria, Austria; Germany, Baden-Württemberg, Karlsruhe, Germany",
-   "country": "Europe-wide",
-   "city": null,
+   "location": "Wien, Wien, Austria, Austria",
+   "country": "Austria",
+   "city": "Vienna",
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "On-site",
@@ -1783,6 +2381,19 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://shd.teamtailor.com/jobs/8796377-2nd-level-support-m-w-d-design-solutions",
+   "posted": "2026-11-25"
+  },
+  {
+   "title": "Head of Design",
+   "company": "Anybotics",
+   "location": "Zurich",
+   "country": "Switzerland",
+   "city": "Zurich",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.lever.co/anybotics/9236afb8-8439-4dee-98e9-9a2fe7e5dbcd",
    "posted": "2026-11-25"
   },
   {
@@ -1994,19 +2605,6 @@
    "posted": "2026-11-24"
   },
   {
-   "title": "Design Project Manager (m/f/d) - DACH",
-   "company": "AccorCorpo",
-   "location": "Munich, BY, Germany",
-   "country": "Germany",
-   "city": "Munich",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/AccorCorpo/744000163525144",
-   "posted": "2026-11-24"
-  },
-  {
    "title": "#ET22R Transmission System Design Responsible (f/m)",
    "company": "Airbus",
    "location": "Marseille Area, France",
@@ -2098,19 +2696,6 @@
    "posted": "2026-11-24"
   },
   {
-   "title": "Dekorator / Dekoratorka - Visual Merchandiser",
-   "company": "H&M Group",
-   "location": "Gorzów Wielkopolski, Poland",
-   "country": "Poland",
-   "city": "Gorzów Wielkopolski",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/HMGroup/744000163468889",
-   "posted": "2026-11-24"
-  },
-  {
    "title": "Responsable Visual Merchandising KIABI Andalucía y Levante - Retail Moda",
    "company": "Kiabi",
    "location": "Tomares, AN, Spain",
@@ -2137,19 +2722,6 @@
    "posted": "2026-11-24"
   },
   {
-   "title": "Head of Product Design",
-   "company": "Xero",
-   "location": "UK: London (7 Devonshire Square)",
-   "country": "United Kingdom",
-   "city": "UK London",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/xero/26ff4a50-f423-4325-8be9-3d8694b64c2e",
-   "posted": "2026-11-24"
-  },
-  {
    "title": "UX Research Intern",
    "company": "Landfolk",
    "location": "Aarhus, Denmark",
@@ -2160,20 +2732,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://jobs.landfolk.com/jobs/8786021-ux-research-intern",
-   "posted": "2026-11-24",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Senior Product Designer (Technical Interviewer, hourly rate)",
-   "company": "Mate academy",
-   "location": "Remote, Ukraine",
-   "country": "Ukraine",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Part-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://career.mate.academy/jobs/8790254-senior-product-designer-technical-interviewer-hourly-rate",
    "posted": "2026-11-24",
    "via": "UX Jobs"
   },
@@ -2202,20 +2760,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://social-discovery-ventures.breezy.hr/p/a53d757bd2cc01-senior-product-designer",
-   "posted": "2026-11-24",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Product Designer (Fin)",
-   "company": "Good Maven",
-   "location": "Remote, Multiple locations, United Kingdom",
-   "country": "United Kingdom",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/goodmaven/7134f328-0c76-4f66-9658-78a8b0030eb0",
    "posted": "2026-11-24",
    "via": "UX Jobs"
   },
@@ -2408,19 +2952,6 @@
    "posted": "2026-11-24"
   },
   {
-   "title": "Instrument Flight Procedure (IFP) Designer",
-   "company": "Egis Group",
-   "location": "London, England, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/EgisGroup/744000163442234",
-   "posted": "2026-11-24"
-  },
-  {
    "title": "Base Business Design Reviewer",
    "company": "Enovis",
    "location": "San Daniele del Friuli, Friuli Venezia-Giulia, Italy, Italy",
@@ -2535,19 +3066,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://orbioworld.teamtailor.com/jobs/8789823-creative-team-lead",
-   "posted": "2026-11-24"
-  },
-  {
-   "title": "Visual Merchandiser - full time (100%)",
-   "company": "Peak Performance",
-   "location": "Oslo, Norway",
-   "country": "Norway",
-   "city": "Oslo",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://peakperformance.teamtailor.com/jobs/8790403-visual-merchandiser-full-time-100",
    "posted": "2026-11-24"
   },
   {
@@ -2681,6 +3199,19 @@
    "posted": "2026-11-24"
   },
   {
+   "title": "Product Designer (Fin)",
+   "company": "Goodmaven",
+   "location": "London, UK",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/goodmaven/7134f328-0c76-4f66-9658-78a8b0030eb0",
+   "posted": "2026-11-24"
+  },
+  {
    "title": "Digital & Motion Designer",
    "company": "Mayflower",
    "location": "Limassol, Cyprus",
@@ -2787,14 +3318,14 @@
   {
    "title": "Visual Merchandising Specialist adidas (H/F/D)",
    "company": "Adidas",
-   "location": "Beaucouze, France; Metz, France and 2 more",
+   "location": "Miramas, France; France and 2 more",
    "country": "France",
-   "city": "Beaucouze",
+   "city": "Miramas",
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Beaucouze-Visual-Merchandising-Specialist-adidas-%28HFD%29/1383174333/",
+   "url": "https://jobs.adidas-group.com/job/Miramas-Visual-Merchandising-Specialist-adidas-%28HFD%29/1420720833/",
    "posted": "2026-11-23"
   },
   {
@@ -3196,20 +3727,6 @@
    "via": "UX Jobs"
   },
   {
-   "title": "Product Designer (Contract)",
-   "company": "Lemrock",
-   "location": "Paris, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Product & UX",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/lemrock/33015b21-ec99-43ee-85a6-90857c72c8ba",
-   "posted": "2026-11-23",
-   "via": "UX Jobs"
-  },
-  {
    "title": "Staff Product Designer – Tooling Platform",
    "company": "Wise",
    "location": "London, United Kingdom",
@@ -3377,19 +3894,6 @@
    "posted": "2026-11-23"
   },
   {
-   "title": "Design Coordinator Rail",
-   "company": "Egis Group",
-   "location": "Bucharest, Bucharest, Romania",
-   "country": "Romania",
-   "city": "Bucharest",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/EgisGroup/744000163258359",
-   "posted": "2026-11-23"
-  },
-  {
    "title": "Stagiair(e) Visual Merchandiser",
    "company": "GRPR",
    "location": "Slagharen, 37,  Zwarte Dijk, 7776 PB Slagharen Overijssel, Netherlands, Netherlands",
@@ -3400,19 +3904,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://grpr.wd3.myworkdayjobs.com/parques_reunidos/job/Slagharen-37--Zwarte-Dijk-7776-PB-Slagharen-Overijssel-Netherlands/Stagiair-e--Visual-Merchandiser_JR108158",
-   "posted": "2026-11-23"
-  },
-  {
-   "title": "Senior Director, Content Strategy Head, Respiratory, Immunology and Inflammation (RIIRU)",
-   "company": "GSK",
-   "location": "GSK HQ, United Kingdom; Bengaluru Luxor North Tower; UK - Hertfordshire - Stevenage; Mississauga Milverton Drive",
-   "country": "United Kingdom",
-   "city": "GSK",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/GSK-HQ/Senior-Director--Content-Strategy-Head--Respiratory--Immunology-and-Inflammation--RIIRU--obal-Medical-Writing_451347-1",
    "posted": "2026-11-23"
   },
   {
@@ -3452,19 +3943,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://levistraussandco.wd5.myworkdayjobs.com/External/job/Paris-France/Head-of-Media---Creative---Europe--6-month-FTC-_R-0160039",
-   "posted": "2026-11-23"
-  },
-  {
-   "title": "VISUAL MERCHANDISER | MANGO | ARMAZÉNS DO CHIADO",
-   "company": "Mango",
-   "location": "Lisboa, Lisbon, Portugal, Portugal",
-   "country": "Portugal",
-   "city": "Lisbon",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://mango.wd3.myworkdayjobs.com/Mango_Work_Your_Passion/job/Lisboa-Lisbon-Portugal/VISUAL-MERCHANDISER---MANGO---ARMAZNS-DO-CHIADO_JR143583-1",
    "posted": "2026-11-23"
   },
   {
@@ -3595,6 +4073,19 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://vikingassistance.teamtailor.com/jobs/8783681-product-designer",
+   "posted": "2026-11-23"
+  },
+  {
+   "title": "Product Designer (Contract)",
+   "company": "Lemrock",
+   "location": "Paris",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Product & UX",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/lemrock/33015b21-ec99-43ee-85a6-90857c72c8ba",
    "posted": "2026-11-23"
   },
   {
@@ -3826,19 +4317,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://about.puma.com/en/jobs/senior-art-director-limited-12-months-r43415",
-   "posted": "2026-11-21"
-  },
-  {
-   "title": "Internship 3D Design Apparel",
-   "company": "Puma",
-   "location": "Herzogenaurach, Germany",
-   "country": "Germany",
-   "city": "Herzogenaurach",
-   "discipline": "Motion",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://about.puma.com/en/jobs/internship-3d-design-apparel-r43509",
    "posted": "2026-11-21"
   },
   {
@@ -4452,19 +4930,6 @@
    "posted": "2026-11-20"
   },
   {
-   "title": "Product Designer H/F",
-   "company": "NEXTON",
-   "location": "Paris, IDF, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/NEXTON/744000162700801",
-   "posted": "2026-11-20"
-  },
-  {
    "title": "Trainee/Junior Creative Marketing Manager - Health&Wellness app",
    "company": "Skelar",
    "location": "Lviv",
@@ -4811,29 +5276,16 @@
    "posted": "2026-11-20"
   },
   {
-   "title": "Visual Merchandiser (m/w/d) 100%",
-   "company": "Mango",
-   "location": "Lucerne, Lucerne, Switzerland, Switzerland",
-   "country": "Switzerland",
-   "city": "Lucerne",
-   "discipline": "Other",
-   "type": "Full-time",
+   "title": "Design Engineering Student Placement 2027",
+   "company": "JJ",
+   "location": "Leeds, West Yorkshire, United Kingdom, United Kingdom",
+   "country": "United Kingdom",
+   "city": "Leeds",
+   "discipline": "Product & UX",
+   "type": "Internship",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://mango.wd3.myworkdayjobs.com/Mango_Work_Your_Passion/job/Lucerne-Lucerne-Switzerland/Visual-Merchandiser--m-w-d--100-_JR138868-1",
-   "posted": "2026-11-20"
-  },
-  {
-   "title": "Visual Merchandising Lead (m/w/d)",
-   "company": "Mango",
-   "location": "Frankfurt am Main, Hesse, Germany, Germany",
-   "country": "Germany",
-   "city": "Frankfurt am Main",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://mango.wd3.myworkdayjobs.com/Mango_Work_Your_Passion/job/Frankfurt-am-Main-Hesse-Germany/Regional-Visual-Merchandising-Manager--m-w-d-_JR142223-1",
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Leeds-West-Yorkshire-United-Kingdom/Design-Engineering-Student-Placement-2027_R-110497-1",
    "posted": "2026-11-20"
   },
   {
@@ -4873,19 +5325,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000162717922",
-   "posted": "2026-11-20"
-  },
-  {
-   "title": "System Design Integrator",
-   "company": "Rollsroyce",
-   "location": "Bristol, United Kingdom",
-   "country": "United Kingdom",
-   "city": "Bristol",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://rollsroyce.wd3.myworkdayjobs.com/professional/job/Bristol/System-Design-Integrator_JR6152319-1",
    "posted": "2026-11-20"
   },
   {
@@ -5003,19 +5442,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.vml.com/careers/job/8547863002?gh_jid=8547863002",
-   "posted": "2026-11-19"
-  },
-  {
-   "title": "Life Sciences Content Strategist",
-   "company": "Accenture Song",
-   "location": "Dublin, Ireland",
-   "country": "Ireland",
-   "city": "Dublin",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dublin/Life-Sciences-Content-Strategist_R00363094",
    "posted": "2026-11-19"
   },
   {
@@ -5227,20 +5653,6 @@
    "posted": "2026-11-19"
   },
   {
-   "title": "Senior Product Design Manager",
-   "company": "LastPass",
-   "location": "Remote, Remote, Hungary",
-   "country": "Hungary",
-   "city": null,
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/lastpass/jobs/4754977005",
-   "posted": "2026-11-19",
-   "via": "UX Jobs"
-  },
-  {
    "title": "Lead Product Designer",
    "company": "Zendesk",
    "location": "Berlin, Germany",
@@ -5325,20 +5737,6 @@
    "via": "UX Jobs"
   },
   {
-   "title": "Working Student for Experience Design",
-   "company": "Siemens Healthineers",
-   "location": "Forchheim, Bavaria, Germany",
-   "country": "Germany",
-   "city": "Forchheim",
-   "discipline": "Product & UX",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.siemens-healthineers.com/global/en/job/P-101470/Working-Student-f-m-d-for-Experience-Design",
-   "posted": "2026-11-19",
-   "via": "UX Jobs"
-  },
-  {
    "title": "Product Designer UX/UI – Digitale Gesundheitsplattform",
    "company": "Headsquare",
    "location": "Munich, Germany",
@@ -5349,6 +5747,20 @@
    "workplace": "On-site",
    "salary": "€60k–€75k",
    "url": "https://headsquare-gmbh.jobs.personio.com/job/2780244",
+   "posted": "2026-11-19",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Working Student for Experience Design",
+   "company": "Siemens Healthineers",
+   "location": "Forchheim, Bavaria, Germany",
+   "country": "Germany",
+   "city": "Forchheim",
+   "discipline": "Product & UX",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://careers.siemens-healthineers.com/global/en/job/P-101470/Working-Student-f-m-d-for-Experience-Design",
    "posted": "2026-11-19",
    "via": "UX Jobs"
   },
@@ -5515,19 +5927,6 @@
    "posted": "2026-11-19"
   },
   {
-   "title": "UX Researcher Senior (H/F)",
-   "company": "Meritis",
-   "location": "Aix-en-Provence, Provence-Alpes-Côte d'Azur, France",
-   "country": "France",
-   "city": "Aix-en-Provence",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/Meritis/744000162515397",
-   "posted": "2026-11-19"
-  },
-  {
    "title": "Senior Design Engineer, Green-tec",
    "company": "Terex",
    "location": "UK, Derry/Londonderry, United Kingdom",
@@ -5541,6 +5940,19 @@
    "posted": "2026-11-19"
   },
   {
+   "title": "Senior Product Design Manager",
+   "company": "LastPass",
+   "location": "Remote - Hungary",
+   "country": "Hungary",
+   "city": null,
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/lastpass/jobs/4754977005",
+   "posted": "2026-11-19"
+  },
+  {
    "title": "Business and Design Lead",
    "company": "AKQA",
    "location": "London",
@@ -5550,7 +5962,7 @@
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://www.akqa.com/jobs/8395139/?gh_jid=8395139",
+   "url": "https://www.akqa.com/jobs/8400279/?gh_jid=8400279",
    "posted": "2026-11-18"
   },
   {
@@ -5668,19 +6080,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Castel-Maggiore-Bologna-Italy/EL-Technical---Design-Promotion-Specialist_JR00048117",
-   "posted": "2026-11-18"
-  },
-  {
-   "title": "Industrial Design Intern – Product Design Cabin. Hamburg (d/f/m)",
-   "company": "Airbus",
-   "location": "Hamburg Area, Germany; Toulouse Area",
-   "country": "Germany",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Hamburg-Area/Industrial-Design-Intern---Product-Design-Cabin-Hamburg--d-f-m-_JR10454867",
    "posted": "2026-11-18"
   },
   {
@@ -6069,7 +6468,7 @@
    "country": "Germany",
    "city": "Bruchsal",
    "discipline": "Product & UX",
-   "type": "Full-time",
+   "type": "Internship",
    "workplace": "On-site",
    "salary": null,
    "url": "https://fa-erav-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/SEW-jobs-and-career/job/2895",
@@ -6181,19 +6580,6 @@
    "posted": "2026-11-18"
   },
   {
-   "title": "Director Content Strategist Medical Writing",
-   "company": "GSK",
-   "location": "UK – London – New Oxford Street, United Kingdom; UK - Hertfordshire - Stevenage; Mississauga Milverton Drive; India - Karnataka - Bengaluru",
-   "country": "United Kingdom",
-   "city": "London New Oxford Street",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK--London--New-Oxford-Street/Director-Content-Strategist-Medical-Writing_451391-1",
-   "posted": "2026-11-18"
-  },
-  {
    "title": "DENIM DESIGNER - KIDS",
    "company": "Mango",
    "location": "Palau-solità i Plegamans, Catalonia, Spain, Spain",
@@ -6256,19 +6642,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/WMHProject/744000162246979",
-   "posted": "2026-11-18"
-  },
-  {
-   "title": "Senior Motion Designer",
-   "company": "Symphony Solutions",
-   "location": "Poland",
-   "country": "Poland",
-   "city": null,
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://apply.workable.com/j/1696071B19",
    "posted": "2026-11-18"
   },
   {
@@ -6521,9 +6894,9 @@
   {
    "title": "Motion Graphics Designer – Growth Media",
    "company": "bet365",
-   "location": "Sofia, Sofia-Capital, Bulgaria; Sliema, Tas-Sliema, Malta",
-   "country": "Europe-wide",
-   "city": null,
+   "location": "Sofia, Sofia-Capital, Bulgaria",
+   "country": "Bulgaria",
+   "city": "Sofia",
    "discipline": "Motion",
    "type": "Full-time",
    "workplace": "Hybrid",
@@ -6620,19 +6993,6 @@
    "workplace": "Remote",
    "salary": "$100K – $145K",
    "url": "https://jobs.ashbyhq.com/Jerry.ai/ddfb393a-05c2-4f67-afa3-bb573342911f",
-   "posted": "2026-11-17"
-  },
-  {
-   "title": "Motion Designer - Dressly",
-   "company": "Skelar",
-   "location": "Ukraine, Remote",
-   "country": "Ukraine",
-   "city": null,
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/SKELAR/d5f714d2-e7e5-49d1-af19-de1aad029ef8",
    "posted": "2026-11-17"
   },
   {
@@ -6883,19 +7243,6 @@
    "posted": "2026-11-17"
   },
   {
-   "title": "Creative Artworker",
-   "company": "AQA",
-   "location": "Guildford, United Kingdom; London; Manchester; Milton Keynes",
-   "country": "United Kingdom",
-   "city": "Guildford",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://aqa.wd3.myworkdayjobs.com/AQA/job/Guildford/Creative-Artworker_R8606-1",
-   "posted": "2026-11-17"
-  },
-  {
    "title": "AI RnD Engineer, XeSS and Neural Graphics (f/m/d)",
    "company": "Intel",
    "location": "Germany, Munich, Germany",
@@ -6974,19 +7321,6 @@
    "posted": "2026-11-17"
   },
   {
-   "title": "Graphics Industry Analyst",
-   "company": "HP",
-   "location": "Tlaquepaque, Jalisco, Mexico, Mexico; Bucharest, Bucureşti, Romania",
-   "country": "Romania",
-   "city": "Tlaquepaque",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Tlaquepaque-Jalisco-Mexico/Graphics-Industry-Analyst_3167901-1",
-   "posted": "2026-11-17"
-  },
-  {
    "title": "Service Designer - 12 Month FTC",
    "company": "LBG",
    "location": "Edinburgh, United Kingdom",
@@ -7039,6 +7373,19 @@
    "posted": "2026-11-17"
   },
   {
+   "title": "VISUAL MERCHANDISER MANAGER, CDI 35H",
+   "company": "Mango",
+   "location": "Collégien, Île-de-France, France, France; Rosny-sous-Bois, Seine-Saint-Denis, France, France",
+   "country": "France",
+   "city": "Collégien",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://mango.wd3.myworkdayjobs.com/Mango_Work_Your_Passion/job/Collgien-le-de-France-France/VISUAL-MERCHANDISER-MANAGER--CDI-35H_JR142618-1",
+   "posted": "2026-11-17"
+  },
+  {
    "title": "Design Engineering Internship",
    "company": "MOOG",
    "location": "Tewkesbury, GBR, United Kingdom",
@@ -7049,19 +7396,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Tewkesbury-GBR/Design-Engineering-Internship_R-26-20977",
-   "posted": "2026-11-17"
-  },
-  {
-   "title": "VP Supply Chain Design & Development",
-   "company": "Rollsroyce",
-   "location": "Derby, United Kingdom",
-   "country": "United Kingdom",
-   "city": "Derby",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://rollsroyce.wd3.myworkdayjobs.com/professional/job/Derby/VP-Supply-Chain-Design---Development_JR6163264-1",
    "posted": "2026-11-17"
   },
   {
@@ -7327,20 +7661,6 @@
    "via": "UX Jobs"
   },
   {
-   "title": "Head of Design",
-   "company": "Ledgy",
-   "location": "Remote, Multiple locations, Germany",
-   "country": "Germany",
-   "city": null,
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/ledgy/jobs/5036117101",
-   "posted": "2026-11-16",
-   "via": "UX Jobs"
-  },
-  {
    "title": "Product UX Researcher (Mensch)",
    "company": "Eventinc",
    "location": "Hamburg, Germany",
@@ -7391,19 +7711,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Buc/Stagiaire---Xray-Fluoroscopie-Industrial-Designer_R4049485-1",
-   "posted": "2026-11-16"
-  },
-  {
-   "title": "Manager, Comms Design",
-   "company": "Interpublic",
-   "location": "London, London, United Kingdom, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/London-London-United-Kingdom/Manager--Comms-Design_R17309-1",
    "posted": "2026-11-16"
   },
   {
@@ -7483,20 +7790,6 @@
    "salary": null,
    "url": "https://alfalaval.wd3.myworkdayjobs.com/Alfa_Laval_jobs/job/Lund/Design---Calculation-Engineer_JR0049085",
    "posted": "2026-11-15"
-  },
-  {
-   "title": "Senior UX/UI & Product Designer (GenAI & Enterprise Solutions)",
-   "company": "Pasiona",
-   "location": "Barcelona, Spain",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://pasiona.jobs.personio.com/job/2889251",
-   "posted": "2026-11-15",
-   "via": "UX Jobs"
   },
   {
    "title": "Product Designer Connect",
@@ -7606,19 +7899,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/faculty/98bd6f12-5e0f-47a1-92d8-fe7a4cc4cc47",
-   "posted": "2026-11-13"
-  },
-  {
-   "title": "Creative Copywriter | Advertising Campaigns | Mid-Senior | Saily",
-   "company": "Nord Security",
-   "location": "Vilnius",
-   "country": "Lithuania",
-   "city": "Vilnius",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€2.2K – €3.6K a month",
-   "url": "https://jobs.ashbyhq.com/nord-security/754fa4f9-e9fc-45b8-aa64-16733e686ddf",
    "posted": "2026-11-13"
   },
   {
@@ -7852,20 +8132,6 @@
    "via": "UX Jobs"
   },
   {
-   "title": "Senior Digital Product Design Lead",
-   "company": "HSBC",
-   "location": "Leeds, United Kingdom",
-   "country": "United Kingdom",
-   "city": "Leeds",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://portal.careers.hsbc.com/careers/job/563774612200912",
-   "posted": "2026-11-13",
-   "via": "UX Jobs"
-  },
-  {
    "title": "Senior Designer, Design and Build",
    "company": "Vovi",
    "location": "London, United Kingdom",
@@ -7996,32 +8262,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://levistraussandco.wd5.myworkdayjobs.com/External/job/LFO-WERTHEIM-VILLAGE-Wertheim-Germany/Visual-Merchandiser-Vollzeit-m-w-d_R-0160065",
-   "posted": "2026-11-13"
-  },
-  {
-   "title": "Visual Merchandiser (m/w/d)",
-   "company": "Mango",
-   "location": "Germany, Berlin, Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://mango.wd3.myworkdayjobs.com/Mango_Work_Your_Passion/job/Germany-Berlin-Berlin/Visual-Merchandiser--m-w-d-_JR139107",
-   "posted": "2026-11-13"
-  },
-  {
-   "title": "CDD - GRAPHIC DESIGNER LEATHERGOODS",
-   "company": "Richemont",
-   "location": "PARIS, France",
-   "country": "France",
-   "city": "PARIS",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://richemont.wd3.myworkdayjobs.com/richemont/job/PARIS/GRAPHIC-DESIGNER-LEATHERGOODS_JR135989",
    "posted": "2026-11-13"
   },
   {
@@ -8220,19 +8460,6 @@
    "posted": "2026-11-12"
   },
   {
-   "title": "Email Designer",
-   "company": "Harrods",
-   "location": "Hammersmith, United Kingdom",
-   "country": "United Kingdom",
-   "city": "Hammersmith",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://harrods.wd3.myworkdayjobs.com/Harrods_External1/job/Hammersmith/Email-Designer_VAC-55854-1",
-   "posted": "2026-11-12"
-  },
-  {
    "title": "Creative Engagement and Outreach National Coordinator British Art Show 10",
    "company": "Southbank Centre",
    "location": "London, Greater London",
@@ -8381,20 +8608,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://mark43.com/list-job/8383879?gh_jid=8383879",
-   "posted": "2026-11-12",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Senior UX/Product Researcher, EU INTech Experience",
-   "company": "Amazon",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.amazon.jobs/en/jobs/10603500/senior-ux-product-researcher-eu-intech-experience",
    "posted": "2026-11-12",
    "via": "UX Jobs"
   },
@@ -8691,6 +8904,19 @@
    "posted": "2026-11-11"
   },
   {
+   "title": "Assistant Designer Accessories Performance / Football - BU Lifestlye (m/f/d)",
+   "company": "Adidas",
+   "location": "Herzogenaurach, Germany",
+   "country": "Germany",
+   "city": "Herzogenaurach",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.adidas-group.com/job/Herzogenaurach-Assistant-Designer-Accessories-Performance-Football-BU-Lifestlye-%28mfd%29-BY/1456551133/",
+   "posted": "2026-11-11"
+  },
+  {
    "title": "Graphic Designer",
    "company": "Holded",
    "location": "Barcelona, Spain",
@@ -8717,19 +8943,6 @@
    "posted": "2026-11-11"
   },
   {
-   "title": "Manager Video Creative Development",
-   "company": "Condenast",
-   "location": "Paseo de la Castellana 9-11, Madrid, ES, Spain",
-   "country": "Spain",
-   "city": "Paseo de la Castellana -",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://condenast.wd115.myworkdayjobs.com/CondeCareers/job/Paseo-de-la-Castellana-9-11-Madrid-ES/Manager-Video-Creative-Development_R-25350",
-   "posted": "2026-11-11"
-  },
-  {
    "title": "Software Development Engineer – UI",
    "company": "Genesys",
    "location": "Galway, Ireland, Ireland",
@@ -8740,19 +8953,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://genesys.wd1.myworkdayjobs.com/Genesys/job/Galway-Ireland/Software-Development-Engineer---UI_JR112297-1",
-   "posted": "2026-11-11"
-  },
-  {
-   "title": "Meewerkstage Design",
-   "company": "KPN",
-   "location": "Amsterdam, NH, Netherlands",
-   "country": "Netherlands",
-   "city": "Amsterdam",
-   "discipline": "Other",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/KPN/744000161056111",
    "posted": "2026-11-11"
   },
   {
@@ -8870,19 +9070,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://tabby.pinpointhq.com/en/postings/71c10dc9-c190-491a-8079-a23c3478e652",
-   "posted": "2026-11-11"
-  },
-  {
-   "title": "Senior Product Designer, Customer Lifecycle",
-   "company": "Tabby",
-   "location": "Belgrade, /",
-   "country": "Serbia",
-   "city": "Belgrade",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://tabby.pinpointhq.com/en/postings/f8c6fb24-d179-442f-8729-38a860fc2983",
    "posted": "2026-11-11"
   },
   {
@@ -9270,19 +9457,6 @@
    "posted": "2026-11-10"
   },
   {
-   "title": "Assistant Apparel Designer - BU Football (m/f/d)",
-   "company": "Adidas",
-   "location": "Herzogenaurach, Germany",
-   "country": "Germany",
-   "city": "Herzogenaurach",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Herzogenaurach-Assistant-Apparel-Designer-BU-Football-%28mfd%29-BY/1456156833/",
-   "posted": "2026-11-10"
-  },
-  {
    "title": "Senior Interior Design Manager",
    "company": "AccorCorpo",
    "location": "Paris, IDF, France",
@@ -9490,6 +9664,20 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/scorewarrior/eda1df2e-9dd8-4ca7-8dac-8c4e656c9e7d",
+   "posted": "2026-11-10",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Werkstudent UI/UX Design",
+   "company": "Nulegal",
+   "location": "Potsdam, Germany",
+   "country": "Germany",
+   "city": "Potsdam",
+   "discipline": "Product & UX",
+   "type": "Internship",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://join.com/companies/nulegalde/16934785-werkstudent-ui-ux-design-m-w-d",
    "posted": "2026-11-10",
    "via": "UX Jobs"
   },
@@ -9725,19 +9913,6 @@
    "posted": "2026-11-10"
   },
   {
-   "title": "AI Innovation Lab - Senior Creative Technologist",
-   "company": "Kyndryl",
-   "location": "Liverpool Office Hub (GBLIVROY), United Kingdom; London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "Liverpool Office Hub",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Liverpool-Office-Hub-GBLIVROY/AI-Innovation-Lab---Senior-Creative-Technologist_R-67637",
-   "posted": "2026-11-10"
-  },
-  {
    "title": "Quality Assurance Engineer (m/f/d) Software Design",
    "company": "Stryker",
    "location": "Freiburg, Germany, Germany",
@@ -9907,19 +10082,6 @@
    "posted": "2026-11-09"
   },
   {
-   "title": "Copywriter",
-   "company": "Dentsuaegis",
-   "location": "ESP-Office-Madrid-94 Castellana, Spain",
-   "country": "Spain",
-   "city": null,
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/ESP-Office-Madrid-94-Castellana/Copywriter_R1137089",
-   "posted": "2026-11-09"
-  },
-  {
    "title": "Event Creative Trainee",
    "company": "Dentsuaegis",
    "location": "Barcelona, Spain",
@@ -9930,19 +10092,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Barcelona/Event-Creative-Trainee_R1136993",
-   "posted": "2026-11-09"
-  },
-  {
-   "title": "3D Content Creative",
-   "company": "Dentsuaegis",
-   "location": "ESP-Office-Madrid-94 Castellana, Spain",
-   "country": "Spain",
-   "city": null,
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/ESP-Office-Madrid-94-Castellana/XMLNAME-3D-Content-Creative_R1137077",
    "posted": "2026-11-09"
   },
   {
@@ -10036,20 +10185,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/187131",
-   "posted": "2026-11-09",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Product Designer - France",
-   "company": "NTT DATA",
-   "location": "Paris, France; London, United Kingdom",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.nttdata.com/global/en/job/142c55435a25100/Product-Designer-France",
    "posted": "2026-11-09",
    "via": "UX Jobs"
   },
@@ -10889,19 +11024,6 @@
    "posted": "2026-11-05"
   },
   {
-   "title": "Senior Graphic Designer - A+ Clubs - Licensed Football Apparel - BU Football (m/f/d)",
-   "company": "Adidas",
-   "location": "Herzogenaurach, Germany",
-   "country": "Germany",
-   "city": "Herzogenaurach",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.adidas-group.com/job/Herzogenaurach-Senior-Graphic-Designer-A%2B-Clubs-Licensed-Football-Apparel-BU-Football-%28mfd%29-BY/1454852733/",
-   "posted": "2026-11-05"
-  },
-  {
    "title": "Senior Designer - MW (12 month FTC)",
    "company": "Asos",
    "location": "London, England, United Kingdom",
@@ -11055,19 +11177,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/MaxMaraFashionGroup/744000159814390",
-   "posted": "2026-11-05"
-  },
-  {
-   "title": "Product Designer Media H/F",
-   "company": "NEXTON",
-   "location": "Paris, IDF, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/NEXTON/744000159922940",
    "posted": "2026-11-05"
   },
   {
@@ -11340,19 +11449,6 @@
    "posted": "2026-11-05"
   },
   {
-   "title": "Spécialiste en adaptation graphique digitale –Studio intégré /Digital Graphic Adaptation Specialist, In-house Studio",
-   "company": "PG",
-   "location": "PARIS GO-ASNIERES-SUR-SEINE, France",
-   "country": "France",
-   "city": "PARIS GO-ASNIERES-SUR-SEINE",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/PARIS-GO-ASNIERES-SUR-SEINE/diteur-trice--de-Contenus-Digitaux---Digital-Content-Editor_R000159117",
-   "posted": "2026-11-05"
-  },
-  {
    "title": "Stage Assistant(e) Visual Merchandising - Europe",
    "company": "Richemont",
    "location": "PARIS, France",
@@ -11496,19 +11592,6 @@
    "posted": "2026-11-04"
   },
   {
-   "title": "Senior Visuals Editor - 12 month FTC",
-   "company": "Condenast",
-   "location": "The Adelphi, London, GB, United Kingdom",
-   "country": "United Kingdom",
-   "city": "The Adelphi",
-   "discipline": "Other",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://condenast.wd115.myworkdayjobs.com/CondeCareers/job/The-Adelphi-London-GB/Senior-Visuals-Editor---12-month-FTC_R-25308",
-   "posted": "2026-11-04"
-  },
-  {
    "title": "Platform & Security Architect– Secure by Design (w/m/d)",
    "company": "Deutsche Glasfaser",
    "location": "Saarlouis, SL, Germany; Borken, NRW, Germany; Düsseldorf, NRW, Germany",
@@ -11532,19 +11615,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/Gameloft/744000159607510",
-   "posted": "2026-11-04"
-  },
-  {
-   "title": "Senior User Researcher",
-   "company": "NECSWS",
-   "location": "Remote, United Kingdom, United Kingdom",
-   "country": "United Kingdom",
-   "city": null,
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/NECSWS/744000159667209",
    "posted": "2026-11-04"
   },
   {
@@ -11643,20 +11713,6 @@
    "via": "UX Jobs"
   },
   {
-   "title": "Founding Product Designer",
-   "company": "Good Maven",
-   "location": "Multiple locations, United Kingdom",
-   "country": "United Kingdom",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "£100K–£150K",
-   "url": "https://jobs.ashbyhq.com/goodmaven/b7566aee-85e0-49d2-be61-48d78128ecdc",
-   "posted": "2026-11-04",
-   "via": "UX Jobs"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "Deel",
    "location": "Multiple locations, United Kingdom",
@@ -11737,20 +11793,6 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://abriogmbh.recruitee.com/o/praktikum-uxui-design-mwd-3",
-   "posted": "2026-11-04",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Lead Product Designer -AI Security & Agentic Experiences- UK (Remote)",
-   "company": "Immersive",
-   "location": "Remote, United Kingdom",
-   "country": "United Kingdom",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/immersivelabs/9bda6d12-3424-4e7e-8a49-1a1829af53ca",
    "posted": "2026-11-04",
    "via": "UX Jobs"
   },
@@ -11914,6 +11956,19 @@
    "posted": "2026-11-04"
   },
   {
+   "title": "Founding Product Designer",
+   "company": "Goodmaven",
+   "location": "London, UK",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "£100K – £150K",
+   "url": "https://jobs.ashbyhq.com/goodmaven/b7566aee-85e0-49d2-be61-48d78128ecdc",
+   "posted": "2026-11-04"
+  },
+  {
    "title": "Stage Design",
    "company": "Bol.com",
    "location": "Utrecht",
@@ -12028,19 +12083,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Neuilly-Sur-Seine/STAGE---Assistant-Creative-Films-et-Images---PARFUMS-BEAUTE--H-F-X-_JOBREQ00118522",
-   "posted": "2026-11-03"
-  },
-  {
-   "title": "Visual Merchansiding & Styling Specialist Nike - H / F - CDD/Stretch",
-   "company": "Nike",
-   "location": "Paris, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.nike.com/visual-merchansiding-styling-specialist-nike-h-f-cdd-stretch/job/R-96833",
    "posted": "2026-11-03"
   },
   {
@@ -12213,20 +12255,6 @@
    "workplace": "Remote",
    "salary": "£115k–£148k",
    "url": "https://jobs.lever.co/gohighlevel/84831da0-2dbf-4c92-bb9d-379bc20c61e5",
-   "posted": "2026-11-03",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Staff Design Researcher - Support",
-   "company": "Wise",
-   "location": "London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": "£102k–£133k",
-   "url": "https://jobs.smartrecruiters.com/Wise/744000159398429",
    "posted": "2026-11-03",
    "via": "UX Jobs"
   },
@@ -12431,19 +12459,6 @@
    "posted": "2026-11-02"
   },
   {
-   "title": "Design Lead iO Stockholm",
-   "company": "iO Digital",
-   "location": "Stockholm, Sweden",
-   "country": "Sweden",
-   "city": "Stockholm",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://iodigital.recruitee.com/o/design-lead-io-stockholm-1",
-   "posted": "2026-11-02"
-  },
-  {
    "title": "Art Director",
    "company": "VML",
    "location": "Prague, Czechia",
@@ -12611,73 +12626,6 @@
    "salary": null,
    "url": "https://harrods.wd3.myworkdayjobs.com/Harrods_External1/job/Hammersmith/Lead-Email-Designer_VAC-56114",
    "posted": "2026-11-02"
-  },
-  {
-   "title": "Energy Engineer (Design of Energy Software/ Energy Engineering)",
-   "company": "EUROPEAN DYNAMICS",
-   "location": "Athens, Greece",
-   "country": "Greece",
-   "city": "Athens",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://apply.workable.com/j/D72F706248",
-   "posted": "2026-11-02"
-  },
-  {
-   "title": "User Interface (UI) Designer / Developer",
-   "company": "EUROPEAN DYNAMICS",
-   "location": "Athens, Greece",
-   "country": "Greece",
-   "city": "Athens",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://apply.workable.com/j/A5E0B36D7C",
-   "posted": "2026-11-02"
-  },
-  {
-   "title": "UX/AX Specialist fluent in German",
-   "company": "EUROPEAN DYNAMICS",
-   "location": "Athens, Greece",
-   "country": "Greece",
-   "city": "Athens",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://apply.workable.com/j/7FBC287988",
-   "posted": "2026-11-02"
-  },
-  {
-   "title": "Product Designer",
-   "company": "OLX",
-   "location": "Remote, Remote, Spain",
-   "country": "Spain",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.eu.lever.co/olx/31f30387-742c-4ea9-a2ba-2c5e04d05f61",
-   "posted": "2026-11-02",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "OLX",
-   "location": "Remote, Remote, Spain",
-   "country": "Spain",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.eu.lever.co/olx/8d783669-ace0-409c-b003-b61087a4b69b",
-   "posted": "2026-11-02",
-   "via": "UX Jobs"
   },
   {
    "title": "Senior UX/UI Designer",
@@ -13057,19 +13005,6 @@
    "posted": "2026-10-30"
   },
   {
-   "title": "STAGE 2027 - Design Graphique (h/f)",
-   "company": "Airbus",
-   "location": "Paris Area, France",
-   "country": "France",
-   "city": null,
-   "discipline": "Other",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Paris-Area/STAGE-2027---Design-Graphique--h-f-_JR10444841",
-   "posted": "2026-10-30"
-  },
-  {
    "title": "Werkstudent:in Architektur & Interior Design",
    "company": "E. Breuninger GmbH & Co.",
    "location": "Stuttgart, BW, Germany",
@@ -13093,19 +13028,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUESPROZAROZAMadrid---San-Fernando-de-Henares/Industrial-Engineer---Sort-Technology-Design---Modelling_RC786784-1",
-   "posted": "2026-10-30"
-  },
-  {
-   "title": "Middle Motion Designer_MaxBeauty",
-   "company": "Skelar",
-   "location": "Ukraine, Remote",
-   "country": "Ukraine",
-   "city": null,
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/SKELAR/6c6fe3b4-d03c-4cc5-b68e-3dbe8666f67e",
    "posted": "2026-10-30"
   },
   {
@@ -13434,16 +13356,16 @@
    "posted": "2026-10-30"
   },
   {
-   "title": "Visual Merchandiser (m/w/d) | Neueröffnung",
+   "title": "VISUAL MERCHANDISER - URIA TEEN",
    "company": "Mango",
-   "location": "Potsdam, Heinkelstrasse, Germany, Germany",
-   "country": "Germany",
-   "city": "Potsdam",
+   "location": "OVIEDO Uria 26 ST TEEN, Spain",
+   "country": "Spain",
+   "city": "OVIEDO Uria ST TEEN",
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://mango.wd3.myworkdayjobs.com/Mango_Work_Your_Passion/job/Potsdam-Heinkelstrasse-Germany/Visual-Merchandiser--m-w-d----Neuerffnung_JR139491-2",
+   "url": "https://mango.wd3.myworkdayjobs.com/Mango_Work_Your_Passion/job/OVIEDO-Uria-26-ST-TEEN/VISUAL-MERCHANDISER---URIA-TEEN_JR145193",
    "posted": "2026-10-30"
   },
   {
@@ -13692,20 +13614,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/enode/fff28f87-ee9c-45d9-969d-90bcc0450a06",
    "posted": "2026-10-29"
-  },
-  {
-   "title": "Senior UX Designer - Map Visualisation",
-   "company": "TomTom",
-   "location": "Remote, Amsterdam, Netherlands",
-   "country": "Netherlands",
-   "city": "Amsterdam",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.eu.lever.co/tomtom/b93bd63d-e7d1-4f7f-87e2-3ff959cdb10f",
-   "posted": "2026-10-29",
-   "via": "UX Jobs"
   },
   {
    "title": "Senior User Researcher",
@@ -14215,48 +14123,6 @@
    "via": "UX Jobs"
   },
   {
-   "title": "Product Designer – UX/UI",
-   "company": "Sia",
-   "location": "Paris, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/Sia/744000158305225",
-   "posted": "2026-10-28",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Lead Product Designer",
-   "company": "Digitas UK",
-   "location": "London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://careers.publicisgroupe.com/jobs/177969",
-   "posted": "2026-10-28",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Product Designer:in (UX & PM) – Tegtmeier Internet Solutions GmbH",
-   "company": "SinnKontor",
-   "location": "Hamburg, Germany",
-   "country": "Germany",
-   "city": "Hamburg",
-   "discipline": "Product & UX",
-   "type": "Internship",
-   "workplace": "Hybrid",
-   "salary": "€54k–€69k",
-   "url": "https://join.com/companies/sinnkontorde/16935980-product-designer-in-ux-und-pm-m-w-d-tegtmeier-internet-solutions-gmbh",
-   "posted": "2026-10-28",
-   "via": "UX Jobs"
-  },
-  {
    "title": "UX Designer",
    "company": "Infotree Global Solutions",
    "location": "Warsaw, Poland",
@@ -14681,19 +14547,6 @@
    "posted": "2026-10-26"
   },
   {
-   "title": "EXPERT(E) DESIGN & URBANISATION DATACENTER F/H",
-   "company": "Ingérop",
-   "location": "Lyon, Auvergne-Rhône-Alpes, France",
-   "country": "France",
-   "city": "Lyon",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/Ingrop/744000157750901",
-   "posted": "2026-10-26"
-  },
-  {
    "title": "Graphic Designer - Intern",
    "company": "Max Mara Fashion Group",
    "location": "Reggio Emilia, Emilia-Romagna, Italy",
@@ -14877,6 +14730,20 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://careers.nttdata.com/global/en/job/8069bd1e8e2b700/Lead-User-Researcher",
+   "posted": "2026-10-24",
+   "via": "UX Jobs"
+  },
+  {
+   "title": "Product Designer",
+   "company": "NTT DATA",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://careers.nttdata.com/global/en/job/11e2dc5d577ef00/Product-Designer",
    "posted": "2026-10-24",
    "via": "UX Jobs"
   },
@@ -15240,6 +15107,19 @@
    "posted": "2026-10-23"
   },
   {
+   "title": "Head of User Experience, OpenBlue",
+   "company": "JCI",
+   "location": "Neuhausen-Schaffhausen-Switzerland, Switzerland",
+   "country": "Switzerland",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Neuhausen-Schaffhausen-Switzerland/Head-of-User-Experience--OpenBlue_WD30281248",
+   "posted": "2026-10-23"
+  },
+  {
    "title": "(Stage) Designer d’Expérience en Open Innovation - F/H",
    "company": "LinkedIn Job Wrapping",
    "location": "9th arrondissement of Paris, 75009, Paris, France",
@@ -15290,6 +15170,19 @@
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/ScalableGmbH/744000157427849",
    "posted": "2026-10-23"
+  },
+  {
+   "title": "Product Design Manager, Unified Financial Platform",
+   "company": "Adyen",
+   "location": "Amsterdam",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8227082",
+   "posted": "2026-10-22"
   },
   {
    "title": "Senior Product Designer, Web3",
@@ -15484,19 +15377,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers/job/Schaffhausen---Switzerland/Sr-Design-Engineer_R-1693",
-   "posted": "2026-10-22"
-  },
-  {
-   "title": "Praktikplads i NCC, Virtual Design & Construction, Forår 2027",
-   "company": "NCC",
-   "location": "Søborg, Denmark",
-   "country": "Denmark",
-   "city": "Søborg",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/NCC/744000157102939",
    "posted": "2026-10-22"
   },
   {
@@ -16152,12 +16032,12 @@
    "posted": "2026-10-20"
   },
   {
-   "title": "Middle Creative Designer",
+   "title": "Middle Creative Marketing Designer",
    "company": "Skelar",
    "location": "Ukraine, Remote",
    "country": "Ukraine",
    "city": null,
-   "discipline": "Other",
+   "discipline": "Brand",
    "type": "Full-time",
    "workplace": "Remote",
    "salary": null,
@@ -16326,9 +16206,9 @@
   {
    "title": "Performance Creative Designer | Mid-Senior | B2B Suite",
    "company": "Nord Security",
-   "location": "Vilnius",
-   "country": "Lithuania",
-   "city": "Vilnius",
+   "location": "Vilnius; Warsaw",
+   "country": "Europe-wide",
+   "city": null,
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "Remote",
@@ -16816,20 +16696,6 @@
    "via": "UX Jobs"
   },
   {
-   "title": "Service Design Principal Specialist",
-   "company": "Amadeus",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://amadeus.wd502.myworkdayjobs.com/jobs/job/Madrid/Service-Design-Principal-Specialist_R37975",
-   "posted": "2026-10-16",
-   "via": "UX Jobs"
-  },
-  {
    "title": "Senior 2D Game Designer (12-month Contract)",
    "company": "Allwynls",
    "location": "London, United Kingdom",
@@ -16918,19 +16784,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Dublin-Dublin-Ireland/European-Chiller-Engineering-Design-Manager_WD30277143",
-   "posted": "2026-10-16"
-  },
-  {
-   "title": "Junior Graphic Designer",
-   "company": "wppmedia",
-   "location": "Warsaw, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "PLN 4.8K – PLN 7.9K",
-   "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5454967008",
    "posted": "2026-10-16"
   },
   {
@@ -17297,14 +17150,14 @@
   {
    "title": "Senior Design Manager (Mensch) New Business",
    "company": "wppmedia",
-   "location": "Hamburg, Germany; Dusseldorf, Germany",
+   "location": "Dusseldorf, Germany; Hamburg, Germany",
    "country": "Germany",
-   "city": "Hamburg",
+   "city": "Dusseldorf",
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5453774008",
+   "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5452576008",
    "posted": "2026-10-15"
   },
   {
@@ -17441,34 +17294,6 @@
    "via": "UX Jobs"
   },
   {
-   "title": "Staff UX Researcher",
-   "company": "Manychat",
-   "location": "Barcelona, Spain",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": "€84k–€105k",
-   "url": "https://jobs.ashbyhq.com/manychat/860d1600-5a6f-4267-ae05-79b9379c03a9",
-   "posted": "2026-10-14",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Senior Product Designer, Growth - fixed-term contract - 18 months",
-   "company": "Kleinanzeigen",
-   "location": "Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://kleinanzeigendegmbh.careers.hibob.com/jobs/2136230d-07ec-47e8-9b07-ac5e4163b50d",
-   "posted": "2026-10-14",
-   "via": "UX Jobs"
-  },
-  {
    "title": "Senior Visual Designer (m/f/d)",
    "company": "Agilerobotsse",
    "location": "Munich, Bavaria, Germany",
@@ -17505,19 +17330,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://mango.wd3.myworkdayjobs.com/Mango_Work_Your_Passion/job/Ibiza-Balearic-Islands-Spain/VISUAL-MERCHANDISER---IBIZA-WOMAN_JR144047-1",
-   "posted": "2026-10-14"
-  },
-  {
-   "title": "STAGE - Assistant Store Design Planning",
-   "company": "Richemont",
-   "location": "PARIS, France",
-   "country": "France",
-   "city": "PARIS",
-   "discipline": "Other",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://richemont.wd3.myworkdayjobs.com/richemont/job/PARIS/STAGE---Assistant-Store-Design-Planning_JR134922",
    "posted": "2026-10-14"
   },
   {
@@ -17746,19 +17558,6 @@
    "url": "https://apply.workable.com/neo-gg/j/3C1805500E/",
    "posted": "2026-10-13",
    "via": "UX Jobs"
-  },
-  {
-   "title": "Design Specialist (Digital Graphic Designer), eCommerce",
-   "company": "Interpublic",
-   "location": "London, London, United Kingdom, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/London-London-United-Kingdom/Design-Specialist--eCommerce_R13696",
-   "posted": "2026-10-13"
   },
   {
    "title": "Midweight Motion Editor",
@@ -18422,20 +18221,6 @@
    "posted": "2026-10-08"
   },
   {
-   "title": "UI/UX Designer (Brand Marketing department)",
-   "company": "Mayflower",
-   "location": "Limassol, Cyprus",
-   "country": "Cyprus",
-   "city": "Limassol",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://mayflower.recruitee.com/o/uiux-designer-brand-marketing-department",
-   "posted": "2026-10-08",
-   "via": "UX Jobs"
-  },
-  {
    "title": "UI/UX Designer",
    "company": "Octopus Energy",
    "location": "Ancarano (IT), Ascoli Piceno (It), Italy",
@@ -18594,6 +18379,32 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://jobs.smartrecruiters.com/StepStoneGroup/744000154406139",
+   "posted": "2026-10-08"
+  },
+  {
+   "title": "Are you looking for new challenges? Your next career step is here: Electronic System Design",
+   "company": "Valeo",
+   "location": "Martos, Spain",
+   "country": "Spain",
+   "city": "Martos",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Martos/Are-you-looking-for-new-challenges--Your-next-career-step-is-here--Electronic-System-Design_REQ2025058887",
+   "posted": "2026-10-08"
+  },
+  {
+   "title": "UI/UX Designer (Brand Marketing department)",
+   "company": "Mayflower",
+   "location": "Limassol, Cyprus",
+   "country": "Cyprus",
+   "city": "Limassol",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://mayflower.recruitee.com/o/uiux-designer-brand-marketing-department",
    "posted": "2026-10-08"
   },
   {
@@ -19314,20 +19125,6 @@
    "posted": "2026-10-05"
   },
   {
-   "title": "Founding Product Designer",
-   "company": "3ive",
-   "location": "Remote, Remote, Germany",
-   "country": "Germany",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/3ive/e86295c6-10c5-4e3e-b08c-9ac4f192a08b",
-   "posted": "2026-10-05",
-   "via": "UX Jobs"
-  },
-  {
    "title": "Physics Engineering Internship: Supersonic Flow Visualization",
    "company": "ASML",
    "location": "Veldhoven, Netherlands, Netherlands",
@@ -19338,19 +19135,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/Veldhoven-Netherlands/Physics-Engineering-Internship--Supersonic-Flow-Visualization_J-00353564",
-   "posted": "2026-10-05"
-  },
-  {
-   "title": "Content Designer / Digital Content Creator Internal Communications",
-   "company": "Djeholdings",
-   "location": "Munich, Germany, Germany",
-   "country": "Germany",
-   "city": "Munich",
-   "discipline": "Content",
-   "type": "Internship",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://djeholdings.wd5.myworkdayjobs.com/edelman-careers-E200/job/Munich-Germany/Producer---Content-Manager_JR102970",
    "posted": "2026-10-05"
   },
   {
@@ -19377,6 +19161,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick/job/United-Kingdom/Design-Engineer_R78100",
+   "posted": "2026-10-05"
+  },
+  {
+   "title": "Founding Product Designer",
+   "company": "3Ive",
+   "location": "Remote Germany",
+   "country": "Germany",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/3ive/e86295c6-10c5-4e3e-b08c-9ac4f192a08b",
    "posted": "2026-10-05"
   },
   {
@@ -20052,19 +19849,6 @@
    "posted": "2026-09-30"
   },
   {
-   "title": "Game Designer (m/f/d)",
-   "company": "Sportradar",
-   "location": "Vienna, Austria",
-   "country": "Austria",
-   "city": "Vienna",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.smartrecruiters.com/Sportradar/744000152681389",
-   "posted": "2026-09-30"
-  },
-  {
    "title": "Senior Solution Design Engineer - Energy",
    "company": "Veoliauki",
    "location": "Kent, United Kingdom",
@@ -20403,102 +20187,6 @@
    "salary": "PLN 6.3K – PLN 12.5K",
    "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5437491008",
    "posted": "2026-09-29"
-  },
-  {
-   "title": "Marketing Video Artist - Growth",
-   "company": "Voodoo",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/0a2e0221-fc2b-4239-b973-ed4ab11f9c3a",
-   "posted": "2026-09-28"
-  },
-  {
-   "title": "Designer",
-   "company": "Jack Jill External Ats",
-   "location": "London UK",
-   "country": "United Kingdom",
-   "city": "London UK",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/jack-jill/eede08e2-4dd0-48f9-8558-6ad8b98664d5",
-   "posted": "2026-09-28"
-  },
-  {
-   "title": "Staff Product Designer - Wise Business",
-   "company": "Wise",
-   "location": "London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "£102k–£133k",
-   "url": "https://jobs.smartrecruiters.com/Wise/744000152184429",
-   "posted": "2026-09-28",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Staff Product Designer",
-   "company": "Superhuman",
-   "location": "Hub - Berlin, Germany",
-   "country": "Germany",
-   "city": "Hub",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": "€110K–€160K",
-   "url": "https://jobs.ashbyhq.com/superhuman%20platform%20inc/14eadb8a-d67c-421d-bf9b-5a6c0387e209",
-   "posted": "2026-09-28",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Content Designer",
-   "company": "Solirius Consulting",
-   "location": "London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://apply.workable.com/solirius-consulting-1/j/54739954B7/",
-   "posted": "2026-09-28",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Interaction Designer",
-   "company": "Solirius Consulting",
-   "location": "London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://apply.workable.com/solirius-consulting-1/j/CC81454000/",
-   "posted": "2026-09-28",
-   "via": "UX Jobs"
-  },
-  {
-   "title": "Service Designer",
-   "company": "Solirius Consulting",
-   "location": "London, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://apply.workable.com/solirius-consulting-1/j/4943A95663/",
-   "posted": "2026-09-28",
-   "via": "UX Jobs"
   }
  ]
 }
